@@ -23,7 +23,11 @@ cd public && python3 -m http.server 8000  # 本機預覽 http://localhost:8000
 `public/zh/`、`public/ja/`、`public/game-rules/`、`sitemap.xml`、`robots.txt` 都是產生的，不要手改。
 改 CSS／JS（包括 i18n.js）時，所有頁面與 `tools/templates/` 的 `?v=` 版本號要一起 +1。
 
-## News 文章
+## News（部落格）
 
-- 文章頁是根目錄的 `news-<名稱>.html`，內文目前只有英文（中日文版頁面也顯示英文內文）。
-- 新增文章：複製一個 `news-*.html` 改內容 → 在 `news.html` 加卡片 → 加進 `PAGES` → 跑 build。
+- 每篇文章一個檔：`content/news/<slug>.md`（檔頭寫 title／date／author／category／cover／excerpt，內文可寫 HTML 或 Markdown）。
+- 跑 `python3 tools/build_i18n.py` 會自動產生列表頁（`news.html` 中 `news:list` 標記之間）、文章頁 `news/<slug>.html`、`_redirects`（舊 Wix 網址 301）和 sitemap。
+- 分類：`strategy`／`guides`／`stories`／`legends`／`pokerrrr2`；`featured: true` 的最新一篇會放在列表最上方（沒有就放最新的）。
+- 圖片放 `public/assets/images/news/<slug>/`，在檔案中寫成 `assets/images/news/<slug>/01.jpg`。
+- 文章內文只有英文；中日文的列表頁會列出同樣的英文文章。
+- 舊站搬家：`python3 tools/fetch_wix_news.py --all`（需要網路，請在 Mac 終端機執行）→ `python3 tools/import_wix_news.py` → build。
