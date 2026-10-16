@@ -1,0 +1,33 @@
+# Preview deploy to GitHub Pages (personal repo, before Cloudflare is set up).
+# Publishes the already-built public/ folder; there is no build step here,
+# so run `python3 tools/build_i18n.py` and commit the output before pushing.
+name: Deploy preview to GitHub Pages
+
+on:
+  push:
+    branches: [develop, ofc-base]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+      - id: deployment
+        uses: actions/deploy-pages@v4
