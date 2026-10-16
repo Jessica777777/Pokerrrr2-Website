@@ -1,0 +1,1723 @@
+{
+  "ui": {
+    "eyebrow": {
+      "en": "How to Play",
+      "zh-Hant": "怎麼玩",
+      "ja": "遊び方"
+    }
+  },
+  "rankingCaption": {
+    "en": "Poker-hand rankings :\nfrom strongest to weakest",
+    "zh-Hant": "撲克牌牌力:\n從強到弱",
+    "ja": "ポーカーハンドの強さ:\n強い順から弱い順"
+  },
+  "ranking": [
+    {
+      "name": {
+        "en": "ROYAL FLUSH",
+        "zh-Hant": "皇 家 同 花 順",
+        "ja": "ロイヤルフラッシュ"
+      },
+      "cards": [
+        "As",
+        "Ks",
+        "Qs",
+        "Js",
+        "Ts"
+      ]
+    },
+    {
+      "name": {
+        "en": "STRAIGHT FLUSH",
+        "zh-Hant": "同 花 順",
+        "ja": "ストレートフラッシュ"
+      },
+      "cards": [
+        "Ks",
+        "Qs",
+        "Js",
+        "Ts",
+        "9s"
+      ]
+    },
+    {
+      "name": {
+        "en": "FOUR OF A KIND",
+        "zh-Hant": "鐵 支",
+        "ja": "フォーカード"
+      },
+      "cards": [
+        "As",
+        "Ah",
+        "Ad",
+        "Ac",
+        "?"
+      ]
+    },
+    {
+      "name": {
+        "en": "FULL HOUSE",
+        "zh-Hant": "葫 蘆",
+        "ja": "フルハウス"
+      },
+      "cards": [
+        "As",
+        "Ah",
+        "Ad",
+        "Ks",
+        "Kh"
+      ]
+    },
+    {
+      "name": {
+        "en": "FLUSH",
+        "zh-Hant": "同 花",
+        "ja": "フラッシュ"
+      },
+      "cards": [
+        "As",
+        "Ks",
+        "Qs",
+        "Js",
+        "9s"
+      ]
+    },
+    {
+      "name": {
+        "en": "STRAIGHT",
+        "zh-Hant": "順 子",
+        "ja": "ストレート"
+      },
+      "cards": [
+        "As",
+        "Ks",
+        "Qs",
+        "Js",
+        "Th"
+      ]
+    },
+    {
+      "name": {
+        "en": "THREE OF A KIND",
+        "zh-Hant": "三 條",
+        "ja": "スリーカード"
+      },
+      "cards": [
+        "As",
+        "Ah",
+        "Ac",
+        "?",
+        "?"
+      ]
+    },
+    {
+      "name": {
+        "en": "TWO PAIRS",
+        "zh-Hant": "兩 對",
+        "ja": "ツーペア"
+      },
+      "cards": [
+        "As",
+        "Ah",
+        "Ks",
+        "Kh",
+        "?"
+      ]
+    },
+    {
+      "name": {
+        "en": "PAIR",
+        "zh-Hant": "一 對",
+        "ja": "ワンペア"
+      },
+      "cards": [
+        "As",
+        "Ah",
+        "?",
+        "?",
+        "?"
+      ]
+    },
+    {
+      "name": {
+        "en": "HIGH CARD",
+        "zh-Hant": "高 牌",
+        "ja": "ハイカード"
+      },
+      "cards": [
+        "As",
+        "?",
+        "?",
+        "?",
+        "?"
+      ]
+    }
+  ],
+  "games": [
+    {
+      "id": "nlh",
+      "group": {
+        "en": "Game Rules",
+        "zh-Hant": "遊戲規則",
+        "ja": "ゲームルール"
+      },
+      "tab": {
+        "en": "NL Holdem",
+        "zh-Hant": "無限注德撲",
+        "ja": "NLホールデム"
+      },
+      "title": {
+        "en": "No Limit Hold’em",
+        "zh-Hant": "無限注德州撲克",
+        "ja": "ノーリミットホールデム"
+      },
+      "blocks": [
+        {
+          "t": "h2",
+          "v": {
+            "en": "How to Play",
+            "zh-Hant": "怎麼玩",
+            "ja": "遊び方"
+          }
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "In a game of Texas hold'em, every player is dealt two cards face down - called the “hole cards“. Then there is a round of betting where you can Check, Bet or Fold. This stage of the game is known as “pre-flop“.\nChecking lets the player pass on the action to the next player while allowing them to keep their cards even if no bet is placed. However, checking is only allowed when there is no bet currently on the table.\nWhen a player decides to place a bet, they are given two options:\n1. Call: Calling means you will bet the same amount as the previous player who placed a bet\n2. Raise: To raise means to increase and place a higher bet than the amount placed by another player",
+            "zh-Hant": "遊戲開始時，每位玩家會有兩張牌稱為“底牌“。在遊戲開始的第一回合，每個玩家可以選擇過牌、下注、或者蓋牌。第一回合也被稱作翻牌前。\n“過牌” 當桌上沒有下注且玩家也沒有下注時，允許將行動交給下一位玩家，玩家仍可以保留手上的牌。但是，只有當下牌桌上沒有下注時才允許 “過牌”。\n當玩家下注時有兩個選擇：\n1. 跟注：跟注表示你將下注與上一個下注玩家相同金額\n2. 加注：加注表示你將下更高的金額，超過其他玩家下注的金額。",
+            "ja": "テキサスホールデムでは、各プレイヤーに裏向きで2枚のカード（「ホールカード」と呼ばれる）が配られます。その後、チェック・ベット・フォールドを選べるベッティングラウンドが行われます。このラウンドは「プリフロップ」と呼ばれます。\nチェックは、ベットが行われていない場合に手札を保持したままアクションを次のプレイヤーに渡すことができます。ただし、チェックはテーブルに現在ベットがない場合にのみ可能です。\nプレイヤーがベットする場合、2つの選択肢があります：\n1. コール：直前にベットしたプレイヤーと同額をベットすること\n2. レイズ：他のプレイヤーがベットした金額よりも多く上乗せしてベットすること"
+          }
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "When all the pre-flop betting has finished, three community cards are dealt face-up on the board. These three cards are known as the “flop“.",
+            "zh-Hant": "當翻牌前回合結束，第二回合開始時，桌面上會發出三張公用牌稱為“翻牌“，第二回合也被稱作翻牌圈。",
+            "ja": "プリフロップのベッティングが終わると、3枚のコミュニティカードが表向きにボードに配られます。この3枚は「フロップ」と呼ばれます。"
+          }
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "After pre-flop there is another round of betting, then a fourth community card is dealt on the board - this card is known as the “turn“.",
+            "zh-Hant": "當翻牌圈回合結束，第三回合開始時，第四張公用牌會被發出，此回合也稱作轉牌圈。",
+            "ja": "フロップの後にもう一度ベッティングラウンドがあり、その後4枚目のコミュニティカードがボードに配られます。このカードは「ターン」と呼ばれます。"
+          }
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "The final round of betting comes and the fifth community card is dealt on the board – this card is known as the “river“.",
+            "zh-Hant": "最後一回合稱作河牌圈，第五張公用牌稱為河牌。",
+            "ja": "最後のベッティングラウンドが行われ、5枚目のコミュニティカードがボードに配られます。このカードは「リバー」と呼ばれます。"
+          }
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "You would need to construct a five-card poker hands using best available 5 cards out of the 2 hole cards and 5 community cards.",
+            "zh-Hant": "每位玩家手上的兩張牌與檯面上五張牌組合起來，牌力最強者獲勝。",
+            "ja": "2枚のホールカードと5枚のコミュニティカードの中から最も強い5枚を選び、5枚のポーカーハンドを作る必要があります。"
+          }
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "If you have 7-7 and the community cards are 7-9-A-A-2 you have full house (7-7-7-A-A). If the community cards were J-7-5-6-2 you would only have trips.\nSometimes the best hand is made by the five community cards on their own. If there were 3-4-5-6-7 on the board and you had 9-9, your hole cards would not play as there is a straight of higher value already showing.\n\nThere are two ways a hand can end. One is when the players in a hand turn over their hole cards and the player with the best hand wins. This is known as a “showdown“. The other is that someone will bet enough that everyone else folds. This is how most hands end in No limit Hold'em and that's the magic of the game - you don't always need the best hand to win.",
+            "zh-Hant": "如果你手上有 7-7，而公用牌是 7-9-A-A-2，你的最強組合就是葫蘆 (7-7-7-A-A)。假設公用牌是 J-7-5-6-2，你的最強組合則是 7 三條。\n某些情況下，最強組合有可能都是由公用牌組成的。例如檯面有 3-4-5-6-7，而你手上拿著 9-9，這種情況下 9-9 並不會使用到，因為檯面已經有比 9 一對還大的順子了。\n\n此遊戲有兩個勝利的方式，一是玩家將底牌翻開，然後跟公用牌組合出比其他玩家還要強的牌。此開牌動作稱為“攤牌“。二是當玩家下注，而其他人都選擇蓋牌的情況，該下注的玩家也能獲得勝利。這是德州撲克有趣的地方 - 你不見得需要好牌才能贏",
+            "ja": "例えば、あなたの手札が7-7で、コミュニティカードが7-9-A-A-2の場合、フルハウス（7-7-7-A-A）になります。コミュニティカードがJ-7-5-6-2だった場合は、スリーカードにしかなりません。\nまた、5枚のコミュニティカードだけで最強のハンドが作られることもあります。ボードに3-4-5-6-7が並んでいて、あなたの手札が9-9だった場合、すでにそれより強いストレートが場に出ているため、あなたのホールカードは使われません。\n\nハンドが終わる方法は2つあります。1つは、プレイヤーが自分のホールカードを開き、最も強いハンドを持つプレイヤーが勝つ方法で、これを「ショーダウン」と呼びます。もう1つは、誰かが十分な額をベットし、他の全員がフォールドする方法です。ノーリミットホールデムではほとんどのハンドがこの形で終わり、それこそがこのゲームの魅力です——必ずしも最強のハンドを持っている必要はありません。"
+          }
+        },
+        {
+          "t": "ranking"
+        }
+      ],
+      "bg": "assets/images/game-rules/table-nlh.jpg",
+      "titleImg": "assets/images/game-rules/title-nlh.png"
+    },
+    {
+      "id": "plo",
+      "group": {
+        "en": "Game Rules",
+        "zh-Hant": "遊戲規則",
+        "ja": "ゲームルール"
+      },
+      "tab": {
+        "en": "PLO",
+        "zh-Hant": "限注奧馬哈",
+        "ja": "PLO"
+      },
+      "title": {
+        "en": "PLO",
+        "zh-Hant": "限注奧馬哈",
+        "ja": "PLO（ポットリミットオマハ）"
+      },
+      "blocks": [
+        {
+          "t": "h2",
+          "v": {
+            "en": "How to Play",
+            "zh-Hant": "怎麼玩",
+            "ja": "遊び方"
+          }
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "Pot Limit Omaha (PLO) is a game that plays similarly to No Limit Hold’em. When playing PLO, every player is dealt four cards face down - called “hole cards“. Then there is a round of betting where you can Check, Bet or Fold. This stage of the game is known as “pre-flop“.",
+            "zh-Hant": "限注奧馬哈是一款類似無限注德州撲克的遊戲。差別在於，每位玩家將得到四張底牌才能開始翻牌前的回合。",
+            "ja": "ポットリミットオマハ（PLO）はノーリミットホールデムに似たルールのゲームです。PLOでは、各プレイヤーに裏向きで4枚のカード（「ホールカード」）が配られます。その後、チェック・ベット・フォールドを選べるベッティングラウンドが行われます。このラウンドは「プリフロップ」と呼ばれます。"
+          }
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "When all the pre-flop betting has finished and three community cards are dealt face up on the board. These three cards are known as the “flop“.",
+            "zh-Hant": "當翻牌前回合結束，第二回合開始時，桌面上會發出三張公用牌稱為“翻牌“，第二回合也被稱作翻牌圈。",
+            "ja": "プリフロップのベッティングが終わると、3枚のコミュニティカードが表向きにボードに配られます。この3枚は「フロップ」と呼ばれます。"
+          }
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "After pre-flop there is another round of betting, then a fourth community card is dealt on the board - this card is known as the “turn“.",
+            "zh-Hant": "當翻牌圈回合結束，第三回合開始時，第四張公用牌會被發出，此回合也稱作轉牌圈。",
+            "ja": "フロップの後にもう一度ベッティングラウンドがあり、その後4枚目のコミュニティカードがボードに配られます。このカードは「ターン」と呼ばれます。"
+          }
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "The final round of betting comes and the fifth community card is dealt on the board – this card is known as the “river“.",
+            "zh-Hant": "最後一回合稱作河牌圈，第五張公用牌稱為河牌。",
+            "ja": "最後のベッティングラウンドが行われ、5枚目のコミュニティカードがボードに配られます。このカードは「リバー」と呼ばれます。"
+          }
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "There are two main differences of PLO:\n1. Each player must use exactly 2 hole cards and 3 community cards in making a 5 card hand. For example, if you have 7s-7d-9h-Kd and the community cards are 7h-9c-As-Ad-2c you have full house (7s-7d-7h-As-Ad). If the community cards were 9s-Qd-Qc-Qh-Qs you would only have full house (7s-7d-Qd-Qc-Qh), but not quads.",
+            "zh-Hant": "限注奧馬哈有兩個主要的不同之處：\n1. 每位玩家僅能使用恰好 2 張底牌和 3 張公共牌組成一副 5 張手牌。例如，如果你有黑桃7、方塊7、紅心9、方塊K，而公共牌是紅心7、梅花9、紅心A、方塊A、梅花2，你將有葫蘆（黑桃7、方塊7、紅心7、黑桃A、方塊A）。如果公共牌是黑桃9、方塊Q、梅花Q、紅心Q、黑桃Q，你只有葫蘆（黑桃7、方塊7、方塊Q、梅花Q、紅心Q），但沒有鐵支（四條）。",
+            "ja": "PLOには2つの主な違いがあります：\n1. 各プレイヤーは5枚のハンドを作る際に、必ずホールカード2枚とコミュニティカード3枚を使わなければなりません。例えば、あなたの手札が7s-7d-9h-Kdで、コミュニティカードが7h-9c-As-Ad-2cの場合、フルハウス（7s-7d-7h-As-Ad）になります。コミュニティカードが9s-Qd-Qc-Qh-Qsだった場合は、フルハウス（7s-7d-Qd-Qc-Qh）にしかならず、フォーカードにはなりません。"
+          }
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "2. The maximum bet allowed is the size of the pot.\n\nThere are two ways a hand can end.\nOne is when the players in a hand turn over their hole cards and the player with the best hand wins. This is known as the “showdown“. The other is that someone will bet enough that everyone else folds. This is how most hands end in PLO and that's the magic of the game - you don't always need the best hand to win.",
+            "zh-Hant": "2. 可下注的最大額度是彩池大小。\n\n一手牌有兩種結束方式。\n一種是當參與牌局的玩家亮出底牌，擁有最佳手牌的玩家獲勝。這稱為 “攤牌”。另一種是當某一玩家下注足夠多，使其他所有人都棄牌。這是限注奧馬哈中大多數牌局的結束方式，也是這個遊戲的魔力之處 - 你並不總是需要最好的手牌才能贏得勝利。",
+            "ja": "2. 許可される最大ベット額はポットのサイズまでです。\n\nハンドが終わる方法は2つあります。\n1つは、プレイヤーが自分のホールカードを開き、最も強いハンドを持つプレイヤーが勝つ方法で、これを「ショーダウン」と呼びます。もう1つは、誰かが十分な額をベットし、他の全員がフォールドする方法です。PLOではほとんどのハンドがこの形で終わり、それこそがこのゲームの魅力です——必ずしも最強のハンドを持っている必要はありません。"
+          }
+        },
+        {
+          "t": "ranking"
+        }
+      ],
+      "bg": "assets/images/game-rules/table-plo.jpg",
+      "titleImg": "assets/images/game-rules/title-plo.png"
+    },
+    {
+      "id": "stud",
+      "group": {
+        "en": "Game Rules",
+        "zh-Hant": "遊戲規則",
+        "ja": "ゲームルール"
+      },
+      "tab": {
+        "en": "7 Card Stud",
+        "zh-Hant": "七張梭哈",
+        "ja": "セブンカードスタッド"
+      },
+      "title": {
+        "en": "7 Card Stud",
+        "zh-Hant": "七張梭哈",
+        "ja": "セブンカードスタッド"
+      },
+      "blocks": [
+        {
+          "t": "h2",
+          "v": {
+            "en": "How to Play",
+            "zh-Hant": "怎麼玩",
+            "ja": "遊び方"
+          }
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "7 Card Stud is a classic poker game. In this game, every player is dealt 7 cards throughout the course of the hand. The player who makes the best 5 card poker hand they can out of the 7 cards they were dealt is the winner of the hand.",
+            "zh-Hant": "七張梭哈是一個經典的撲克遊戲。每位玩家在每手牌局過程會發到七張牌。在獲得的 7 張手牌中打出最佳的 5 張牌牌組玩家，即為該手贏家。",
+            "ja": "セブンカードスタッドはクラシックなポーカーゲームです。このゲームでは、各プレイヤーはハンドの間に合計7枚のカードを受け取ります。配られた7枚の中から最も強い5枚のポーカーハンドを作れたプレイヤーがそのハンドの勝者となります。"
+          }
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "The game starts with everyone receiving two cards face down (in the hole) and one card face up (the door card). Everyone puts in the same ante, and the action starts with the person who has the lowest door card and the action moves from that player clockwise around the table. In the case of a tie, we sort by suit: clubs is lowest, then diamonds, hearts, and finally spades. Whoever starts also has to make a blind bet called “the bring in” to start the game, and it can be anywhere from preset bring in or up to the whole small bet. Rather than pre-flop, this is called “3rd street”.",
+            "zh-Hant": "遊戲開始時，每個人都收到兩張牌面朝下的牌（底牌）和一張牌面朝上的牌（明牌）。 每個人都投入相同的底注，接著從擁有最低門牌的人開始動作，圍繞桌子順時針進行。 在平局的情況下按花色排序：梅花最低，然後是菱形、紅心，最後是黑桃。 無論是誰開始，都必須進行一個稱為「前注」的賭注才能開始遊戲，可以是預設的前注值或到整個小注。 這被稱為「第三街」，而不是「翻牌前」。",
+            "ja": "ゲームは、全員が裏向きの2枚（ホール）と表向きの1枚（ドアカード）を受け取ることから始まります。全員が同額のアンティを出し、最も弱いドアカードを持つプレイヤーからアクションが始まり、そこから時計回りに進みます。同点の場合はスートで判定し、クラブが最も弱く、次にダイヤ、ハート、最後にスペードの順になります。最初にアクションするプレイヤーは「ブリングイン」と呼ばれるブラインドベットを行う必要があり、その額は既定のブリングイン額からスモールベット全額までの間で選べます。プリフロップの代わりに、このラウンドは「3rdストリート」と呼ばれます。"
+          }
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "Once the pot is right, the players get a second door card on “4th street”. Another round of betting starts.",
+            "zh-Hant": "下注完成後，玩家將在「第四街」獲得第二張明牌。 另一輪下注接著開始。",
+            "ja": "ポットが整うと、プレイヤーは「4thストリート」で2枚目のドアカードを受け取ります。もう一度ベッティングラウンドが始まります。"
+          }
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "then another door card on 5th street, followed by round of betting.",
+            "zh-Hant": "一輪下注完成後，「第五街」會再發另一張明牌。",
+            "ja": "続いて5thストリートで別のドアカードが配られ、ベッティングラウンドが行われます。"
+          }
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "and another door card on 6th street, followed by round of betting",
+            "zh-Hant": "再一輪下注完成後，「第六街」會再發另一張明牌。",
+            "ja": "続いて6thストリートで別のドアカードが配られ、ベッティングラウンドが行われます"
+          }
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "Finally, the river is face down, followed by the final round of betting. ",
+            "zh-Hant": "最後，河牌會是蓋牌，接著是最後一輪賭注。",
+            "ja": "最後に、リバーは裏向きで配られ、最終のベッティングラウンドが行われます。"
+          }
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "whoever has the best 5 card poker hand wins the pot.",
+            "zh-Hant": "擁有最佳五張手牌的玩家獲得勝利。",
+            "ja": "最も強い5枚のポーカーハンドを持つプレイヤーがポットを獲得します。"
+          }
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "Keep in mind that position changes throughout the hand. Other than 3rd street, whoever has the strongest hand showing gets to act first. Another key difference compare to NLH is that 7 card stud has bet limits. Each game has a “small bet” and “big bet”. The small bet will be used on the 3rd and 4th streets while the big bet will be used on the 5th, 6th, and 7th streets. All betting or raising is done in increments of small bet or big bet. So, if the game starts at 10/20, for instance, then we can bet 10 chips and raise 10 chips on 3rd and 4th street. Once we hit fifth street, then those numbers go up to 20. Similar to Texas hold'em, each player has the option to check, bet, call/raise, or fold in every round of betting.",
+            "zh-Hant": "請記住，整手牌位置會在牌局中不斷變化。除了第三街，誰展示的牌力最強就可以先動作。相比德州撲克，另一個重要的不同之處是七張梭哈有下注限制。每場遊戲都有「小注」和「大注」。小注用於第三和第四街，而大注用於第五、六和七街。所有下注或加注的數量都必須是小注或大注的倍數。例如，如果遊戲的起始注額是 10/20 開始，那麼在第三和四街時，我們可以下注 10 籌碼並加注 10 籌碼。一旦進入第五街，這些數字就會增加到 20。和德州撲克一樣，在每輪下注中，每位玩家都可以選擇過牌、跟注、下注、加注或棄牌。",
+            "ja": "ハンドの間、ポジションが変わっていくことに注意してください。3rdストリートを除き、見えている手牌が最も強いプレイヤーが先にアクションします。ノーリミットホールデムとのもう一つの大きな違いは、セブンカードスタッドにはベットリミットがあることです。各ゲームには「スモールベット」と「ビッグベット」があります。スモールベットは3rd・4thストリートで使われ、ビッグベットは5th・6th・7thストリートで使われます。すべてのベットやレイズはスモールベットまたはビッグベットの単位で行われます。例えば、ゲームが10/20で始まった場合、3rd・4thストリートでは10チップをベットし、10チップをレイズできます。5thストリートに入ると、その数字は20に上がります。テキサスホールデムと同様に、各プレイヤーは各ベッティングラウンドでチェック・ベット・コール／レイズ・フォールドを選択できます。"
+          }
+        },
+        {
+          "t": "ranking"
+        }
+      ],
+      "bg": "assets/images/game-rules/table-stud.jpg",
+      "titleImg": "assets/images/game-rules/title-stud.png"
+    },
+    {
+      "id": "blackjack",
+      "group": {
+        "en": "Game Rules",
+        "zh-Hant": "遊戲規則",
+        "ja": "ゲームルール"
+      },
+      "tab": {
+        "en": "Blackjack",
+        "zh-Hant": "21點",
+        "ja": "ブラックジャック"
+      },
+      "title": {
+        "en": "Blackjack",
+        "zh-Hant": "21點",
+        "ja": "ブラックジャック"
+      },
+      "blocks": [
+        {
+          "t": "h2",
+          "v": {
+            "en": "How to Play",
+            "zh-Hant": "怎麼玩",
+            "ja": "遊び方"
+          }
+        },
+        {
+          "t": "sub",
+          "v": {
+            "en": "Objective",
+            "zh-Hant": "目標",
+            "ja": "目的"
+          }
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "Beat the dealer’s hand without going over 21",
+            "zh-Hant": "讓手牌點數總合不超過 21 點來贏過莊家",
+            "ja": "21を超えずにディーラーの手を上回る"
+          }
+        },
+        {
+          "t": "sub",
+          "v": {
+            "en": "Betting",
+            "zh-Hant": "下注",
+            "ja": "ベット"
+          }
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "Each player will place their bets first, then receive two face up cards, while the dealer will receive two cards, one face up and the other face down",
+            "zh-Hant": "所有玩家依序下注後會收到兩張亮牌，莊家則會有一張蓋牌和一張亮牌",
+            "ja": "各プレイヤーはまずベットを行い、その後表向きの2枚のカードを受け取ります。ディーラーは2枚のカードを受け取り、1枚は表向き、もう1枚は裏向きです"
+          }
+        },
+        {
+          "t": "sub",
+          "v": {
+            "en": "Player’s Turn",
+            "zh-Hant": "玩家回合",
+            "ja": "プレイヤーのターン"
+          }
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "If the player didn’t hit Blackjack, they can choose to Hit, Double, Split, Stand, or Surrender",
+            "zh-Hant": "若玩家的手牌牌型不是 Blackjack，玩家可選擇加牌、雙倍下注、分牌、停牌、或投降",
+            "ja": "プレイヤーの手がブラックジャックでない場合、ヒット・ダブル・スプリット・スタンド・サレンダーのいずれかを選択できます"
+          }
+        },
+        {
+          "t": "sub",
+          "v": {
+            "en": "Dealer's Turn",
+            "zh-Hant": "莊家回合",
+            "ja": "ディーラーのターン"
+          }
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "When all players have finished their turns and at least one player hasn’t hit Blackjack or busted, the dealer reveals the face down card and continues drawing until the total equals 17 points or higher",
+            "zh-Hant": "當場上所有玩家皆完成回合，且至少一名玩家非 Blackjack 或爆牌時，莊家會展示蓋牌；若莊家的手牌點數總和小於 16，則必須持續加牌到至少 17 點為止",
+            "ja": "全プレイヤーのターンが終了し、少なくとも1人のプレイヤーがブラックジャックでもバストでもない場合、ディーラーは裏向きのカードを表にし、合計が17点以上になるまでカードを引き続けます"
+          }
+        },
+        {
+          "t": "sub",
+          "v": {
+            "en": "Settlement",
+            "zh-Hant": "結算",
+            "ja": "清算"
+          }
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "The settlement occurs when the dealer’s turn is finished (see Paytable)",
+            "zh-Hant": "莊家回合結束後便進行結算 (參照賠付比)",
+            "ja": "清算はディーラーのターンが終了した時点で行われます（配当表を参照）"
+          }
+        },
+        {
+          "t": "h3",
+          "v": {
+            "en": "Situational Rules",
+            "zh-Hant": "特殊規則",
+            "ja": "特殊ルール"
+          }
+        },
+        {
+          "t": "sub",
+          "v": {
+            "en": "Insurance",
+            "zh-Hant": "保險",
+            "ja": "インシュランス"
+          }
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "If the dealer’s face up card is an Ace, players can place half of their bet as insurance; if the dealer hits Blackjack, the payout is 2:1; otherwise, the bet is won by the dealer",
+            "zh-Hant": "當莊家亮牌為 A 時，玩家可選擇花一半注碼買保險；若莊家為 Blackjack，將賠兩倍保險金，反之則沒收注碼",
+            "ja": "ディーラーの表向きのカードがAの場合、プレイヤーは賭け金の半額をインシュランスとして賭けることができます。ディーラーがブラックジャックの場合、配当は2:1になります。そうでない場合、インシュランスの賭け金はディーラーが獲得します"
+          }
+        },
+        {
+          "t": "sub",
+          "v": {
+            "en": "Double Down",
+            "zh-Hant": "雙倍下注",
+            "ja": "ダブルダウン"
+          }
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "Players can double their bets after the first two cards, receive one more card, and must then stand",
+            "zh-Hant": "玩家獲得前 2 張手牌後，可選擇雙倍下注並獲得一張手牌，而後不能再要牌",
+            "ja": "最初の2枚のカードを受け取った後、プレイヤーは賭け金を倍にしてもう1枚カードを受け取ることができますが、その後は必ずスタンドしなければなりません"
+          }
+        },
+        {
+          "t": "sub",
+          "v": {
+            "en": "Surrender",
+            "zh-Hant": "投降",
+            "ja": "サレンダー"
+          }
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "Before hitting, players can choose to surrender and reclaim half of their bets",
+            "zh-Hant": "加牌前可選擇投降，並取回一半注碼",
+            "ja": "ヒットする前に、プレイヤーはサレンダーを選択し、賭け金の半額を取り戻すことができます"
+          }
+        },
+        {
+          "t": "sub",
+          "v": {
+            "en": "Split",
+            "zh-Hant": "分牌",
+            "ja": "スプリット"
+          }
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "Players can divide a pair into two separate hands, requiring a bet equal to the original, and it can only be done once\nWhen splitting Aces, players receive only one additional card per hand, with no further hits allowed; If the player draws a 10-point card after splitting Aces, it is counted as 21 points, not as Blackjack",
+            "zh-Hant": "當玩家的手牌為對子時，可選擇分牌，並需追加與原注相同的注碼；分牌僅可執行一次\n玩家分牌若為 A 對子，分牌後只能再要牌一次；分牌如為 Blackjack 僅能以 21 點計算",
+            "ja": "ペアの手を2つの別々のハンドに分けることができ、元のベットと同額の追加ベットが必要です。スプリットは1回のみ行えます。\nAのペアをスプリットした場合、各ハンドにつき追加でカードを1枚だけ受け取ることができ、それ以上のヒットはできません。Aをスプリットした後に10点のカードを引いた場合、それは21点として扱われ、ブラックジャックにはなりません"
+          }
+        },
+        {
+          "t": "h3",
+          "v": {
+            "en": "Hand",
+            "zh-Hant": "牌型",
+            "ja": "ハンド"
+          }
+        },
+        {
+          "t": "sub",
+          "v": {
+            "en": "Single Card Values",
+            "zh-Hant": "單張牌點數",
+            "ja": "カード1枚の点数"
+          }
+        },
+        {
+          "t": "vrows",
+          "v": [
+            {
+              "cards": [
+                "Ac"
+              ],
+              "amount": {
+                "en": "1 or 11",
+                "zh-Hant": "1 或 11",
+                "ja": "1または11"
+              }
+            },
+            {
+              "cards": [
+                "2c",
+                "3c",
+                "4c",
+                "5c",
+                "6c",
+                "7c",
+                "8c",
+                "9c"
+              ],
+              "amount": {
+                "en": "Face value",
+                "zh-Hant": "牌面點數",
+                "ja": "表示された数字通り"
+              }
+            },
+            {
+              "cards": [
+                "Tc",
+                "Jc",
+                "Qc",
+                "Kc"
+              ],
+              "amount": {
+                "en": "10",
+                "zh-Hant": "10",
+                "ja": "10"
+              }
+            }
+          ]
+        },
+        {
+          "t": "sub",
+          "v": {
+            "en": "Blackjack",
+            "zh-Hant": "Blackjack",
+            "ja": "ブラックジャック"
+          }
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "A hand total of 21 on the first two cards is called Blackjack",
+            "zh-Hant": "前兩張牌加總為 21 點稱之為 Blackjack",
+            "ja": "最初の2枚のカードの合計が21点になることをブラックジャックと呼びます"
+          }
+        },
+        {
+          "t": "hand",
+          "v": [
+            "As",
+            "Tc",
+            "_",
+            "Ah",
+            "Jd",
+            "_",
+            "Ad",
+            "Qh",
+            "_",
+            "Ac",
+            "Ks"
+          ]
+        },
+        {
+          "t": "sub",
+          "v": {
+            "en": "21 Points",
+            "zh-Hant": "21點",
+            "ja": "21点"
+          }
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "A hand total of 21 with three or more cards",
+            "zh-Hant": "三張牌以上加總為 21 點",
+            "ja": "3枚以上のカードで合計が21点になった場合"
+          }
+        },
+        {
+          "t": "hand",
+          "v": [
+            "Ts",
+            "2d",
+            "9h",
+            "_",
+            "3c",
+            "7d",
+            "3s",
+            "8h",
+            "_",
+            "2s",
+            "4c",
+            "2h",
+            "6c",
+            "7d"
+          ]
+        },
+        {
+          "t": "h2",
+          "v": {
+            "en": "Blackjack",
+            "zh-Hant": "21點",
+            "ja": "ブラックジャック"
+          }
+        },
+        {
+          "t": "paytable",
+          "v": [
+            {
+              "kind": {
+                "en": "Blackjack",
+                "zh-Hant": "Blackjack",
+                "ja": "ブラックジャック"
+              },
+              "cards": null,
+              "amount": {
+                "en": "3 : 2",
+                "zh-Hant": "3 : 2",
+                "ja": "3 : 2"
+              }
+            },
+            {
+              "kind": {
+                "en": "Player wins",
+                "zh-Hant": "玩家獲勝",
+                "ja": "プレイヤー勝利"
+              },
+              "cards": null,
+              "amount": {
+                "en": "1 : 1",
+                "zh-Hant": "1 : 1",
+                "ja": "1 : 1"
+              }
+            },
+            {
+              "kind": {
+                "en": "Push",
+                "zh-Hant": "平手",
+                "ja": "プッシュ（引き分け）"
+              },
+              "cards": null,
+              "amount": {
+                "en": "Bet returned",
+                "zh-Hant": "賭注保留",
+                "ja": "賭け金返却"
+              }
+            },
+            {
+              "kind": {
+                "en": "Dealer wins",
+                "zh-Hant": "莊家獲勝",
+                "ja": "ディーラー勝利"
+              },
+              "cards": null,
+              "amount": {
+                "en": "Bet lost",
+                "zh-Hant": "輸錢",
+                "ja": "賭け金没収"
+              }
+            },
+            {
+              "kind": {
+                "en": "Bust",
+                "zh-Hant": "爆牌",
+                "ja": "バスト"
+              },
+              "cards": null,
+              "amount": {
+                "en": "Bet lost",
+                "zh-Hant": "輸錢",
+                "ja": "賭け金没収"
+              }
+            },
+            {
+              "kind": {
+                "en": "Insurance",
+                "zh-Hant": "保險",
+                "ja": "インシュランス"
+              },
+              "cards": null,
+              "amount": {
+                "en": "2 : 1",
+                "zh-Hant": "2 : 1",
+                "ja": "2 : 1"
+              }
+            }
+          ]
+        },
+        {
+          "t": "h3",
+          "v": {
+            "en": "Bust Out",
+            "zh-Hant": "爆牌",
+            "ja": "バストアウト"
+          }
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "Bet on whether the dealer will bust. The more cards the dealer busts with, the higher your payout",
+            "zh-Hant": "下注看看莊家是否會爆牌，獎金將隨莊家的手牌數量增加",
+            "ja": "ディーラーがバストするかどうかに賭けます。ディーラーがバストするまでに使ったカードが多いほど、配当は高くなります"
+          }
+        },
+        {
+          "t": "paytable",
+          "v": [
+            {
+              "kind": {
+                "en": "8+ Cards",
+                "zh-Hant": "8+ 張牌",
+                "ja": "8+枚"
+              },
+              "cards": [
+                "2c",
+                "4s",
+                "2h",
+                "3c",
+                "Ac",
+                "2d",
+                "Ad",
+                "Js"
+              ],
+              "amount": {
+                "en": "250 : 1",
+                "zh-Hant": "250 : 1",
+                "ja": "250 : 1"
+              }
+            },
+            {
+              "kind": {
+                "en": "7 Cards",
+                "zh-Hant": "7 張牌",
+                "ja": "7枚"
+              },
+              "cards": [
+                "2c",
+                "2h",
+                "3c",
+                "Ac",
+                "2d",
+                "5c",
+                "Js"
+              ],
+              "amount": {
+                "en": "50 : 1",
+                "zh-Hant": "50 : 1",
+                "ja": "50 : 1"
+              }
+            },
+            {
+              "kind": {
+                "en": "6 Cards",
+                "zh-Hant": "6 張牌",
+                "ja": "6枚"
+              },
+              "cards": [
+                "2c",
+                "2h",
+                "Ac",
+                "5d",
+                "5c",
+                "Js"
+              ],
+              "amount": {
+                "en": "15 : 1",
+                "zh-Hant": "15 : 1",
+                "ja": "15 : 1"
+              }
+            },
+            {
+              "kind": {
+                "en": "5 Cards",
+                "zh-Hant": "5 張牌",
+                "ja": "5枚"
+              },
+              "cards": [
+                "2c",
+                "3c",
+                "5d",
+                "5c",
+                "Js"
+              ],
+              "amount": {
+                "en": "4 : 1",
+                "zh-Hant": "4 : 1",
+                "ja": "4 : 1"
+              }
+            },
+            {
+              "kind": {
+                "en": "4 Cards",
+                "zh-Hant": "4 張牌",
+                "ja": "4枚"
+              },
+              "cards": [
+                "2c",
+                "8h",
+                "5c",
+                "Js"
+              ],
+              "amount": {
+                "en": "2 : 1",
+                "zh-Hant": "2 : 1",
+                "ja": "2 : 1"
+              }
+            },
+            {
+              "kind": {
+                "en": "3 Cards",
+                "zh-Hant": "3 張牌",
+                "ja": "3枚"
+              },
+              "cards": [
+                "Td",
+                "5c",
+                "Js"
+              ],
+              "amount": {
+                "en": "2 : 1",
+                "zh-Hant": "2 : 1",
+                "ja": "2 : 1"
+              }
+            }
+          ]
+        },
+        {
+          "t": "h3",
+          "v": {
+            "en": "Perfect Pair",
+            "zh-Hant": "完美對子",
+            "ja": "パーフェクトペア"
+          }
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "Bet that your first two cards will form a pair combination",
+            "zh-Hant": "下注看看你的前兩張手牌是否可以組成對子",
+            "ja": "自分の最初の2枚のカードがペアになるかどうかに賭けます"
+          }
+        },
+        {
+          "t": "paytable",
+          "v": [
+            {
+              "kind": {
+                "en": "Perfect Pair",
+                "zh-Hant": "完美對子",
+                "ja": "パーフェクトペア"
+              },
+              "cards": [
+                "Js",
+                "Js"
+              ],
+              "amount": {
+                "en": "25 : 1",
+                "zh-Hant": "25 : 1",
+                "ja": "25 : 1"
+              }
+            },
+            {
+              "kind": {
+                "en": "Colored",
+                "zh-Hant": "同色",
+                "ja": "同色"
+              },
+              "cards": [
+                "Jd",
+                "Jh"
+              ],
+              "amount": {
+                "en": "12 : 1",
+                "zh-Hant": "12 : 1",
+                "ja": "12 : 1"
+              }
+            },
+            {
+              "kind": {
+                "en": "Mixed",
+                "zh-Hant": "混合",
+                "ja": "混色"
+              },
+              "cards": [
+                "Jh",
+                "Js"
+              ],
+              "amount": {
+                "en": "6 : 1",
+                "zh-Hant": "6 : 1",
+                "ja": "6 : 1"
+              }
+            }
+          ]
+        }
+      ],
+      "bg": "assets/images/game-rules/table-blackjack.jpg",
+      "titleImg": "assets/images/game-rules/title-blackjack.png"
+    },
+    {
+      "id": "rummy",
+      "group": {
+        "en": "Game Rules",
+        "zh-Hant": "遊戲規則",
+        "ja": "ゲームルール"
+      },
+      "tab": {
+        "en": "Rummy",
+        "zh-Hant": "Rummy",
+        "ja": "ラミー"
+      },
+      "title": {
+        "en": "Rummy",
+        "zh-Hant": "Rummy",
+        "ja": "ラミー"
+      },
+      "blocks": [
+        {
+          "t": "h2",
+          "v": {
+            "en": "How to Play",
+            "zh-Hant": "怎麼玩",
+            "ja": "遊び方"
+          }
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "1. All players will be given 18 hand cards at the start of the game. The rest of the cards will go to the Stock Pile.",
+            "zh-Hant": "1. 遊戲開始時，每位玩家會拿到18張手牌，剩餘的牌進入抽牌堆。",
+            "ja": "1. ゲーム開始時、各プレイヤーに18枚の手札が配られます。残りのカードはストックパイルに置かれます。"
+          }
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "2. Each player will take turns to draw or meld the cards on the board.",
+            "zh-Hant": "2. 每位玩家依序抽牌或將手上的牌與牌桌上的牌合併。",
+            "ja": "2. 各プレイヤーは順番にカードを引くか、ボード上のカードとメルドを行います。"
+          }
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "3. For the player’s initial turn, they must play a set (or more) with the total value of at least 30 points. After the initial turn, the players can use their hand cards to meld with the cards already on the table. (Note: Players cannot put community cards back on their individual racks)",
+            "zh-Hant": "3. 玩家首次出牌時需利用手牌進行 “破冰”；其破冰方式為出一組（或多組）牌，其牌面點數總和至少為 30 點。首次出牌破冰後，玩家可使用手上的牌與牌桌上的牌合併。（註：玩家不能將桌面上的牌放回自己的手牌堆中）",
+            "ja": "3. プレイヤーの最初の番では、合計30点以上になるセット（1組以上）を出さなければなりません（「ブレイク」と呼ばれます）。最初の出牌の後、プレイヤーは手札を使ってテーブル上のカードとメルドできます。（注：プレイヤーは場のカードを自分のラックに戻すことはできません）"
+          }
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "4. The first player who played all the hand cards on the rack wins!",
+            "zh-Hant": "4. 最先出完手牌的玩家獲勝！",
+            "ja": "4. 最初にラック上の手札をすべて出したプレイヤーが勝利します！"
+          }
+        },
+        {
+          "t": "h3",
+          "v": {
+            "en": "Cards",
+            "zh-Hant": "牌",
+            "ja": "カード"
+          }
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "The game consists of 104 number cards and 2 joker cards. The number cards consist of 4 suits with A-K order. Joker cards are wild cards. They can be used as any number and any suit.",
+            "zh-Hant": "遊戲包含 104 張數字牌和 2 張鬼牌。數字牌包括 4 種花色，按照 A-K 的順序排列。鬼牌是萬用牌，可以彈性代替任意數字及花色使用。",
+            "ja": "このゲームは104枚の数字カードと2枚のジョーカーカードで構成されます。数字カードは4種類のスートがあり、A〜Kの順に並びます。ジョーカーカードはワイルドカードで、任意の数字・スートとして使用できます。"
+          }
+        },
+        {
+          "t": "h3",
+          "v": {
+            "en": "Set",
+            "zh-Hant": "牌組",
+            "ja": "セット"
+          }
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "The 2 valid set types are called runs and groups and the set is composed of at least 3 cards.",
+            "zh-Hant": "牌組類別分為群組及順組，每組牌至少三張。",
+            "ja": "有効なセットには「ラン」と「グループ」の2種類があり、いずれも最低3枚のカードで構成されます。"
+          }
+        },
+        {
+          "t": "sub",
+          "v": {
+            "en": "Groups:",
+            "zh-Hant": "群組：",
+            "ja": "グループ："
+          }
+        },
+        {
+          "t": "hand",
+          "v": [
+            "7s",
+            "7h",
+            "7c"
+          ]
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "Same numbers, Different suits",
+            "zh-Hant": "數字相同、花色不同",
+            "ja": "同じ数字、異なるスート"
+          }
+        },
+        {
+          "t": "sub",
+          "v": {
+            "en": "Runs:",
+            "zh-Hant": "順組：",
+            "ja": "ラン："
+          }
+        },
+        {
+          "t": "hand",
+          "v": [
+            "3s",
+            "4s",
+            "5s"
+          ]
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "Same suit, Consecutive numbers\n(A and K are not consecutive numbers)",
+            "zh-Hant": "連續數字、花色相同\n（A和K不為連續數字）",
+            "ja": "同じスート、連続した数字\n（AとKは連続した数字とみなされません）"
+          }
+        },
+        {
+          "t": "h3",
+          "v": {
+            "en": "Feature instructions",
+            "zh-Hant": "操作說明",
+            "ja": "操作説明"
+          }
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "Press and hold to drag a set of cards.",
+            "zh-Hant": "長按牌面可拉起連續牌張。",
+            "ja": "長押しでカードのセットをドラッグできます。"
+          }
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "If the player gets a timeout during the action time, the system will restore the card sets to the last valid arrangement of the cards on the table.",
+            "zh-Hant": "若玩家於動作時間超時，牌桌會復原到最後一次皆為合法牌組的狀態。",
+            "ja": "アクション時間中にタイムアウトした場合、システムはテーブル上のカードセットを最後に有効だった配置に復元します。"
+          }
+        },
+        {
+          "t": "sub",
+          "v": {
+            "en": "Button features",
+            "zh-Hant": "按鈕功能",
+            "ja": "ボタン機能"
+          }
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "Click once for an extra 30 secs of action time; once per game.",
+            "zh-Hant": "點擊一次可增加 30 秒的行動時間；每場遊戲限用一次。",
+            "ja": "1回クリックするとアクション時間が30秒延長されます。1ゲームにつき1回のみ使用できます。"
+          }
+        },
+        {
+          "t": "steps",
+          "v": [
+            {
+              "name": {
+                "en": "Undo",
+                "zh-Hant": "復原",
+                "ja": "元に戻す"
+              },
+              "body": [
+                {
+                  "en": "Return to the previous state.",
+                  "zh-Hant": "回到上一步。",
+                  "ja": "一つ前の状態に戻ります。"
+                }
+              ]
+            },
+            {
+              "name": {
+                "en": "All",
+                "zh-Hant": "全部",
+                "ja": "すべて"
+              },
+              "body": [
+                {
+                  "en": "Restores the card arrangement to the start of the round.",
+                  "zh-Hant": "將牌局還原至此回合初始狀態。",
+                  "ja": "カードの配置をこのラウンドの開始時点に戻します。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "Sort the cards by numbers or suits.",
+            "zh-Hant": "照數字大小或花色排序。",
+            "ja": "数字またはスートでカードを並べ替えます。"
+          }
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "Add a card into a formed set.",
+            "zh-Hant": "增加一張牌到現有牌組。",
+            "ja": "既存のセットにカードを追加します。"
+          }
+        },
+        {
+          "t": "hand",
+          "v": [
+            "As",
+            "Ah",
+            "Ad",
+            "Ac"
+          ]
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "Add a card into a formed set, and utilize the card for a new set.",
+            "zh-Hant": "增加一張牌到現有牌組，再從該牌組中取一張牌做利用。",
+            "ja": "既存のセットにカードを追加し、そのセットから1枚を新しいセットのために利用します。"
+          }
+        },
+        {
+          "t": "hand",
+          "v": [
+            "Ah",
+            "2h",
+            "3h",
+            "_",
+            "Ah",
+            "As^",
+            "Ad^",
+            ".",
+            "2h",
+            "3h",
+            "4h"
+          ]
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "Add a card to the Joker spot and utilize the Joker to form a new set.",
+            "zh-Hant": "增加一張牌取代鬼牌後，即可使用鬼牌組成新的牌組。",
+            "ja": "ジョーカーの位置にカードを追加し、そのジョーカーを使って新しいセットを作ります。"
+          }
+        },
+        {
+          "t": "hand",
+          "v": [
+            "As",
+            "Xb",
+            "3s",
+            "_",
+            "As",
+            "2s^",
+            "3s",
+            ".",
+            "Xb",
+            "Jc",
+            "Qc"
+          ]
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "Reformed the current sets and take out the Joker, use the Joker to form a new set.",
+            "zh-Hant": "重組現有牌組並取出鬼牌後，即可使用鬼牌組成新的牌組。",
+            "ja": "既存のセットを組み替えてジョーカーを取り出し、そのジョーカーで新しいセットを作ります。"
+          }
+        },
+        {
+          "t": "hand",
+          "v": [
+            "7s",
+            "7h",
+            "Xb",
+            "/",
+            "4s",
+            "5s",
+            "6s",
+            "/",
+            "7c",
+            "7d",
+            "7s",
+            "_",
+            "Jc",
+            "Qc",
+            "Xb",
+            ".",
+            "/",
+            "4s",
+            "5s",
+            "6s",
+            "7s",
+            "/",
+            "7c",
+            "7d",
+            "7s",
+            "7h"
+          ]
+        },
+        {
+          "t": "h2",
+          "v": {
+            "en": "Points",
+            "zh-Hant": "點數",
+            "ja": "点数"
+          }
+        },
+        {
+          "t": "vrows",
+          "v": [
+            {
+              "cards": [
+                "As",
+                "2s",
+                "3s",
+                "4s",
+                "5s",
+                "6s",
+                "7s",
+                "8s",
+                "9s",
+                "Ts",
+                "Js",
+                "Qs",
+                "Ks"
+              ],
+              "amount": {
+                "en": "Face value",
+                "zh-Hant": "牌面點數",
+                "ja": "表示された数字通り"
+              }
+            },
+            {
+              "cards": [
+                "Xb",
+                "Xr"
+              ],
+              "amount": {
+                "en": "30",
+                "zh-Hant": "30",
+                "ja": "30"
+              }
+            }
+          ]
+        },
+        {
+          "t": "h3",
+          "v": {
+            "en": "Scores",
+            "zh-Hant": "分數",
+            "ja": "スコア"
+          }
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "There are two different ways of scoring:",
+            "zh-Hant": "有兩種分數計算規則：",
+            "ja": "得点計算には2つの方法があります："
+          }
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "1. Once a player successfully plays all of their hand cards, the winning points are calculated by adding the total value of all remaining hand cards from the other players. The remaining players will instead receive negative points based on the total value of their individual remaining hand cards.",
+            "zh-Hant": "1. 當一位玩家成功出完手牌時為贏家，其獲勝分數為剩餘玩家持有之手牌點數總和。其餘玩家將根據自己手牌點數總和獲得負分。",
+            "ja": "1. あるプレイヤーが手札をすべて出し切った場合、その勝者の得点は他の全プレイヤーの残り手札点数の合計となります。他のプレイヤーはそれぞれの残り手札点数の合計に応じてマイナス点を受け取ります。"
+          }
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "2. When the \"Final Round\" ends and all players have remaining hand cards, the player with the lowest hand card points wins. The winner's score will be calculated by the difference between their total hand card points and the total points of the other players. The remaining players will receive negative points based on the total value of their remaining hand cards.",
+            "zh-Hant": "2. 當「最終回合」結束時，若所有玩家手上都還有剩餘手牌，則手牌點數總和最低的玩家獲勝。贏家的分數為自己手牌點數總和與其他玩家手牌點數總和之間的差額。其餘玩家將依照自己手牌點數總和獲得負分。",
+            "ja": "2. 「ファイナルラウンド」が終了し、全員に手札が残っている場合、手札点数の合計が最も低いプレイヤーが勝利します。勝者の得点は、自分の手札点数の合計と他プレイヤーの合計点数との差になります。残りのプレイヤーは、自分の残り手札点数の合計に応じてマイナス点を受け取ります。"
+          }
+        }
+      ],
+      "bg": "assets/images/game-rules/table-rummy.jpg",
+      "titleImg": "assets/images/game-rules/title-rummy.png"
+    },
+    {
+      "id": "ginrummy",
+      "group": {
+        "en": "Game Rules",
+        "zh-Hant": "遊戲規則",
+        "ja": "ゲームルール"
+      },
+      "tab": {
+        "en": "Gin Rummy",
+        "zh-Hant": "Gin Rummy",
+        "ja": "ジンラミー"
+      },
+      "title": {
+        "en": "Gin Rummy",
+        "zh-Hant": "Gin Rummy",
+        "ja": "ジンラミー"
+      },
+      "blocks": [
+        {
+          "t": "h2",
+          "v": {
+            "en": "How to Play",
+            "zh-Hant": "怎麼玩",
+            "ja": "遊び方"
+          }
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "1. Both players will receive 10 cards each, and the remaining cards will be placed in the Draw Pile. One card will then be turned and shown from the Discard Pile.",
+            "zh-Hant": "1. 兩位玩家各拿到 10 張手牌，剩餘的牌進入抽牌堆，隨後翻一張牌作為 Discard 牌堆的牌。",
+            "ja": "1. 両プレイヤーにそれぞれ10枚のカードが配られ、残りのカードはドローパイルに置かれます。その後、ディスカードパイルから1枚が表向きにされます。"
+          }
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "2. On the first turn of the round, players will take turns picking up the Discard or passing. If both players Pass, the first player will get to choose and draw the card to play the initial round.",
+            "zh-Hant": "2. 在遊戲開始的第一回合，玩家依序選擇是否要拿 Discard 的牌，若兩家都選擇 Pass，則由起始玩家抽一張抽牌堆的牌。",
+            "ja": "2. ラウンドの最初のターンでは、プレイヤーは交互にディスカードを取るかパスするかを選びます。両者がパスした場合、最初のプレイヤーがドローパイルからカードを引いてラウンドを開始します。"
+          }
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "3. On each subsequent turn, players must draw either the top card from the Draw Pile or the top card from the Discard Pile and discard one card from their hand onto the Discard Pile.",
+            "zh-Hant": "3. 玩家依序進行動作，在自己的回合中需抽一張抽牌堆的牌或拿取 Discard 牌堆中最上面的牌，再從手牌中選擇一張不要的牌放入 Discard 牌堆。 ",
+            "ja": "3. それ以降の各ターンでは、プレイヤーはドローパイルの上のカードかディスカードパイルの上のカードのいずれかを引き、手札から1枚をディスカードパイルに捨てなければなりません。"
+          }
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "4. A player with 10 or fewer Deadwood points may “Knock“; knocking with no Deadwood points is known as “Gin“.",
+            "zh-Hant": "4. 任一玩家 Deadwood ≤ 10 時可以選擇 Knock，而 Deadwood = 0 時則可以 Gin。",
+            "ja": "4. Deadwoodが10点以下のプレイヤーは「ノック」を宣言できます。Deadwoodが0点でノックすることを「ジン」と呼びます。"
+          }
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "*Deadwood: the cards in a player’s hand that are not part of any meld (a set or run).",
+            "zh-Hant": "*Deadwood: 玩家手牌中不成組的牌加總起來的點數。",
+            "ja": "*Deadwood: プレイヤーの手札のうち、メルド（セットまたはラン）を構成していないカードのこと。"
+          }
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "5. A player may “Knock“ or “Gin“ to end the game and Lay Off deadwood cards if possible.",
+            "zh-Hant": "5. 玩家選擇 Knock 或 Gin 後將結算該回合，並視情況 Lay Off 剩餘的 Deadwood 手牌。",
+            "ja": "5. プレイヤーは「ノック」または「ジン」を宣言してラウンドを終了し、可能であればDeadwoodのカードをレイオフできます。"
+          }
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "*Lay off: When a player “Knocks“, the other player is allowed to meld the Deadwood cards into knocking-player’s formed sets or runs to reduce the final Deadwood points.",
+            "zh-Hant": "*Lay off: 當任一玩家 “Knock” 後，另一名玩家可視牌組將 Deadwood 的牌放入對手的牌組中，以減少最終結算的 Deadwood 分數。",
+            "ja": "*Lay off: あるプレイヤーが「ノック」した後、もう一方のプレイヤーは自分のDeadwoodのカードをノックしたプレイヤーが作ったセットやランに組み込み、最終的なDeadwoodの点数を減らすことができます。"
+          }
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "6. The first player to reach the set Pt. at the table will win the game.",
+            "zh-Hant": "6. 先達到該桌 Pt. 的玩家獲勝！",
+            "ja": "6. 最初にそのテーブルの目標Pt.に到達したプレイヤーがゲームに勝利します。"
+          }
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "*Pt.: The winner gained the difference in Deadwood points during the settlement.",
+            "zh-Hant": "*Pt.: 結算後贏家獲得的兩方 Deadwood 差。",
+            "ja": "*Pt.: 清算時に勝者が得る、両者のDeadwoodの差のこと。"
+          }
+        },
+        {
+          "t": "h3",
+          "v": {
+            "en": "Cards",
+            "zh-Hant": "牌",
+            "ja": "カード"
+          }
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "Number cards: There are 4 suits, each with a range from A to K, resulting in a total of 52 cards.",
+            "zh-Hant": "數字牌：有四種花色，每種花色有 A~K，共 52 張。",
+            "ja": "数字カード：4種類のスートがあり、それぞれA〜Kまであるため、合計52枚です。"
+          }
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "Jokers: To be used as a wild card that can represent any color or suit, 2 cards total.",
+            "zh-Hant": "鬼牌：為萬用牌，可彈性替代任意數字及花色，共 2 張。（僅限 Joker 桌）",
+            "ja": "ジョーカー：任意の色・スートを表せるワイルドカードで、合計2枚です。"
+          }
+        },
+        {
+          "t": "h3",
+          "v": {
+            "en": "Set",
+            "zh-Hant": "牌組",
+            "ja": "セット"
+          }
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "The 2 valid set types are called runs and groups and the set is composed of at least 3 cards.",
+            "zh-Hant": "牌組類別分為群組及順組，每組牌至少三張。",
+            "ja": "有効なセットには「ラン」と「グループ」の2種類があり、いずれも最低3枚のカードで構成されます。"
+          }
+        },
+        {
+          "t": "sub",
+          "v": {
+            "en": "Groups:",
+            "zh-Hant": "群組：",
+            "ja": "グループ："
+          }
+        },
+        {
+          "t": "hand",
+          "v": [
+            "7s",
+            "7h",
+            "7c"
+          ]
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "Same numbers, Different suits",
+            "zh-Hant": "數字相同、花色不同",
+            "ja": "同じ数字、異なるスート"
+          }
+        },
+        {
+          "t": "sub",
+          "v": {
+            "en": "Runs:",
+            "zh-Hant": "順組：",
+            "ja": "ラン："
+          }
+        },
+        {
+          "t": "hand",
+          "v": [
+            "3s",
+            "4s",
+            "5s"
+          ]
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "Same suit, Consecutive numbers\n(A and K are not consecutive numbers)",
+            "zh-Hant": "連續數字、花色相同\n（A和K不為連續數字）",
+            "ja": "同じスート、連続した数字\n（AとKは連続した数字とみなされません）"
+          }
+        },
+        {
+          "t": "h2",
+          "v": {
+            "en": "Deadwood",
+            "zh-Hant": "Deadwood",
+            "ja": "Deadwood"
+          }
+        },
+        {
+          "t": "vrows",
+          "v": [
+            {
+              "cards": [
+                "As",
+                "2s",
+                "3s",
+                "4s",
+                "5s",
+                "6s",
+                "7s",
+                "8s",
+                "9s",
+                "Ts"
+              ],
+              "amount": {
+                "en": "Face value",
+                "zh-Hant": "牌面點數",
+                "ja": "表示された数字通り"
+              }
+            },
+            {
+              "cards": [
+                "Js",
+                "Qs",
+                "Ks"
+              ],
+              "amount": {
+                "en": "10",
+                "zh-Hant": "10",
+                "ja": "10"
+              }
+            },
+            {
+              "cards": [
+                "Xb",
+                "Xr"
+              ],
+              "amount": {
+                "en": "20",
+                "zh-Hant": "20",
+                "ja": "20"
+              }
+            }
+          ]
+        },
+        {
+          "t": "h3",
+          "v": {
+            "en": "Scores",
+            "zh-Hant": "分數",
+            "ja": "スコア"
+          }
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "In a “Knock“ situation, the player with fewer Deadwood points wins and earns the point difference.",
+            "zh-Hant": "當一名玩家 Knock 時，若結算後的 Deadwood 少於另一名玩家，則由該名玩家獲得兩方 Deadwood 差的 Pt. 數。",
+            "ja": "「ノック」の場面では、Deadwoodの点数が少ない方のプレイヤーが勝利し、その差の点数を獲得します。"
+          }
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "An “Undercut“ occurs when a player Knocks, and the opponent has ≤ Deadwood points. The opponent will also gain the point difference plus a 25 Pt. bonus.",
+            "zh-Hant": "反之則由另一玩家獲得兩方 Deadwood 差的 Pt. 數，以及額外 25 Pt. 的 Undercut 特別獎勵。",
+            "ja": "「アンダーカット」とは、あるプレイヤーがノックした際に、相手のDeadwoodがそれ以下だった場合に発生します。この場合、相手がその点差に加えて25Pt.のボーナスを獲得します。"
+          }
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "When a player calls “Gin“, they win the game by earning the difference in Deadwood points, along with a 25 Pt. bonus.",
+            "zh-Hant": "玩家 Gin 時，即獲得兩方 Deadwood 差的 Pt. 數，以及額外 25 Pt. 的 Gin 特別獎勵。",
+            "ja": "プレイヤーが「ジン」を宣言した場合、Deadwoodの差の点数に加えて25Pt.のボーナスを獲得してゲームに勝利します。"
+          }
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "The game ends when any player's total Pt. ≥ the target Pt. for the round.",
+            "zh-Hant": "當任一玩家的總 Pt. ≧ 該桌的目標 Pt. 時，該輪遊戲結束。 ",
+            "ja": "いずれかのプレイヤーの合計Pt.がそのラウンドの目標Pt.に達した時点でゲームは終了します。"
+          }
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "At the end of the game, the difference between the two players’ Pt. will determine the number of chips a player wins or loses, based on the “Pt. Gap” displayed on the table in the game.",
+            "zh-Hant": "遊戲結束時，結算雙方玩家的 Pt. 數差距，並依據各桌對應的 Pt. Gap 計算玩家輸贏後將獲得或扣除的籌碼數量",
+            "ja": "ゲーム終了時、両プレイヤーのPt.の差によって、テーブルに表示されている「Pt. Gap」に基づき、獲得または失うチップの数が決まります。"
+          }
+        }
+      ],
+      "bg": "assets/images/game-rules/table-ginrummy.jpg",
+      "titleImg": "assets/images/game-rules/title-ginrummy.png"
+    }
+  ]
+}

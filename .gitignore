@@ -1,7 +1,16 @@
-# raw art files (never commit; see README)
-素材/
-# temporary transfer bundles
-_transfer/
+# macOS
 .DS_Store
+._*
+
+# 裝置連線暫存殘留檔（非網站內容）
+.fuse_hidden*
+
+# Claude 產出的預覽/報告檔案，不算網站原始碼
+Claude outputs/
+
+# 已標記待刪除的舊備份檔
+_to_delete/
+
+# 原始美術素材（給處理用的原圖/截圖/影片，非網站實際會載入的檔案；2026-09-30 起不再追蹤）
+素材/
 __pycache__/
-*.pyc
