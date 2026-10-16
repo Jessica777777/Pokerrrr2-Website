@@ -419,3 +419,33 @@ document.addEventListener('DOMContentLoaded', () => {
     groups.forEach((g) => { loadBlob(g).catch(() => {}); });
   }
 });
+
+/* Pokerrrr2 FAQ: category filter. Every answer is already in the HTML (SEO);
+   without JS all categories show with their headings. faq.html#gold-01 opens
+   that category and question. */
+(function initFaqCategories() {
+  const cats = document.getElementById('faqCats');
+  if (!cats) return;
+  const groups = document.querySelectorAll('.faq-group');
+  document.documentElement.classList.add('js-faq');
+  function show(id) {
+    groups.forEach((g) => { g.hidden = g.dataset.cat !== id; });
+    cats.querySelectorAll('.faq-cat').forEach((b) => {
+      const on = b.dataset.cat === id;
+      b.classList.toggle('is-active', on);
+      b.setAttribute('aria-pressed', on ? 'true' : 'false');
+    });
+  }
+  cats.addEventListener('click', (e) => {
+    const b = e.target.closest('.faq-cat');
+    if (b) show(b.dataset.cat);
+  });
+  const target = location.hash && document.getElementById(location.hash.slice(1));
+  if (target && target.classList.contains('faq-item')) {
+    show(target.closest('.faq-group').dataset.cat);
+    target.open = true;
+    target.scrollIntoView();
+  } else if (groups.length) {
+    show(groups[0].dataset.cat);
+  }
+})();

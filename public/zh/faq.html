@@ -5,8 +5,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="color-scheme" content="dark">
-<title data-i18n="faq.head.title">常見問題｜OFC 撲克：大菠蘿</title>
-<meta name="description" data-i18n-content="faq.head.description" content="OFC 撲克：大菠蘿常見問題：付費方式、虛擬籌碼、OFC 遊戲模式、Fantasyland 與帳號協助。">
+<title data-i18n="faq.head.title">常見問題 — Pokerrrr 2</title>
+<meta name="description" data-i18n-content="faq.head.description" content="Answers to common Pokerrrr 2 questions: hosting and joining games, clubs, Gold, game records, tournaments and your account.">
 <meta property="og:image" content="https://www.ofcpineapple.com/assets/images/app-icon-512.png">
 <meta property="og:image:width" content="512">
 <meta property="og:image:height" content="512">
@@ -22,7 +22,7 @@
 <link rel="alternate" hreflang="ja" href="https://www.ofcpineapple.com/ja/faq.html">
 <link rel="alternate" hreflang="x-default" href="https://www.ofcpineapple.com/faq.html">
 <!-- /i18n:alternates -->
-<link rel="stylesheet" href="../css/style.css?v=48">
+<link rel="stylesheet" href="../css/style.css?v=50">
 </head>
 <body>
 
@@ -37,6 +37,7 @@
       <li><a href="news.html" data-i18n="common.nav.news">最新消息</a></li>
       <li><a href="how-to-play.html" data-i18n="common.nav.howToPlay">玩法教學</a></li>
       <li><a href="about.html" data-i18n="common.nav.about">關於我們</a></li>
+      <li><a href="faq.html" class="active" data-i18n="common.nav.faq">FAQ</a></li>
       <li><a href="store.html" data-i18n="common.nav.store">商店</a></li>
     </ul>
     <div class="nav-cta">
@@ -60,48 +61,234 @@
 </header>
 
 <main>
+  <!-- FAQ (Pokerrrr2): content from Dorcas' demo (pokerrrr-faq-demo.html), 9 categories.
+       All answers are in the HTML; js/main.js only switches the visible category.
+       Q&A text is English in every language version until translations are provided. -->
   <section class="hero" style="padding-bottom:32px;">
     <div class="container">
+      <span class="eyebrow" data-i18n="faq.hero.eyebrow">Debriefing · Clearance: Public</span>
       <h1 data-i18n="faq.hero.title">常見問題</h1>
+      <p class="news-hero-desc" data-i18n="faq.hero.desc">Everything you need to know about hosting, joining, and playing on Pokerrrr 2 — organized by topic.</p>
     </div>
   </section>
 
   <section class="section" style="padding-top:0;">
     <div class="container">
-      <div style="max-width:720px; margin:0 auto;">
-        <details class="faq-item" open>
-          <summary data-i18n="faq.q1">OFC 撲克：大菠蘿需要付費才能玩嗎？</summary>
-          <p data-i18n="faq.a1">App 可免費下載與遊玩，另提供選購型內購項目，不影響基本遊戲體驗。</p>
-        </details>
-        <details class="faq-item">
-          <summary data-i18n="faq.q2">遊戲內的籌碼可以換成真實金錢嗎？</summary>
-          <p data-i18n="faq.a2">不行。所有虛擬籌碼與道具僅供遊戲內娛樂使用，不具任何現金價值，也無法兌換、提領或轉讓。</p>
-        </details>
-        <details class="faq-item">
-          <summary data-i18n="faq.q3">支援哪些裝置與系統？</summary>
-          <p data-i18n="faq.a3">目前支援 iOS 與 Android 系統的手機及平板裝置。你可以前往 App Store 或 Google Play 搜尋「OFC 撲克：大菠蘿」下載。</p>
-        </details>
-        <details class="faq-item">
-          <summary data-i18n="faq.q4">App 內有哪些 OFC 模式？彼此有什麼不同？</summary>
-          <p data-i18n="faq.a4">目前共有三種 OFC 模式：</p>
-          <ul style="margin:8px 0 0; padding-left:1.2em; display:grid; gap:6px;">
-            <li><strong data-i18n="faq.a4.m1">OFC 進階模式：</strong> <span data-i18n="faq.a4.d1">經典玩法，逐步排出三墩並挑戰 Fantasyland。</span></li>
-            <li><strong data-i18n="faq.a4.m2">OFC 鬼牌：</strong> <span data-i18n="faq.a4.d2">加入鬼牌機制，讓排牌策略更靈活多變。</span></li>
-            <li><strong data-i18n="faq.a4.m3">OFC SNG：</strong> <span data-i18n="faq.a4.d3">三位玩家每局拿到完全相同的牌，排除牌運差異，專注比拼排牌技巧與判斷力，這也是它與其他 OFC App 最大的不同。</span></li>
-          </ul>
-        </details>
-        <details class="faq-item">
-          <summary data-i18n="faq.q5">什麼是 Fantasyland？要怎麼進入？</summary>
-          <p data-i18n="faq.a5">當你的前墩組成一對 Q 或以上的牌型，即可在下一局進入 Fantasyland。進入後將依條件獲得 14～17 張牌，直接排出三墩，詳細規則可參考「玩法教學」頁面。</p>
-        </details>
-        <details class="faq-item">
-          <summary data-i18n="faq.q7">想回報問題或不當行為，該怎麼做？</summary>
-          <p data-i18n="faq.a7">如果遇到遊戲問題或需要回報不當行為，請寄信至頁尾列出的信箱，並盡可能提供發生時間、對戰 ID 及相關情況，我們會盡快協助處理。</p>
-        </details>
-        <details class="faq-item">
-          <summary data-i18n="faq.q8">有問題想聯絡你們，怎麼做？</summary>
-          <p data-i18n="faq.a8">歡迎寄信至頁尾列出的信箱，告訴我們你遇到的問題或需要協助的事項，我們會盡快回覆。</p>
-        </details>
+      <div class="faq-wrap">
+        <div class="faq-cats" id="faqCats" role="toolbar" data-i18n-aria-label="faq.catsAria" aria-label="常見問題分類">
+        <button type="button" class="faq-cat is-active" data-cat="host" aria-pressed="true" data-i18n="faq.cat.host">開設牌局</button>
+        <button type="button" class="faq-cat" data-cat="rules" aria-pressed="false" data-i18n="faq.cat.rules">遊戲規則</button>
+        <button type="button" class="faq-cat" data-cat="join" aria-pressed="false" data-i18n="faq.cat.join">加入牌局</button>
+        <button type="button" class="faq-cat" data-cat="clubs" aria-pressed="false" data-i18n="faq.cat.clubs">管理俱樂部</button>
+        <button type="button" class="faq-cat" data-cat="other" aria-pressed="false" data-i18n="faq.cat.other">其他</button>
+        <button type="button" class="faq-cat" data-cat="gold" aria-pressed="false" data-i18n="faq.cat.gold">金幣（Gold）</button>
+        <button type="button" class="faq-cat" data-cat="records" aria-pressed="false" data-i18n="faq.cat.records">牌局紀錄</button>
+        <button type="button" class="faq-cat" data-cat="tourney" aria-pressed="false" data-i18n="faq.cat.tourney">錦標賽規則</button>
+        <button type="button" class="faq-cat" data-cat="account" aria-pressed="false" data-i18n="faq.cat.account">帳號</button>
+        </div>
+        <div class="faq-group" data-cat="host">
+          <h2 class="faq-group-title" data-i18n="faq.cat.host">開設牌局</h2>
+          <details class="faq-item" id="host-01">
+            <summary><span class="faq-idx">01</span>How do I host a private poker game and invite friends to join on Pokerrrr 2?</summary>
+            <div class="faq-answer"><p>To host a private poker game with friends on Pokerrrr 2, follow these steps:</p><ol><li>Open the app and tap the "Friendly & Club" tab at the bottom of the screen</li><li>Select "Host" to create a new private game</li><li>Choose your game type — Texas Hold’em, OFC, Short Deck, Omaha, or Sit & Go</li><li>Set your buy-in amount, blind structure, and number of seats (2–10 players)</li><li>Share the unique game code with friends so they can join</li></ol><p>Pokerrrr 2 is free to play with no real money required. All hand histories are saved automatically so you can review past games anytime.</p></div>
+          </details>
+          <details class="faq-item" id="host-02">
+            <summary><span class="faq-idx">02</span>How can I assign table manager(s)?</summary>
+            <div class="faq-answer"><ol><li>Start your club game — only club games have the option to assign table managers.</li><li>Once the club game is hosted, open the side menu and tap "Assign Manager".</li><li>Select the desired member(s) to become the table manager for the game.</li></ol></div>
+          </details>
+          <details class="faq-item" id="host-03">
+            <summary><span class="faq-idx">03</span>How do I host multiple games at the same time?</summary>
+            <div class="faq-answer"><ol><li>Host your first game. From there you can tap "Leave" located in the side menu.</li><li>A pop-up confirms whether you want to leave while your game continues running.</li><li>From here you can host more than one game simultaneously.</li></ol></div>
+          </details>
+          <details class="faq-item" id="host-04">
+            <summary><span class="faq-idx">04</span>How do I host a rebuy multi-table tournament?</summary>
+            <div class="faq-answer"><ol><li>Tap "Host" from either the Friendly Game or within your club.</li><li>Select the ‘MTT’ tab.</li><li>Choose the level of ‘Rebuy Period’.</li><li>The rebuy button will be shown until the designated level ends.</li></ol><p>Example: level 10 with 5 mins per level = 10 × 5 mins = 50 mins rebuy time.</p></div>
+          </details>
+          <details class="faq-item" id="host-05">
+            <summary><span class="faq-idx">05</span>How much does it cost to host games?</summary>
+            <div class="faq-answer"><p>Hosting games charges Gold (Pokerrrr’s in-game currency).</p><ol><li>Non-tournament games charge gold per hour; tournament games charge gold per game.</li><li>The amount is calculated using a formula based on: starting chips, interval, number of tables, buy-in ticket, late registration level, and rebuy period level.</li></ol></div>
+          </details>
+        </div>
+        <div class="faq-group" data-cat="rules">
+          <h2 class="faq-group-title" data-i18n="faq.cat.rules">遊戲規則</h2>
+          <details class="faq-item" id="rules-01">
+            <summary><span class="faq-idx">01</span>Does the host have to play?</summary>
+            <div class="faq-answer"><p>No. The host can opt to sit out if they wish.</p></div>
+          </details>
+          <details class="faq-item" id="rules-02">
+            <summary><span class="faq-idx">02</span>What’s the difference between a club game and non-club game?</summary>
+            <div class="faq-answer"><ol><li>Club game: only club members may join.</li><li>Non-club game: anyone with the game code can join.</li></ol></div>
+          </details>
+          <details class="faq-item" id="rules-03">
+            <summary><span class="faq-idx">03</span>What controls does a table manager have?</summary>
+            <div class="faq-answer"><ol><li>Shuffle & Deal</li><li>Pause games</li><li>Terminate games</li><li>Confirm or reject buy-in requests</li><li>Adjust the game settings, including game length, blinds, and tips</li></ol></div>
+          </details>
+          <details class="faq-item" id="rules-04">
+            <summary><span class="faq-idx">04</span>What happens if I’m disconnected on my turn?</summary>
+            <div class="faq-answer"><p>If you were present at the start of your turn and then disconnected, you’ll be granted an additional 20 seconds of action time. If you were absent or not connected at the start of your turn and then disconnected, you’ll immediately check/fold.</p></div>
+          </details>
+          <details class="faq-item" id="rules-05">
+            <summary><span class="faq-idx">05</span>What is the maximum number of games I can host?</summary>
+            <div class="faq-answer"><p>Without upgrades, players can only host two games at a time. After upgrading to Ruby VIP, players can host up to five games at a time.</p></div>
+          </details>
+          <details class="faq-item" id="rules-06">
+            <summary><span class="faq-idx">06</span>What does buy-in confirmation do?</summary>
+            <div class="faq-answer"><p>When buy-in confirmation is enabled, the following require approval from the host or table manager:</p><ol><li>The player’s participation in the game</li><li>Approval of the player’s buy-in request after they’re accepted into the game</li></ol></div>
+          </details>
+          <details class="faq-item" id="rules-07">
+            <summary><span class="faq-idx">07</span>How is "hit and run" prevented?</summary>
+            <div class="faq-answer"><p>If a player leaves the table and rejoins, they need to buy in with exactly the same amount they left with — no more, no less.</p></div>
+          </details>
+          <details class="faq-item" id="rules-08">
+            <summary><span class="faq-idx">08</span>What is our Anti-Abuse Policy?</summary>
+            <div class="faq-answer"><p>The Anti-Abuse Policy was released to help combat potential inappropriate use of our service. Read the full policy <a href="https://www.pokerrrrapp.com/single-post/2018/07/24/Anti-Abuse-Policy" target="_blank" rel="noopener">here</a>.</p></div>
+          </details>
+          <details class="faq-item" id="rules-09">
+            <summary><span class="faq-idx">09</span>What are the rules for 4-card PLO?</summary>
+            <div class="faq-answer"><p>4-card PLO (Pot-Limit Omaha) plays similarly to Hold’em in that it’s a "flop" game using community cards. The difference: players are dealt four hole cards and must use exactly two of them with three of the five community cards to make their five-card hand.</p></div>
+          </details>
+          <details class="faq-item" id="rules-10">
+            <summary><span class="faq-idx">10</span>What are the rules for OFC?</summary>
+            <div class="faq-answer"><p>In Open-Face Chinese Poker (OFC), players take turns drawing cards from a single deck to build the best hand possible. The game is scored in points, not bets — each player arranges 13 cards into three hands (top, middle, bottom), which are then compared using standard poker hand rankings.</p><p>Your chips are only deducted when the game finishes — leaving mid-game doesn’t deduct chips until the entire game is over.</p></div>
+          </details>
+          <details class="faq-item" id="rules-11">
+            <summary><span class="faq-idx">11</span>What is R.O.E.?</summary>
+            <div class="faq-answer"><p>Round of Each (R.O.E.) rotates between a series of selected games — we offer NL Hold’em, Short Deck, and a variety of PLO. A round is complete once every player has been assigned to the dealer position one time.</p></div>
+          </details>
+        </div>
+        <div class="faq-group" data-cat="join">
+          <h2 class="faq-group-title" data-i18n="faq.cat.join">加入牌局</h2>
+          <details class="faq-item" id="join-01">
+            <summary><span class="faq-idx">01</span>How can I join my friend’s game?</summary>
+            <div class="faq-answer"><ol><li>Once your friend has hosted a game, they’ll be given a "Game Code".</li><li>After they send you the Game Code, enter it after tapping "Join".</li></ol></div>
+          </details>
+          <details class="faq-item" id="join-02">
+            <summary><span class="faq-idx">02</span>Can I play Pokerrrr 2 with random players?</summary>
+            <div class="faq-answer"><p>Yes — the "Play Now" tab lets you join a variety of game types in our Global Pokerrrr Challenge, matched with poker players across the world.</p></div>
+          </details>
+          <details class="faq-item" id="join-03">
+            <summary><span class="faq-idx">03</span>Can I queue for a table once it’s full?</summary>
+            <div class="faq-answer"><p>Yes, provided the host has queueing turned on. If buy-in confirmation is also on, your buy-in will need to be approved before you’re added to the queue.</p></div>
+          </details>
+        </div>
+        <div class="faq-group" data-cat="clubs">
+          <h2 class="faq-group-title" data-i18n="faq.cat.clubs">管理俱樂部</h2>
+          <details class="faq-item" id="clubs-01">
+            <summary><span class="faq-idx">01</span>How do I set up a club?</summary>
+            <div class="faq-answer"><ol><li>In the "Friendly & Club" tab, tap "+ Create / Join a Club" at the bottom of the screen.</li><li>Tap the "Create" tab in the top right and fill in the "Name" and "Description" fields.</li><li>Once members join, you can assign club manager(s) to decide who’s allowed to host games.</li></ol></div>
+          </details>
+          <details class="faq-item" id="clubs-02">
+            <summary><span class="faq-idx">02</span>How can I assign club managers?</summary>
+            <div class="faq-answer"><ol><li>Enter your club page and select the "Members" tab.</li><li>Choose the player to promote and tap "Edit".</li><li>Only the club owner can promote a member to club manager.</li><li>A club manager can later be promoted to club owner — the original owner is then demoted to manager.</li></ol></div>
+          </details>
+          <details class="faq-item" id="clubs-03">
+            <summary><span class="faq-idx">03</span>How can I allow other club members to host games?</summary>
+            <div class="faq-answer"><ol><li>Select your club’s information icon.</li><li>Tap "Edit".</li><li>Choose from three host-permission levels — Owner (only owners host), Manager (managers & owners host), or Member (any member can host).</li></ol></div>
+          </details>
+        </div>
+        <div class="faq-group" data-cat="other">
+          <h2 class="faq-group-title" data-i18n="faq.cat.other">其他</h2>
+          <details class="faq-item" id="other-01">
+            <summary><span class="faq-idx">01</span>Pokerrrr 2 system requirements</summary>
+            <div class="faq-answer"><p>iOS 11.0 or later · Android 5.0 (Lollipop) / Fire OS 5.0 or later. Minimum requirements may change over time as the app is updated.</p></div>
+          </details>
+          <details class="faq-item" id="other-02">
+            <summary><span class="faq-idx">02</span>How are the cards shuffled?</summary>
+            <div class="faq-answer"><p>A standard 52-card deck is shuffled using an independently RNG-certified algorithm — Pokerrrr’s parent, PT. Farm Entertainment, holds a Random Number Generator certification from Gaming Laboratories International (GLI). Cards are shuffled in random order, then dealt to each seat in the order shuffled — the algorithm has no knowledge of poker hands or the players it’s dealing to.</p></div>
+          </details>
+          <details class="faq-item" id="other-03">
+            <summary><span class="faq-idx">03</span>Is there any chance of rigged cards or bias toward players?</summary>
+            <div class="faq-answer"><p>No. The random shuffling and dealing of cards can’t be influenced by anyone.</p></div>
+          </details>
+          <details class="faq-item" id="other-04">
+            <summary><span class="faq-idx">04</span>Where are Pokerrrr’s servers located?</summary>
+            <div class="faq-answer"><p>Our servers are located worldwide.</p></div>
+          </details>
+          <details class="faq-item" id="other-05">
+            <summary><span class="faq-idx">05</span>How secure is our service?</summary>
+            <div class="faq-answer"><p>A player’s hole cards are dealt only to their own device — no other device receives that information unless the hand is revealed.</p></div>
+          </details>
+          <details class="faq-item" id="other-06">
+            <summary><span class="faq-idx">06</span>Can I find out a certain player’s information?</summary>
+            <div class="faq-answer"><p>We can’t reveal any player’s information to a third party due to our privacy policy. Turn on buy-in confirmation or host games within your club to help ensure you’re only playing with people you know.</p></div>
+          </details>
+          <details class="faq-item" id="other-07">
+            <summary><span class="faq-idx">07</span>How can I use the same account on different devices?</summary>
+            <div class="faq-answer"><p>Sync your guest account with an external social profile (Google, Facebook, or Apple) — this secures your progress and lets you use the same account across devices.</p></div>
+          </details>
+          <details class="faq-item" id="other-08">
+            <summary><span class="faq-idx">08</span>How do I switch the Facebook account linked to my Pokerrrr account?</summary>
+            <div class="faq-answer"><ol><li>Sign into the Facebook account you no longer want linked to Pokerrrr 2.</li><li>Click "Settings" in the upper right, then "Apps" in the left menu.</li><li>Find Pokerrrr 2 in the list, select it, and click "Remove".</li><li>Sign out, then sign into the Facebook account you want to link instead.</li><li>Back in Pokerrrr 2, tap the gear icon, then "Facebook Login", and follow the prompts to approve the new connection.</li></ol></div>
+          </details>
+        </div>
+        <div class="faq-group" data-cat="gold">
+          <h2 class="faq-group-title" data-i18n="faq.cat.gold">金幣（Gold）</h2>
+          <details class="faq-item" id="gold-01">
+            <summary><span class="faq-idx">01</span>What do I use Gold for?</summary>
+            <div class="faq-answer"><p>Gold is Pokerrrr’s in-game currency. Use it to:</p><ol><li>Host games — 6 gold per hour</li><li>Export game records — 1 gold per export</li><li>Buy Global Pokerrrr Challenge chips — 1 gold for 1,000 chips, or 20 gold for 24,000 chips</li><li>Purchase store items — a 3-hour pass for 12 gold, 30-day Game Records for 18 gold, or a 30-day VIP package for 120 gold</li></ol></div>
+          </details>
+          <details class="faq-item" id="gold-02">
+            <summary><span class="faq-idx">02</span>How do I refer a friend for bonus rewards?</summary>
+            <div class="faq-answer"><ol><li>Earn 10,000 bonus chips for every new friend you invite who links their account via Facebook.</li><li>Tap "Add New Friend" on the left side of the screen.</li><li>Tap your referral code to copy and share it.</li><li>Have your friend log into Pokerrrr 2 through Facebook and enter your code.</li><li>Claim your reward every 4 hours per invite from the message icon once they connect.</li></ol></div>
+          </details>
+          <details class="faq-item" id="gold-03">
+            <summary><span class="faq-idx">03</span>What do I do if I haven’t received the Gold I paid for?</summary>
+            <div class="faq-answer"><p>This can happen due to a delay between the server and the App Store / Google Play — nothing to worry about. To resolve it quickly, send us:</p><ol><li>Your 5-digit player ID (found on your account page, next to your name tag).</li><li>A screenshot of the purchase receipt from the App Store or Google Play (bank statements can’t be used — they don’t show the purchase ID we need).</li></ol><p>Once we have both, we’ll review and reimburse the transaction to your account.</p></div>
+          </details>
+          <details class="faq-item" id="gold-04">
+            <summary><span class="faq-idx">04</span>Can I transfer Gold or chips to a different account, or gift them to a friend?</summary>
+            <div class="faq-answer"><p>Not currently — account-to-account transfers of gold or chips are unavailable.</p></div>
+          </details>
+        </div>
+        <div class="faq-group" data-cat="records">
+          <h2 class="faq-group-title" data-i18n="faq.cat.records">牌局紀錄</h2>
+          <details class="faq-item" id="records-01">
+            <summary><span class="faq-idx">01</span>How do I export game records as a CSV file?</summary>
+            <div class="faq-answer"><p><b>To export a single game result:</b></p><ol><li>Open the Record tab</li><li>Tap the game record you want</li><li>Tap "Export"</li><li>Email the CSV file to yourself</li><li>Open the email and download the attached CSV</li></ol><p><b>To export a summary of multiple results:</b></p><ol><li>Open the Record tab</li><li>Tap the calculator icon in the top right</li><li>Tick the records you want to export</li><li>Tap "Pay Off", then "Export"</li><li>Email the CSV file to yourself and download it</li></ol></div>
+          </details>
+          <details class="faq-item" id="records-02">
+            <summary><span class="faq-idx">02</span>How do I import my CSV file into Google Sheets?</summary>
+            <div class="faq-answer"><ol><li>Open a new Google Spreadsheet, select "File" then "Import"</li><li>Upload your CSV file</li><li>Select "Custom" and type in ";" (a semicolon)</li><li>Select "Import data"</li></ol></div>
+          </details>
+          <details class="faq-item" id="records-03">
+            <summary><span class="faq-idx">03</span>How long will my game records last?</summary>
+            <div class="faq-answer"><p>Game records are kept for 90 days. Be sure to export anything you want to keep before then.</p></div>
+          </details>
+        </div>
+        <div class="faq-group" data-cat="tourney">
+          <h2 class="faq-group-title" data-i18n="faq.cat.tourney">錦標賽規則</h2>
+          <details class="faq-item" id="tourney-01">
+            <summary><span class="faq-idx">01</span>When does hand-for-hand play start in an MTT?</summary>
+            <div class="faq-answer"><p>Hand-for-hand play starts once 10 players remain, and ends once the final table is confirmed.</p></div>
+          </details>
+          <details class="faq-item" id="tourney-02">
+            <summary><span class="faq-idx">02</span>When does the rebuy period cut off in an MTT?</summary>
+            <div class="faq-answer"><p>For 18 or 36-player tournaments, the rebuy period cuts off once two players remain. For 90-player tournaments, it cuts off once the final table starts. It also ends after the level the host designated.</p></div>
+          </details>
+          <details class="faq-item" id="tourney-03">
+            <summary><span class="faq-idx">03</span>When does late registration cut off in an MTT?</summary>
+            <div class="faq-answer"><p>Late registration follows the same cutoff as the rebuy period: two players remaining for 18/36-player tournaments, or the final table starting for 90-player tournaments — whichever comes first, or the host-designated level.</p></div>
+          </details>
+        </div>
+        <div class="faq-group" data-cat="account">
+          <h2 class="faq-group-title" data-i18n="faq.cat.account">帳號</h2>
+          <details class="faq-item" id="account-01">
+            <summary><span class="faq-idx">01</span>Can I retrieve my account if my device has been reset?</summary>
+            <div class="faq-answer"><p>If your guest account wasn’t linked to a social profile (Facebook, Apple, or Google), we unfortunately can’t retrieve it once erased. Linking a social profile is the safest way to secure access across devices.</p></div>
+          </details>
+          <details class="faq-item" id="account-02">
+            <summary><span class="faq-idx">02</span>How do I delete an account in the app?</summary>
+            <div class="faq-answer"><ol><li>Tap the gear icon in the "Play Now" tab.</li><li>Tap "Delete Account".</li><li>Follow the steps in the pop-up screens to complete the request.</li></ol><p>Once requested, deletion takes 3–5 business days and cannot be canceled or undone.</p></div>
+          </details>
+          <details class="faq-item" id="account-03">
+            <summary><span class="faq-idx">03</span>What information is deleted vs. retained?</summary>
+            <div class="faq-answer"><p>All information related to you, or that could be used to identify you, is deleted. The process begins three days after the request is made, and no data is stored once it’s complete.</p></div>
+          </details>
+        </div>
+        <div class="faq-contact">
+          <div><b data-i18n="faq.contact.general">一般問題</b><a href="mailto:contact@pokerrrrapp.com">contact@pokerrrrapp.com</a></div>
+          <div><b data-i18n="faq.contact.business">商務合作</b><a href="mailto:business@pokerrrrapp.com">business@pokerrrrapp.com</a></div>
+        </div>
       </div>
     </div>
   </section>
@@ -133,8 +320,8 @@
           <li><a href="news.html" data-i18n="common.nav.news">最新消息</a></li>
           <li><a href="how-to-play.html" data-i18n="common.nav.howToPlay">玩法教學</a></li>
           <li><a href="about.html" data-i18n="common.nav.about">關於我們</a></li>
-          <li><a href="store.html" data-i18n="common.nav.store">商店</a></li>
           <li><a href="faq.html" data-i18n="common.nav.faq">FAQ</a></li>
+          <li><a href="store.html" data-i18n="common.nav.store">商店</a></li>
         </ul>
       </div>
       <div>
@@ -154,7 +341,7 @@
   </div>
 </footer>
 
-<script src="../js/i18n.js?v=43"></script>
-<script src="../js/main.js?v=39"></script>
+<script src="../js/i18n.js?v=44"></script>
+<script src="../js/main.js?v=40"></script>
 </body>
 </html>

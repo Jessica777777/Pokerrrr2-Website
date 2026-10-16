@@ -2,7 +2,7 @@
 
 目前以 OFC: Pineapple Poker 官網（ptfarm/master `cd3db8d`）為基礎，架構與流程同 OFC：純靜態網站，Cloudflare 部署 `public/`。
 
-導覽列：Home／News／How to Play／About／Store（FAQ 只在頁尾）。News、Store 的內容取自 Dorcas 的 demo；其他頁面暫時與 OFC 相同，之後再逐頁換成 Pokerrrr 2 的內容。
+導覽列：Home／News／How to Play／About／FAQ／Store。News、FAQ、Store 的內容取自 Dorcas 的 demo；其他頁面暫時與 OFC 相同，之後再逐頁換成 Pokerrrr 2 的內容。
 
 ## 常用指令
 
