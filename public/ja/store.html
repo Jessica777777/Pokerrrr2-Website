@@ -22,7 +22,7 @@
 <link rel="alternate" hreflang="ja" href="https://www.pokerrrrapp.com/ja/store.html">
 <link rel="alternate" hreflang="x-default" href="https://www.pokerrrrapp.com/store.html">
 <!-- /i18n:alternates -->
-<link rel="stylesheet" href="../css/style.css?v=52">
+<link rel="stylesheet" href="../css/style.css?v=53">
 </head>
 <body class="page-store">
 
@@ -61,21 +61,10 @@
 </header>
 
 <main>
-  <!-- STORE (Pokerrrr2): embeds store.pokerrrrapp.com, as in Dorcas' demo. -->
-  <section class="hero" style="padding-bottom:20px;">
-    <div class="container store-head">
-      <div>
-        <span class="eyebrow">store.pokerrrrapp.com</span>
-        <h1 data-i18n="store.hero.title">ストア</h1>
-      </div>
-      <a href="https://store.pokerrrrapp.com" class="btn btn-outline btn-sm" target="_blank" rel="noopener" data-i18n="store.openNew">新しいタブで開く ↗</a>
-    </div>
-  </section>
+  <!-- STORE (Pokerrrr2): store.pokerrrrapp.com embedded full-bleed, no page chrome. -->
   <section class="store-frame-wrap">
-    <div class="container">
-      <p class="store-fallback" data-i18n="store.fallback">If the store doesn't load below, <a href="https://store.pokerrrrapp.com" target="_blank" rel="noopener">open it in a new tab</a>.</p>
-    </div>
-    <iframe class="store-frame" src="https://store.pokerrrrapp.com" title="Pokerrrr 2 Store" data-i18n-title="store.frameTitle" loading="lazy"></iframe>
+    <h1 class="visually-hidden" data-i18n="store.hero.title">ストア</h1>
+    <iframe class="store-frame" src="https://store.pokerrrrapp.com" title="Pokerrrr 2 Store" data-i18n-title="store.frameTitle"></iframe>
   </section>
 </main>
 
@@ -126,7 +115,7 @@
   </div>
 </footer>
 
-<script src="../js/i18n.js?v=47"></script>
+<script src="../js/i18n.js?v=48"></script>
 <script src="../js/main.js?v=40"></script>
 </body>
 </html>
