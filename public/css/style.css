@@ -3365,3 +3365,46 @@ html[lang="ja"] .trust .trust-subtitle { word-break: keep-all; overflow-wrap: an
   font-weight: 700;
   color: var(--color-gold-light);
 }
+
+/* ==========================================================================
+   Pokerrrr2 additions: News list / article pages and the Store page
+   ========================================================================== */
+.news-hero-desc { max-width: 620px; margin-top: 14px; color: var(--color-text-muted); }
+.news-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+@media (max-width: 900px) { .news-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 620px) { .news-grid { grid-template-columns: 1fr; } }
+a.news-card { display: flex; flex-direction: column; text-decoration: none; color: inherit; transition: transform 0.2s ease, border-color 0.2s ease; }
+a.news-card:hover { transform: translateY(-3px); border-color: var(--color-gold); }
+.news-card-idx { font-family: ui-monospace, 'SFMono-Regular', 'Courier New', monospace; font-size: var(--fs-xs); letter-spacing: 0.1em; color: var(--color-gold-light); }
+.news-card h2 { font-size: 1.15rem; line-height: 1.35; margin: 12px 0 10px; }
+.news-card p { flex-grow: 1; font-size: var(--fs-sm); color: var(--color-text-muted); }
+.news-card-meta { font-size: var(--fs-xs); color: var(--color-text-faint); letter-spacing: 0.06em; text-transform: uppercase; margin-top: 12px; }
+.news-card-more { margin-top: 10px; font-size: var(--fs-sm); font-weight: 600; color: var(--color-gold-light); }
+.news-archive { text-align: center; margin-top: 56px; padding-top: 40px; border-top: 1px solid var(--color-border); }
+.news-archive p { color: var(--color-text-muted); margin-bottom: 18px; }
+
+.article-wrap { max-width: 760px; margin: 0 auto; }
+.article-wrap .eyebrow { display: block; margin-top: 18px; }
+.article-title { font-size: clamp(1.7rem, 4vw, 2.5rem); line-height: 1.25; margin: 12px 0 10px; }
+.article-meta { font-size: var(--fs-xs); letter-spacing: 0.06em; text-transform: uppercase; color: var(--color-text-faint); margin: 0; }
+.article-body h2 { font-size: 1.35rem; margin: 40px 0 14px; color: var(--color-gold-light); }
+.article-body h3 { font-size: 1.1rem; margin: 28px 0 10px; }
+.article-body p, .article-body li { color: var(--color-text); line-height: 1.75; }
+.article-body ul, .article-body ol { margin: 0 0 20px; padding-left: 1.3em; }
+.article-body li { margin-bottom: 6px; }
+.callout-box { background: var(--color-surface); border: 1px solid var(--color-border); border-left: 3px solid var(--color-gold); border-radius: var(--radius-sm); padding: 20px 24px; margin: 0 0 30px; }
+.callout-box .eyebrow { margin: 0 0 8px; }
+.callout-box p { margin: 0; }
+.table-scroll { overflow-x: auto; margin: 24px 0; }
+.compare-table { width: 100%; min-width: 420px; border-collapse: collapse; font-size: var(--fs-sm); }
+.compare-table th, .compare-table td { border: 1px solid var(--color-border); padding: 10px 12px; text-align: left; }
+.compare-table th { background: var(--color-surface-2); color: var(--color-gold-light); font-weight: 600; }
+.compare-table td { color: var(--color-text-muted); }
+.source-note { margin-top: 44px; padding-top: 22px; border-top: 1px solid var(--color-border); font-size: var(--fs-sm); color: var(--color-text-faint); }
+.source-note a { color: var(--color-gold-light); text-decoration: underline; }
+
+.store-head { display: flex; align-items: flex-end; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+.store-head h1 { margin: 6px 0 0; }
+.store-fallback { font-size: var(--fs-sm); color: var(--color-text-faint); margin: 0 0 14px; }
+.store-fallback a { color: var(--color-gold-light); text-decoration: underline; }
+.store-frame { display: block; width: 100%; height: calc(100vh - 220px); min-height: 560px; border: 0; border-top: 1px solid var(--color-border); background: #050505; }

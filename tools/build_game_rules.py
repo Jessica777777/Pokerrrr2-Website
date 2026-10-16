@@ -162,6 +162,8 @@ def common_values(lang, up_asset, d):
         "NAV_HOWTOPLAY": esc_text(t(d, lang, "common.nav.howToPlay")),
         "NAV_ABOUT": esc_text(t(d, lang, "common.nav.about")),
         "NAV_FAQ": esc_text(t(d, lang, "common.nav.faq")),
+        "NAV_NEWS": esc_text(t(d, lang, "common.nav.news")),
+        "NAV_STORE": esc_text(t(d, lang, "common.nav.store")),
         "NAV_DOWNLOAD": esc_text(t(d, lang, "common.nav.downloadBtn")),
         "LANG_LABEL": LANG_SWITCH_LABEL[lang],
         "STORE_APPLE_ARIA": esc_attr(t(d, lang, "common.store.appleAria")),

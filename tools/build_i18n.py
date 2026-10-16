@@ -38,7 +38,8 @@ import build_game_rules
 # points canonical/hreflang/sitemap here so only one copy gets indexed.
 BASE_URL = "https://www.ofcpineapple.com/"
 
-PAGES = ["index.html", "how-to-play.html", "about.html", "faq.html"]
+PAGES = ["index.html", "how-to-play.html", "about.html", "faq.html",
+         "news.html", "store.html", "news-card-peek.html", "news-tight-players.html", "news-ofc-sit-and-go.html"]
 LANGS = ["en", "zh", "ja"]
 HTML_LANG = {"en": "en", "zh": "zh-Hant", "ja": "ja"}
 DIR = {"en": "", "zh": "zh/", "ja": "ja/"}
@@ -93,7 +94,7 @@ class Scan(HTMLParser):
         st = self.off()
         en = st + len(self.get_starttag_text())
         d = dict(attrs)
-        for a in ("aria-label", "alt", "content"):
+        for a in ("aria-label", "alt", "content", "title"):
             if d.get("data-i18n-" + a):
                 self.attrs.append((st, en, a, d["data-i18n-" + a]))
         if tag not in VOID:

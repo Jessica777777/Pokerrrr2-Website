@@ -1,45 +1,29 @@
 # Pokerrrr 2 官方網站
 
-純靜態網站（HTML／CSS／JS），由 `tools/build.py` 從 `src/` 與 `data/` 產生 `public/`。架構參考 OFC: Pineapple Poker 官網，設計以 Dorcas 的 demo 為準。
+目前以 OFC: Pineapple Poker 官網（ptfarm/master `cd3db8d`）為基礎，架構與流程同 OFC：純靜態網站，Cloudflare 部署 `public/`。
+
+導覽列：Home／News／How to Play／About／Store（FAQ 只在頁尾）。News、Store 的內容取自 Dorcas 的 demo；其他頁面暫時與 OFC 相同，之後再逐頁換成 Pokerrrr 2 的內容。
 
 ## 常用指令
 
 ```bash
-python3 tools/build.py        # 產生所有頁面（改完任何 src/、data/ 後都要跑）
-python3 tools/build.py -v     # 同上，並列出中文／日文還沒翻譯的 key
-cd public && python3 -m http.server 8000   # 本機預覽 http://localhost:8000
+python3 tools/build_i18n.py               # 改完文案或頁面結構後執行，產生 zh/、ja/、game-rules/、sitemap
+cd public && python3 -m http.server 8000  # 本機預覽 http://localhost:8000
 ```
 
-## 目錄
+## 改哪裡
 
-| 路徑 | 內容 | 可以手改？ |
-|---|---|---|
-| `src/layout.html` | 頁面外框（head、導覽列、頁尾插槽） | ✅ |
-| `src/partials/` | 共用片段：導覽列、頁尾、下載徽章、下載區塊 | ✅ |
-| `src/pages/` | 首頁、About、FAQ、Store（英文原文寫在 HTML 裡） | ✅ |
-| `src/templates/` | 由資料產生的頁面：News 列表、文章、規則總覽、規則頁 | ✅ |
-| `data/site.json` | 網域、語言、下載連結、商店、Terms 連結 | ✅ |
-| `data/i18n/zh.json`、`ja.json` | 中文、日文翻譯（key 對應 `data-i18n`） | ✅ |
-| `data/i18n/en.json` | 所有 key 的英文原文（給翻譯參考） | ❌ build 產生 |
-| `data/faq.json` | FAQ 內容（9 類） | ✅ |
-| `data/news.json` | 文章（`published` 才會產生頁面，`draft` 不會） | ✅ |
-| `data/game-rules.json` | 規則內容（三語，沿用 OFC 官網） | ✅ |
-| `data/rules-meta.json` | 規則頁的 title／description／H1／卡片文字 | ✅ |
-| `public/css/`、`public/js/`、`public/assets/` | 樣式、程式、圖片 | ✅ |
-| `public/*.html`、`public/news/`、`public/game-rules/`、`public/zh/`、`public/ja/`、`sitemap.xml`、`robots.txt` | 產生的頁面 | ❌ build 產生 |
+| 要改的東西 | 檔案 |
+|---|---|
+| 三語文案（含 title／description） | `public/js/i18n.js` |
+| 頁面結構（英文版＝範本） | `public/index.html`、`how-to-play.html`、`about.html`、`faq.html`、`news.html`、`store.html`、`news-*.html` |
+| 規則內容 | `data/game-rules.json`、`tools/templates/*.html` |
+| 新增頁面 | 加進 `tools/build_i18n.py` 的 `PAGES` |
 
-## 多語系
+`public/zh/`、`public/ja/`、`public/game-rules/`、`sitemap.xml`、`robots.txt` 都是產生的，不要手改。
+改 CSS／JS（包括 i18n.js）時，所有頁面與 `tools/templates/` 的 `?v=` 版本號要一起 +1。
 
-- 英文寫在原始 HTML；要翻譯的元素加 `data-i18n="key"`，屬性用 `data-i18n-attr="alt:key"`。
-- 中文／日文缺翻譯時會先顯示英文，build 結束會列出還沒翻的數量。
-- `site.json` 裡語言狀態是 `draft` 時：頁面照樣產生可預覽，但加上 `noindex`，不放進 hreflang 和 sitemap。翻譯完成後改成 `live`。
+## News 文章
 
-## 換網域、換下載連結
-
-- 網域：改 `data/site.json` 的 `base_url`，重跑 build。
-- OneLink：把 `download.app_store`、`download.google_play` 都換成 OneLink，重跑 build。
-- CSS／JS 的快取版本號由 build 依檔案內容自動計算，不用手動 +1。
-
-## 素材
-
-原始美術檔放 `素材/`（不進 git），處理、壓縮後再放進 `public/assets/images/` 對應資料夾。
+- 文章頁是根目錄的 `news-<名稱>.html`，內文目前只有英文（中日文版頁面也顯示英文內文）。
+- 新增文章：複製一個 `news-*.html` 改內容 → 在 `news.html` 加卡片 → 加進 `PAGES` → 跑 build。
