@@ -3338,8 +3338,12 @@ a.gr-tab { display: inline-block; text-decoration: none; }
 
 /* Homepage H1 (2026-10-13): app name on one line at every width, with a
    gold keyword subtitle (plain <p>, not a heading) underneath. */
+/* Pokerrrr 2 (2026-10-16): the app names are longer than the OFC ones, so the
+   H1 may wrap now (nowrap overflowed the hero on mobile and in Japanese). */
 .trust .trust-title {
-  white-space: nowrap;
+  white-space: normal;
+  text-wrap: balance;
+  overflow-wrap: anywhere;
   font-size: clamp(1.75rem, 4.1vw, 3.1rem);
   line-height: 1.1;
   margin: 0 0 10px;
@@ -3430,3 +3434,30 @@ a.news-card:hover { transform: translateY(-3px); border-color: var(--color-gold)
 .faq-wrap .faq-item summary { justify-content: flex-start; text-align: left; gap: 0; }
 .faq-wrap .faq-item summary::after { margin-left: auto; padding-left: 16px; flex-shrink: 0; }
 .faq-wrap .faq-idx { flex-shrink: 0; }
+
+/* Pokerrrr 2 (2026-10-16): longer app names in the nav brand. Keep the nav
+   links on one line; between the mobile breakpoint and ~1200px there is no
+   room for the full name, so only the app icon is shown there. */
+.nav-links a { white-space: nowrap; }
+.brand { flex-shrink: 0; }
+.brand span { line-height: 1.25; }
+html[lang="ja"] .brand span { max-width: 11em; font-size: 0.95rem; }
+@media (min-width: 861px) and (max-width: 1180px) {
+  .brand span { display: none; }
+}
+@media (min-width: 861px) and (max-width: 1000px) {
+  html[lang="ja"] .nav-links { gap: 22px; }
+}
+
+/* Pokerrrr 2 (2026-10-16): the download CTA art is now the landscape
+   motorcycle rider (cta-agent-rider.png, 840x816) instead of the tall
+   agent-girl-fullbody-fade.png, so the portrait column is widened to half
+   the card and the art bleeds a little above the card's top edge. */
+.cta-agent-portrait img { aspect-ratio: 840 / 816; object-fit: contain; }
+@media (min-width: 781px) {
+  .cta-agent-grid { grid-template-columns: 1fr 1fr; }
+  .cta-agent-portrait img { width: min(460px, 44vw); margin-top: -120px; margin-bottom: -20px; }
+}
+@media (max-width: 780px) {
+  .cta-agent-portrait img { width: min(320px, 80vw); margin-top: -90px; }
+}

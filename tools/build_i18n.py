@@ -36,7 +36,7 @@ import build_game_rules
 
 # Production domain (Cloudflare Workers). Every deployment, including previews,
 # points canonical/hreflang/sitemap here so only one copy gets indexed.
-BASE_URL = "https://www.ofcpineapple.com/"
+BASE_URL = "https://www.pokerrrrapp.com/"
 
 PAGES = ["index.html", "how-to-play.html", "about.html", "faq.html",
          "news.html", "store.html", "news-card-peek.html", "news-tight-players.html", "news-ofc-sit-and-go.html"]
@@ -221,7 +221,7 @@ def write_sitemap():
     out.append("</urlset>")
     open(os.path.join(ROOT, "sitemap.xml"), "w", encoding="utf-8").write("\n".join(out) + "\n")
     # Note: crawlers only read robots.txt at the host root, so this file only
-    # takes effect on www.ofcpineapple.com, not on sub-path preview hosts.
+    # takes effect on www.pokerrrrapp.com, not on sub-path preview hosts.
     open(os.path.join(ROOT, "robots.txt"), "w", encoding="utf-8").write(
         "User-agent: *\nAllow: /\n\nSitemap: %ssitemap.xml\n" % BASE_URL)
     print("wrote sitemap.xml, robots.txt")
