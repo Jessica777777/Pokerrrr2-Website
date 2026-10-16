@@ -1,0 +1,7 @@
+# raw art files (never commit; see README)
+素材/
+# temporary transfer bundles
+_transfer/
+.DS_Store
+__pycache__/
+*.pyc
