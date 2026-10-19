@@ -108,7 +108,6 @@ def card(p, up=""):
     return (
         '<a href="news/%(slug)s.html" class="card news-card" data-cat="%(cat)s">\n'
         '  %(img)s\n'
-        '  <span class="news-card-idx">// <span data-i18n="news.cat.%(cat)s">%(catname)s</span></span>\n'
         '  <h2>%(title)s</h2>\n'
         '  <p>%(excerpt)s</p>\n'
         '  <span class="news-card-meta"><time datetime="%(date)s">%(nice)s</time> &middot; %(rt)d <span data-i18n="news.minRead">min read</span></span>\n'
@@ -134,7 +133,6 @@ def list_block(posts):
         '<a href="news/%(slug)s.html" class="card news-featured">\n'
         '  <div class="news-featured-img">%(img)s</div>\n'
         '  <div class="news-featured-body">\n'
-        '    <span class="news-card-idx">// <span data-i18n="news.featured">Featured Report</span> &middot; <span data-i18n="news.cat.%(cat)s">%(catname)s</span></span>\n'
         '    <h2>%(title)s</h2>\n'
         '    <p>%(excerpt)s</p>\n'
         '    <span class="news-card-meta"><time datetime="%(date)s">%(nice)s</time> &middot; %(rt)d <span data-i18n="news.minRead">min read</span></span>\n'

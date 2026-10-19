@@ -3,7 +3,7 @@ title: Playing Against Tight Players in Your Private Poker Game
 date: 2026-08-21
 author: Pokerrrr
 category: strategy
-cover: assets/images/news/playing-against-tight-players-in-your-private-poker-game/07.jpg
+cover: assets/images/news/playing-against-tight-players-in-your-private-poker-game/01.jpg
 excerpt: Every private game has one. The player who only raises with premium hands, never bluffs, and folds anything that isn't the nuts by the turn. Your group probably has a name for…
 read_time: 7
 old_url: https://www.pokerrrrapp.com/single-post/playing-against-tight-players-in-your-private-poker-game
