@@ -2,7 +2,7 @@
 title: Working Through the Variance
 date: 2019-02-19
 author: Pokerrrr
-category: strategy
+category: mindset
 cover: assets/images/news/working-through-the-variance/01.jpg
 excerpt: Though poker is, at its heart, a game of skill, there’s plenty that’s still outside our control. Call it chance, luck, fortune, or whatever you want; either way, as poker players…
 read_time: 2

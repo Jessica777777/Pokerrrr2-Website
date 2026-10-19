@@ -2,7 +2,7 @@
 title: Playing Poker Versus Problem Gambling
 date: 2018-02-02
 author: Pokerrrr
-category: strategy
+category: mindset
 cover: assets/images/news/playing-poker-vs-problem-gambling/01.jpg
 excerpt: In a previous blog post I covered 8 lessons poker teaches you. What I didn't mention was that poker can be a great source of income; as opposed to problem gambling, which is…
 read_time: 5

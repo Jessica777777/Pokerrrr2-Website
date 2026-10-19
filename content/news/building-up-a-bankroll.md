@@ -2,7 +2,7 @@
 title: Building Up a Bankroll
 date: 2020-09-09
 author: Pokerrrr
-category: strategy
+category: mindset
 cover: assets/images/news/building-up-a-bankroll/01.jpg
 excerpt: Grinding up your total amount of chips can be a long-term commitment. If you want to go from having only a small starting stack in your account to being one of the biggest fish in…
 read_time: 2

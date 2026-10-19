@@ -2,7 +2,7 @@
 title: Developing a Warm-up Routine
 date: 2019-11-14
 author: Pokerrrr
-category: strategy
+category: mindset
 cover: assets/images/news/developing-a-warm-up-routine/01.jpg
 excerpt: Just like a runner stretches their legs or a singer starts with some arpeggios, poker players also need to take a moment to warm-up in order to achieve peak performance. By taking…
 read_time: 2

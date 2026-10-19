@@ -2,7 +2,7 @@
 title: Artificial Intelligence Takes On 6-Max NLHE
 date: 2019-08-05
 author: Pokerrrr
-category: strategy
+category: stories
 cover: assets/images/news/artificial-intelligence-takes-on-6-max-nlhe/01.jpg
 excerpt: We’ve got some big news at the intersection of poker and technology. As AI has become more sophisticated, we’ve seen it take down pro players in games like Chess and Go.…
 read_time: 2

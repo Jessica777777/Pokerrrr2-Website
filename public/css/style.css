@@ -3526,3 +3526,21 @@ a.news-featured:hover { border-color: var(--color-gold); }
 .article-body .video-embed iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
 .news-related { padding-top: 40px; }
 .news-related-title { font-size: 1.4rem; margin-bottom: 24px; }
+
+/* News: search + prev/next */
+.news-search-wrap { margin-bottom: 18px; }
+.news-search { width: 100%; max-width: 420px; font: inherit; font-size: var(--fs-sm); color: var(--color-text); background: var(--color-surface); border: 1px solid var(--color-border); border-radius: 999px; padding: 11px 18px 11px 42px; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none' stroke='%23999' stroke-width='2' stroke-linecap='round' viewBox='0 0 24 24'%3E%3Ccircle cx='11' cy='11' r='7'/%3E%3Cpath d='m20 20-3.5-3.5'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: 16px center; }
+.news-search:focus { outline: none; border-color: var(--color-gold); }
+.news-search::placeholder { color: var(--color-text-faint); }
+.news-empty { text-align: center; color: var(--color-text-muted); margin: 40px 0; }
+.news-card[data-featured][hidden] { display: none; }
+.post-nav { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 48px; padding-top: 28px; border-top: 1px solid var(--color-border); }
+.post-nav a { display: flex; align-items: center; gap: 16px; padding: 12px; border: 1px solid var(--color-border); border-radius: var(--radius-sm); text-decoration: none; color: inherit; background: var(--color-surface); transition: border-color 0.2s ease; }
+.post-nav a:hover { border-color: var(--color-gold); }
+.post-nav-next { flex-direction: row-reverse; text-align: right; }
+.post-nav-img { flex: 0 0 132px; aspect-ratio: 16 / 9; border-radius: 6px; overflow: hidden; background: #000; }
+.post-nav-img img { width: 100%; height: 100%; object-fit: contain; display: block; }
+.post-nav-text { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.post-nav-label { font-size: var(--fs-xs); letter-spacing: 0.06em; text-transform: uppercase; color: var(--color-gold-light); }
+.post-nav-title { font-weight: 600; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+@media (max-width: 620px) { .post-nav { grid-template-columns: 1fr; } .post-nav-img { flex-basis: 104px; } .post-nav-empty { display: none; } }

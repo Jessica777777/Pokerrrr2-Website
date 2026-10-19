@@ -2,7 +2,7 @@
 title: Concentrate on What You Can Control
 date: 2020-09-30
 author: Pokerrrr
-category: strategy
+category: mindset
 cover: assets/images/news/concentrate-on-what-you-can-control/01.jpg
 excerpt: Poker is a game of both luck and skill. That means that there’s always going to be a combination of factors that go into every outcome, some of which you can control and many that…
 read_time: 2

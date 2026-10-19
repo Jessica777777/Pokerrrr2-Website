@@ -2,7 +2,7 @@
 title: Poker vs. Chess: Which Is More Complex?
 date: 2018-03-05
 author: Pokerrrr
-category: strategy
+category: stories
 cover: assets/images/news/poker-vs-chess-which-is-more-complex/01.jpg
 excerpt: The heated debate on whether poker or chess is more complex has been talked about extensively over the past decade.
 read_time: 2

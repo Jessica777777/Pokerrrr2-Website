@@ -2,7 +2,7 @@
 title: When Should I Quit?
 date: 2020-04-10
 author: Pokerrrr
-category: strategy
+category: mindset
 cover: assets/images/news/when-should-i-quit/01.jpg
 excerpt: Knowing when to pick up your chips and leave the table is one fundamental poker skill that people often overlook. Whether you’re way ahead or far behind, there will always come a…
 read_time: 2

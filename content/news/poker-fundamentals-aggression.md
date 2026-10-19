@@ -2,7 +2,7 @@
 title: Poker Fundamentals: Aggression
 date: 2019-04-22
 author: Pokerrrr
-category: strategy
+category: guides
 cover: assets/images/news/poker-fundamentals-aggression/01.jpg
 excerpt: Welcome back to our series on poker fundamentals. There’s really nothing better that you can do to improve your win-rate than becoming rock-solid in the foundations of the game.…
 read_time: 2

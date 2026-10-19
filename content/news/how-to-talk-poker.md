@@ -2,7 +2,7 @@
 title: How to Talk Poker
 date: 2019-05-17
 author: Pokerrrr
-category: strategy
+category: guides
 cover: assets/images/news/how-to-talk-poker/01.jpg
 excerpt: Have you ever sat down at the poker table and felt like the people around you were speaking a foreign language? As with many other hobbies and activities, poker players have their…
 read_time: 2

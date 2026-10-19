@@ -2,7 +2,7 @@
 title: Hanlon’s Razor for Poker Players
 date: 2020-07-22
 author: Pokerrrr
-category: strategy
+category: mindset
 cover: assets/images/news/hanlon-s-razor-for-poker-players/01.jpg
 excerpt: Hanlon’s razor is an aphorism that states “do not attribute to malice that which is adequately explained by stupidity.” Poker players can apply this wisdom to improve their play…
 read_time: 2

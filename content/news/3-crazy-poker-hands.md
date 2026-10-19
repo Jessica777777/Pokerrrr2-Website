@@ -2,7 +2,7 @@
 title: 3 Crazy Poker Hands
 date: 2018-06-12
 author: Pokerrrr
-category: strategy
+category: stories
 cover: https://img.youtube.com/vi/eFV5kj4SmL0/hqdefault.jpg
 excerpt: After the hand, Ivey pokes some fun by saying “Kings Full” before laying down his bluff.
 read_time: 1

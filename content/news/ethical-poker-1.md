@@ -2,7 +2,7 @@
 title: Ethical Poker: How to Play with Integrity at the Poker Table
 date: 2020-01-30
 author: Pokerrrr
-category: strategy
+category: mindset
 cover: assets/images/news/ethical-poker-1/01.jpg
 excerpt: This week, we’re going to take a step back from poker strategy and go over another topic that touches our poker lives. Let’s talk about playing ethical poker.
 read_time: 2

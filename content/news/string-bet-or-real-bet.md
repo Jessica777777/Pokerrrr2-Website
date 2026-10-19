@@ -2,7 +2,7 @@
 title: String Bet Or Real Bet?
 date: 2018-06-23
 author: Pokerrrr
-category: strategy
+category: guides
 cover: https://img.youtube.com/vi/XX5sL70iJ34/hqdefault.jpg
 excerpt: Jungleman goes for a raise pre-flop. Patrick Antonius and Venessa Selbst are also in the hand at this point. The way Jungleman moves his chips forward into the pot in this hand…
 read_time: 1

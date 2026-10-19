@@ -2,7 +2,7 @@
 title: Investing vs Gambling: Key Differences Explained
 date: 2018-08-10
 author: Pokerrrr
-category: strategy
+category: stories
 cover: assets/images/news/investing-versus-casino-gambling/01.jpg
 excerpt: Casino Gambling: Putting money in a box. It either disappears or gives a payout. The odds are nearly always against you, unless you’re a winning poker player (which we’ll cover…
 read_time: 7

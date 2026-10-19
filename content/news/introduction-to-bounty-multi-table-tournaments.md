@@ -2,7 +2,7 @@
 title: Introduction to Bounty Multi-Table Tournaments
 date: 2020-09-02
 author: Pokerrrr
-category: strategy
+category: guides
 cover: assets/images/news/introduction-to-bounty-multi-table-tournaments/01.jpg
 excerpt: Pokerrrr2 is proud to announce that we’re beginning to offer bounty multi-table tournaments (MTTs), one of the most popular and fun ways to enjoy poker. In this variant on the…
 read_time: 2

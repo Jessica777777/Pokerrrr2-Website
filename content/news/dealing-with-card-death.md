@@ -2,7 +2,7 @@
 title: Dealing with Card Death
 date: 2020-02-27
 author: Pokerrrr
-category: strategy
+category: mindset
 cover: assets/images/news/dealing-with-card-death/01.jpg
 excerpt: Have you ever sat down to play poker and, though you’re doing your best to play a tighter range, you just can’t seem to ever get dealt a hand worth playing? So, you sit there…
 read_time: 2

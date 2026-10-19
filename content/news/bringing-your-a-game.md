@@ -2,7 +2,7 @@
 title: Bringing Your A Game
 date: 2019-06-04
 author: Pokerrrr
-category: strategy
+category: mindset
 cover: assets/images/news/bringing-your-a-game/01.jpg
 excerpt: Even if you’re a great poker player who knows the math, studies hard, and can pull off great plays, that doesn’t mean anything if you’re off your game. What we mean to say is that…
 read_time: 2

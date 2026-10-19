@@ -2,7 +2,7 @@
 title: Poker Fundamentals: Mental Game
 date: 2019-04-29
 author: Pokerrrr
-category: strategy
+category: mindset
 cover: assets/images/news/poker-fundamentals-mental-game/01.jpg
 excerpt: Poker strategy goes super deep, but, before we can tackle more advanced concepts, we need to make sure that we’ve nailed down all the fundamentals. Even if you’re a seasoned…
 read_time: 2

@@ -2,7 +2,7 @@
 title: Staying Focused in High Pressure Situations
 date: 2020-08-12
 author: Pokerrrr
-category: strategy
+category: mindset
 cover: assets/images/news/staying-focused-in-high-pressure-situations/01.jpg
 excerpt: There are times at the poker table when the pressure cranks up on us. This could be at the final table of a big poker tournament, it could be when we try to play a higher stakes…
 read_time: 2

@@ -2,7 +2,7 @@
 title: Sleep and Poker Performance
 date: 2018-05-02
 author: Pokerrrr
-category: strategy
+category: mindset
 cover: assets/images/news/sleep-and-poker-performance/01.jpg
 excerpt: People who sleep during the day get an average of less sleep and less time spent in REM sleep. This suggests that it is probably beneficial to go sleep at night time instead of in…
 read_time: 2

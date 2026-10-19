@@ -2,7 +2,7 @@
 title: Doug Polk Makes A Daniel Negreanu Rap
 date: 2018-07-13
 author: Pokerrrr
-category: strategy
+category: stories
 cover: https://img.youtube.com/vi/zSza3yfZrCc/hqdefault.jpg
 excerpt: Is Daniel Negreanu defending Poker Stars too much? If the rake is too high, is it ACTUALLY better?
 read_time: 1

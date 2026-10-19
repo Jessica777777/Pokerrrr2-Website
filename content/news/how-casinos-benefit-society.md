@@ -2,7 +2,7 @@
 title: How Casinos Benefit Society
 date: 2018-07-18
 author: Pokerrrr
-category: strategy
+category: stories
 cover: assets/images/news/how-casinos-benefit-society/01.jpg
 excerpt: During high school mathematics we are taught that casino games have a house edge that creates an unbeatable game and an expected monetary loss. This leads to the claim that…
 read_time: 6
