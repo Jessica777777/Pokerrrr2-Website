@@ -14,10 +14,16 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // Highlight the current page in the nav.
-  const current = window.location.pathname.split('/').pop() || 'index.html';
+  // Page URLs are extension-less (/about, /zh/), but keep accepting .html
+  // so local file previews still work. Home is '', 'index' or './'.
+  const pageName = (s) => {
+    const n = (s || '').split(/[?#]/)[0].split('/').pop().replace(/\.html$/, '');
+    return n === 'index' || n === '.' ? '' : n;
+  };
+  const current = pageName(window.location.pathname);
   document.querySelectorAll('.nav-links a').forEach((link) => {
     const href = link.getAttribute('href');
-    if (href === current || (current === '' && href === 'index.html')) {
+    if (pageName(href) === current) {
       link.classList.add('active');
     }
   });
@@ -448,4 +454,36 @@ document.addEventListener('DOMContentLoaded', () => {
   } else if (groups.length) {
     show(groups[0].dataset.cat);
   }
+})();
+
+// News list: category filter + "Load more" (all cards are in the HTML, so
+// without JS everything is simply shown).
+(function initNewsList() {
+  const grid = document.getElementById('news-grid');
+  if (!grid) return;
+  const cards = Array.from(grid.querySelectorAll('.news-card'));
+  const chips = Array.from(document.querySelectorAll('.news-chip'));
+  const moreWrap = document.querySelector('.news-more');
+  const moreBtn = document.getElementById('news-more');
+  const size = parseInt(grid.dataset.pageSize, 10) || 12;
+  let cat = 'all';
+  let shown = size;
+  function render() {
+    const match = cards.filter((c) => cat === 'all' || c.dataset.cat === cat);
+    cards.forEach((c) => { c.hidden = true; });
+    match.slice(0, shown).forEach((c) => { c.hidden = false; });
+    if (moreWrap) moreWrap.hidden = match.length <= shown;
+  }
+  chips.forEach((chip) => chip.addEventListener('click', () => {
+    cat = chip.dataset.cat;
+    shown = size;
+    chips.forEach((c) => {
+      const on = c === chip;
+      c.classList.toggle('is-active', on);
+      c.setAttribute('aria-pressed', on ? 'true' : 'false');
+    });
+    render();
+  }));
+  if (moreBtn) moreBtn.addEventListener('click', () => { shown += size; render(); });
+  render();
 })();

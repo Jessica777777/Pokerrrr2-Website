@@ -70,12 +70,15 @@ def t(d, lang, key):
     return val
 
 
+# Absolute URLs (canonical / hreflang / sitemap) are extension-less, see
+# tools/clean_urls.py. Relative links in the pages are cleaned afterwards by
+# clean_urls.clean_site(), so they can keep their .html file names here.
 def game_url(gid, lang, base_url):
-    return base_url + DIR[lang] + "game-rules/" + gid + ".html"
+    return base_url + DIR[lang] + "game-rules/" + gid
 
 
 def overview_url(lang, base_url):
-    return base_url + DIR[lang] + "game-rules.html"
+    return base_url + DIR[lang] + "game-rules"
 
 
 def hreflang_block(urls, current_lang):
@@ -257,6 +260,8 @@ def build_overview_pages(d, base_url):
             "HTML_LANG": HTML_LANG[lang],
             "STATIC_LANG": lang,
             "UP": up,
+            # overview pages sit next to index.html etc. in their language folder
+            "UP_PAGE": "",
             "TITLE": esc_text(t(d, lang, "gameRules.head.title")),
             "DESCRIPTION": esc_attr(t(d, lang, "gameRules.head.description")),
             "CANONICAL": esc_attr(urls[lang]),
