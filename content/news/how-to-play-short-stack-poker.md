@@ -39,4 +39,4 @@ old_url: https://www.pokerrrrapp.com/single-post/how-to-play-short-stack-poker
 
 <p>Sometimes it gets dicey. You need to get comfortable with these tight situations. If you only ever go all-in or fold as a <a href="news/short-stack-strategy.html">short stack</a> then you might as well light your chips on fire.</p>
 
-<p>👉 <strong>Download the Pokerrrr2 app and start hosting private poker games with your friends anytime, anywhere.</strong></p>
+<p>👉 <strong>Download the Pokerrrr 2 app and start hosting private poker games with your friends anytime, anywhere.</strong></p>

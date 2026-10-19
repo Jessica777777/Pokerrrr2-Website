@@ -49,4 +49,4 @@ Another major factor on the river is how much to value bet when you’re ahead. 
 
 <p>Basically, bet somewhere between 10% and 50% of the pot when you’re betting with thin value, and bet between 67% and 500% of the pot when you’re holding the nuts. This will let you get the most <a href="news/the-real-currency-of-poker.html">EV</a> out of your value bets.
 
-<a href="https://go.onelink.me/KHrZ/24e1ab7c" target="_blank" rel="noopener"><strong>Try it Now!  POKERRRR2 with your Buddies!</strong></a></p>
+<a href="https://go.onelink.me/KHrZ/24e1ab7c" target="_blank" rel="noopener"><strong>Try it Now!  POKERRRR 2 with your Buddies!</strong></a></p>

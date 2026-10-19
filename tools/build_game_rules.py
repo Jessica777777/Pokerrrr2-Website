@@ -160,6 +160,7 @@ def fill(template, values):
 def common_values(lang, up_asset, d):
     return {
         "BRAND_NAME": esc_text(t(d, lang, "common.nav.brandName")),
+        "BRAND_SHORT": esc_text(t(d, lang, "common.nav.brandShort")),
         "BRAND_ALT": esc_attr(t(d, lang, "common.nav.brandAlt")),
         "NAV_HOME": esc_text(t(d, lang, "common.nav.home")),
         "NAV_HOWTOPLAY": esc_text(t(d, lang, "common.nav.howToPlay")),

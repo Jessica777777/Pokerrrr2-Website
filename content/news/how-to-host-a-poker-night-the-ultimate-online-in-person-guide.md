@@ -46,7 +46,7 @@ This guide covers everything—from choosing the right game to setting the blind
 <figure><img src="assets/images/news/how-to-host-a-poker-night-the-ultimate-online-in-person-guide/02.jpg" alt="" width="1400" height="781" loading="lazy"></figure>
 
 <p>The right chips, the right cards, the right table presence. Everything you need to run a poker night that feels like a real table — built for agents who take the mission seriously.
-<a href="https://shop.pokerrrrapp.com/" target="_blank" rel="noopener">ENTER THE POKERRRR2 SHOP →</a></p>
+<a href="https://shop.pokerrrrapp.com/" target="_blank" rel="noopener">ENTER THE POKERRRR 2 SHOP →</a></p>
 
 <h3>Choosing Your Game</h3>
 
@@ -66,9 +66,9 @@ This guide covers everything—from choosing the right game to setting the blind
 
 <h2>How Do You Host a Virtual Poker Night Online?</h2>
 
-<p>To host a virtual poker night online, download Pokerrrr2, create a private club, invite your friends via a share link, choose your game type and stakes, and launch the table. The entire setup takes under two minutes—no accounts, no complicated lobby navigation.</p>
+<p>To host a virtual poker night online, download Pokerrrr 2, create a private club, invite your friends via a share link, choose your game type and stakes, and launch the table. The entire setup takes under two minutes—no accounts, no complicated lobby navigation.</p>
 
-<p>Virtual poker nights have gone from a pandemic workaround to a permanent fixture. The convenience is unbeatable—no travel, no chip counting, no arguing over side pots. And with Pokerrrr2, you get features that most home games can't match:</p>
+<p>Virtual poker nights have gone from a pandemic workaround to a permanent fixture. The convenience is unbeatable—no travel, no chip counting, no arguing over side pots. And with Pokerrrr 2, you get features that most home games can't match:</p>
 
 <p>• Private clubs with invite-only access
 • Multiple game types: Hold'em, Omaha, Short Deck, OFC, and more
@@ -79,7 +79,7 @@ This guide covers everything—from choosing the right game to setting the blind
 <p>Step-by-step to <a href="news/how-to-play-poker-with-friends-online-the-easiest-private-game-setup.html">set up a private game</a></p>
 
 <ol>
-<li>Download Pokerrrr2 (iOS or Android)</li>
+<li>Download Pokerrrr 2 (iOS or Android)</li>
 <li>Tap 'Friendly &amp; Club' and tap 'host'</li>
 <li>Choose your game format, stakes, and player count</li>
 <li>Share the game code or invite link with your crew</li>
@@ -89,9 +89,9 @@ This guide covers everything—from choosing the right game to setting the blind
 
 <h3>Making Your Virtual Poker Night Feel Real</h3>
 
-<p>The gap between virtual and in-person poker nights is smaller than you think. Jump on a video call while playing on Pokerrrr2—the table talk, the reactions, the trash talk—it all translates. Some groups keep a Discord or Zoom running alongside the game for the social element.</p>
+<p>The gap between virtual and in-person poker nights is smaller than you think. Jump on a video call while playing on Pokerrrr 2—the table talk, the reactions, the trash talk—it all translates. Some groups keep a Discord or Zoom running alongside the game for the social element.</p>
 
-<p>For recurring groups, set up a standing club on Pokerrrr2. Your club saves member lists, game history, and leaderboards. Over time, you build a genuine poker community with rivalries, running jokes, and season-long standings.</p>
+<p>For recurring groups, set up a standing club on Pokerrrr 2. Your club saves member lists, game history, and leaderboards. Over time, you build a genuine poker community with rivalries, running jokes, and season-long standings.</p>
 
 <p>Pro tip: Run a weekly virtual poker night as a Sit &amp; Go  tournament. It gives the night a natural endpoint, creates a clear winner, and the escalating blind structure keeps the energy building toward a climax.</p>
 
@@ -129,12 +129,12 @@ This guide covers everything—from choosing the right game to setting the blind
 
 <p>One of the most awkward parts of any home poker night is settling up at the end. Cash games require tracking everyone's buy-ins, rebuys, and final chip counts. If you're using physical chips, someone needs to do math at 1 AM—and that's when mistakes happen.</p>
 
-<p>Solutions: Use a poker bankroll tracking app, designate one person as the banker before the game starts, or simply play on Pokerrrr2 where chip tracking is automatic. For home games, take a photo of everyone's chip stack at the end as a record.</p>
+<p>Solutions: Use a poker bankroll tracking app, designate one person as the banker before the game starts, or simply play on Pokerrrr 2 where chip tracking is automatic. For home games, take a photo of everyone's chip stack at the end as a record.</p>
 
 <h2>FAQ</h2>
 
 <p><strong>Q1: How many players do you need for a poker night?</strong>
-A: A poker night works best with 6–9 players for a full table experience. You can run a solid game with as few as 4 players, and Pokerrrr2 supports tables from 2 to 9 players. For larger groups, set up two tables or run a tournament format.</p>
+A: A poker night works best with 6–9 players for a full table experience. You can run a solid game with as few as 4 players, and Pokerrrr 2 supports tables from 2 to 9 players. For larger groups, set up two tables or run a tournament format.</p>
 
 <p><strong>Q2: What's the best poker game for beginners at a poker night?</strong>
 A: Texas Hold'em is the best choice for beginners because the rules are straightforward and most people have at least seen it played.</p>
@@ -143,12 +143,12 @@ A: Texas Hold'em is the best choice for beginners because the rules are straight
 A: A typical poker night runs 3–4 hours. Cash games can go as long as players want, while a Sit &amp; Go tournament with 6–9 players usually wraps up in 2–3 hours depending on the blind structure.</p>
 
 <p><strong>Q4: Can you host a poker night online for free?</strong>
-A: Yes. Pokerrrr2 lets you create a private club and host games with friends for free. No real money is required—you can play with in-app chips and simply track results for bragging rights.</p>
+A: Yes. Pokerrrr 2 lets you create a private club and host games with friends for free. No real money is required—you can play with in-app chips and simply track results for bragging rights.</p>
 
 <p><strong>Q5: What do you need to set up a poker night at home?</strong>
-A: At minimum: a flat table, one deck of cards, and something to use as chips. For a proper setup: a quality chip set with 3–4 denominations, two decks of cards, a dealer button, blind timers, and comfortable seating. For zero-setup hassle, host your poker night on Pokerrrr2.</p>
+A: At minimum: a flat table, one deck of cards, and something to use as chips. For a proper setup: a quality chip set with 3–4 denominations, two decks of cards, a dealer button, blind timers, and comfortable seating. For zero-setup hassle, host your poker night on Pokerrrr 2.</p>
 
-<p>Ready to host your next poker night? Download Pokerrrr2 and set up a private table in under 2 minutes. No chips to count, no arguments over side pots—just pure poker with your crew.</p>
+<p>Ready to host your next poker night? Download Pokerrrr 2 and set up a private table in under 2 minutes. No chips to count, no arguments over side pots—just pure poker with your crew.</p>
 
 <figure><img src="assets/images/news/how-to-host-a-poker-night-the-ultimate-online-in-person-guide/03.png" alt="" width="127" height="127" loading="lazy"></figure>
 
@@ -158,4 +158,4 @@ A: At minimum: a flat table, one deck of cards, and something to use as chips. F
 
 <figure><img src="assets/images/news/how-to-host-a-poker-night-the-ultimate-online-in-person-guide/06.jpg" alt="" width="1126" height="1126" loading="lazy"></figure>
 
-<p>About Pokerrrr2: Pokerrrr2 is a mobile poker app available on iOS and Android that lets you host private poker games with friends or join public tables with players worldwide. Supported formats include Texas Hold'em, Omaha (PLO), Short Deck, Sit &amp; Go, Double Board Hold'em, and Open Face Chinese (OFC). Games are play-money only and no real-money gambling is supported within the app.</p>
+<p>About Pokerrrr 2: Pokerrrr 2 is a mobile poker app available on iOS and Android that lets you host private poker games with friends or join public tables with players worldwide. Supported formats include Texas Hold'em, Omaha (PLO), Short Deck, Sit &amp; Go, Double Board Hold'em, and Open Face Chinese (OFC). Games are play-money only and no real-money gambling is supported within the app.</p>

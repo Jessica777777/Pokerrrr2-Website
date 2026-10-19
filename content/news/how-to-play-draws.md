@@ -42,4 +42,4 @@ These hands are more likely to want to bet outright or check-call than polarized
 
 Again, semi-bluffing here can be a good option, especially if you’re playing against a <a href="news/playing-against-nits.html">nitty</a> opponent who will probably fold. Even if they do call, you’ve got outs to the best hands.
 
-<a href="https://go.onelink.me/KHrZ/24e1ab7c" target="_blank" rel="noopener"><strong><em>Try it Now!  POKERRRR2 with your </em></strong></a><strong><em>Buddies</em></strong><a href="https://go.onelink.me/KHrZ/24e1ab7c" target="_blank" rel="noopener"><strong><em>!</em></strong></a></p>
+<a href="https://go.onelink.me/KHrZ/24e1ab7c" target="_blank" rel="noopener"><strong><em>Try it Now!  POKERRRR 2 with your </em></strong></a><strong><em>Buddies</em></strong><a href="https://go.onelink.me/KHrZ/24e1ab7c" target="_blank" rel="noopener"><strong><em>!</em></strong></a></p>

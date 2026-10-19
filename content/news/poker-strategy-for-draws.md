@@ -39,4 +39,4 @@ old_url: https://www.pokerrrrapp.com/single-post/poker-strategy-for-draws
 
 🎯 Ready to practice your draw strategy?</p>
 
-<p>👉 Download <a href="https://apps.apple.com/us/app/pokerrrr-2-texas-holdem-poker/id592081067" target="_blank" rel="noopener"><strong>Pokerrrr2</strong></a> — the most immersive online poker app where you can test your draw skills against real players anytime. Build your private poker club, play cash games or tournaments, and level up your game today!</p>
+<p>👉 Download <a href="https://apps.apple.com/us/app/pokerrrr-2-texas-holdem-poker/id592081067" target="_blank" rel="noopener"><strong>Pokerrrr 2</strong></a> — the most immersive online poker app where you can test your draw skills against real players anytime. Build your private poker club, play cash games or tournaments, and level up your game today!</p>

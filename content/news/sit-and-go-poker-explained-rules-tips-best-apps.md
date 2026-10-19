@@ -87,7 +87,7 @@ old_url: https://www.pokerrrrapp.com/single-post/sit-and-go-poker-explained-rule
 <li><strong>The feel:</strong> Does it feel like a poker table, or a spreadsheet?</li>
 </ul>
 
-<p><strong>Pokerrrr2</strong> runs Sit &amp; Go in two modes:</p>
+<p><strong>Pokerrrr 2</strong> runs Sit &amp; Go in two modes:</p>
 
 <ul>
 <li><strong>Public games</strong> — open tables that fill fast, matching you with players worldwide. No waiting around.</li>
@@ -156,9 +156,9 @@ old_url: https://www.pokerrrrapp.com/single-post/sit-and-go-poker-explained-rule
 
 <p>survival over chip accumulation.</p>
 
-<h2>About Pokerrrr2</h2>
+<h2>About Pokerrrr 2</h2>
 
-<p>Pokerrrr2 is a mobile poker app available on iOS and Android that supports two ways to play: host private poker games with friends, or join public tables with players from around the world. Supported formats include Texas Hold'em, Omaha (PLO), Short Deck, Sit &amp; Go, Double Board Hold'em, and Open Face Chinese (OFC). Games are play-money only and no real-money gambling is supported within the app.</p>
+<p>Pokerrrr 2 is a mobile poker app available on iOS and Android that supports two ways to play: host private poker games with friends, or join public tables with players from around the world. Supported formats include Texas Hold'em, Omaha (PLO), Short Deck, Sit &amp; Go, Double Board Hold'em, and Open Face Chinese (OFC). Games are play-money only and no real-money gambling is supported within the app.</p>
 
 <h2>Start Playing</h2>
 
@@ -166,4 +166,4 @@ old_url: https://www.pokerrrrapp.com/single-post/sit-and-go-poker-explained-rule
 
 <p>If that sounds like your game — grab a seat.</p>
 
-<p>👉 <strong>Download the Pokerrrr2 app and start hosting private poker games with your friends anytime, anywhere.</strong></p>
+<p>👉 <strong>Download the Pokerrrr 2 app and start hosting private poker games with your friends anytime, anywhere.</strong></p>

@@ -21,7 +21,7 @@ old_url: https://www.pokerrrrapp.com/single-post/playing-against-tight-players-i
 
 <p>A tight player — or nit — plays a narrow range of starting hands, rarely bluffs, and almost never puts chips in the pot without a strong holding. When they do bet big, they almost always have it.</p>
 
-<p>In public poker rooms, nits are common but anonymous. <a href="news/how-to-play-poker-with-friends-online-the-easiest-private-game-setup.html">In a private game with friends</a> on Pokerrrr2, they're even easier to identify — because you play with the same people repeatedly, and patterns emerge fast.</p>
+<p>In public poker rooms, nits are common but anonymous. <a href="news/how-to-play-poker-with-friends-online-the-easiest-private-game-setup.html">In a private game with friends</a> on Pokerrrr 2, they're even easier to identify — because you play with the same people repeatedly, and patterns emerge fast.</p>
 
 <p>Private games actually give you a major edge over public tables: information. You've seen how this person plays for months. You know they only open UTG with premium hands. You know that when they check-raise, it's never a bluff. That read is worth more than any poker book.</p>
 
@@ -95,15 +95,15 @@ old_url: https://www.pokerrrrapp.com/single-post/playing-against-tight-players-i
 
 <p><strong>Don't assume they're slow-playing just because they're quiet.</strong> Nits play quietly when they have nothing too. Silence alone isn't a tell. It's the combination of silence, followed by a large bet, that signals strength.</p>
 
-<h2>How Pokerrrr2 Helps You Study Your Adjustments</h2>
+<h2>How Pokerrrr 2 Helps You Study Your Adjustments</h2>
 
-<p>The advantage of playing your private game on Pokerrrr2 is that every hand is stored in Game Record — so adjusting to tight players isn't just about instinct. It's something you can review.</p>
+<p>The advantage of playing your private game on Pokerrrr 2 is that every hand is stored in Game Record — so adjusting to tight players isn't just about instinct. It's something you can review.</p>
 
 <p>After a session, pull up<a href="news/ai-hand-review-on-pokerrrr2-get-objective-feedback-on-every-decision.html"> AI Hand Review</a> and filter for the hands where you faced a large bet from a specific opponent. Look at how you responded. Were you paying off bets you should have folded? Were you missing steal opportunities when a tight player was in the blinds?</p>
 
 <p>The AI analysis labels playing styles — Tight-aggressive, Loose-passive, and others — so over time you build a clearer picture of who you're up against before you even sit down.</p>
 
-<p>Private games on Pokerrrr2 compound your edge: you play the same people, you accumulate the same reads, and you have the tools to turn those reads into concrete adjustments.</p>
+<p>Private games on Pokerrrr 2 compound your edge: you play the same people, you accumulate the same reads, and you have the tools to turn those reads into concrete adjustments.</p>
 
 <figure><img src="assets/images/news/playing-against-tight-players-in-your-private-poker-game/02.jpg" alt="" width="1043" height="1508" loading="lazy"></figure>
 
@@ -113,7 +113,7 @@ old_url: https://www.pokerrrrapp.com/single-post/playing-against-tight-players-i
 
 <p>They're predictable. They're beatable with adjustments that aren't complicated. And once your group realizes who's playing tight, the whole dynamic of the private game shifts — because now there's an extra pot being passed around at the table, and it belongs to whoever is paying attention.</p>
 
-<p>Set up your private game on Pokerrrr2, play a few sessions with this framework in mind, and use AI Hand Review afterward to check whether your adjustments are actually working.</p>
+<p>Set up your private game on Pokerrrr 2, play a few sessions with this framework in mind, and use AI Hand Review afterward to check whether your adjustments are actually working.</p>
 
 <p>The nit at your table is counting on you to keep paying them off. Stop.</p>
 
@@ -132,9 +132,9 @@ Yes — but selectively. Tight players fold too much on boards that don't connec
 Hands that play well in position and can make strong holdings — pairs, suited connectors with implied odds, and strong broadway hands. Avoid calling out of position with speculative hands, as nits play predictably postflop and won't give you the action you need.</p>
 
 <p><strong>How do I know if someone is playing too tight?</strong> 
-Track how often they enter pots, how often they fold to 3-bets, and how strong their hands are at showdown. If they're consistently showing top-pair or better, they're playing tight. Over multiple sessions on Pokerrrr2, the pattern becomes obvious.</p>
+Track how often they enter pots, how often they fold to 3-bets, and how strong their hands are at showdown. If they're consistently showing top-pair or better, they're playing tight. Over multiple sessions on Pokerrrr 2, the pattern becomes obvious.</p>
 
 <p><strong>Does playing style matter in private games?</strong> 
 More than in public games. Private games involve the same players repeatedly, which means reads compound over time. A tight player at a public table is a one-session adjustment. A tight player in your weekly home game is an ongoing edge waiting to be exploited.</p>
 
-<p><em>Play smarter in your next private game — [</em><a href="news/how-to-play-poker-with-friends-online-the-easiest-private-game-setup.html"><em>set up a table on Pokerrrr2</em></a><em>] and use AI Hand Review after each session to sharpen your reads.</em></p>
+<p><em>Play smarter in your next private game — [</em><a href="news/how-to-play-poker-with-friends-online-the-easiest-private-game-setup.html"><em>set up a table on Pokerrrr 2</em></a><em>] and use AI Hand Review after each session to sharpen your reads.</em></p>

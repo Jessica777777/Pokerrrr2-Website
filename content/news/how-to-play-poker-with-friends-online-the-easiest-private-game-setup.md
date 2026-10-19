@@ -1,5 +1,5 @@
 ---
-title: How to Host Poker Online with Friends | Easy Private Games – Pokerrrr2
+title: How to Host Poker Online with Friends | Easy Private Games – Pokerrrr 2
 date: 2026-02-24
 author: Pokerrrr
 category: pokerrrr2
@@ -100,7 +100,7 @@ Here's a full list of <a href="news/easy-poker-games.html">poker games to play w
 
 <h2>Ready to Host Poker Online with Friends Today?</h2>
 
-<p>If you want a fast, private, and social way to play, hosting poker online with the <strong>Pokerrrr2 poker app</strong> is one of the easiest ways to play with friends. With simple setup and invite-only tables, you can enjoy poker games with friends without the stress of traditional platforms.</p>
+<p>If you want a fast, private, and social way to play, hosting poker online with the <strong>Pokerrrr 2 poker app</strong> is one of the easiest ways to play with friends. With simple setup and invite-only tables, you can enjoy poker games with friends without the stress of traditional platforms.</p>
 
 <p>Create a private table, share the link, and start playing together—no matter where your friends are.</p>
 
@@ -113,8 +113,8 @@ Yes. Private poker tables are designed specifically for friend groups and invite
 Texas Hold’em is the most popular and beginner-friendly option for online poker with friends.
 <strong>Q3: How many players can join a private poker game?</strong></p>
 
-<p>Most private poker apps support 2 to 9 players per table. Pokerrrr2 lets you run games from heads-up to full ring, with flexible blind structures for any group size.
+<p>Most private poker apps support 2 to 9 players per table. Pokerrrr 2 lets you run games from heads-up to full ring, with flexible blind structures for any group size.
 
-<strong>Why Pokerrrr2?</strong> Beyond simple setup, Pokerrrr2 offers something most apps don't — a peek-card feature that lets you drag your hole cards from the bottom up, just like at a real table. It also supports 10+ game types including Texas Hold'em, PLO, Short Deck, and Sit &amp; Go, with both public and private tables.</p>
+<strong>Why Pokerrrr 2?</strong> Beyond simple setup, Pokerrrr 2 offers something most apps don't — a peek-card feature that lets you drag your hole cards from the bottom up, just like at a real table. It also supports 10+ game types including Texas Hold'em, PLO, Short Deck, and Sit &amp; Go, with both public and private tables.</p>
 
-<p>👉 <strong>Download the Pokerrrr2 app and start hosting private poker games with your friends anytime, anywhere.</strong></p>
+<p>👉 <strong>Download the Pokerrrr 2 app and start hosting private poker games with your friends anytime, anywhere.</strong></p>

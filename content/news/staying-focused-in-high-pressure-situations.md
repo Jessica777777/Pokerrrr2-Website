@@ -37,4 +37,4 @@ old_url: https://www.pokerrrrapp.com/single-post/2020/08/12/staying-focused-in-h
 
 <p>Focus on the game, and remind yourself that you’re going to review the game once it’s over. This keeps you in that <a href="news/setting-poker-goals.html">growth mindset</a> and enables you to do what you need to do.</p>
 
-<p>Try it Now!  POKERRRR2 with your friends!</p>
+<p>Try it Now!  POKERRRR 2 with your friends!</p>

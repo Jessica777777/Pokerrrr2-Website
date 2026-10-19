@@ -43,4 +43,4 @@ old_url: https://www.pokerrrrapp.com/single-post/2020/10/11/short-stack-strategy
 
 <p>If we’re against the button, on the other hand, we almost never want to call because their range is so much weaker, giving us more <a href="news/poker-fundamentals-aggression.html">fold equity</a>. Instead, we’ll jam all our aces, all pairs, all broadways, and some big suited connectors.</p>
 
-<p>👉 <strong>Download the Pokerrrr2 app and start hosting private poker games with your friends anytime, anywhere.</strong></p>
+<p>👉 <strong>Download the Pokerrrr 2 app and start hosting private poker games with your friends anytime, anywhere.</strong></p>

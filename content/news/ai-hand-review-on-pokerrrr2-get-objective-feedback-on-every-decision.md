@@ -1,5 +1,5 @@
 ---
-title: AI Hand Review on Pokerrrr2: Get Objective Feedback on Every Decision
+title: AI Hand Review on Pokerrrr 2: Get Objective Feedback on Every Decision
 date: 2026-07-08
 author: Pokerrrr
 category: pokerrrr2
@@ -15,7 +15,7 @@ old_url: https://www.pokerrrrapp.com/single-post/ai-hand-review-on-pokerrrr2-get
 
 <p>Most poker players replay losing hands in their head after a session and come to the wrong conclusion. They blame the cards, the timing, or the opponent — when the real issue was a decision made three streets earlier that they'll never review.</p>
 
-<p>Pokerrrr2's <strong>AI Hand Review</strong> changes that. After your private Holdem or PLO session, every hand you played is logged in your Game Record. Pull up any hand and the AI breaks down each action — what you did, what the EV-maximizing line was, and what the gap between the two cost you.</p>
+<p>Pokerrrr 2's <strong>AI Hand Review</strong> changes that. After your private Holdem or PLO session, every hand you played is logged in your Game Record. Pull up any hand and the AI breaks down each action — what you did, what the EV-maximizing line was, and what the gap between the two cost you.</p>
 
 <p>No guessing. No selective memory. Objective feedback on every decision you made.</p>
 
@@ -66,7 +66,7 @@ old_url: https://www.pokerrrrapp.com/single-post/ai-hand-review-on-pokerrrr2-get
 
 <p><strong>Recreational players who play regularly</strong> — You don't need to study GTO charts to benefit from AI Hand Review. If you play once or twice a week with your regular group, reviewing 3–5 hands after each session will show you patterns in your game within a month.</p>
 
-<p><strong>Players moving up in stakes</strong> — If you're playing at higher Theme Levels in Pokerrrr2's public tables and finding the games tougher, AI Hand Review on your private sessions is where you close the technical gap without the pressure of a live table.</p>
+<p><strong>Players moving up in stakes</strong> — If you're playing at higher Theme Levels in Pokerrrr 2's public tables and finding the games tougher, AI Hand Review on your private sessions is where you close the technical gap without the pressure of a live table.</p>
 
 <p><strong>Home game hosts who want to improve the group's skill level</strong> — Share interesting hands with your Club members after a session. AI Hand Review makes post-game discussion concrete instead of anecdotal — "the AI said this call was -0.3 EV because of the pot odds" is a more useful conversation than "I think you called too much."</p>
 

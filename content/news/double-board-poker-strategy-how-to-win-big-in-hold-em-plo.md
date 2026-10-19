@@ -24,7 +24,7 @@ old_url: https://www.pokerrrrapp.com/single-post/double-board-poker-strategy-how
 <p>- Ideal for friendly, casual games where everyone stays involved  
 
 Ready to try it with your group? 
-<a href="news/how-to-play-poker-with-friends-online-the-easiest-private-game-setup.html">Learn how to set up a private table in minutes on Pokerrrr2 </a></p>
+<a href="news/how-to-play-poker-with-friends-online-the-easiest-private-game-setup.html">Learn how to set up a private table in minutes on Pokerrrr 2 </a></p>
 
 <figure><img src="assets/images/news/double-board-poker-strategy-how-to-win-big-in-hold-em-plo/01.png" alt="" width="1080" height="890" loading="lazy"></figure>
 
@@ -65,7 +65,7 @@ Ready to try it with your group?
 <tr><td>Pot Distribution</td><td>Winner takes all</td><td>Pot split 50/50 between board winners</td></tr>
 <tr><td>Hand Rankings</td><td>Standard</td><td>Standard (per board)</td></tr>
 <tr><td>Best For</td><td>Standard play</td><td>Action junkies, home games, variance lovers</td></tr>
-<tr><td>Available On</td><td>All poker platforms</td><td>Limited (Pokerrrr2 is one of few)</td></tr>
+<tr><td>Available On</td><td>All poker platforms</td><td>Limited (Pokerrrr 2 is one of few)</td></tr>
 <tr><td>Average Pot Size</td><td>Standard</td><td>Larger (more all-in scenarios)</td></tr>
 <tr><td>Strategic Complexity</td><td>Moderate</td><td>High (must evaluate two boards)</td></tr>
 </table></div>
@@ -158,20 +158,20 @@ Ready to try it with your group?
 
 <p>Q3: Is double board poker good for home games?</p>
 
-<p>A: Absolutely. Double board is one of the most popular private game formats — it doubles the excitement without adding complexity. You can set up a double board game instantly on Pokerrrr2.</p>
+<p>A: Absolutely. Double board is one of the most popular private game formats — it doubles the excitement without adding complexity. You can set up a double board game instantly on Pokerrrr 2.</p>
 
 <p>Q4: Does double board poker change hand rankings?</p>
 
 <p>A: No. Standard poker hand rankings apply to each board separately. You can win one board, both boards, or none.</p>
 
-<h2>About Pokerrrr2</h2>
+<h2>About Pokerrrr 2</h2>
 
-<p>Pokerrrr2 is a mobile poker app available on iOS and Android that lets you host private poker games with friends or join public tables with players worldwide. Supported formats include Texas Hold'em, Omaha (PLO), Short Deck, Sit &amp; Go, Double Board Hold'em, and <a href="game-rules.html">Open Face Chinese (OFC)</a>. Games are play-money only and no real-money gambling is supported within the app.</p>
+<p>Pokerrrr 2 is a mobile poker app available on iOS and Android that lets you host private poker games with friends or join public tables with players worldwide. Supported formats include Texas Hold'em, Omaha (PLO), Short Deck, Sit &amp; Go, Double Board Hold'em, and <a href="game-rules.html">Open Face Chinese (OFC)</a>. Games are play-money only and no real-money gambling is supported within the app.</p>
 
-<p><strong>Play Double Board Poker on Pokerrrr2</strong></p>
+<p><strong>Play Double Board Poker on Pokerrrr 2</strong></p>
 
-<p>If you’re excited to try double board poker in a real game, <strong>Pokerrrr2</strong> makes it easy to set up and play with friends.</p>
+<p>If you’re excited to try double board poker in a real game, <strong>Pokerrrr 2</strong> makes it easy to set up and play with friends.</p>
 
-<p>Pokerrrr2 lets you host <strong>private poker tables</strong>, invite friends and enjoy fun formats like Double Board Poker in a relaxed, casual environment. Whether you prefer Hold’em or PLO, you can explore different game styles without pressure—just great cards, good company, and more action on every hand.</p>
+<p>Pokerrrr 2 lets you host <strong>private poker tables</strong>, invite friends and enjoy fun formats like Double Board Poker in a relaxed, casual environment. Whether you prefer Hold’em or PLO, you can explore different game styles without pressure—just great cards, good company, and more action on every hand.</p>
 
-<p>👉 Download the Pokerrrr2 app and start a Double Board game with your friends anytime, anywhere.</p>
+<p>👉 Download the Pokerrrr 2 app and start a Double Board game with your friends anytime, anywhere.</p>
