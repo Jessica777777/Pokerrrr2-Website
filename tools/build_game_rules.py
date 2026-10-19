@@ -257,6 +257,8 @@ def build_overview_pages(d, base_url):
             "HTML_LANG": HTML_LANG[lang],
             "STATIC_LANG": lang,
             "UP": up,
+            # overview pages sit next to index.html etc. in their language folder
+            "UP_PAGE": "",
             "TITLE": esc_text(t(d, lang, "gameRules.head.title")),
             "DESCRIPTION": esc_attr(t(d, lang, "gameRules.head.description")),
             "CANONICAL": esc_attr(urls[lang]),
