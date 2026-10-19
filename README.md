@@ -8,7 +8,7 @@
 
 ```bash
 python3 tools/build_i18n.py               # 改完文案或頁面結構後執行，產生 zh/、ja/、game-rules/、sitemap
-cd public && python3 -m http.server 8000  # 本機預覽 http://localhost:8000
+python3 tools/preview_server.py          # 本機預覽 http://localhost:8000（支援無 .html 網址）
 ```
 
 ## 改哪裡
@@ -31,3 +31,12 @@ cd public && python3 -m http.server 8000  # 本機預覽 http://localhost:8000
 - 圖片放 `public/assets/images/news/<slug>/`，在檔案中寫成 `assets/images/news/<slug>/01.jpg`。
 - 文章內文只有英文；中日文的列表頁會列出同樣的英文文章。
 - 舊站搬家：`python3 tools/fetch_wix_news.py --all`（需要網路，請在 Mac 終端機執行）→ `python3 tools/import_wix_news.py` → build。
+
+## 網址一律不帶 .html
+
+正式站（Cloudflare）會把 `/xxx.html` 301 到 `/xxx`、`/index.html` 到 `/`，Google 只收錄最後停留的網址，所以 canonical、hreflang、sitemap、`_redirects` 目標和所有站內連結都要用無 .html 的網址。
+
+- `build_i18n.py` 最後一步會跑 `tools/clean_urls.py`，自動把產出頁面裡的 `.html` 連結改成無 .html（`about.html` → `about`、`index.html` → `./`），寫頁面或文章時照常寫 `.html` 檔名即可。
+- 圖片、CSS、JS 等資源路徑不受影響。
+- 本機預覽請用 `tools/preview_server.py`；`python3 -m http.server` 打不開無 .html 的網址。
+

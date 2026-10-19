@@ -200,7 +200,7 @@ def write_articles(posts, d_en, translate, base_url):
     os.makedirs(os.path.join(SITE, "news"), exist_ok=True)
     keep = set()
     for p in posts:
-        url = "%snews/%s.html" % (base_url, p["slug"])
+        url = "%snews/%s" % (base_url, p["slug"])  # extension-less, see tools/clean_urls.py
         og = asset(p["cover"], base_url) if p.get("cover") else base_url + "assets/images/p2-app-icon-512.png"
         ld = {"@context": "https://schema.org", "@type": "BlogPosting", "headline": p["title"],
               "datePublished": p["date"], "author": {"@type": "Organization", "name": p.get("author") or "Pokerrrr"},
@@ -233,13 +233,14 @@ def write_redirects(posts):
     for p in posts:
         m = re.match(r"https?://[^/]+(/single-post/.+)", p.get("old_url", ""))
         if m:
-            lines.append("%s /news/%s.html 301" % (m.group(1), p["slug"]))
-    lines.append("/news/page/* /news.html 301")
+            lines.append("%s /news/%s 301" % (m.group(1), p["slug"]))
+    # targets are the final extension-less URLs, so there is no second hop
+    lines.append("/news/page/* /news 301")
     open(os.path.join(SITE, "_redirects"), "w", encoding="utf-8", newline="\n").write("\n".join(lines) + "\n")
 
 
 def sitemap_entries(posts, base_url):
-    return [("%snews/%s.html" % (base_url, p["slug"]), p["date"]) for p in posts]
+    return [("%snews/%s" % (base_url, p["slug"]), p["date"]) for p in posts]
 
 
 def build(d_en, translate, base_url):

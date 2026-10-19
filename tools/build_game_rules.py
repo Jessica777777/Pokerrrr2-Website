@@ -70,12 +70,15 @@ def t(d, lang, key):
     return val
 
 
+# Absolute URLs (canonical / hreflang / sitemap) are extension-less, see
+# tools/clean_urls.py. Relative links in the pages are cleaned afterwards by
+# clean_urls.clean_site(), so they can keep their .html file names here.
 def game_url(gid, lang, base_url):
-    return base_url + DIR[lang] + "game-rules/" + gid + ".html"
+    return base_url + DIR[lang] + "game-rules/" + gid
 
 
 def overview_url(lang, base_url):
-    return base_url + DIR[lang] + "game-rules.html"
+    return base_url + DIR[lang] + "game-rules"
 
 
 def hreflang_block(urls, current_lang):

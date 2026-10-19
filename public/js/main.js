@@ -14,10 +14,16 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // Highlight the current page in the nav.
-  const current = window.location.pathname.split('/').pop() || 'index.html';
+  // Page URLs are extension-less (/about, /zh/), but keep accepting .html
+  // so local file previews still work. Home is '', 'index' or './'.
+  const pageName = (s) => {
+    const n = (s || '').split(/[?#]/)[0].split('/').pop().replace(/\.html$/, '');
+    return n === 'index' || n === '.' ? '' : n;
+  };
+  const current = pageName(window.location.pathname);
   document.querySelectorAll('.nav-links a').forEach((link) => {
     const href = link.getAttribute('href');
-    if (href === current || (current === '' && href === 'index.html')) {
+    if (pageName(href) === current) {
       link.classList.add('active');
     }
   });

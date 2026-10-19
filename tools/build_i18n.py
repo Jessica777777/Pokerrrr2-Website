@@ -21,6 +21,10 @@ What it does (safe to run any number of times):
       via tools/build_news.py (articles are English only).
   4. Writes sitemap.xml (every page above, in all 3 languages, with hreflang
      alternates) and robots.txt pointing at it.
+  5. Rewrites every internal page link to its extension-less URL
+     (about.html -> about, index.html -> ./) via tools/clean_urls.py, so
+     canonical / hreflang / sitemap / links all match the URL Cloudflare
+     actually serves.
 
 So: edit text in js/i18n.js (and structure in the root .html files, or
 data/game-rules.json for per-game content), then run this script and commit
@@ -36,6 +40,7 @@ from html.parser import HTMLParser
 
 import build_game_rules
 import build_news
+import clean_urls
 
 # Production domain (Cloudflare Workers). Every deployment, including previews,
 # points canonical/hreflang/sitemap here so only one copy gets indexed.
@@ -149,7 +154,8 @@ def translate(src, d, missing):
 
 
 def page_url(page, lang):
-    return BASE_URL + DIR[lang] + ("" if page == "index.html" else page)
+    # extension-less, e.g. .../about, .../zh/ (see tools/clean_urls.py)
+    return BASE_URL + DIR[lang] + ("" if page == "index.html" else page[:-len(".html")])
 
 
 def head_block(page, lang):
@@ -254,6 +260,8 @@ def main():
             open(dest, "w", encoding="utf-8").write(out)
             print("wrote", os.path.relpath(dest, ROOT))
     write_sitemap(posts)
+    # Last step: every internal link -> extension-less URL (see tools/clean_urls.py)
+    clean_urls.clean_site(ROOT, BASE_URL)
     if missing:
         print("WARNING: keys used in HTML but missing from js/i18n.js:", ", ".join(sorted(missing)))
 
