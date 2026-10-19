@@ -91,6 +91,13 @@ def inline(node, slug, notes):
 
 
 LAST_TO_SLUG = {s.lower(): s for s in SLUGS}
+# Posts that were not migrated but have a fitting page on the new site
+# (OFC rules will get their own page later -- update these then).
+ALIASES = {
+    "fundamental-strategy-for-open-face-chinese-ofc-poker": "game-rules.html",
+    "how-to-play-open-face-chinese-poker-ofc-complete-rules-scoring-guide": "game-rules.html",
+    "pokerrrr-welcomes-short-deck-hold-em": "news/short-deck-poker.html",
+}
 
 
 def link(href, notes):
@@ -103,6 +110,8 @@ def link(href, notes):
                   or LAST_TO_SLUG.get(last + "-guide"))  # old slugs later renamed to ...-guide
         if target:
             return "news/%s.html" % target
+        if last in ALIASES:
+            return ALIASES[last]
         notes.append("link removed (post not migrated): " + href)
         return None
     return html.escape(href, quote=True)

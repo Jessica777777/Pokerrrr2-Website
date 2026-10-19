@@ -189,7 +189,9 @@ def description(p):
 
 
 def body_paths(body):
-    body = re.sub(r'((?:src|href)=")assets/', r"\1../assets/", body)
+    """Paths in posts are relative to public/; articles live in public/news/."""
+    # every relative src/href except news/... (assets/..., game-rules.html, ...) goes up one level
+    body = re.sub(r'((?:src|href)=")(?!https?:|mailto:|#|/|\.\./|news/)', r"\1../", body)
     return re.sub(r'(href=")news/', r"\1", body)
 
 

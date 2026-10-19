@@ -45,6 +45,17 @@
   --fs-lg: 1.15rem;   /* emphasized closing statement, pull-quote */
 }
 
+/* English pages: Noto Sans TC (first in --font-body) draws ’ “ ” … as full-width
+   CJK punctuation ("you’ re"). Take just those characters from a Latin system font. */
+@font-face {
+  font-family: 'P2 Latin Punct';
+  src: local('Helvetica Neue'), local('HelveticaNeue'), local('Arial'), local('ArialMT'),
+       local('Roboto'), local('Segoe UI'), local('DejaVu Sans');
+  unicode-range: U+2018-201F, U+2026;
+  font-weight: 100 900;
+}
+html[lang="en"] { --font-body: 'P2 Latin Punct', 'Noto Sans TC', 'Poppins', sans-serif; }
+
 * { box-sizing: border-box; }
 /* v24: background-color added here (was only on body) so the very first
    paint of a fresh navigation — before body's own gradient background has
