@@ -85,7 +85,7 @@ old_url: https://www.pokerrrrapp.com/single-post/probability-of-poker-hands
 <tr><td><strong>High Card</strong></td><td>1,302,540</td><td>50.1177</td><td>0.995:1</td></tr>
 </table></div>
 
-<figure><img src="assets/images/news/probability-of-poker-hands/01.jpg" alt="" width="1188" height="2419" loading="lazy"></figure>
+<figure><img src="assets/images/news/probability-of-poker-hands/01.jpg" alt="" width="1188" height="2321" loading="lazy"></figure>
 
 <h2>Probability of Hole Cards</h2>
 

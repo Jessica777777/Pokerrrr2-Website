@@ -31,7 +31,7 @@ old_url: https://www.pokerrrrapp.com/single-post/poker-for-beginners-guide
 
 <p>Players usually keep their hole cards hidden from everyone else until the showdown, even if another player has already folded. Revealing your cards too early can give away valuable information.</p>
 
-<figure><img src="assets/images/news/poker-for-beginners-guide/01.jpg" alt="" width="1188" height="1022" loading="lazy"></figure>
+<figure><img src="assets/images/news/poker-for-beginners-guide/01.jpg" alt="" width="1188" height="912" loading="lazy"></figure>
 
 <h3>The Pre-Flop Round</h3>
 
@@ -43,7 +43,7 @@ old_url: https://www.pokerrrrapp.com/single-post/poker-for-beginners-guide
 <li><strong>Raise:</strong> Put in more chips to “up the stakes” and pressure the others.</li>
 </ul>
 
-<figure><img src="assets/images/news/poker-for-beginners-guide/02.jpg" alt="" width="1188" height="1044" loading="lazy"></figure>
+<figure><img src="assets/images/news/poker-for-beginners-guide/02.jpg" alt="" width="1188" height="945" loading="lazy"></figure>
 
 <p>You might hear the word <strong>check</strong>, but that only becomes possible later when no one has placed a bet yet. For now, before the table cards appear, someone has already posted the blinds, so you must call, raise, or fold.</p>
 
@@ -51,7 +51,7 @@ old_url: https://www.pokerrrrapp.com/single-post/poker-for-beginners-guide
 
 <h3>The Flop</h3>
 
-<figure><img src="assets/images/news/poker-for-beginners-guide/03.jpg" alt="" width="1188" height="1004" loading="lazy"></figure>
+<figure><img src="assets/images/news/poker-for-beginners-guide/03.jpg" alt="" width="1188" height="867" loading="lazy"></figure>
 
 <p>After the pre-flop decisions are made, the dealer reveals <strong>three face-up cards</strong> in the center of the table. The table opens. These are the first <strong>community cards</strong>, which means <em>everyone</em> can use them along with their hole cards to form a five-card hand.</p>
 
@@ -61,7 +61,7 @@ old_url: https://www.pokerrrrapp.com/single-post/poker-for-beginners-guide
 
 <h3>The Turn</h3>
 
-<figure><img src="assets/images/news/poker-for-beginners-guide/04.jpg" alt="" width="1188" height="634" loading="lazy"></figure>
+<figure><img src="assets/images/news/poker-for-beginners-guide/04.jpg" alt="" width="1188" height="507" loading="lazy"></figure>
 
 <p>Next, a fourth community card is added to the table. This is called <strong>the turn</strong>. With each new card, the possibilities grow, pairs become three of a kind, straight draws appear, and flushes start to take shape. (We will introduce the poker hand rankings later.)</p>
 
@@ -88,13 +88,13 @@ old_url: https://www.pokerrrrapp.com/single-post/poker-for-beginners-guide
 
 <p>The river is the fifth and last community card placed on the table. At this moment, all information is available: your two private cards, the five shared cards, and the full picture of what everyone <em>might</em> have.</p>
 
-<figure><img src="assets/images/news/poker-for-beginners-guide/05.jpg" alt="" width="1188" height="634" loading="lazy"></figure>
+<figure><img src="assets/images/news/poker-for-beginners-guide/05.jpg" alt="" width="1188" height="507" loading="lazy"></figure>
 
 <p>One final betting round takes place. For many players, the river is where the tension peaks, as some hands improve dramatically, while others miss their draws entirely. Whether you check, bet, call, raise, or fold, this decision closes the story of the hand.</p>
 
 <h3>The Showdown</h3>
 
-<figure><img src="assets/images/news/poker-for-beginners-guide/06.jpg" alt="" width="1188" height="777" loading="lazy"></figure>
+<figure><img src="assets/images/news/poker-for-beginners-guide/06.jpg" alt="" width="1188" height="654" loading="lazy"></figure>
 
 <p>If two or more players remain after the final betting round, it’s time for the <strong>showdown</strong>. Everyone reveals their hole cards, and the best <strong>five-card poker hand</strong> wins the pot.</p>
 
@@ -110,7 +110,7 @@ old_url: https://www.pokerrrrapp.com/single-post/poker-for-beginners-guide
 
 <p>The probability of landing these hands varies significantly; for example, a royal flush is extremely rare, while a pair or two pairs appears much more frequently. <a href="news/probability-of-poker-hands.html"><strong>Knowing the probability of each hand</strong></a> not only helps you recognize strong combinations but also improves your decision-making as the game unfolds.</p>
 
-<figure><img src="assets/images/news/poker-for-beginners-guide/07.jpg" alt="" width="1188" height="2142" loading="lazy"></figure>
+<figure><img src="assets/images/news/poker-for-beginners-guide/07.jpg" alt="" width="1188" height="2019" loading="lazy"></figure>
 
 <div class="table-scroll"><table>
 <tr><th><strong>Rank</strong></th><th><strong>Hand</strong></th><th><strong>Examples</strong></th></tr>

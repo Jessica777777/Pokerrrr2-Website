@@ -124,7 +124,7 @@ old_url: https://www.pokerrrrapp.com/single-post/short-deck-poker
 <li><em>Example:</em> A♠ Q♦ 10♣ 8♠ 6♥</li>
 </ul>
 
-<figure><img src="assets/images/news/short-deck-poker/01.jpg" alt="" width="1188" height="2709" loading="lazy"></figure>
+<figure><img src="assets/images/news/short-deck-poker/01.jpg" alt="" width="1188" height="2607" loading="lazy"></figure>
 
 <h2>Basic Strategies for Playing Short Deck Poker</h2>
 

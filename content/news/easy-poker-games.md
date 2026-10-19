@@ -27,7 +27,7 @@ old_url: https://www.pokerrrrapp.com/single-post/easy-poker-games
 
 <h2>7 Easiest Poker Games to Learn</h2>
 
-<figure><img src="assets/images/news/easy-poker-games/01.jpg" alt="" width="1188" height="956" loading="lazy"></figure>
+<figure><img src="assets/images/news/easy-poker-games/01.jpg" alt="" width="1188" height="866" loading="lazy"></figure>
 
 <h3>No Limit Texas Hold’em</h3>
 
