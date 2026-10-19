@@ -37,4 +37,4 @@ old_url: https://www.pokerrrrapp.com/single-post/2020/08/07/making-courageous-po
 
 <p>Either way, if these decisions aren’t grounded in solid strategy, then it’s going to be a losing play. Instead, you should remind yourself that you came here to play poker—that you came here to win—and do your best to ignore everything else. Follow your goal and you’ll be much better off.</p>
 
-<p>Try it Now!  POKERRRR2 with your friends!</p>
+<p>Try it Now!  POKERRRR 2 with your friends!</p>

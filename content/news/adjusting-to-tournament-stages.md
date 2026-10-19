@@ -39,4 +39,4 @@ The ‘bubble’ occurs right before payouts. For instance, if the tournament pa
 
 <p>skill that will help you to cross the finish line.</p>
 
-<p><a href="http://go.onelink.me/KHrZ/24e1ab7c" target="_blank" rel="noopener"><strong>Try it Now!  POKERRRR2 with your Buddies!</strong></a></p>
+<p><a href="http://go.onelink.me/KHrZ/24e1ab7c" target="_blank" rel="noopener"><strong>Try it Now!  POKERRRR 2 with your Buddies!</strong></a></p>

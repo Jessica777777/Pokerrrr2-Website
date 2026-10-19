@@ -1,19 +1,19 @@
 ---
-title: Collect Poker Cards in Pokerrrr2 – The Card Chase Global Challenge
+title: Collect Poker Cards in Pokerrrr 2 – The Card Chase Global Challenge
 date: 2025-07-09
 author: Pokerrrr
 category: pokerrrr2
 cover: assets/images/news/collect-poker-cards-in-pokerrrr2/02.jpg
-excerpt: Join The Card Chase — Pokerrrr2’s global card collection challenge across every public table in the game.
+excerpt: Join The Card Chase — Pokerrrr 2’s global card collection challenge across every public table in the game.
 read_time: 1
 old_url: https://www.pokerrrrapp.com/single-post/collect-poker-cards-in-pokerrrr2
 ---
 
 <figure><img src="assets/images/news/collect-poker-cards-in-pokerrrr2/01.jpg" alt="Join The Card Chase – collect 52 poker cards and unlock the Black File deck." width="960" height="480" loading="lazy"><figcaption>Join The Card Chase – collect 52 poker cards and unlock the Black File deck.</figcaption></figure>
 
-<p>Join The Card Chase — Pokerrrr2’s global card collection challenge across every public table in the game.</p>
+<p>Join The Card Chase — Pokerrrr 2’s global card collection challenge across every public table in the game.</p>
 
-<p>Complete hands, win chips, and unlock powerful rewards as you collect poker cards in Pokerrrr2 and build a full 52-card deck.</p>
+<p>Complete hands, win chips, and unlock powerful rewards as you collect poker cards in Pokerrrr 2 and build a full 52-card deck.</p>
 
 <p>This mission isn’t just about luck—it’s a test of your consistency, endurance, and tactical intelligence.</p>
 

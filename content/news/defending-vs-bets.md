@@ -33,4 +33,4 @@ old_url: https://www.pokerrrrapp.com/single-post/2020/09/23/defending-vs-bets
 
 <p>This keeps your frequencies neat and slightly random, while also preventing other people from <a href="news/all-about-tells.html">getting a read</a> on you. It’s a great strategy for defending against bets where the pot odds may not give you a total justification.</p>
 
-<p>Pokerrrr 2：<a href="http://go.onelink.me/KHrZ/24e1ab7c" target="_blank" rel="noopener">Try it Now! POKERRRR2 with your buddies!</a></p>
+<p>Pokerrrr 2：<a href="http://go.onelink.me/KHrZ/24e1ab7c" target="_blank" rel="noopener">Try it Now! POKERRRR 2 with your buddies!</a></p>

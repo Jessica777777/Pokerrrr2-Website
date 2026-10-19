@@ -37,4 +37,4 @@ old_url: https://www.pokerrrrapp.com/single-post/dealing-with-burnout
 
 <p>The key here is to create free space so that you have room to breathe. This will go a long way towards preventing and curing burnout.</p>
 
-<h2><a href="https://go.onelink.me/KHrZ/24e1ab7c" target="_blank" rel="noopener"><em>Try it Now!  POKERRRR2 with your Buddies!</em></a></h2>
+<h2><a href="https://go.onelink.me/KHrZ/24e1ab7c" target="_blank" rel="noopener"><em>Try it Now!  POKERRRR 2 with your Buddies!</em></a></h2>

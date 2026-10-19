@@ -33,4 +33,4 @@ old_url: https://www.pokerrrrapp.com/single-post/minimum-raise-rules-in-no-limit
 
 <p>We also should note that the open raiser cannot re-raise again after the short stack goes all-in and the other players call. So if everyone calls the 300 chips and it goes back around to the person who put in 200 chips, they can choose to either call or fold.</p>
 
-<h2><a href="https://go.onelink.me/KHrZ/24e1ab7c" target="_blank" rel="noopener"><em>Try it Now!  POKERRRR2 with your </em></a><em>Buddies</em><a href="https://go.onelink.me/KHrZ/24e1ab7c" target="_blank" rel="noopener"><em>!</em></a></h2>
+<h2><a href="https://go.onelink.me/KHrZ/24e1ab7c" target="_blank" rel="noopener"><em>Try it Now!  POKERRRR 2 with your </em></a><em>Buddies</em><a href="https://go.onelink.me/KHrZ/24e1ab7c" target="_blank" rel="noopener"><em>!</em></a></h2>

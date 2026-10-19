@@ -35,4 +35,4 @@ old_url: https://www.pokerrrrapp.com/single-post/2020/10/22/when-to-cold-4-bet
 
 <p>As a final note, remember that, even after you’ve identified a <a href="news/playing-cards-vs-playing-spots.html">good spot</a>, this play takes commitment. Make the <a href="news/making-courageous-poker-plays.html">courageous</a> play, knowing that you might lose your whole stack but that, in the long run, you’ll win many more chips than you lose.</p>
 
-<p><a href="http://go.onelink.me/KHrZ/24e1ab7c" target="_blank" rel="noopener"><strong>Try it Now!  POKERRRR2 with your Buddies!</strong></a></p>
+<p><a href="http://go.onelink.me/KHrZ/24e1ab7c" target="_blank" rel="noopener"><strong>Try it Now!  POKERRRR 2 with your Buddies!</strong></a></p>

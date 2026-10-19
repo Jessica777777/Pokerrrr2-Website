@@ -33,4 +33,4 @@ old_url: https://www.pokerrrrapp.com/single-post/2020/09/30/concentrate-on-what-
 
 <p>You also can’t control other people’s behavior. If someone is rude and trying to tilt you off, just ignore them. Or if they’re making crazy plays like betting huge all the time, don’t get mad about it because you can’t ‘play your game.’ Try to adapt and focus on what you can control: your own play.</p>
 
-<p><a href="http://go.onelink.me/KHrZ/24e1ab7c" target="_blank" rel="noopener">Try it Now!  POKERRRR2 with your Buddies!</a></p>
+<p><a href="http://go.onelink.me/KHrZ/24e1ab7c" target="_blank" rel="noopener">Try it Now!  POKERRRR 2 with your Buddies!</a></p>

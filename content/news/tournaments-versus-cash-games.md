@@ -33,7 +33,7 @@ old_url: https://www.pokerrrrapp.com/single-post/2019/02/13/tournaments-versus-c
 
 <p>🎯 <strong>JOIN THE OPERATION NOW ▸</strong></p>
 
-<p>Whether you're ready to outlast the field in tournaments or outplay opponents in cash games, Pokerrrr2 lets you play your way.</p>
+<p>Whether you're ready to outlast the field in tournaments or outplay opponents in cash games, Pokerrrr 2 lets you play your way.</p>
 
 <p>Download now and take your seat at the table:</p>
 

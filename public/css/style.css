@@ -3450,9 +3450,13 @@ a.news-card:hover { transform: translateY(-3px); border-color: var(--color-gold)
 .nav-links a { white-space: nowrap; }
 .brand { flex-shrink: 0; }
 .brand span { line-height: 1.25; }
-html[lang="ja"] .brand span { max-width: 11em; font-size: 0.95rem; }
-@media (min-width: 861px) and (max-width: 1180px) {
-  .brand span { display: none; }
+/* 2026-10-19: the nav now shows the short name "Pokerrrr2" (footer keeps
+   the full app name), so it fits at every width and is no longer hidden. */
+.brand span { white-space: nowrap; }
+/* Japanese nav labels are the longest: between 861px and 940px there is
+   still no room for the name next to them, so show only the icon there. */
+@media (min-width: 861px) and (max-width: 940px) {
+  html[lang="ja"] .brand span { display: none; }
 }
 @media (min-width: 861px) and (max-width: 1000px) {
   html[lang="ja"] .nav-links { gap: 22px; }
@@ -3544,3 +3548,22 @@ a.news-featured:hover { border-color: var(--color-gold); }
 .post-nav-label { font-size: var(--fs-xs); letter-spacing: 0.06em; text-transform: uppercase; color: var(--color-gold-light); }
 .post-nav-title { font-weight: 600; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
 @media (max-width: 620px) { .post-nav { grid-template-columns: 1fr; } .post-nav-img { flex-basis: 104px; } .post-nav-empty { display: none; } }
+
+/* 2026-10-19: CTA banner store badges always sit side by side (never
+   stacked). Each badge takes half the row and shrinks its padding/type so
+   both fit in the half-width content column on desktop and on phones. */
+.cta-banner .store-badges { flex-wrap: nowrap; gap: 12px; }
+.cta-banner .store-badge { flex: 0 1 auto; min-width: 0; justify-content: center; }
+.cta-banner .store-badge .badge-text { white-space: nowrap; }
+@media (min-width: 901px) {
+  .cta-banner .store-badge { gap: 10px; padding: 13px 22px; }
+  .cta-banner .store-badge svg { width: 28px; height: 28px; }
+  .cta-banner .store-badge .badge-text small { font-size: 0.76rem; }
+  .cta-banner .store-badge .badge-text span { font-size: 1.15rem; }
+}
+@media (max-width: 420px) {
+  .cta-banner .store-badges { gap: 8px; }
+  .cta-banner .store-badge { flex: 1 1 0; gap: 8px; padding: 10px 8px; }
+  .cta-banner .store-badge svg { width: 20px; height: 20px; }
+  .cta-banner .store-badge .badge-text span { font-size: 0.9rem; }
+}

@@ -27,4 +27,4 @@ old_url: https://www.pokerrrrapp.com/single-post/listen-to-your-opponents-at-the
 
 <p>This can also manifest in how people adjust their<a href="news/poker-fundamentals-ranges.html"> </a><a href="news/poker-fundamentals-ranges.html">ranges</a>. If you’re playing really loose, then your opponents might tighten up and try to beat you with better cards. The best thing you can do in this situation is realize what’s happening, tighten up, and turn their expectations against them.</p>
 
-<p><a href="https://go.onelink.me/KHrZ/24e1ab7c" target="_blank" rel="noopener"><strong><em>Try it Now!  POKERRRR2 with your Buddies!</em></strong></a></p>
+<p><a href="https://go.onelink.me/KHrZ/24e1ab7c" target="_blank" rel="noopener"><strong><em>Try it Now!  POKERRRR 2 with your Buddies!</em></strong></a></p>

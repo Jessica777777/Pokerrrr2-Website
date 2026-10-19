@@ -4,14 +4,14 @@ date: 2020-09-02
 author: Pokerrrr
 category: guides
 cover: assets/images/news/introduction-to-bounty-multi-table-tournaments/01.jpg
-excerpt: Pokerrrr2 is proud to announce that we’re beginning to offer bounty multi-table tournaments (MTTs), one of the most popular and fun ways to enjoy poker. In this variant on the…
+excerpt: Pokerrrr 2 is proud to announce that we’re beginning to offer bounty multi-table tournaments (MTTs), one of the most popular and fun ways to enjoy poker. In this variant on the…
 read_time: 2
 old_url: https://www.pokerrrrapp.com/single-post/2020/09/02/introduction-to-bounty-multi-table-tournaments
 ---
 
 <figure><img src="assets/images/news/introduction-to-bounty-multi-table-tournaments/01.jpg" alt="" width="1400" height="2097" loading="lazy"></figure>
 
-<p>Pokerrrr2 is proud to announce that we’re beginning to offer bounty multi-table <a href="news/tournaments-versus-cash-games.html">tournaments</a> (MTTs), one of the most popular and fun ways to enjoy poker. In this variant on the classic MTT, a portion of each person’s buy-in is put as a price on their head. When you knock someone out of the tournament, then you get their bounty in chips.</p>
+<p>Pokerrrr 2 is proud to announce that we’re beginning to offer bounty multi-table <a href="news/tournaments-versus-cash-games.html">tournaments</a> (MTTs), one of the most popular and fun ways to enjoy poker. In this variant on the classic MTT, a portion of each person’s buy-in is put as a price on their head. When you knock someone out of the tournament, then you get their bounty in chips.</p>
 
 <p>As a refresher, a MTT is a poker tournament with many players who each begin with a certain amount of chips. Since there’s so many players, they simultaneously play at multiple tables. Then, once enough people lose, the winners from each table come</p>
 
@@ -37,4 +37,4 @@ old_url: https://www.pokerrrrapp.com/single-post/2020/09/02/introduction-to-boun
 
 <p>This doesn’t mean that you should do stupid things. Play solid poker, trust your instincts, and look for the <a href="news/playing-cards-vs-playing-spots.html">right spots</a>. The important thing to keep in mind is that when the opportunity comes, you need to strike.</p>
 
-<p><a href="http://go.onelink.me/KHrZ/24e1ab7c" target="_blank" rel="noopener">Try it Now!  POKERRRR2 with your friends!</a></p>
+<p><a href="http://go.onelink.me/KHrZ/24e1ab7c" target="_blank" rel="noopener">Try it Now!  POKERRRR 2 with your friends!</a></p>

@@ -63,4 +63,4 @@ old_url: https://www.pokerrrrapp.com/single-post/2020/08/21/pre-flop-fundamental
 
 <p>Second, we can bet as a <a href="news/poker-fundamentals-bluffing.html">bluff</a>. This means that we’re trying to get better hands to fold by acting like we have a better hand. In general, some hands are better to bluff than others. Either way, the first step is understanding why you’re betting and using that knowledge to factor into your later decisions.</p>
 
-<p><a href="http://go.onelink.me/KHrZ/24e1ab7c" target="_blank" rel="noopener">Try it Now!  POKERRRR2 with your friends!</a></p>
+<p><a href="http://go.onelink.me/KHrZ/24e1ab7c" target="_blank" rel="noopener">Try it Now!  POKERRRR 2 with your friends!</a></p>

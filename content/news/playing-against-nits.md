@@ -43,4 +43,4 @@ In addition to describing nit players, the term <em>Nit Game</em> is sometimes 
 
 <p>If you’re curious about trying the Nit Game as a variation, you can check out our guide on how to play <a href="news/nit-game-is-on-the-all-new-feature-in-pokerrrr2.html">Nit Game Poker</a>. It’s a great way to practice patience, hand selection, and exploit players who can’t adjust to a tighter format.
 
-<strong>Host your Nit Game now in Pokerrrr2</strong></p>
+<strong>Host your Nit Game now in Pokerrrr 2</strong></p>

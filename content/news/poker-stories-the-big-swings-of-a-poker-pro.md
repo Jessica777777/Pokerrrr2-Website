@@ -41,4 +41,4 @@ old_url: https://www.pokerrrrapp.com/single-post/poker-stories-the-big-swings-of
 
 <h3>🎯 Inspired by real poker stories?</h3>
 
-<p>👉 Experience your own poker journey today with <a href="https://apps.apple.com/us/app/pokerrrr-2-texas-holdem-poker/id592081067" target="_blank" rel="noopener"><strong>Pokerrrr2</strong></a> — build your bankroll, compete with friends, and test your skills at the virtual poker table anytime, anywhere.</p>
+<p>👉 Experience your own poker journey today with <a href="https://apps.apple.com/us/app/pokerrrr-2-texas-holdem-poker/id592081067" target="_blank" rel="noopener"><strong>Pokerrrr 2</strong></a> — build your bankroll, compete with friends, and test your skills at the virtual poker table anytime, anywhere.</p>

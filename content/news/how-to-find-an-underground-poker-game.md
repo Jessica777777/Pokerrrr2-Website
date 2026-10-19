@@ -11,7 +11,7 @@ old_url: https://www.pokerrrrapp.com/single-post/how-to-find-an-underground-poke
 
 <p>For many poker players who don’t have easy access to a casino, there are not many choices besides getting a home game together with your buddies or finding an unground poker game.</p>
 
-<p>Of course, there’s always online play and apps like Pokerrrr2, but when you want to get out of the house, drink a beer, and kick back with the lads, it’s hard to beat an in-person game.</p>
+<p>Of course, there’s always online play and apps like Pokerrrr 2, but when you want to get out of the house, drink a beer, and kick back with the lads, it’s hard to beat an in-person game.</p>
 
 <p>That’s why, when the pandemic hit in 2020,<a href="https://www.youtube.com/watch?v=Tf3m_HcIhOk&amp;pp=ygURcG9rZXIgZG9jdW1lbnRhcnk%3D" target="_blank" rel="noopener"> </a><a href="https://www.youtube.com/watch?v=Tf3m_HcIhOk&amp;pp=ygURcG9rZXIgZG9jdW1lbnRhcnk%3D" target="_blank" rel="noopener">the poker community of Essex, UK, went underground</a>. The casinos had to close, but people stepped up to keep the games running.</p>
 

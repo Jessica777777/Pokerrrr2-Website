@@ -1,5 +1,5 @@
 ---
-title: Nit Game is ON: The All-New Private Mode in Pokerrrr2
+title: Nit Game is ON: The All-New Private Mode in Pokerrrr 2
 date: 2025-08-01
 author: Pokerrrr
 category: pokerrrr2
@@ -11,11 +11,11 @@ old_url: https://www.pokerrrrapp.com/single-post/nit-game-is-on-the-all-new-feat
 
 <blockquote><p>Win solo or pay the price — this isn’t your regular home game.</p></blockquote>
 
-<p>Pokerrrr2 has introduced a thrilling new game mode designed to shake up private tables and punish passive play: <strong>Nit Game</strong>. If you’re hosting a table with your friends and want to spice things up with real tension, strategic pressure, and no escape mechanics — <strong>this is your format.</strong></p>
+<p>Pokerrrr 2 has introduced a thrilling new game mode designed to shake up private tables and punish passive play: <strong>Nit Game</strong>. If you’re hosting a table with your friends and want to spice things up with real tension, strategic pressure, and no escape mechanics — <strong>this is your format.</strong></p>
 
 <figure><img src="assets/images/news/nit-game-is-on-the-all-new-feature-in-pokerrrr2/01.jpg" alt="" width="1200" height="628" loading="lazy"></figure>
 
-<p>What is Nit Game in Pokerrrr2 ?</p>
+<p>What is Nit Game in Pokerrrr 2 ?</p>
 
 <p>Nit Game activates when 5 or more players are dealt in at your private table. That round becomes a Nit Round, and from that point:</p>
 
@@ -43,10 +43,10 @@ old_url: https://www.pokerrrrapp.com/single-post/nit-game-is-on-the-all-new-feat
 <p>You can also adjust <strong>Nit Value</strong> between 1BB and 10BB.
 
 Want more ways to spice up your private games?
-Check out <a href="news/seven-deuce-bounty-rule-pokerrrr2.html">Seven-Deuce Bounty Mode</a> and other Pokerrrr2 exclusive formats.
+Check out <a href="news/seven-deuce-bounty-rule-pokerrrr2.html">Seven-Deuce Bounty Mode</a> and other Pokerrrr 2 exclusive formats.
 
 🕶 Ready to Prove You're Not a Nit?</p>
 
 <p>Only the bold survive.Claim your Nit Icon, punish the passive, and take control of your table.</p>
 
-<p><strong>Host your Nit Game now in Pokerrrr2</strong></p>
+<p><strong>Host your Nit Game now in Pokerrrr 2</strong></p>

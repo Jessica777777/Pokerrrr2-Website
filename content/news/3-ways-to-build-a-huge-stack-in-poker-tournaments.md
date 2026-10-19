@@ -54,7 +54,7 @@ old_url: https://www.pokerrrrapp.com/single-post/3-ways-to-build-a-huge-stack-in
 🕹️ Take Your Skills to the Table</p>
 
 <p>You’ve got the strategy—now put it to the test. 
-Join live poker tournaments, <strong>build a big stack in poker</strong>, and win exclusive rewards in <strong>Pokerrrr2</strong>.</p>
+Join live poker tournaments, <strong>build a big stack in poker</strong>, and win exclusive rewards in <strong>Pokerrrr 2</strong>.</p>
 
 <p>▶️ <a href="https://apps.apple.com/us/app/pokerrrr-2-texas-holdem-poker/id592081067" target="_blank" rel="noopener">Download on App Store </a>
 ▶️ <a href="https://play.google.com/store/apps/details?id=com.ptfarm.pokerrrr" target="_blank" rel="noopener">Get it on Google Play</a></p>

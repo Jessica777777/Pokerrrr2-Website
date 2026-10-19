@@ -54,7 +54,7 @@ old_url: https://www.pokerrrrapp.com/single-post/poker-tournament-strategy-for-e
 
 Ready to Test Your Tournament Skills?</p>
 
-<p><strong>Join Pokerrrr2’s live tournament tables — practice every stage strategy in real time against real players.</strong>🎯 
+<p><strong>Join Pokerrrr 2’s live tournament tables — practice every stage strategy in real time against real players.</strong>🎯 
 If you prefer shorter formats, <a href="news/sit-and-go-poker-explained-rules-tips-best-apps.html"><strong>Sit &amp; Go tournaments</strong></a> compress the full tournament experience into 30 minutes.
 
 Play with friends or meet new rivals now</p>
