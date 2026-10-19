@@ -2,7 +2,7 @@
 title: Poker Fundamentals: Equity
 date: 2019-05-08
 author: Pokerrrr
-category: strategy
+category: guides
 cover: assets/images/news/poker-fundamentals-equity/01.jpg
 excerpt: Thanks for joining us for another episode of Poker Fundamentals. We hope that, whether you’re a seasoned veteran or a budding star, this series has helped you to nail down all the…
 read_time: 2

@@ -2,7 +2,7 @@
 title: For the Love of the Game
 date: 2018-12-06
 author: Pokerrrr
-category: strategy
+category: mindset
 cover: assets/images/news/for-the-love-of-the-game/01.jpg
 excerpt: Before you read any further, take some time to reflect on this question: why do you play poker? For some it may be a love of competition and winning, for others it may be to…
 read_time: 2

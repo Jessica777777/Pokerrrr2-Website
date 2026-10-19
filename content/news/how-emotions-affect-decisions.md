@@ -2,7 +2,7 @@
 title: How Emotions Affect Decisions
 date: 2018-08-06
 author: Pokerrrr
-category: strategy
+category: mindset
 cover: assets/images/news/how-emotions-affect-decisions/01.jpg
 excerpt: Emotions are directly linked to certain sections of the brain. Decisions like saving money and eating healthy may seem purely logical, but they are actually emotional. Emotions…
 read_time: 3

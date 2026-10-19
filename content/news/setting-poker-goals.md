@@ -2,7 +2,7 @@
 title: Setting Poker Goals
 date: 2019-01-04
 author: Pokerrrr
-category: strategy
+category: mindset
 cover: assets/images/news/setting-poker-goals/01.jpg
 excerpt: It’s that time of year again: 2019 is just around the corner, which means many of us are reflecting back on 2018 and thinking ahead to the new year. For poker players, this is a…
 read_time: 2

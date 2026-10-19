@@ -2,7 +2,7 @@
 title: What Is The Role of Testosterone And Other Hormones In Gambling?
 date: 2018-03-23
 author: Pokerrrr
-category: strategy
+category: mindset
 cover: assets/images/news/what-is-the-role-of-testosterone-and-other-hormones-in-gambling/05.jpg
 excerpt: The average male adult has approximately 16 times more testosterone that the average female. Criminals, antisocial, and violent people in the world are shown to have very high…
 read_time: 6

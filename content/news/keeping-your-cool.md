@@ -2,7 +2,7 @@
 title: Poker Tilt Control: How to Keep Your Cool and Stay Profitable
 date: 2018-11-16
 author: Pokerrrr
-category: strategy
+category: mindset
 cover: assets/images/news/keeping-your-cool/01.jpg
 excerpt: Some say that you play poker against the other people at the table, and some say that you play it against yourself. Sure, you’re going to need to read your opponents to adapt and…
 read_time: 2

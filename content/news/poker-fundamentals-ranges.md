@@ -2,7 +2,7 @@
 title: Poker Fundamentals: Ranges
 date: 2019-04-09
 author: Pokerrrr
-category: strategy
+category: guides
 cover: assets/images/news/poker-fundamentals-ranges/01.jpg
 excerpt: It pays to go back to basics, which is why we’re bringing you a series of posts dedicated to the fundamentals. So far, we’ve discussed the foundational math behind pot-odds, and…
 read_time: 2

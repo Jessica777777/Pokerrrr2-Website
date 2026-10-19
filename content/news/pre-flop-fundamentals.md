@@ -2,7 +2,7 @@
 title: Pre-Flop Fundamentals
 date: 2020-08-21
 author: Pokerrrr
-category: strategy
+category: guides
 cover: assets/images/news/pre-flop-fundamentals/01.jpg
 excerpt: The first thing any No Limit Hold’em (NLHE) player needs to master is their pre-flop fundamentals. This crucial first round of betting sets the stage for the rest of the hand, and…
 read_time: 2

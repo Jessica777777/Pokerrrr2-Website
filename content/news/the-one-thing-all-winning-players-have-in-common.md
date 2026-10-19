@@ -2,7 +2,7 @@
 title: Poker Winning Habits: What All Successful Players Always Do
 date: 2018-12-02
 author: Pokerrrr
-category: strategy
+category: mindset
 cover: assets/images/news/the-one-thing-all-winning-players-have-in-common/01.jpg
 excerpt: There’s one big secret to becoming a winning player, but it sure isn’t some quick fix. When we watch the pros, on the WSOP for instance, we’re often left wondering and amazed. How…
 read_time: 2

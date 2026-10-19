@@ -2,7 +2,7 @@
 title: Dealing with the Losses
 date: 2019-06-24
 author: Pokerrrr
-category: strategy
+category: mindset
 cover: assets/images/news/dealing-with-the-losses/01.jpg
 excerpt: As with most things in life, the way that we deal with failures ultimately determines our overall success. Mental game applies to much more than just your mind state during play.…
 read_time: 2

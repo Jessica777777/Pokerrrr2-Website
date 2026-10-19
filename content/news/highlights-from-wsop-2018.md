@@ -2,7 +2,7 @@
 title: Highlights From WSOP 2018
 date: 2018-07-20
 author: Pokerrrr
-category: strategy
+category: stories
 cover: assets/images/news/highlights-from-wsop-2018/01.jpg
 excerpt: Video featuring: Joey Ingram, Jeff Gross, Phil Hellmuth, Craig Varnell, Doyle Brunson, Justin Bonomo, Loni Hardwood and many more.
 read_time: 1

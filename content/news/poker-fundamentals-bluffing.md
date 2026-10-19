@@ -2,7 +2,7 @@
 title: Poker Fundamentals: Bluffing
 date: 2019-04-16
 author: Pokerrrr
-category: strategy
+category: guides
 cover: assets/images/news/poker-fundamentals-bluffing/01.jpg
 excerpt: Thanks for joining us for another installment of our poker fundamentals series. Up to this point, we’ve gone over pot-odds, ranges, and aggression. In this week’s episode, we’re…
 read_time: 2

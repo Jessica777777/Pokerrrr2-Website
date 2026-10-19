@@ -463,15 +463,29 @@ document.addEventListener('DOMContentLoaded', () => {
   if (!grid) return;
   const cards = Array.from(grid.querySelectorAll('.news-card'));
   const chips = Array.from(document.querySelectorAll('.news-chip'));
+  const search = document.getElementById('news-search');
+  const featured = document.querySelector('.news-featured');
+  const empty = document.getElementById('news-empty');
   const moreWrap = document.querySelector('.news-more');
   const moreBtn = document.getElementById('news-more');
   const size = parseInt(grid.dataset.pageSize, 10) || 12;
+  const text = new Map(cards.map((c) => [c, c.textContent.toLowerCase()]));
   let cat = 'all';
+  let query = '';
   let shown = size;
   function render() {
-    const match = cards.filter((c) => cat === 'all' || c.dataset.cat === cat);
+    const words = query.split(/\s+/).filter(Boolean);
+    const browsing = cat === 'all' && !words.length;
+    const match = cards.filter((c) => {
+      if (c.dataset.featured) { if (browsing) return false; }
+      if (cat !== 'all' && c.dataset.cat !== cat) return false;
+      const t = text.get(c);
+      return words.every((w) => t.includes(w));
+    });
     cards.forEach((c) => { c.hidden = true; });
     match.slice(0, shown).forEach((c) => { c.hidden = false; });
+    if (featured) featured.hidden = !browsing;
+    if (empty) empty.hidden = match.length > 0;
     if (moreWrap) moreWrap.hidden = match.length <= shown;
   }
   chips.forEach((chip) => chip.addEventListener('click', () => {
@@ -484,6 +498,11 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     render();
   }));
+  if (search) search.addEventListener('input', () => {
+    query = search.value.trim().toLowerCase();
+    shown = size;
+    render();
+  });
   if (moreBtn) moreBtn.addEventListener('click', () => { shown += size; render(); });
   render();
 })();

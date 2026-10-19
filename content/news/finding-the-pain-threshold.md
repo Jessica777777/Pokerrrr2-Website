@@ -2,7 +2,7 @@
 title: Finding the Pain Threshold
 date: 2019-03-19
 author: Pokerrrr
-category: strategy
+category: mindset
 cover: assets/images/news/finding-the-pain-threshold/01.jpg
 excerpt: Poker is a game of tough decisions. That’s why the best way for us to get an edge is putting in the time to study different spots so that we can analyze the odds and make the best…
 read_time: 2

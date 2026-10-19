@@ -2,7 +2,7 @@
 title: Mastering the Mental Game
 date: 2020-06-08
 author: Pokerrrr
-category: strategy
+category: mindset
 cover: assets/images/news/mastering-the-mental-game/01.jpg
 excerpt: Mastering your mental game is a foundational step that every poker player needs to take in order to become a winning player. This, of course, is more than just a one and done…
 read_time: 2

@@ -2,7 +2,7 @@
 title: Poker Tournaments vs Cash Games | Key Differences Explained
 date: 2019-02-13
 author: Pokerrrr
-category: strategy
+category: guides
 cover: assets/images/news/tournaments-versus-cash-games/01.jpg
 excerpt: When it comes to No Limit Hold’em, players often face a key decision: poker tournaments vs cash games. These two formats offer very different experiences. In a cash game, you buy…
 read_time: 2

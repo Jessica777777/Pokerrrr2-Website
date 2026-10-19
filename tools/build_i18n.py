@@ -102,7 +102,7 @@ class Scan(HTMLParser):
         st = self.off()
         en = st + len(self.get_starttag_text())
         d = dict(attrs)
-        for a in ("aria-label", "alt", "content", "title"):
+        for a in ("aria-label", "alt", "content", "title", "placeholder"):
             if d.get("data-i18n-" + a):
                 self.attrs.append((st, en, a, d["data-i18n-" + a]))
         if tag not in VOID:

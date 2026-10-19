@@ -2,7 +2,7 @@
 title: Long Poker Sessions
 date: 2020-05-04
 author: Pokerrrr
-category: strategy
+category: mindset
 cover: assets/images/news/long-poker-sessions/01.jpg
 excerpt: The only thing better than playing poker is playing poker for a long time. Whether you’ve signed up for a tournament where you’re going to be glued to a chair all day or you’ve…
 read_time: 2

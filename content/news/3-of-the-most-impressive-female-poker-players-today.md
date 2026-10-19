@@ -2,7 +2,7 @@
 title: 3 Most Impressive Female Poker Players In 2018
 date: 2018-02-19
 author: Pokerrrr
-category: strategy
+category: legends
 cover: assets/images/news/3-of-the-most-impressive-female-poker-players-today/02.jpg
 excerpt: Professional female poker players have been on the rise in the last decade. However, I am going to guess that there is definitely more men poker players on your newsfeed than…
 read_time: 2

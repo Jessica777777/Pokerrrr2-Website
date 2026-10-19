@@ -2,7 +2,7 @@
 title: Calling The Clock Too Quick
 date: 2018-06-20
 author: Pokerrrr
-category: strategy
+category: guides
 cover: https://img.youtube.com/vi/xKvUqAgaNoE/hqdefault.jpg
 excerpt: We all know some players who just take way too long for action. But, is it really necessary to call the clock after 30 seconds?! Do you think this play was a desperate attempt in…
 read_time: 1

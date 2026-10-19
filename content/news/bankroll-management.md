@@ -2,7 +2,7 @@
 title: Bankroll Management
 date: 2020-01-16
 author: Pokerrrr
-category: strategy
+category: mindset
 cover: assets/images/news/bankroll-management/01.jpg
 excerpt: Making good decisions is what sets winning poker players apart from the losers. If you can consistently find the right line and then execute it, then you’ll have no problem raking…
 read_time: 2

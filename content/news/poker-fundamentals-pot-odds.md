@@ -2,7 +2,7 @@
 title: Poker Fundamentals: Pot-Odds
 date: 2019-04-01
 author: Pokerrrr
-category: strategy
+category: guides
 cover: assets/images/news/poker-fundamentals-pot-odds/01.jpg
 excerpt: There’s a lot that goes into making +EV decisions at the poker table. Between finding the best bet-sizing, finding balance in your play, preventing tilt, and much, much more, all…
 read_time: 2

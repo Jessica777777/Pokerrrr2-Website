@@ -2,7 +2,7 @@
 title: Triton Poker Launches Twitch Stream
 date: 2018-07-23
 author: Pokerrr
-category: strategy
+category: stories
 cover: https://img.youtube.com/vi/n556Bovo2nc/hqdefault.jpg
 excerpt: Triton is an amazing addition to the global poker community, bringing some of the biggest poker players back together, such as Tom Dwan and Phil Ivey. This is just some of the…
 read_time: 1

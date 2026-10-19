@@ -2,7 +2,7 @@
 title: Dealing with Burnout
 date: 2020-12-04
 author: Pokerrrr
-category: strategy
+category: mindset
 cover: assets/images/news/dealing-with-burnout/01.jpg
 excerpt: Whether it’s from your job, stressors like family drama, or even a game like poker, burnout always sucks. It makes us feel lethargic, decreases our motivation, and certainly has a…
 read_time: 2

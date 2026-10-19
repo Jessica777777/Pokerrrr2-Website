@@ -2,7 +2,7 @@
 title: How Gaming Skills Can Lead to Success in Life and Business
 date: 2018-08-21
 author: Pokerrrr
-category: strategy
+category: mindset
 cover: assets/images/news/how-to-play-video-games-to-become-successful-dota-2-and-more/01.jpg
 excerpt: Technology is having a substantial impact on our lives in the 21st century, especially now that it is commonly being used in professional environments. One of the reasons the…
 read_time: 4

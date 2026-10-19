@@ -2,7 +2,7 @@
 title: What Separates Winners From Losers In Poker?
 date: 2018-04-18
 author: Pokerrrr
-category: strategy
+category: mindset
 cover: assets/images/news/what-separates-winners-from-losers-in-poker/01.jpg
 excerpt: If you are chasing your losses for a long period of time you are greatly increasing the chance that you will turn into a problem gambler. It’s best to leave the table if you feel…
 read_time: 8

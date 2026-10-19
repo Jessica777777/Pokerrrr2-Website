@@ -2,7 +2,7 @@
 title: Know When to Walk Away and When to Run
 date: 2020-03-26
 author: Pokerrrr
-category: strategy
+category: mindset
 cover: assets/images/news/know-when-to-walk-away-and-when-to-run/01.jpg
 excerpt: No matter how good you are at poker, there’s always going to be times when you hit up against some tough competition. Maybe you’re playing against a really aggressive guy and you…
 read_time: 2
