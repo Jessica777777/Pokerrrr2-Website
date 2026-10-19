@@ -11,7 +11,7 @@ old_url: https://www.pokerrrrapp.com/single-post/2020/05/04/long-poker-sessions
 
 <figure><img src="assets/images/news/long-poker-sessions/01.jpg" alt="" width="1242" height="836" loading="lazy"></figure>
 
-<p>The only thing better than playing poker is playing poker for a long time. Whether you’ve signed up for a tournament where you’re going to be glued to a chair all day or you’ve just decided to play eight to twelve hours, or even longer, you’re going to need a strategy to play the long game.</p>
+<p>The only thing better than playing poker is playing poker for a long time. Whether you’ve signed up for a <a href="news/tournaments-versus-cash-games.html">tournament</a> where you’re going to be glued to a chair all day or you’ve just decided to play eight to twelve hours, or even longer, you’re going to need a strategy to play the long game.</p>
 
 <p>Our <a href="https://www.pokerrrrapp.com/news/hashtags/1" target="_blank" rel="noopener">#1</a> concern is maintaining our A game over the duration of the session. It doesn’t matter how well we start out if we can’t <a href="news/keeping-your-cool.html">keep our cool</a> and we start spewing off buy-ins. Having a strong mental game is crucial.</p>
 
@@ -31,4 +31,4 @@ old_url: https://www.pokerrrrapp.com/single-post/2020/05/04/long-poker-sessions
 
 <p>reset and get ready to keep bringing your A game.</p>
 
-<p>Lastly, you can also try getting a table change. Moving to a different game means you need to analyze new players, figure out new dynamics, and readjust your thinking. This is a great way to engage your mind and start fresh.</p>
+<p>Lastly, you can also try getting a <a href="news/finding-the-right-table.html">table change</a>. Moving to a different game means you need to analyze new players, figure out new dynamics, and readjust your thinking. This is a great way to engage your mind and start fresh.</p>

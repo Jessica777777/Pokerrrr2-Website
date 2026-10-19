@@ -23,7 +23,7 @@ old_url: https://www.pokerrrrapp.com/single-post/2020/08/21/pre-flop-fundamental
 
 <p>-Big pocket pairs: AA-JJ</p>
 
-<p>-Strong big cards: AK, KQ, etc.</p>
+<p>-Strong big cards: <a href="news/ace-king-pre-flop.html">AK</a>, KQ, etc.</p>
 
 <p>-Medium pocket pairs: TT-77</p>
 
@@ -49,7 +49,7 @@ old_url: https://www.pokerrrrapp.com/single-post/2020/08/21/pre-flop-fundamental
 
 <p><strong>Position</strong></p>
 
-<p>Turn order is huge in NLHE. The dealer button is the most valuable position because they always act last in post-flop play. We call this being ‘in position.’ So, the small blind, big blind, and under the gun are some of the worst positions because they almost always must act first.</p>
+<p>Turn order is huge in NLHE. The dealer button is the most valuable <a href="news/what-s-your-favorite-position-why-position-matters-in-nlhe.html">position</a> because they always act last in post-flop play. We call this being ‘in position.’ So, the small blind, big blind, and under the gun are some of the worst positions because they almost always must act first.</p>
 
 <p>This means that they don’t have as much information. Factor this into your pre-flop play by playing more hands in position and less hands from out of position.</p>
 
@@ -61,6 +61,6 @@ old_url: https://www.pokerrrrapp.com/single-post/2020/08/21/pre-flop-fundamental
 
 <p>First, you can <a href="news/don-t-be-afraid-to-value-bet.html">bet for value</a>. This means you have a good hand and you want weaker hands to call. So, we value bet with our best hands to build the pot and try to win more chips with them.</p>
 
-<p>Second, we can bet as a bluff. This means that we’re trying to get better hands to fold by acting like we have a better hand. In general, some hands are better to bluff than others. Either way, the first step is understanding why you’re betting and using that knowledge to factor into your later decisions.</p>
+<p>Second, we can bet as a <a href="news/poker-fundamentals-bluffing.html">bluff</a>. This means that we’re trying to get better hands to fold by acting like we have a better hand. In general, some hands are better to bluff than others. Either way, the first step is understanding why you’re betting and using that knowledge to factor into your later decisions.</p>
 
 <p><a href="http://go.onelink.me/KHrZ/24e1ab7c" target="_blank" rel="noopener">Try it Now!  POKERRRR2 with your friends!</a></p>

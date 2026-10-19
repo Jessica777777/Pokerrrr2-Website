@@ -9,7 +9,7 @@ read_time: 2
 old_url: https://www.pokerrrrapp.com/single-post/how-to-prepare-for-the-world-series-of-poker
 ---
 
-<p>Whether you’re planning on traveling to Vegas this summer to participate in the<a href="https://en.wikipedia.org/wiki/World_Series_of_Poker" target="_blank" rel="noopener"> </a><a href="https://en.wikipedia.org/wiki/World_Series_of_Poker" target="_blank" rel="noopener">World Series of Poker</a> (WSOP) or you’re grinding poker tournaments on your favorite poker app, you need to put in the prep work if you want to stand a shot at taking home the trophy. Of course, practicing and<a href="news/the-one-thing-all-winning-players-have-in-common.html"> </a><a href="news/the-one-thing-all-winning-players-have-in-common.html">studying poker</a> is a big part of that, but there’s plenty more that goes on behind the scenes for winning players.</p>
+<p>Whether you’re planning on traveling to Vegas this summer to participate in the<a href="https://en.wikipedia.org/wiki/World_Series_of_Poker" target="_blank" rel="noopener"> </a><a href="https://en.wikipedia.org/wiki/World_Series_of_Poker" target="_blank" rel="noopener">World Series of Poker</a> (WSOP) or you’re grinding<a href="news/tournaments-versus-cash-games.html"> </a><a href="news/tournaments-versus-cash-games.html">poker tournaments</a> on your favorite poker app, you need to put in the prep work if you want to stand a shot at taking home the trophy. Of course, practicing and<a href="news/the-one-thing-all-winning-players-have-in-common.html"> </a><a href="news/the-one-thing-all-winning-players-have-in-common.html">studying poker</a> is a big part of that, but there’s plenty more that goes on behind the scenes for winning players.</p>
 
 <p>Especially for a weeks-long tournament series, stamina can be a huge issue. Remember, poker tournaments are a marathon, not a spring. Here’s how you can give yourself an edge over the competition.</p>
 
@@ -29,4 +29,4 @@ old_url: https://www.pokerrrrapp.com/single-post/how-to-prepare-for-the-world-se
 
 <p>Another thing to consider is that you’re there to try to win the tournament, not just to see how far you can get. Too often, people just sit back and blind out because they’re afraid of busting out of the tournament. But the truth is that you’re not going to win the vast majority of tournaments you play, but, if you never win or at least make it to the top of the standings, then you’ll never be a profitable poker player.</p>
 
-<p>Sometimes, winning is about taking risks. Make the call or fire the bluff. Remember that there’s no difference between 1000th place and 100th place if neither of them cash.</p>
+<p>Sometimes, winning is about taking risks. Make the call or<a href="news/poker-fundamentals-bluffing.html"> </a><a href="news/poker-fundamentals-bluffing.html">fire the bluff</a>. Remember that there’s no difference between 1000th place and 100th place if neither of them cash.</p>

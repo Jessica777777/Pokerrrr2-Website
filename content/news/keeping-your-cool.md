@@ -17,7 +17,7 @@ old_url: https://www.pokerrrrapp.com/single-post/2018/11/16/keeping-your-cool
 
 <p>In poker and other competitive endeavors, we refer to this as the mental game. By building up a strong mental game, we allow ourselves to consistently bring our A game to the table, and this directly translates to our win rate.</p>
 
-<p>Want to make one of the biggest +EV plays of your life? Look inside yourself and work on your mental game.</p>
+<p>Want to make one of the <a href="news/the-real-currency-of-poker.html">biggest +EV plays</a> of your life? Look inside yourself and work on your mental game.</p>
 
 <p><strong>Tilting Off</strong></p>
 

@@ -29,7 +29,7 @@ old_url: https://www.pokerrrrapp.com/single-post/poker-legends-daniel-negreanu
 
 <p>It took awhile for the hometown hero to realize that beating the Vegas sharks would require a new approach. He doubled down on his efforts, studied hard, practiced, and worked his way up to become one of the best players.</p>
 
-<p>He learned the <a href="news/pre-flop-fundamentals.html">fundamentals</a> of poker, but he also realized the discipline that it takes to maintain a <a href="news/mastering-the-mental-game.html">solid mental</a> and keep the ranges tight during bouts of <a href="news/dealing-with-card-death.html">card death</a>. He also realized that the psychological aspects of poker are crucial for success: knowing how people think and how people think he thinks gives him a huge edge.</p>
+<p>He learned the <a href="news/pre-flop-fundamentals.html">fundamentals</a> of poker, but he also realized the discipline that it takes to maintain a <a href="news/mastering-the-mental-game.html">solid mental</a> and <a href="news/play-a-tighter-range.html">keep the ranges tight</a> during bouts of <a href="news/dealing-with-card-death.html">card death</a>. He also realized that the psychological aspects of poker are crucial for success: knowing how people think and how people think he thinks gives him a huge edge.</p>
 
 <p><strong>Learn from Negreanu</strong></p>
 

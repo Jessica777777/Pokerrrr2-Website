@@ -17,7 +17,7 @@ old_url: https://www.pokerrrrapp.com/single-post/looking-at-pocket-aces-avoid-th
 
 <p>Stop trying to trick people and play fundamentally strong poker. Instead of limping in to ‘disguise’ your hand, just raise it up. Whether that means open raising or <a href="news/3-tips-to-improve-your-3-bet-strategy.html">3-betting</a>, the best move is to get aggressive. Pocket aces is a really strong hand in a heads-up pot, but if there are several people going to the flop, you’re that much more likely to lose to a flush, straight, or small set.</p>
 
-<p>So when you’re facing a raise, 3-bet to around 2.5x in position or 3x – 4.5x when out of position. If there are multiple callers, 3-bet to a larger size of 3x the initial raise plus all the additional chips in the pot.</p>
+<p>So when you’re facing a raise, 3-bet to around 2.5x <a href="news/what-s-your-favorite-position-why-position-matters-in-nlhe.html">in position</a> or 3x – 4.5x when out of position. If there are multiple callers, 3-bet to a larger size of 3x the initial raise plus all the additional chips in the pot.</p>
 
 <p>While this is generally true, that doesn’t mean there aren’t times when you should trap with aces. The best time is when the stack-to-pot ratio (SRP) will be low when you call, especially when you can play post-flop in position since that gives you lots of maneuverability. Still, this play should be much less frequent than the aggressive option.</p>
 
@@ -29,7 +29,7 @@ old_url: https://www.pokerrrrapp.com/single-post/looking-at-pocket-aces-avoid-th
 
 <p>Aces may be the best <a href="news/pre-flop-fundamentals.html">pre-flop</a> hand, but that doesn’t mean it’s always going to be the best one post-flop. A great poker player recognizes when to downgrade the ranking and even fold.</p>
 
-<p>These are common situations where AA becomes a marginal made hand:</p>
+<p>These are common situations where AA becomes a <a href="news/playing-marginal-hands.html">marginal made hand</a>:</p>
 
 <ul>
 <li>When deep stacked on a connected board</li>

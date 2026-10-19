@@ -13,21 +13,21 @@ old_url: https://www.pokerrrrapp.com/single-post/2020/04/10/when-should-i-quit
 
 <p>Knowing when to pick up your chips and leave the table is one fundamental poker skill that people often overlook. Whether you’re way ahead or far behind, there will always come a point where it’s better to rack up and leave than keep playing. As the famous Kenny Rogers said, <a href="news/know-when-to-walk-away-and-when-to-run.html">you've got to know when to walk away and know when to run.</a></p>
 
-<p>This skill is crucial to proper bankroll management. Let’s go through some of the times when you should definitely think about quitting.</p>
+<p>This skill is crucial to <a href="news/bankroll-management.html">proper bankroll management</a>. Let’s go through some of the times when you should definitely think about quitting.</p>
 
 <p><strong>When Things Go Wrong</strong></p>
 
 <p>One classic problem is wanting to ‘win back’ our losses. At a certain point, when we keep having to <a href="news/dealing-with-card-death.html">deal with card death</a> or get super unlucky, we might start <a href="news/keeping-your-cool.html">tilting off</a>. We’ll play bad hands, make risky calls, and lose chips that we otherwise wouldn’t.</p>
 
-<p>This is a disaster for the bottom line. If you aren’t playing your A game, it’s definitely worth thinking about quitting.</p>
+<p>This is a disaster for the bottom line. If you aren’t <a href="news/bringing-your-a-game.html">playing your A game</a>, it’s definitely worth thinking about quitting.</p>
 
 <p>For instance, some players might play great all evening, and then after midnight their game goes south, and they start losing chips. At this point, we can follow a “Cinderella rule” and quit the game at midnight.</p>
 
 <p><strong>When Playing Against Fierce Competition</strong></p>
 
-<p>Table selection is another crucial component of poker strategy. We want to sit with the fish so that they’ll ship their chips our way. However, if we can’t find a good table, then we might just want to quit.</p>
+<p><a href="news/finding-the-right-table.html">Table selection</a> is another crucial component of poker strategy. We want to sit with the fish so that they’ll ship their chips our way. However, if we can’t find a good table, then we might just want to quit.</p>
 
-<p>If everywhere we look is a shark tank, it won’t be good for our win-rate. Although there are strategies for playing against superior opponents, there’s also no shame in walking away.</p>
+<p>If everywhere we look is a <a href="news/how-to-play-against-superior-opponents.html">shark tank</a>, it won’t be good for our win-rate. Although there are strategies for playing against superior opponents, there’s also no shame in walking away.</p>
 
 <p><strong>When You’re Ready to Lock Up a Win</strong></p>
 

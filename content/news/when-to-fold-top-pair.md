@@ -13,13 +13,13 @@ old_url: https://www.pokerrrrapp.com/single-post/2020/01/22/when-to-fold-top-pai
 
 <p>Pairs are the most common made hand in poker, and top pair is often good enough to win the pot. However, there are still plenty of hands that even beat a pair of aces, so we need to fold top pair sometimes if we want to play an optimal strategy.</p>
 
-<p>It can be difficult to let go of these hands. We’re often afraid that our opponent is bluffing against us, and we don’t want to lay down a good hand against air.</p>
+<p>It can be difficult to let go of these hands. We’re often afraid that our opponent is <a href="news/poker-fundamentals-bluffing.html">bluffing</a> against us, and we don’t want to lay down a good hand against air.</p>
 
 <p>Here are a few quick tips for when to fold top pair.</p>
 
 <p><strong>When Passivity Turns to Aggression</strong></p>
 
-<p>Let’s say that you raise pre-flop, make top pair on the flop, then fire a continuation bet. Your opponent calls. You bet again on the turn, and they call.</p>
+<p>Let’s say that you raise pre-flop, make top pair on the flop, then fire a <a href="news/continuation-betting-like-a-pro.html">continuation bet</a>. Your opponent calls. You bet again on the turn, and they call.</p>
 
 <p>Then, out of nowhere, your opponent makes a big bet on the river. This almost always means they have it, and so you should fold.</p>
 

@@ -23,13 +23,13 @@ old_url: https://www.pokerrrrapp.com/single-post/poker-stories-grinders
 
 <p>Although he’s a winning player overall, he struggles with the demons of his past: compulsive gambling and drinking. Despite saying that he wants to approach the game as a professional by “eating decent, sleeping decent, and playing decent,” he can’t help himself from downing dozens of drinks at the table. “Anyone who knows me knows that I play just as well if not better when I’m drinking,” he explains.</p>
 
-<p>When he does bust out of the tournament, though, it’s always the same story: perfect play marred by bad luck. He’s far from a bad player—he’s able to cover his costs and still bring home a few thousand dollars to his wife and kids—but he’s never able to break through to that next level.</p>
+<p>When he does bust out of the tournament, though, it’s always the same story: perfect play marred by <a href="news/working-through-the-variance.html">bad luck</a>. He’s far from a bad player—he’s able to cover his costs and still bring home a few thousand dollars to his wife and kids—but he’s never able to break through to that next level.</p>
 
 <p>In the end, we see Danny picking apples with his daughters in the morning after <a href="news/long-poker-sessions.html">playing poker all night</a>. He says that he’ll take a short nap and then head back to the card room to keep grinding.</p>
 
 <p><strong>Playing the Odds in Life</strong></p>
 
-<p><a href="https://www.imdb.com/name/nm1010504/" target="_blank" rel="noopener">Matt Gallagher</a> is both the filmmaker and a poker grinder who hits the clubs every night to try to make $500 to support his family. He’s become accustomed to playing the odds and handling risk at the poker table, but it can’t prepare him for how those odds will play out in his life outside of poker.</p>
+<p><a href="https://www.imdb.com/name/nm1010504/" target="_blank" rel="noopener">Matt Gallagher</a> is both the filmmaker and a poker grinder who hits the clubs every night to try to make $500 to support his family. He’s become accustomed to playing the odds and handling risk at the poker table, but it can’t prepare him for how those <a href="news/poker-fundamentals-pot-odds.html">odds</a> will play out in his life outside of poker.</p>
 
 <p>He tells us about how his daughter is the luckiest thing that’s ever happened to him because his wife had two miscarriages before the successful pregnancy. When they try for a second, their doctor presents them with a coin-flop: a 50-50 shot at a miscarriage. “Risk is a relative thing for poker players,” he says. He thought he could handle risk, but it’s harder when there’s so much more on the line. He can’t help but hope that he’ll have another child.</p>
 

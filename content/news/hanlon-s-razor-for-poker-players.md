@@ -19,7 +19,7 @@ old_url: https://www.pokerrrrapp.com/single-post/2020/07/22/hanlon-s-razor-for-p
 
 <p><strong>The Slowroll</strong></p>
 
-<p>One of the things that frustrates so many poker players is getting slowrolled. For instance, let’s say you’re on the river, holding a busted draw, and you decide to fire a big triple barrel bluff. Your opponent takes their time to think things over while you sweat it out, and eventually they call your bet, reveal a big hand, and scoop the pot.</p>
+<p>One of the things that frustrates so many poker players is getting slowrolled. For instance, let’s say you’re on the river, holding a busted draw, and you decide to fire a big <a href="news/firing-the-triple-barrel-bluff.html">triple barrel bluff</a>. Your opponent takes their time to think things over while you sweat it out, and eventually they call your bet, reveal a big hand, and scoop the pot.</p>
 
 <p>You might accuse your opponent of <a href="news/hollywooding-in-poker.html">Hollywooding</a>, acting like they were making a decision, all while trying to upset you. However, this is too narrow sighted.</p>
 

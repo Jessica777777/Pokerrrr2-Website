@@ -9,9 +9,9 @@ read_time: 2
 old_url: https://www.pokerrrrapp.com/single-post/3-bettor-postflop-strategy
 ---
 
-<p>Making a<a href="news/pre-flop-fundamentals.html"> </a><a href="news/pre-flop-fundamentals.html">preflop</a> 3-bet is a hallmark of<a href="news/poker-fundamentals-aggression.html"> </a><a href="news/poker-fundamentals-aggression.html">aggressive</a> poker strategy. Especially since bet sizes increase exponentially as we get into the later streets, we want to try to get the pot as big as we can as fast as we can when we have a premium hand. At the same time, it’s always good to try to force tight players to fold when they do open raises.</p>
+<p>Making a<a href="news/pre-flop-fundamentals.html"> </a><a href="news/pre-flop-fundamentals.html">preflop</a> 3-bet is a hallmark of<a href="news/poker-fundamentals-aggression.html"> </a><a href="news/poker-fundamentals-aggression.html">aggressive</a> poker strategy. Especially since bet sizes increase exponentially as we get into the later streets, we want to try to get the pot as big as we can as fast as we can when we have a premium hand. At the same time, it’s always good to try to force<a href="news/playing-against-nits.html"> </a><a href="news/playing-against-nits.html">tight players</a> to fold when they do open raises.</p>
 
-<p>But what happens when they call? How do you play the flop and beyond in a 3-bet pot? Of course, it’s going to depend on a lot of things: your position at the table,<a href="news/short-stack-strategy.html"> </a><a href="news/short-stack-strategy.html">stack sizes</a>, opponent player types, your<a href="news/poker-fundamentals-ranges.html"> </a><a href="news/poker-fundamentals-ranges.html">ranges</a>, etc.</p>
+<p>But what happens when they call? How do you play the flop and beyond in a 3-bet pot? Of course, it’s going to depend on a lot of things: your<a href="news/what-s-your-favorite-position-why-position-matters-in-nlhe.html"> </a><a href="news/what-s-your-favorite-position-why-position-matters-in-nlhe.html">position</a> at the table,<a href="news/short-stack-strategy.html"> </a><a href="news/short-stack-strategy.html">stack sizes</a>, opponent player types, your<a href="news/poker-fundamentals-ranges.html"> </a><a href="news/poker-fundamentals-ranges.html">ranges</a>, etc.</p>
 
 <p>These are our top tips.</p>
 
@@ -21,7 +21,7 @@ old_url: https://www.pokerrrrapp.com/single-post/3-bettor-postflop-strategy
 
 <p>Most of the time we want to keep firing off bets post-flop, either to build a pot to win later or to try to snatch it away. When you have lots of premium-made hands and draws, it’s fine to bet with your entire range.</p>
 
-<p>This is especially true if you’re<a href="news/3-betting-out-of-position.html"> </a><a href="news/3-betting-out-of-position.html">out of position</a>. You don’t want to check and then face a big bet, especially if you don’t have much equity. This will put you in a bad situation where you could have to fold out a hand that you could have otherwise won.</p>
+<p>This is especially true if you’re<a href="news/3-betting-out-of-position.html"> </a><a href="news/3-betting-out-of-position.html">out of position</a>. You don’t want to check and then face a big bet, especially if you don’t have much<a href="news/poker-fundamentals-equity.html"> </a><a href="news/poker-fundamentals-equity.html">equity</a>. This will put you in a bad situation where you could have to fold out a hand that you could have otherwise won.</p>
 
 <p>Start by asking yourself a few key questions. Do my best hands do well against my opponents’ best hands? Can I get it all in? And do I want to? If the answer is yes to all of these, then you can bet with impunity.</p>
 

@@ -29,7 +29,7 @@ old_url: https://www.pokerrrrapp.com/single-post/2019/02/24/poker-lessons-for-li
 
 <p>All things in moderation: this simple piece of wisdom, inscribed on the Temple at Delphi and extolled by Aristotle in his Ethics, has stood the test of time for a reason. To stay healthy, both physically and mentally, it’s crucial that we lead balanced lives.</p>
 
-<p>Poker helps us to learn and practice this because the game requires us to balance our play or else risk exploitation. If we do anything too much or too little, then we can easily and swiftly become punished by a reduction in our stack. We have to make a conscious effort to add variety, spontaneity, and unpredictability into our game, all the while ensuring that our fundamentals are rock-solid.</p>
+<p>Poker helps us to learn and practice this because the game requires us to <a href="news/balancing-your-play.html">balance our play</a> or else risk exploitation. If we do anything too much or too little, then we can easily and swiftly become punished by a reduction in our stack. We have to make a conscious effort to add variety, spontaneity, and unpredictability into our game, all the while ensuring that our fundamentals are rock-solid.</p>
 
 <p>Similarly, throughout our lives, we need to develop solid routines from which we can adventure, explore, and grow, just as we also need to focus on different things at different times. We can’t eat cake all the time or else we’ll get fat, but we also shouldn’t entirely cut out treats for the sake of our happiness and mental health.</p>
 

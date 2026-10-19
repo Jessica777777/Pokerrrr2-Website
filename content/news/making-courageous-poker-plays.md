@@ -33,7 +33,7 @@ old_url: https://www.pokerrrrapp.com/single-post/2020/08/07/making-courageous-po
 
 <p>our peers, especially if we’re playing against people we respect. A lot of times, people will play in a certain way because they want to try to impress other people.</p>
 
-<p>This can mean fearing that you’ll get laughed at if you make a fold, or it could be running a “sick bluff” to show off how good you are.</p>
+<p>This can mean fearing that you’ll get laughed at if you make a fold, or it could be running a “sick <a href="news/poker-fundamentals-bluffing.html">bluff</a>” to show off how good you are.</p>
 
 <p>Either way, if these decisions aren’t grounded in solid strategy, then it’s going to be a losing play. Instead, you should remind yourself that you came here to play poker—that you came here to win—and do your best to ignore everything else. Follow your goal and you’ll be much better off.</p>
 

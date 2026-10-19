@@ -29,7 +29,7 @@ old_url: https://www.pokerrrrapp.com/single-post/how-to-play-pocket-jacks
 
 <p>Jacks do have enough strength to make some fun <a href="news/pre-flop-fundamentals.html">pre-flop</a> plays. If you’re on the button or the cutoff and it folds around to you, then it’s definitely worth making an open raise to try and steal the blinds. You’ll often be met with folds, but when someone does call, then you still have plenty of equity and you beat many hands that people would <a href="news/defending-vs-bets.html">defend</a> with.</p>
 
-<p>The same is true for <a href="news/how-to-play-against-3-bets.html">3-betting</a>. While you might want to steer clear of 3-betting the nit who raised UTG (they have a really strong hand!!), there are plenty of opportunities for squeeze plays and other big bets where you can force people in tough spots. When we combine the fold equity with the chances that our hand is the best, it’s a winning spot.</p>
+<p>The same is true for <a href="news/how-to-play-against-3-bets.html">3-betting</a>. While you might want to steer clear of 3-betting the nit who raised UTG (they have a really strong hand!!), there are plenty of opportunities for <a href="news/squeeze-plays.html">squeeze plays</a> and other big bets where you can force people in tough spots. When we combine the fold equity with the chances that our hand is the best, it’s a winning spot.</p>
 
 <p><strong>Know When to Fold ‘Em</strong></p>
 

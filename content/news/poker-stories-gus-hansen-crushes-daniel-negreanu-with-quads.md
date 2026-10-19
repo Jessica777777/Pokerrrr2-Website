@@ -31,7 +31,7 @@ old_url: https://www.pokerrrrapp.com/single-post/poker-stories-gus-hansen-crushe
 
 <p>The <a href="news/turn-strategy.html">turn</a> is the 5s, giving Hansen quads and Negreanu a full-house, sixes full of fives. Things are about to get crazy!</p>
 
-<p>Hansen leads out for $24k and Negreanu decides to call, slow-playing his full-house and hoping that Hansen will continue leading into him.</p>
+<p>Hansen leads out for $24k and Negreanu decides to call, <a href="news/dont-slowplay-big-hands190814docx.html">slow-playing</a> his full-house and hoping that Hansen will continue leading into him.</p>
 
 <p>The <a href="news/how-to-play-the-river.html">river</a> brings the 8s, and both players are happy; they both hope that the 8 completed the others’ straight so that they can get even more money out of them. Hansen lays the trap and checks to Negreanu, who bets $65k.</p>
 

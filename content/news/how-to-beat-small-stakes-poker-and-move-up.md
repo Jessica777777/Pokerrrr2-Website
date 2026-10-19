@@ -11,7 +11,7 @@ old_url: https://www.pokerrrrapp.com/single-post/how-to-beat-small-stakes-poker-
 
 <figure><img src="assets/images/news/how-to-beat-small-stakes-poker-and-move-up/01.jpg" alt="" width="1400" height="788" loading="lazy"></figure>
 
-<p>The beginning of a new year is the perfect time to set goals and aim for growth. As poker players, this translates to beating the game in order to play bigger and bigger games and will let us win more chips.</p>
+<p>The beginning of a new year is the perfect time to <a href="news/setting-poker-goals.html">set goals</a> and aim for growth. As poker players, this translates to beating the game in order to play bigger and bigger games and will let us win more chips.</p>
 
 <p>That’s why you need an edge. By being more skilled than your opponents, all you need is the put in the time in order to move up. These are our top tips for climbing the poker ladder.</p>
 
@@ -19,7 +19,7 @@ old_url: https://www.pokerrrrapp.com/single-post/how-to-beat-small-stakes-poker-
 
 <p>Many players call way too often and don’t 3-bet and 4-bet often enough. You should <a href="news/poker-fundamentals-aggression.html">actively work to win</a> pots both small and large. Instead of calling raises with nonsense, wait until you have a reasonable hand and then make big bets.</p>
 
-<p>Don’t go crazy though. Play a tight range and play it well. That means putting your opponents into touch situations and forcing them to fold.</p>
+<p>Don’t go crazy though. <a href="news/play-a-tighter-range.html">Play a tight range</a> and play it well. That means putting your opponents into touch situations and forcing them to fold.</p>
 
 <p><strong>2: Bet for Thin Value on the River</strong></p>
 
@@ -35,7 +35,7 @@ This is especially common in small games, where lots of people limp and call wit
 
 <strong>4: Don’t Overplay Marginal Hands</strong></p>
 
-<p>Leading or re-reraising with marginal hands is almost always a mistake. The goal of hands like middle pair is almost always to get to showdown and realize your equity without putting too many chips in the pot. So play passively.
+<p>Leading or re-reraising with <a href="news/playing-marginal-hands.html">marginal hands</a> is almost always a mistake. The goal of hands like middle pair is almost always to get to showdown and realize your <a href="news/poker-fundamentals-equity.html">equity</a> without putting too many chips in the pot. So play passively.
 
 Don’t try to price out of the <a href="news/how-to-play-draws.html">draws</a>  by betting. You’re playing against an entire <a href="news/poker-fundamentals-ranges.html">range</a>. Sure, the draws will fold, but you beat most of them anyway. You’ll then be left only against hands that beat you.
 

@@ -21,13 +21,13 @@ old_url: https://www.pokerrrrapp.com/single-post/poker-tournament-strategy-for-e
 
 <p>In the first few levels, play is more reserved. Patience is key, and there’s less incentive to win pots. Instead of getting too involved, take time to <a href="news/listen-to-your-opponents-at-the-poker-table.html">observe and make reads</a> on your opponents. Especially since everyone is so deep-stacked, it’s not a good idea to play huge pots.</p>
 
-<p><a href="news/poker-fundamentals-ranges.html">Ranges</a> are also narrower in the beginning, so don’t make too many hero calls or run big triple barrel bluffs. Instead, <a href="news/3-tips-to-improve-your-3-bet-strategy.html">3-bet</a> a linear range and take advantage of the fact that the field is the softest that it’s going to be before the weak players bust out.</p>
+<p><a href="news/poker-fundamentals-ranges.html">Ranges</a> are also narrower in the beginning, so don’t make too many hero calls or run big <a href="news/firing-the-triple-barrel-bluff.html">triple barrel bluffs</a>. Instead, <a href="news/3-tips-to-improve-your-3-bet-strategy.html">3-bet</a> a linear range and take advantage of the fact that the field is the softest that it’s going to be before the weak players bust out.</p>
 
 <p><strong>Middle Stage</strong></p>
 
 <p>As the blinds start to raise and more people bust out, play becomes faster, more <a href="news/poker-fundamentals-aggression.html">aggressive</a>, and more volatile. That means you should open your range up and fight harder for pots.</p>
 
-<p>Blind stealing is particularly key for building your stack to carry you into the late stage. Defend your button wider, open wider in late position, and use the edge that position gives you to take more blinds. That also means 3-betting more aggressively, <a href="news/c-bet-strategy-frequency-and-sizing.html">c-betting</a>, and throwing in the occasional check-raise bluff.</p>
+<p>Blind stealing is particularly key for building your stack to carry you into the late stage. Defend your button wider, open wider in late position, and use the edge that <a href="news/what-s-your-favorite-position-why-position-matters-in-nlhe.html">position</a> gives you to take more blinds. That also means 3-betting more aggressively, <a href="news/c-bet-strategy-frequency-and-sizing.html">c-betting</a>, and throwing in the occasional check-raise bluff.</p>
 
 <p><strong>The Bubble</strong></p>
 

@@ -17,11 +17,11 @@ old_url: https://www.pokerrrrapp.com/single-post/2020/06/01/protecting-your-tour
 
 <p>tournament life alive.</p>
 
-<p>Sometimes, this means that we have to give up a little bit of equity. Even if a play is slightly better in the long run, we may want to fold to prevent some variance and to look for a better spot.</p>
+<p>Sometimes, this means that we have to give up a little bit of <a href="news/poker-fundamentals-equity.html">equity</a>. Even if a play is slightly better in the long run, we may want to fold to prevent some variance and to look for a better spot.</p>
 
 <p><strong>The Tournament Dilemma</strong></p>
 
-<p>The problem, however, is that we’re often short-stacked in tournaments. If we only have 20BB to work with, then we don’t have a lot of options. It’s easy to become pot committed.</p>
+<p>The problem, however, is that we’re often short-stacked in tournaments. If we only have 20BB to work with, then we don’t have a lot of options. It’s easy to become <a href="news/are-you-pot-committed.html">pot committed</a>.</p>
 
 <p>This means that we need to pick our spots and play solid hands. Sometimes it’s right to <a href="news/when-to-fold-top-pair.html">fold top pair.</a> There are other times when we need to fold a reasonable hand pre-flop because there’s still others to act after us, and we can’t stand up to a squeeze play.</p>
 

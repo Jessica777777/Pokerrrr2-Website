@@ -11,7 +11,7 @@ old_url: https://www.pokerrrrapp.com/single-post/2020/08/12/staying-focused-in-h
 
 <figure><img src="assets/images/news/staying-focused-in-high-pressure-situations/01.jpg" alt="" width="1400" height="1833" loading="lazy"></figure>
 
-<p>There are times at the poker table when the pressure cranks up on us. This could be at the final table of a big poker tournament, it could be when we try to play a higher stakes game, or maybe we’re just against some tough opponents. No matter the reason, if you’re feeling uneasy or nervous, you’re going to need a strategy to stay focused.</p>
+<p>There are times at the poker table when the pressure cranks up on us. This could be at the final table of a big poker tournament, it could be when we try to play a higher stakes game, or maybe we’re just against some <a href="news/how-to-play-against-superior-opponents.html">tough opponents</a>. No matter the reason, if you’re feeling uneasy or nervous, you’re going to need a strategy to stay focused.</p>
 
 <p>Start by asking yourself if this is a rare or common situation. If it’s rare, then it’s probably unavoidable—it just happens. On the other hand, if you often find yourself feeling the pressure, then you probably are afraid of making mistakes and losing your chips.</p>
 
@@ -35,6 +35,6 @@ old_url: https://www.pokerrrrapp.com/single-post/2020/08/12/staying-focused-in-h
 
 <p>situations.</p>
 
-<p>Focus on the game, and remind yourself that you’re going to review the game once it’s over. This keeps you in that growth mindset and enables you to do what you need to do.</p>
+<p>Focus on the game, and remind yourself that you’re going to review the game once it’s over. This keeps you in that <a href="news/setting-poker-goals.html">growth mindset</a> and enables you to do what you need to do.</p>
 
 <p>Try it Now!  POKERRRR2 with your friends!</p>

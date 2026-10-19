@@ -11,7 +11,7 @@ old_url: https://www.pokerrrrapp.com/single-post/2019/11/14/developing-a-warm-up
 
 <figure><img src="assets/images/news/developing-a-warm-up-routine/01.jpg" alt="" width="630" height="956" loading="lazy"></figure>
 
-<p>Just like a runner stretches their legs or a singer starts with some arpeggios, poker players also need to take a moment to warm-up in order to achieve peak performance. By taking ten minutes to warm-up before you sit down at the table, you’ll bring a stronger mental game and increase your win-rate.</p>
+<p>Just like a runner stretches their legs or a singer starts with some arpeggios, poker players also need to take a moment to warm-up in order to achieve peak performance. By taking ten minutes to warm-up before you sit down at the table, you’ll bring a stronger <a href="news/poker-fundamentals-mental-game.html">mental game</a> and increase your win-rate.</p>
 
 <p>While we’re all different, there are some easy principles that you can apply to your routine.</p>
 

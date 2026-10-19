@@ -17,7 +17,7 @@ old_url: https://www.pokerrrrapp.com/single-post/how-to-survive-multi-table-tour
 
 <p>In the first level, you need to understand the deep-stacked and <a href="news/poker-fundamentals-exploits.html">exploitative play</a>. This is the part of the tournament when stacks will be largest, so post-flop play and concepts like stack-to-pot ratio are critical.</p>
 
-<p>The beginning is also when you’ll find the weakest players—after all, they haven’t busted out yet. So when you smell blood in the water, don’t be afraid to strike. Get out of line and make exploitative plays, like <a href="news/3-tips-to-improve-your-3-bet-strategy.html">3-betting</a> wide against nits or betting for thin value against <a href="news/playing-against-calling-stations.html">calling stations</a>.</p>
+<p>The beginning is also when you’ll find the weakest players—after all, they haven’t busted out yet. So when you smell blood in the water, don’t be afraid to strike. Get out of line and make exploitative plays, like <a href="news/3-tips-to-improve-your-3-bet-strategy.html">3-betting</a> wide against <a href="news/playing-against-nits.html">nits</a> or betting for thin value against <a href="news/playing-against-calling-stations.html">calling stations</a>.</p>
 
 <p><strong>Middle Stages</strong></p>
 

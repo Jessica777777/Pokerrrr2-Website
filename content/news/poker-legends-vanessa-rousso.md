@@ -9,7 +9,7 @@ read_time: 2
 old_url: https://www.pokerrrrapp.com/single-post/poker-legends-vanessa-rousso
 ---
 
-<p>“Game theory is when you take complex scenarios and reduce them to mathematics using variables to represent elements, such as, in the case of poker, human tendencies like the tendency of a particular player to bluff.”</p>
+<p>“Game theory is when you take complex scenarios and reduce them to mathematics using variables to represent elements, such as, in the case of poker, human tendencies like the tendency of a particular player to <a href="news/poker-fundamentals-bluffing.html">bluff</a>.”</p>
 
 <p>With over $3.5 million in live earnings, Vanessa Rousso has, without a doubt, put her education to good use and become one of the biggest crushers in Vegas. After graduating from Duke University in a record-smashing two and a half years with majors in game theory and political science, Rousso went on to law school and graduated magna cum laude while simultaneously building up an enormous <a href="news/building-up-a-bankroll.html">poker bankroll</a>.</p>
 

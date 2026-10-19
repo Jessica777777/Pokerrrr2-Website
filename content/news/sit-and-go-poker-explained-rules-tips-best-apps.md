@@ -49,7 +49,7 @@ old_url: https://www.pokerrrrapp.com/single-post/sit-and-go-poker-explained-rule
 <p><strong>Start applying pressure.</strong> Blinds are eating into shorter stacks, and players tighten up to survive into the money. This is where you steal.</p>
 
 <ul>
-<li>Open wider from late position</li>
+<li>Open wider from <a href="news/what-s-your-favorite-position-why-position-matters-in-nlhe.html">late position</a></li>
 <li>Attack players who are clearly waiting for the money</li>
 <li>Re-steal against loose openers if your stack allows it
 <br></li>

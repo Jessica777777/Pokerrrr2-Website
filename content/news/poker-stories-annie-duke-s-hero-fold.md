@@ -33,7 +33,7 @@ old_url: https://www.pokerrrrapp.com/single-post/poker-stories-annie-duke-s-hero
 
 <p><strong>The Results</strong></p>
 
-<p>The tournament then took a break for dinner, and that’s when Phil Hellmuth came up to her and said, “Annie, I know you had jacks or tens. Don’t you know Raymer had ace-king? It was totally obvious to me.”</p>
+<p>The tournament then took a break for dinner, and that’s when Phil Hellmuth came up to her and said, “Annie, I know you had jacks or tens. Don’t you know Raymer had<a href="news/ace-king-pre-flop.html"> </a><a href="news/ace-king-pre-flop.html">ace-king</a>? It was totally obvious to me.”</p>
 
 <p>Duke was crushed, and she spent the next hour filled with self-doubt. Clearly, she had made a decision not to lose instead of win.</p>
 

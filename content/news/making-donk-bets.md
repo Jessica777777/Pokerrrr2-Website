@@ -11,7 +11,7 @@ old_url: https://www.pokerrrrapp.com/single-post/2020/04/24/making-donk-bets
 
 <figure><img src="assets/images/news/making-donk-bets/01.jpg" alt="" width="846" height="1162" loading="lazy"></figure>
 
-<p>The donk bet is a bit of poker lingo for a specific situation. When we’re on the flop, we usually check to the pre-flop raiser to see what they’re going to do, as if we’re following</p>
+<p>The donk bet is a bit of <a href="news/how-to-talk-poker.html">poker lingo</a> for a specific situation. When we’re on the flop, we usually check to the pre-flop raiser to see what they’re going to do, as if we’re following</p>
 
 <p>a script. However, if we lead out into them, then we’re making a donk bet.</p>
 
@@ -21,9 +21,9 @@ old_url: https://www.pokerrrrapp.com/single-post/2020/04/24/making-donk-bets
 
 <p><strong>When You’ve Smashed the Flop</strong></p>
 
-<p>The first time to donk bet is when you’ve absolutely crushed the flop. Let’s say it comes TT2 and you’re holding a hand like T9. You’re holding a <a href="news/strategies-for-sets-1.html">set</a> and you want to start building up that pot. Instead of trying to trap people by acting sneaky, remember not to slowplay big hands.</p>
+<p>The first time to donk bet is when you’ve absolutely crushed the flop. Let’s say it comes TT2 and you’re holding a hand like T9. You’re holding a <a href="news/strategies-for-sets-1.html">set</a> and you want to start building up that pot. Instead of trying to trap people by acting sneaky, remember <a href="news/dont-slowplay-big-hands190814docx.html">not to slowplay big hands</a>.</p>
 
-<p>Most hands miss the flop, so it’s likely that your opponent doesn’t have a great hand that they’re willing to bet the flop. Unless you know that they’re an aggressive player who is likely to make a continuation bet, you need to put some chips into the pot to get the action going.</p>
+<p>Most hands miss the flop, so it’s likely that your opponent doesn’t have a great hand that they’re willing to bet the flop. Unless you know that they’re an aggressive player who is likely to make a <a href="news/continuation-betting-like-a-pro.html">continuation bet</a>, you need to put some chips into the pot to get the action going.</p>
 
 <p>After all, it would be a shame if everyone checked behind and you lost out on getting value out of your big hand.</p>
 

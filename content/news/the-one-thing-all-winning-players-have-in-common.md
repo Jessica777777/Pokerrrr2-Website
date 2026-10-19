@@ -15,7 +15,7 @@ old_url: https://www.pokerrrrapp.com/single-post/2018/12/03/the-one-thing-all-wi
 
 <p>Besides having an incredible amount of practice under their belt, these players all have this one thing in common: they study.</p>
 
-<p>That’s right. Poker has elements of psychology and intuition built into it, but, at its core, it’s a game of mathematical probabilities. If you want to make the highest EV play, you need to be able to figure out what the EV of different lines is in the first place.</p>
+<p>That’s right. Poker has elements of psychology and intuition built into it, but, at its core, it’s a game of mathematical probabilities. If you want to make the <a href="news/the-real-currency-of-poker.html">highest EV</a><a href="news/the-real-currency-of-poker.html"> </a>play, you need to be able to figure out what the EV of different lines is in the first place.</p>
 
 <p>If you are the type of player who makes decisions based on ‘feeling,’ you may win some pots, but you will never win in the long run. There are many counterintuitive and complex situations that come up in this game, and the only way to navigate them with any proficiency is to put in the off-table work.</p>
 

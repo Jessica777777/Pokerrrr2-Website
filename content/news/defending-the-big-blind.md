@@ -13,7 +13,7 @@ old_url: https://www.pokerrrrapp.com/single-post/2020/05/12/defending-the-big-bl
 
 <p>Many players make this play by default. When facing a raise from the big blind, they instinctively call because they’ve got it in their head that they need to ‘defend the blind.’</p>
 
-<p>You might think, “well, I’ve already got some chips in the pot. This means I’m getting better pot-odds on a call than I otherwise would, so I should go for it.” Or maybe you’re afraid of getting pushed around, thinking that if you fold then people will always raise you to try to “steal the blinds.”</p>
+<p>You might think, “well, I’ve already got some chips in the pot. This means I’m getting better <a href="news/poker-fundamentals-pot-odds.html">pot-odds</a> on a call than I otherwise would, so I should go for it.” Or maybe you’re afraid of getting pushed around, thinking that if you fold then people will always raise you to try to “steal the blinds.”</p>
 
 <p>This is flawed logic. In actuality, we want to fold the big blind way more often than we “defend” it.</p>
 
@@ -23,9 +23,9 @@ old_url: https://www.pokerrrrapp.com/single-post/2020/05/12/defending-the-big-bl
 
 <p>If we do the math, we find that K5 is 50/50 against a random hand. So, does that mean we should call with K6? How about A5? Or T9s? Where do we draw the line?</p>
 
-<p>The problem, however, is that this calculation doesn’t factor in position, which is actually one of the most important elements of poker. Acting last in a hand gives you a huge advantage since poker is an information game. Even if you’re hand is 60% to win the pot, you’re probably not going to realize that 60% equity if you’re out of position.</p>
+<p>The problem, however, is that this calculation doesn’t factor in <a href="news/what-s-your-favorite-position-why-position-matters-in-nlhe.html">position</a>, which is actually one of the most important elements of poker. Acting last in a hand gives you a huge advantage since poker is an information game. Even if you’re hand is 60% to win the pot, you’re probably not going to realize that 60% equity if you’re out of position.</p>
 
-<p>To compensate, we need to play a tighter range. Look for hands like pocket pairs that can flop <a href="news/strategies-for-sets-1.html">sets</a> or strong Broadway hands like AK. And get rid of all the marginal hands and junk!</p>
+<p>To compensate, we need to <a href="news/play-a-tighter-range.html">play a tighter range</a>. Look for hands like pocket pairs that can flop <a href="news/strategies-for-sets-1.html">sets</a> or strong Broadway hands like <a href="news/ace-king-pre-flop.html">AK</a>. And get rid of all the <a href="news/playing-marginal-hands.html">marginal hands</a> and junk!</p>
 
 <p><strong>The Ego</strong></p>
 

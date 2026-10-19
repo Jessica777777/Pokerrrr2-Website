@@ -13,7 +13,7 @@ old_url: https://www.pokerrrrapp.com/single-post/2020/07/14/poker-hand-selection
 
 <p>Poker Hand Selection</p>
 
-<p>Optimally constructing ranges enables us to play more hands, find more spots, and win more chips. Once you start thinking about the game on a higher level, you’ll start seeing the big picture. A huge part of that is thinking in terms of ranges, both for what hands you should play and what hands your opponents might have in a given spot.</p>
+<p>Optimally constructing ranges enables us to play more hands, <a href="news/playing-cards-vs-playing-spots.html">find more spots</a>, and win more chips. Once you start thinking about the game on a higher level, you’ll start seeing the big picture. A huge part of that is thinking in terms of ranges, both for what hands you should play and what hands your opponents might have in a given spot.</p>
 
 <p>Not all hands are created equal, and different hands have various properties that make them more suitable for certain applications. By planning ahead and building a solid baseline, we’ll know how to play hands in the best possible way.</p>
 
@@ -53,7 +53,7 @@ old_url: https://www.pokerrrrapp.com/single-post/2020/07/14/poker-hand-selection
 
 <p>● Can I make the nuts? How about the second nuts?</p>
 
-<p>● Can I make a marginal hand?</p>
+<p>● Can I make a <a href="news/playing-marginal-hands.html">marginal hand</a>?</p>
 
 <p>The answers to these questions inform the properties of our hand and let us categorize them into ranges. For instance, the best hands have many of these properties. AKs can make flushes, straights, top pair, and the nuts. That’s why it’s such a great hand.</p>
 

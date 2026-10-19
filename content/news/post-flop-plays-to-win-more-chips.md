@@ -15,7 +15,7 @@ old_url: https://www.pokerrrrapp.com/single-post/2020/07/07/post-flop-plays-to-w
 
 <p><strong>1: Bet Bigger on Ace-High Boards If You Have an Ace</strong>
 
-If you’re on the flop, you’re holding an ace, and there’s not a bunch of other good hands out there, don’t be afraid to put your chips in the pot. One common mistake that a lot of players make is being too passive here. Checking is obviously bad because we want to <a href="news/don-t-be-afraid-to-value-bet.html">bet for value</a>, but we also should pay attention to our bet-sizing.</p>
+If you’re on the flop, you’re holding an ace, and there’s not a bunch of other good hands out there, don’t be afraid to put your chips in the pot. One common mistake that a lot of players make is being too passive here. Checking is obviously bad because we want to <a href="news/don-t-be-afraid-to-value-bet.html">bet for value</a>, but we also should pay attention to our <a href="news/why-you-should-care-about-bet-sizing.html">bet-sizing</a>.</p>
 
 <p>Would you rather bet half pot, ¾ pot, or 1.25 pot here? While many players would go for the smaller sizing because its “safer,” you’re leaving chips on the table! If your opponent</p>
 
@@ -33,4 +33,4 @@ You’re holding AK in early position after calling a preflop bet. The flop come
 
 <p>A lot of people will instinctively check-call here, thinking that they want to string their opponents along and let them keep betting. The problem, however, is that it’s really easy to sniff this out. If your opponent can’t beat aces with a good kicker on the turn, then they’ll probably stop betting.</p>
 
-<p>However, if you make a big check-raise, then they might think that your range is polarized, that you could be making a bluff here, and convince themselves to call with something worse. So, either they fold, and you win the pot outright, or they call while you have tons of equity, meaning they’re basically donating chips to your stack.</p>
+<p>However, if you make a big <a href="news/mastering-the-check-raise.html">check-raise</a>, then they might think that your range is <a href="news/polarized-vs-merged-ranges.html">polarized</a>, that you could be making a <a href="news/poker-fundamentals-bluffing.html">bluff</a> here, and convince themselves to call with something worse. So, either they fold, and you win the pot outright, or they call while you have tons of <a href="news/poker-fundamentals-equity.html">equity</a>, meaning they’re basically donating chips to your stack.</p>

@@ -15,7 +15,7 @@ old_url: https://www.pokerrrrapp.com/single-post/2020/10/11/short-stack-strategy
 
 <p>A common misconception surrounding playing a short stack is that you always need to fold or go-all in: nothing in between. However, playing this so-called ‘push/fold’ strategy actually leaves a ton of chips on the table and decreases your chances of success.</p>
 
-<p>Instead of playing such a binary strategy, it’s better to take a more nuanced approach that includes a consideration of some of poker’s complexities. In this article, we’re going to talk about how position affects short-stacked decision making.</p>
+<p>Instead of playing such a binary strategy, it’s better to take a more nuanced approach that includes a consideration of some of poker’s complexities. In this article, we’re going to talk about how <a href="news/what-s-your-favorite-position-why-position-matters-in-nlhe.html">position</a> affects short-stacked decision making.</p>
 
 <p><strong>On the Button</strong></p>
 

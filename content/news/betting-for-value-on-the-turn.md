@@ -11,7 +11,7 @@ old_url: https://www.pokerrrrapp.com/single-post/2020/03/19/betting-for-value-on
 
 <figure><img src="assets/images/news/betting-for-value-on-the-turn/01.jpg" alt="" width="1242" height="926" loading="lazy"></figure>
 
-<p>Let’s say you’ve flopped a reasonable hand like top pair, made a continuation bet, and your opponent called. The turn comes and it checks back to you. What do you do?</p>
+<p>Let’s say you’ve flopped a reasonable hand like top pair, made a <a href="news/continuation-betting-like-a-pro.html">continuation bet</a>, and your opponent called. The turn comes and it checks back to you. What do you do?</p>
 
 <p>If you’re like many players, you’re probably going to check here. What if your hand isn’t good? What if the turn card made their draw or gave them a better hand?</p>
 
@@ -21,7 +21,7 @@ old_url: https://www.pokerrrrapp.com/single-post/2020/03/19/betting-for-value-on
 
 <p>There will be a lot of times in the spot where you have a fine hand and they will have a flush draw or a straight draw. They might have called your flop bet just to see what happens and hoping to get lucky, but how will they react to pressure on the turn?</p>
 
-<p>Especially if you give them bad pot-odds by making a large bet, they’re going to have a hard time calling. Even if they do call, it’ll be a bad call and you’ll win chips on the river more often than not.</p>
+<p>Especially if you give them bad <a href="news/poker-fundamentals-pot-odds.html">pot-odds</a> by making a large bet, they’re going to have a hard time calling. Even if they do call, it’ll be a bad call and you’ll win chips on the river more often than not.</p>
 
 <p>On the other hand, if you just checked back, then you’re letting them get there for free. If they have overcards, flush draws, straight draws, or any other hand that needs just one more card to beat yours, then checking lets them have a free look at that card. By betting here, you get to protect yourself against this possibility.</p>
 

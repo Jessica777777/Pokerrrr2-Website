@@ -11,9 +11,9 @@ old_url: https://www.pokerrrrapp.com/single-post/2019/04/09/poker-fundamentals-r
 
 <figure><img src="assets/images/news/poker-fundamentals-ranges/01.jpg" alt="" width="459" height="393" loading="lazy"></figure>
 
-<p>It pays to go back to basics, which is why we’re bringing you a series of posts dedicated to the fundamentals. So far, we’ve discussed the foundational math behind pot-odds, and this week we’re going to go over ranges.</p>
+<p>It pays to go back to basics, which is why we’re bringing you a series of posts dedicated to the fundamentals. So far, we’ve discussed the foundational math behind <a href="news/poker-fundamentals-pot-odds.html">pot-odds</a>, and this week we’re going to go over ranges.</p>
 
-<p>If you want to be a <a href="news/the-one-thing-all-winning-players-have-in-common.html">winning poker player</a>, your fundamentals need to be rock-solid. After all, before you know the difference between polarized and merged ranges, you need to know what a range is to begin with.</p>
+<p>If you want to be a <a href="news/the-one-thing-all-winning-players-have-in-common.html">winning poker player</a>, your fundamentals need to be rock-solid. After all, before you know the difference between <a href="news/polarized-vs-merged-ranges.html">polarized and merged ranges</a>, you need to know what a range is to begin with.</p>
 
 <p>Let’s dig in.</p>
 

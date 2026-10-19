@@ -13,7 +13,7 @@ old_url: https://www.pokerrrrapp.com/single-post/dealing-with-burnout
 
 <p>Whether it’s from your job, stressors like family drama, or even a game like poker, burnout always sucks. It makes us feel lethargic, decreases our motivation, and certainly has a negative effect on our overall win-rate.</p>
 
-<p>How do winning poker players deal with burnout? How do we effectively recover? Are there any mental tactics we can employ to fight it?</p>
+<p>How do <a href="news/one-simple-trick-for-playing-better-poker.html">winning poker players</a> deal with burnout? How do we effectively recover? Are there any mental tactics we can employ to fight it?</p>
 
 <p>When it comes to poker, we can categorize burnout into two classes. Our response will likewise vary depending on which type of burnout we’re facing.</p>
 
@@ -21,13 +21,13 @@ old_url: https://www.pokerrrrapp.com/single-post/dealing-with-burnout
 
 <p>Maybe you feel like you can’t just catch a break. Even though you know you’re making solid plays, maybe you keep getting unlucky, losing your stack, or busting out of tournaments.</p>
 
-<p>Poker, however, is a game of variance. Even downswings of losing 25 tournaments in a row are normal, expected, and standard. So, if you know you’re going to lose sometimes (or even often), why should we care when it happens?</p>
+<p>Poker, however, is a game of <a href="news/working-through-the-variance.html">variance</a>. Even downswings of losing 25 tournaments in a row are normal, expected, and standard. So, if you know you’re going to lose sometimes (or even often), why should we care when it happens?</p>
 
 <p>Instead, show up, play the game, and extract as much value as you can. As long as you</p>
 
 <p>play fundamentally sound poker and you put in enough volume, you’ll emerge victorious eventually.</p>
 
-<p>In the meantime, however, you can mitigate this burnout by being properly <a href="news/building-up-a-bankroll.html">bankrolled</a>, acting wisely away from the table, and by taking a calm attitude that accepts the losses with the victories.</p>
+<p>In the meantime, however, you can mitigate this burnout by being properly <a href="news/building-up-a-bankroll.html">bankrolled</a>, acting wisely away from the table, and by taking a calm attitude that <a href="news/dealing-with-the-losses.html">accepts the losses</a> with the victories.</p>
 
 <h3>Burnout 2: Overworked</h3>
 

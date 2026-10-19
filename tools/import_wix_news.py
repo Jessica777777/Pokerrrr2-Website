@@ -22,6 +22,7 @@ import json
 import os
 import re
 import sys
+import urllib.parse
 
 from bs4 import BeautifulSoup, NavigableString, Tag
 from PIL import Image
@@ -97,7 +98,9 @@ def link(href, notes):
     migrated (excluded, or already deleted on Wix) return None -> unwrapped."""
     m = re.match(r"https?://(?:www\.)?pokerrrrapp\.com/single-post/([^?#]+?)/?(?:[?#].*)?$", href)
     if m:
-        target = OLD_PATH_TO_SLUG.get(m.group(1)) or LAST_TO_SLUG.get(m.group(1).split("/")[-1].lower())
+        last = urllib.parse.unquote(m.group(1).split("/")[-1]).lower().replace("\u2019", "-").replace("'", "-")
+        target = (OLD_PATH_TO_SLUG.get(m.group(1)) or LAST_TO_SLUG.get(last)
+                  or LAST_TO_SLUG.get(last + "-guide"))  # old slugs later renamed to ...-guide
         if target:
             return "news/%s.html" % target
         notes.append("link removed (post not migrated): " + href)

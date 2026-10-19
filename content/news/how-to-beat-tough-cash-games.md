@@ -13,7 +13,7 @@ old_url: https://www.pokerrrrapp.com/single-post/how-to-beat-tough-cash-games
 
 <p>Especially when you play at higher stakes or online, you’re going to face some tough competition. You’re opponents will play well; they will know their<a href="news/poker-fundamentals-ranges.html"> </a><a href="news/poker-fundamentals-ranges.html">ranges</a>, look out for<a href="news/all-about-tells.html"> </a><a href="news/all-about-tells.html">tells</a> that they can use to<a href="news/poker-fundamentals-exploits.html"> </a><a href="news/poker-fundamentals-exploits.html">exploit</a> you, and generally try to make your life as difficult as possible. What do you do when you play such a tough game?</p>
 
-<p>Of course, you can always switch tables to find a game that’s beatable. However, if you truly want to improve as a poker player, you need to test yourself against the best players. At a certain point, you just have to agree to “pay your tuition” to get better at this game. Once you do, then you won’t regret it.</p>
+<p>Of course, you can always<a href="news/finding-the-right-table.html"> </a><a href="news/finding-the-right-table.html">switch tables</a> to find a game that’s beatable. However, if you truly want to improve as a poker player, you need to<a href="news/how-to-play-against-superior-opponents.html"> </a><a href="news/how-to-play-against-superior-opponents.html">test yourself against the best players</a>. At a certain point, you just have to agree to “pay your tuition” to get better at this game. Once you do, then you won’t regret it.</p>
 
 <p>Here are our top tips for beating tough cash games.</p>
 
@@ -27,7 +27,7 @@ old_url: https://www.pokerrrrapp.com/single-post/how-to-beat-tough-cash-games
 
 <p>Another key to beating tough games is<a href="news/paying-close-attention.html"> </a><a href="news/paying-close-attention.html">paying attention</a> and taking notes. It’s especially important to look at what turns up at showdown, what happens in big pots, and any abnormal plays you find.</p>
 
-<p>You don’t need to record each and every thing that happens. Instead, make note of what counts. By keeping track of this information, you’ll get a better idea of what ranges your opponents are playing, their overall strategy, and how that translates into their<a href="news/using-frequencies-for-exploitation.html"> </a><a href="news/using-frequencies-for-exploitation.html">frequencies</a> for actions like bluffing or check-raise.</p>
+<p>You don’t need to record each and every thing that happens. Instead, make note of what counts. By keeping track of this information, you’ll get a better idea of what ranges your opponents are playing, their overall strategy, and how that translates into their<a href="news/using-frequencies-for-exploitation.html"> </a><a href="news/using-frequencies-for-exploitation.html">frequencies</a> for actions like<a href="news/poker-fundamentals-bluffing.html"> </a><a href="news/poker-fundamentals-bluffing.html">bluffing</a> or<a href="news/mastering-the-check-raise.html"> </a><a href="news/mastering-the-check-raise.html">check-raise</a>.</p>
 
 <p><strong>3#: Don’t Be a Robot</strong></p>
 

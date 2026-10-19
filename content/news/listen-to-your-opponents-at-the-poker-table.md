@@ -17,7 +17,7 @@ old_url: https://www.pokerrrrapp.com/single-post/listen-to-your-opponents-at-the
 
 <p><strong>The Majority of Players are Honest</strong></p>
 
-<p>Poker might be a game known for its bluffing, but most of the casual talk you hear at the poker table is completely honest. Sure, there might be that one guy who dresses up, speaks in a funny accent, and pretends to be someone he’s not as part of his “shtick”, but they’re the exception and not the rule. Especially when they’re not playing a hand, most people stay away from<a href="news/hollywooding-in-poker.html"> </a><a href="news/hollywooding-in-poker.html">Hollywooding</a>.</p>
+<p>Poker might be a game known for its<a href="news/poker-fundamentals-bluffing.html"> </a><a href="news/poker-fundamentals-bluffing.html">bluffing</a>, but most of the casual talk you hear at the poker table is completely honest. Sure, there might be that one guy who dresses up, speaks in a funny accent, and pretends to be someone he’s not as part of his “shtick”, but they’re the exception and not the rule. Especially when they’re not playing a hand, most people stay away from<a href="news/hollywooding-in-poker.html"> </a><a href="news/hollywooding-in-poker.html">Hollywooding</a>.</p>
 
 <p>Around 99% of what people say at the poker table is honest. So if they tell you that they really need to min-cash a tournament because their entire bankroll is on the table, it’s probably not a lie. You can then adjust by folding as an exploit when they bet and by adding more pressure to situations where they aren’t going to be willing to go all-in.</p>
 

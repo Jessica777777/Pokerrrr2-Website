@@ -31,7 +31,7 @@ old_url: https://www.pokerrrrapp.com/single-post/poker-legends-jack-straus
 
 <p>Another notable moment from Straus’s career was during a high stakes No Limit Hold ‘Em cash game. He was running hot, so he decided that he would raise<a href="news/pre-flop-fundamentals.html"> </a><a href="news/pre-flop-fundamentals.html">pre-flop</a> with any two cards. When he was dealt 72o, poker’s worst hand, he went with the rush and decided to raise it up anyway<a href="news/top-3-bluffing-spots-you-might-be-missing.html"> </a><a href="news/top-3-bluffing-spots-you-might-be-missing.html">as a bluff</a>.</p>
 
-<p>After being called by a single opponent, the flop came out 733, giving Straus 2 pair. He bet out, but his tight opponent responded with a large raise. This could only mean one thing: Straus was up against an over-pair, and he was almost certainly dead in the water.</p>
+<p>After being called by a single opponent, the flop came out 733, giving Straus 2 pair. He bet out, but his <a href="news/playing-against-nits.html">tight opponent</a> responded with a large raise. This could only mean one thing: Straus was up against an over-pair, and he was almost certainly dead in the water.</p>
 
 <p>Despite knowing he was behind, he thought he could represent a set of threes, so he made the call.</p>
 

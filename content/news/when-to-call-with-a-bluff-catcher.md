@@ -33,7 +33,7 @@ old_url: https://www.pokerrrrapp.com/single-post/when-to-call-with-a-bluff-catch
 
 <p><strong>2)</strong> Does the opponent’s <a href="news/poker-fundamentals-ranges.html">range</a> have enough obvious bluffs?</p>
 
-<p>Look at their frequencies, their <a href="news/psychological-player-profiling.html">player profile</a>, bet sizing, and the board run outs to determine this.</p>
+<p>Look at their frequencies, their <a href="news/psychological-player-profiling.html">player profile</a>, <a href="news/why-you-should-care-about-bet-sizing.html">bet sizing</a>, and the board run outs to determine this.</p>
 
 <p><strong>3)</strong> Is the opponent capable of finding the right number of bluffs?</p>
 
@@ -41,7 +41,7 @@ old_url: https://www.pokerrrrapp.com/single-post/when-to-call-with-a-bluff-catch
 
 <p><strong>4)</strong> Is my opponent capable of turning weak showdown hands into bluffs?</p>
 
-<p>Again, this comes down to player profile. A nitty, scared player is never going to do this, while a loose-aggressive maniac will do this too often.</p>
+<p>Again, this comes down to player profile. A <a href="news/playing-against-nits.html">nitty</a>, scared player is never going to do this, while a <a href="news/playing-against-maniacs.html">loose-aggressive maniac</a> will do this too often.</p>
 
 <p><strong>5) </strong>Does my hand unblock the most obvious bluffs?</p>
 
