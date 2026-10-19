@@ -172,8 +172,8 @@ def download():
         dest = os.path.join(OUT_DIR, name)
         if os.path.exists(dest):
             continue
-        # Wix resize endpoint: phone screenshots capped at 750px wide, same format
-        url = "https://static.wixstatic.com/media/%s/v1/fit/w_750,h_1600,q_85,enc_auto/%s" % (mid, mid)
+        # Wix resize endpoint: phone screenshots capped at 600px wide (2x the 300px display size)
+        url = "https://static.wixstatic.com/media/%s/v1/fit/w_600,h_1400,q_85,enc_auto/%s" % (mid, mid)
         req = urllib.request.Request(url, headers={"User-Agent": UA})
         try:
             data = urllib.request.urlopen(req, timeout=30).read()
