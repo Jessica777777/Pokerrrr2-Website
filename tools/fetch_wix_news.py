@@ -11,6 +11,8 @@ Usage (from the repo root):
   python3 tools/fetch_wix_news.py                # sample posts (default)
   python3 tools/fetch_wix_news.py --all          # every post in the list
   python3 tools/fetch_wix_news.py --only <slug> [<slug> ...]
+  python3 tools/fetch_wix_news.py --discover     # list every post in the Wix sitemap
+                                                 # -> _transfer/wix-sitemap-urls.txt
 
 Reads  _transfer/news-migration.json
 Writes _transfer/wix-raw/<slug>.html
@@ -82,11 +84,40 @@ def fetch_media(name):
     return name, "ok"
 
 
+def discover():
+    """Read the full Wix sitemap (index -> blog-posts sitemaps, all pages)."""
+    index = get("https://www.pokerrrrapp.com/sitemap.xml").decode("utf-8", "replace")
+    maps = [u for u in re.findall(r"<loc>([^<]+)</loc>", index) if "blog-posts" in u]
+    if not maps:
+        maps = ["https://www.pokerrrrapp.com/blog-posts-sitemap.xml"]
+    urls = []
+    for m in maps:
+        xml = get(html_unescape(m)).decode("utf-8", "replace")
+        found = re.findall(r"<loc>(https://www\.pokerrrrapp\.com/single-post/[^<]+)</loc>", xml)
+        print("%s: %d posts" % (m, len(found)))
+        urls += [u for u in found if u not in urls]
+    out = os.path.join(ROOT, "_transfer", "wix-sitemap-urls.txt")
+    with open(out, "w", encoding="utf-8") as f:
+        f.write("\n".join(urls) + "\n")
+    lst = json.load(open(LIST, encoding="utf-8"))
+    known = {p["old_url"] for p in lst["migrate"]} | {u for v in lst["excluded"].values() for u in v}
+    new = [u for u in urls if u not in known]
+    print("\nTotal posts in sitemap: %d  (not in news-migration.json yet: %d)" % (len(urls), len(new)))
+    print("Saved to _transfer/wix-sitemap-urls.txt")
+
+
+def html_unescape(u):
+    return u.replace("&amp;", "&")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--all", action="store_true", help="fetch every post in the list")
     ap.add_argument("--only", nargs="+", metavar="SLUG", help="fetch these slugs only")
+    ap.add_argument("--discover", action="store_true", help="list every post in the Wix sitemap")
     args = ap.parse_args()
+    if args.discover:
+        return discover()
 
     posts = json.load(open(LIST, encoding="utf-8"))["migrate"]
     by_slug = {p["slug"]: p for p in posts}
