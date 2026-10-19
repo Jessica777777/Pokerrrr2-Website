@@ -32,6 +32,11 @@ python3 tools/preview_server.py          # 本機預覽 http://localhost:8000（
 - 文章內文只有英文；中日文的列表頁會列出同樣的英文文章。
 - 舊站搬家：`python3 tools/fetch_wix_news.py --all`（需要網路，請在 Mac 終端機執行）→ `python3 tools/import_wix_news.py` → build。
 
+## FAQ 截圖
+
+- FAQ 答案中的截圖取自舊 Wix FAQ 頁，對應表在 `tools/fetch_faq_images.py`（`FAQ_IMAGES`），圖片放 `public/assets/images/faq/`。
+- 下載圖片：`python3 tools/fetch_faq_images.py`（需要網路，請在 Mac 終端機執行，會自動補上 width/height）→ `python3 tools/build_i18n.py`。
+
 ## 網址一律不帶 .html
 
 正式站（Cloudflare）會把 `/xxx.html` 301 到 `/xxx`、`/index.html` 到 `/`，Google 只收錄最後停留的網址，所以 canonical、hreflang、sitemap、`_redirects` 目標和所有站內連結都要用無 .html 的網址。
