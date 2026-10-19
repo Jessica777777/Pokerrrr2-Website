@@ -2,8 +2,8 @@
 title: WSOP 2026 Tournament Strategy Guide: How to Play Like a Pro | Pokerrrr 2
 date: 2026-05-27
 author: Pokerrrr
-category: guides
-cover: assets/images/news/wsop-2026-tournament-strategy-guide-how-to-play-like-a-pro-pokerrrr-2/01.jpg
+category: strategy
+cover: assets/images/news/wsop-2026-tournament-strategy-guide-how-to-play-like-a-pro-pokerrrr-2/02.jpg
 excerpt: From early-stage survival to final table ICM — plus how to practice before you play.
 read_time: 5
 old_url: https://www.pokerrrrapp.com/single-post/wsop-2026-tournament-strategy-guide-how-to-play-like-a-pro-pokerrrr-2
@@ -65,6 +65,8 @@ old_url: https://www.pokerrrrapp.com/single-post/wsop-2026-tournament-strategy-g
 <li>Heads-up: widen your range dramatically, attack every big blind, and stay aggressive</li>
 </ul>
 
+<figure><img src="assets/images/news/wsop-2026-tournament-strategy-guide-how-to-play-like-a-pro-pokerrrr-2/02.jpg" alt="" width="1400" height="788" loading="lazy"></figure>
+
 <h2>Key WSOP 2026 Formats — What's Different This Year</h2>
 
 <p>WSOP 2026 features 100 events across multiple formats. Understanding each changes your preparation.</p>
@@ -77,6 +79,8 @@ old_url: https://www.pokerrrrapp.com/single-post/wsop-2026-tournament-strategy-g
 <tr><td><strong>Turbo / Super Turbo</strong></td><td>Fast-escalating blinds</td><td>Push/fold from Level 1; ICM from Level 3</td><td>✓ "Ultrasonic" structure</td></tr>
 <tr><td><strong>Bounty / PKO</strong></td><td>Cash bonus for eliminating players</td><td>Call wider vs. bounty targets; adjust EV math</td><td>✓ Yes</td></tr>
 </table></div>
+
+<figure><img src="assets/images/news/wsop-2026-tournament-strategy-guide-how-to-play-like-a-pro-pokerrrr-2/03.jpg" alt="" width="1400" height="788" loading="lazy"></figure>
 
 <h2>How to Practice WSOP-Style Tournaments at Home</h2>
 

@@ -3,7 +3,7 @@ title: Poker Stories: The Grind Sharpens the Axe
 date: 2022-05-06
 author: Pokerrrr
 category: stories
-cover: 
+cover: assets/images/news/poker-stories-the-grind-sharpens-the-axe/02.jpg
 excerpt: The day-to-day life of a poker player, especially a professional or regular grinder, isn’t just big splashy hands, coolers, and sick all-in pots. A lot of time it's winning (and…
 read_time: 2
 old_url: https://www.pokerrrrapp.com/single-post/poker-stories-the-grind-sharpens-the-axe
@@ -12,6 +12,8 @@ old_url: https://www.pokerrrrapp.com/single-post/poker-stories-the-grind-sharpen
 <p>The day-to-day life of a poker player, especially a professional or regular grinder, isn’t just big splashy hands, coolers, and sick all-in pots. A lot of time it's winning (and losing) little pots, chopping pots, and just keeping on keeping on.</p>
 
 <p>That’s one of the great parts of following a poker Vlogger like PokerFaceAsh. In a recent video titled<a href="https://www.youtube.com/watch?v=VYcl3r6t14E" target="_blank" rel="noopener"> </a><a href="https://www.youtube.com/watch?v=VYcl3r6t14E" target="_blank" rel="noopener">When things go from bad to worse, trying to get unstuck in a casino cash game</a>, we get an inside look at what it really takes to be a poker grinder and how mastering the <a href="news/mastering-the-mental-game.html">mental game</a> through self-discipline is just as important as ranges and reads.</p>
+
+<figure><img src="assets/images/news/poker-stories-the-grind-sharpens-the-axe/01.jpg" alt="" width="1200" height="630" loading="lazy"></figure>
 
 <p><em>Photo: </em><a href="https://nlop.com/" target="_blank" rel="noopener"><em>NLOP</em></a></p>
 

@@ -3,7 +3,7 @@ title: Poker Legends: Tony G
 date: 2022-04-08
 author: Pokerrrr
 category: legends
-cover: 
+cover: assets/images/news/poker-legends-tony-g/02.jpg
 excerpt: Antanas Guoga, better known by his nickname Tony G, is one of poker’s most memorable personalities. The now-famous quote above comes from a session of The Big Game where he…
 read_time: 2
 old_url: https://www.pokerrrrapp.com/single-post/poker-legends-tony-g
@@ -16,6 +16,8 @@ old_url: https://www.pokerrrrapp.com/single-post/poker-legends-tony-g
 <p>With total live earnings pushing $9m USD, a best live cash of $1,196,000, and dozens of money finishes at the WSOP and WPT despite never taking home the trophy, Tony G is a popular contestant on television poker because of his reputation for outlandish table talk and verbal assaults.</p>
 
 <p>That doesn’t mean, however, that he’s a bad guy. After winning the Asia Poker Tour in 2006, he said, “I’ve become rich!” and donated half of his winnings to charities in Asia and Australia. To this day, he continues his philanthropy.</p>
+
+<figure><img src="assets/images/news/poker-legends-tony-g/01.jpg" alt="" width="1200" height="630" loading="lazy"></figure>
 
 <p><em>Photo: </em><a href="https://www.pgt.com/" target="_blank" rel="noopener"><em>PGT</em></a></p>
 

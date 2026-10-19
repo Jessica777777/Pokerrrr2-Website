@@ -97,8 +97,13 @@ def esc(s):
 
 
 # ---------------------------------------------------------------- list page
+def asset(path, up):
+    """public/-relative path -> path from a page `up` levels deep; URLs pass through."""
+    return path if re.match(r"https?://", path) else up + path
+
+
 def card(p, up=""):
-    img = ('<div class="news-card-img"><img src="%s%s" alt="" loading="lazy" decoding="async"></div>' % (up, esc(p["cover"]))
+    img = ('<div class="news-card-img"><img src="%s" alt="" loading="lazy" decoding="async"></div>' % esc(asset(p["cover"], up))
            if p.get("cover") else '<div class="news-card-img news-card-img--empty"></div>')
     return (
         '<a href="news/%(slug)s.html" class="card news-card" data-cat="%(cat)s">\n'
@@ -196,7 +201,7 @@ def write_articles(posts, d_en, translate, base_url):
     keep = set()
     for p in posts:
         url = "%snews/%s.html" % (base_url, p["slug"])
-        og = base_url + p["cover"] if p.get("cover") else base_url + "assets/images/p2-app-icon-512.png"
+        og = asset(p["cover"], base_url) if p.get("cover") else base_url + "assets/images/p2-app-icon-512.png"
         ld = {"@context": "https://schema.org", "@type": "BlogPosting", "headline": p["title"],
               "datePublished": p["date"], "author": {"@type": "Organization", "name": p.get("author") or "Pokerrrr"},
               "publisher": {"@type": "Organization", "name": "Mondraw Limited"},

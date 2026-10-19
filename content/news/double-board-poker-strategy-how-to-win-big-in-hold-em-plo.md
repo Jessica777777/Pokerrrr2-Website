@@ -166,7 +166,7 @@ Ready to try it with your group?
 
 <h2>About Pokerrrr2</h2>
 
-<p>Pokerrrr2 is a mobile poker app available on iOS and Android that lets you host private poker games with friends or join public tables with players worldwide. Supported formats include Texas Hold'em, Omaha (PLO), Short Deck, Sit &amp; Go, Double Board Hold'em, and <a href="https://www.pokerrrrapp.com/single-post/how-to-play-open-face-chinese-poker-ofc-complete-rules-scoring-guide">Open Face Chinese (OFC)</a>. Games are play-money only and no real-money gambling is supported within the app.</p>
+<p>Pokerrrr2 is a mobile poker app available on iOS and Android that lets you host private poker games with friends or join public tables with players worldwide. Supported formats include Texas Hold'em, Omaha (PLO), Short Deck, Sit &amp; Go, Double Board Hold'em, and Open Face Chinese (OFC). Games are play-money only and no real-money gambling is supported within the app.</p>
 
 <p><strong>Play Double Board Poker on Pokerrrr2</strong></p>
 

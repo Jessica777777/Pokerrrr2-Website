@@ -9,7 +9,7 @@ read_time: 13
 old_url: https://www.pokerrrrapp.com/single-post/best-starting-hands-in-poker-guide
 ---
 
-<p>When you're learning <a href="https://www.pokerrrrapp.com/single-post/poker-for-beginners"><strong>how to play Texas Hold'em</strong></a>, one of the most important things to understand is which starting hands are worth playing and which ones you should just toss into the muck. In this article, we’ll walk you through the strongest hands in Texas Hold’em and share simple strategies to help you make the most of your cards and win. Let’ roll!</p>
+<p>When you're learning <strong>how to play Texas Hold'em</strong>, one of the most important things to understand is which starting hands are worth playing and which ones you should just toss into the muck. In this article, we’ll walk you through the strongest hands in Texas Hold’em and share simple strategies to help you make the most of your cards and win. Let’ roll!</p>
 
 <h2>10 Best Starting Hands in Texas Hold’em</h2>
 

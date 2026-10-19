@@ -3,7 +3,7 @@ title: How to Use a Bluff Catcher in Poker – When to Call and Why It Works
 date: 2022-05-27
 author: Pokerrrr
 category: strategy
-cover: 
+cover: assets/images/news/when-to-call-with-a-bluff-catcher/02.jpg
 excerpt: So many epic poker stories end with a “hero call”. It takes a true master with a heart of steel to call down a huge river bet with nothing but a small pair or even ace high. How…
 read_time: 2
 old_url: https://www.pokerrrrapp.com/single-post/when-to-call-with-a-bluff-catcher
@@ -19,6 +19,8 @@ old_url: https://www.pokerrrrapp.com/single-post/when-to-call-with-a-bluff-catch
 
 <p>Knowing <strong>when to use a bluff catcher in poker</strong> and when to fold gives you a huge edge. If you learn to spot the right spots for a <strong>bluff catcher poker strategy</strong>, you’ll gain a major advantage over players who guess blindly. Just remember that any hand that beats probable value bets is not a bluff catcher!</p>
 
+<figure><img src="assets/images/news/when-to-call-with-a-bluff-catcher/01.jpg" alt="" width="1200" height="630" loading="lazy"></figure>
+
 <p><em>Photo: </em><a href="https://www.wonderhowto.com/" target="_blank" rel="noopener"><em>WonderHowTo</em></a></p>
 
 <p><strong>Bluff Catching Flow Chart</strong></p>
@@ -31,7 +33,7 @@ old_url: https://www.pokerrrrapp.com/single-post/when-to-call-with-a-bluff-catch
 
 <p><strong>2)</strong> Does the opponent’s <a href="news/poker-fundamentals-ranges.html">range</a> have enough obvious bluffs?</p>
 
-<p>Look at their frequencies, their <a href="news/psychological-player-profiling.html">player profile</a>, <a href="https://www.pokerrrrapp.com/single-post/2019/01/13/why-you-should-care-about-bet-sizing">bet sizing</a>, and the board run outs to determine this.</p>
+<p>Look at their frequencies, their <a href="news/psychological-player-profiling.html">player profile</a>, bet sizing, and the board run outs to determine this.</p>
 
 <p><strong>3)</strong> Is the opponent capable of finding the right number of bluffs?</p>
 
@@ -39,7 +41,7 @@ old_url: https://www.pokerrrrapp.com/single-post/when-to-call-with-a-bluff-catch
 
 <p><strong>4)</strong> Is my opponent capable of turning weak showdown hands into bluffs?</p>
 
-<p>Again, this comes down to player profile. A <a href="https://www.pokerrrrapp.com/single-post/2019/07/01/playing-against-nits">nitty</a>, scared player is never going to do this, while a <a href="https://www.pokerrrrapp.com/single-post/2019/03/13/playing-against-maniacs">loose-aggressive maniac</a> will do this too often.</p>
+<p>Again, this comes down to player profile. A nitty, scared player is never going to do this, while a loose-aggressive maniac will do this too often.</p>
 
 <p><strong>5) </strong>Does my hand unblock the most obvious bluffs?</p>
 

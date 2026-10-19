@@ -52,7 +52,7 @@ def category(slug, title=""):
     if re.search(r"poker-stories|moneymaker|scandal|mrbeast|behind-the-scenes|prince-of-poker|ai-bots|robots|"
                  r"wsop-bluff|tournament-feels|blackjack-players|fun-facts|history|underground|how-did-poker", s):
         return "stories"
-    if re.search(r"beginners|how-to-play-|probability|easy-poker|starting-hands|short-deck|rules|count-cards|"
+    if re.search(r"beginners|how-to-play-(?:7-card|poker-without)|probability|easy-poker|starting-hands|short-deck|rules|count-cards|"
                  r"host-a-poker-night|without-chips|sit-and-go|lessons-for-life|8-ways-poker", s):
         return "guides"
     return "strategy"
@@ -79,7 +79,8 @@ def inline(node, slug, notes):
         elif c.name == "br":
             out.append("<br>")
         elif c.name == "a" and c.get("href"):
-            out.append('<a href="%s"%s>%s</a>' % (link(c["href"], notes), ext(c["href"]), inner))
+            href = link(c["href"], notes)
+            out.append('<a href="%s"%s>%s</a>' % (href, ext(c["href"]), inner) if href else inner)
         else:
             out.append(inner)
     s = "".join(out)
@@ -88,13 +89,19 @@ def inline(node, slug, notes):
     return s
 
 
+LAST_TO_SLUG = {s.lower(): s for s in SLUGS}
+
+
 def link(href, notes):
-    m = re.match(r"https?://(?:www\.)?pokerrrrapp\.com/single-post/(.+?)/?$", href)
+    """Map old blog links to the new pages. Links to posts that were not
+    migrated (excluded, or already deleted on Wix) return None -> unwrapped."""
+    m = re.match(r"https?://(?:www\.)?pokerrrrapp\.com/single-post/([^?#]+?)/?(?:[?#].*)?$", href)
     if m:
-        target = OLD_PATH_TO_SLUG.get(m.group(1))
+        target = OLD_PATH_TO_SLUG.get(m.group(1)) or LAST_TO_SLUG.get(m.group(1).split("/")[-1].lower())
         if target:
             return "news/%s.html" % target
-        notes.append("link to a post that is not migrated: " + href)
+        notes.append("link removed (post not migrated): " + href)
+        return None
     return html.escape(href, quote=True)
 
 
@@ -105,7 +112,7 @@ def ext(href):
 # ------------------------------------------------------------------ images
 class Images:
     def __init__(self, slug):
-        self.slug, self.map, self.n = slug, {}, 0
+        self.slug, self.map, self.n, self.youtube = slug, {}, 0, None
         os.makedirs(IMG_DIR % (slug, ""), exist_ok=True)
 
     def get(self, media_name):
@@ -192,6 +199,14 @@ def blocks(el, slug, imgs, notes, out):
         elif n == "blockquote":
             ps = [inline(p, slug, notes).strip() for p in c.find_all("p")] or [inline(c, slug, notes).strip()]
             out.append("<blockquote>%s</blockquote>" % "".join("<p>%s</p>" % x for x in ps if x))
+        elif n == "figure" and c.get("data-hook") == "figure-VIDEO":
+            m = re.search(r"img\.youtube\.com/vi/([\w-]{6,})/", str(c)) or re.search(r"youtube\.com/(?:embed/|watch\?v=)([\w-]{6,})", str(c))
+            if m:
+                out.append('<div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/%s" title="YouTube video" '
+                           'loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>' % m.group(1))
+                imgs.youtube = imgs.youtube or m.group(1)
+            else:
+                notes.append("video skipped (not YouTube, check manually)")
         elif n == "figure":
             f, href = figure(c, imgs, notes)
             if f:
@@ -270,6 +285,8 @@ def convert(slug):
     if not cover:
         m = re.search(r'<img src="([^"]+)"', body)
         cover = m.group(1) if m else ""
+        if not cover and imgs.youtube:
+            cover = "https://img.youtube.com/vi/%s/hqdefault.jpg" % imgs.youtube
         if not cover:
             notes.append("no cover image")
 
