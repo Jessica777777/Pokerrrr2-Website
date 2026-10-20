@@ -175,57 +175,345 @@
         {
           "t": "h2",
           "v": {
-            "en": "How to Play",
-            "zh-Hant": "怎麼玩",
-            "ja": "遊び方"
+            "en": "How to Play Texas Hold’em",
+            "zh-Hant": "德州撲克怎麼玩",
+            "ja": "テキサスホールデムの遊び方"
           }
         },
         {
           "t": "p",
           "v": {
-            "en": "In a game of Texas hold'em, every player is dealt two cards face down - called the “hole cards“. Then there is a round of betting where you can Check, Bet or Fold. This stage of the game is known as “pre-flop“.\nChecking lets the player pass on the action to the next player while allowing them to keep their cards even if no bet is placed. However, checking is only allowed when there is no bet currently on the table.\nWhen a player decides to place a bet, they are given two options:\n1. Call: Calling means you will bet the same amount as the previous player who placed a bet\n2. Raise: To raise means to increase and place a higher bet than the amount placed by another player",
-            "zh-Hant": "遊戲開始時，每位玩家會有兩張牌稱為“底牌“。在遊戲開始的第一回合，每個玩家可以選擇過牌、下注、或者蓋牌。第一回合也被稱作翻牌前。\n“過牌” 當桌上沒有下注且玩家也沒有下注時，允許將行動交給下一位玩家，玩家仍可以保留手上的牌。但是，只有當下牌桌上沒有下注時才允許 “過牌”。\n當玩家下注時有兩個選擇：\n1. 跟注：跟注表示你將下注與上一個下注玩家相同金額\n2. 加注：加注表示你將下更高的金額，超過其他玩家下注的金額。",
-            "ja": "テキサスホールデムでは、各プレイヤーに裏向きで2枚のカード（「ホールカード」と呼ばれる）が配られます。その後、チェック・ベット・フォールドを選べるベッティングラウンドが行われます。このラウンドは「プリフロップ」と呼ばれます。\nチェックは、ベットが行われていない場合に手札を保持したままアクションを次のプレイヤーに渡すことができます。ただし、チェックはテーブルに現在ベットがない場合にのみ可能です。\nプレイヤーがベットする場合、2つの選択肢があります：\n1. コール：直前にベットしたプレイヤーと同額をベットすること\n2. レイズ：他のプレイヤーがベットした金額よりも多く上乗せしてベットすること"
+            "en": "Texas Hold’em is played with two private cards and five shared community cards. Your goal is to win the pot by making the best five-card hand at showdown or getting every other player to fold.",
+            "zh-Hant": "德州撲克使用每位玩家各自的兩張底牌，加上五張所有人共用的公用牌來進行。你的目標是贏得底池：在攤牌時組出最強的五張牌，或是讓其他所有玩家都蓋牌。",
+            "ja": "テキサスホールデムは、各プレイヤーだけの2枚のカードと、全員で共有する5枚のコミュニティカードを使って遊びます。目的はポットを獲得すること。ショーダウンで最も強い5枚のハンドを作るか、他のプレイヤー全員をフォールドさせれば勝ちです。"
+          }
+        },
+        {
+          "t": "h3",
+          "v": {
+            "en": "The Basics",
+            "zh-Hant": "基本規則",
+            "ja": "基本ルール"
           }
         },
         {
           "t": "p",
           "v": {
-            "en": "When all the pre-flop betting has finished, three community cards are dealt face-up on the board. These three cards are known as the “flop“.",
-            "zh-Hant": "當翻牌前回合結束，第二回合開始時，桌面上會發出三張公用牌稱為“翻牌“，第二回合也被稱作翻牌圈。",
-            "ja": "プリフロップのベッティングが終わると、3枚のコミュニティカードが表向きにボードに配られます。この3枚は「フロップ」と呼ばれます。"
+            "en": "Each hand starts with the dealer button, which moves one seat clockwise after every hand. The two players to the left of the button post forced bets called blinds to get the action started:",
+            "zh-Hant": "每一手牌都從莊家按鈕（Dealer Button）開始，每打完一手，按鈕會順時針移動一個座位。按鈕左手邊的兩位玩家要先下強制注，稱為「盲注」，讓牌局開始行動：",
+            "ja": "各ハンドはディーラーボタンから始まり、ボタンは1ハンドごとに時計回りに1席移動します。ボタンの左側の2人のプレイヤーは、アクションを始めるために「ブラインド」と呼ばれる強制ベットを出します："
+          }
+        },
+        {
+          "t": "steps",
+          "v": [
+            {
+              "name": {
+                "en": "Small blind",
+                "zh-Hant": "小盲注",
+                "ja": "スモールブラインド"
+              },
+              "body": [
+                {
+                  "en": "The player directly to the left of the button, who posts the smaller forced bet.",
+                  "zh-Hant": "按鈕左邊第一位玩家，下較小的強制注。",
+                  "ja": "ボタンのすぐ左のプレイヤーで、少額の強制ベットを出します。"
+                }
+              ]
+            },
+            {
+              "name": {
+                "en": "Big blind",
+                "zh-Hant": "大盲注",
+                "ja": "ビッグブラインド"
+              },
+              "body": [
+                {
+                  "en": "The next player to the left, who posts the larger forced bet, typically twice the small blind.",
+                  "zh-Hant": "再往左一位的玩家，下較大的強制注，通常是小盲注的兩倍。",
+                  "ja": "その次の左のプレイヤーで、多額の強制ベットを出します。通常はスモールブラインドの2倍です。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "Every player is then dealt two cards face down. These are your hole cards.",
+            "zh-Hant": "接著每位玩家會拿到兩張蓋著的牌，這就是你的「底牌」。",
+            "ja": "その後、各プレイヤーに2枚のカードが裏向きで配られます。これがあなたの「ホールカード」です。"
+          }
+        },
+        {
+          "t": "h3",
+          "v": {
+            "en": "Your Options",
+            "zh-Hant": "你可以做的動作",
+            "ja": "選べるアクション"
           }
         },
         {
           "t": "p",
           "v": {
-            "en": "After pre-flop there is another round of betting, then a fourth community card is dealt on the board - this card is known as the “turn“.",
-            "zh-Hant": "當翻牌圈回合結束，第三回合開始時，第四張公用牌會被發出，此回合也稱作轉牌圈。",
-            "ja": "フロップの後にもう一度ベッティングラウンドがあり、その後4枚目のコミュニティカードがボードに配られます。このカードは「ターン」と呼ばれます。"
+            "en": "On your turn, you can:",
+            "zh-Hant": "輪到你時，你可以：",
+            "ja": "自分の番では、次のアクションを選べます："
+          }
+        },
+        {
+          "t": "steps",
+          "v": [
+            {
+              "name": {
+                "en": "Fold",
+                "zh-Hant": "蓋牌",
+                "ja": "フォールド"
+              },
+              "body": [
+                {
+                  "en": "Give up your hand and take no further part in the current hand.",
+                  "zh-Hant": "放棄手上的牌，這一手不再參與。",
+                  "ja": "手札を捨て、そのハンドにはもう参加しません。"
+                }
+              ]
+            },
+            {
+              "name": {
+                "en": "Check",
+                "zh-Hant": "過牌",
+                "ja": "チェック"
+              },
+              "body": [
+                {
+                  "en": "Pass the action without betting, if no bet needs to be matched.",
+                  "zh-Hant": "在不需要跟注的情況下，不下注、把行動交給下一位。",
+                  "ja": "合わせるべきベットがない場合に、ベットせずにアクションを次に回します。"
+                }
+              ]
+            },
+            {
+              "name": {
+                "en": "Bet",
+                "zh-Hant": "下注",
+                "ja": "ベット"
+              },
+              "body": [
+                {
+                  "en": "Put chips into the pot when no one has bet in the current betting round.",
+                  "zh-Hant": "在這一輪還沒有人下注時，把籌碼放入底池。",
+                  "ja": "そのベッティングラウンドでまだ誰もベットしていないときに、チップをポットに入れます。"
+                }
+              ]
+            },
+            {
+              "name": {
+                "en": "Call",
+                "zh-Hant": "跟注",
+                "ja": "コール"
+              },
+              "body": [
+                {
+                  "en": "Match the current bet.",
+                  "zh-Hant": "跟上目前的下注金額。",
+                  "ja": "現在のベット額に合わせます。"
+                }
+              ]
+            },
+            {
+              "name": {
+                "en": "Raise",
+                "zh-Hant": "加注",
+                "ja": "レイズ"
+              },
+              "body": [
+                {
+                  "en": "Increase the current bet, requiring other players who wish to continue to match the raise.",
+                  "zh-Hant": "提高目前的下注金額，其他想繼續玩的玩家必須跟上這個加注。",
+                  "ja": "現在のベット額を引き上げます。続けたい他のプレイヤーは、そのレイズ額に合わせる必要があります。"
+                }
+              ]
+            },
+            {
+              "name": {
+                "en": "All-in",
+                "zh-Hant": "全下",
+                "ja": "オールイン"
+              },
+              "body": [
+                {
+                  "en": "Bet all your remaining chips.",
+                  "zh-Hant": "把剩下的籌碼全部押上。",
+                  "ja": "残りのチップをすべてベットします。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "The actions available depend on the betting situation. For example, you cannot check if there is a bet to call.",
+            "zh-Hant": "能做哪些動作，要看當下的下注情況。例如，前面有人下注、你需要跟注時，就不能過牌。",
+            "ja": "選べるアクションはベットの状況によって変わります。例えば、コールすべきベットがある場合はチェックできません。"
+          }
+        },
+        {
+          "t": "h3",
+          "v": {
+            "en": "The Betting Rounds",
+            "zh-Hant": "下注回合",
+            "ja": "ベッティングラウンド"
+          }
+        },
+        {
+          "t": "steps",
+          "v": [
+            {
+              "name": {
+                "en": "Pre-flop",
+                "zh-Hant": "翻牌前",
+                "ja": "プリフロップ"
+              },
+              "body": [
+                {
+                  "en": "After everyone receives their hole cards, betting begins with the player to the left of the big blind. Players can fold, call, or raise.",
+                  "zh-Hant": "所有人拿到底牌後，由大盲注左邊的玩家開始下注。玩家可以蓋牌、跟注或加注。",
+                  "ja": "全員にホールカードが配られた後、ビッグブラインドの左のプレイヤーからベットが始まります。プレイヤーはフォールド、コール、レイズのいずれかを選べます。"
+                }
+              ]
+            },
+            {
+              "name": {
+                "en": "Flop",
+                "zh-Hant": "翻牌",
+                "ja": "フロップ"
+              },
+              "body": [
+                {
+                  "en": "Three community cards are dealt face up, followed by a round of betting.",
+                  "zh-Hant": "翻開三張公用牌，接著進行一輪下注。",
+                  "ja": "3枚のコミュニティカードが表向きに配られ、続いてベッティングラウンドが行われます。"
+                }
+              ]
+            },
+            {
+              "name": {
+                "en": "Turn",
+                "zh-Hant": "轉牌",
+                "ja": "ターン"
+              },
+              "body": [
+                {
+                  "en": "A fourth community card is dealt face up, followed by another round of betting.",
+                  "zh-Hant": "翻開第四張公用牌，接著再進行一輪下注。",
+                  "ja": "4枚目のコミュニティカードが表向きに配られ、続いてもう一度ベッティングラウンドが行われます。"
+                }
+              ]
+            },
+            {
+              "name": {
+                "en": "River",
+                "zh-Hant": "河牌",
+                "ja": "リバー"
+              },
+              "body": [
+                {
+                  "en": "The fifth and final community card is dealt face up, followed by the last round of betting.",
+                  "zh-Hant": "翻開第五張、也是最後一張公用牌，接著進行最後一輪下注。",
+                  "ja": "5枚目となる最後のコミュニティカードが表向きに配られ、続いて最後のベッティングラウンドが行われます。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "t": "h3",
+          "v": {
+            "en": "Making Your Hand",
+            "zh-Hant": "組出你的牌",
+            "ja": "ハンドの作り方"
           }
         },
         {
           "t": "p",
           "v": {
-            "en": "The final round of betting comes and the fifth community card is dealt on the board – this card is known as the “river“.",
-            "zh-Hant": "最後一回合稱作河牌圈，第五張公用牌稱為河牌。",
-            "ja": "最後のベッティングラウンドが行われ、5枚目のコミュニティカードがボードに配られます。このカードは「リバー」と呼ばれます。"
+            "en": "Your final hand is the best five-card combination you can make from your two hole cards and the five community cards. You can use both, one, or none of your hole cards.",
+            "zh-Hant": "你最後的牌，是從兩張底牌和五張公用牌中挑出最強的五張組合。底牌可以兩張都用、只用一張，或完全不用。",
+            "ja": "最終的なハンドは、2枚のホールカードと5枚のコミュニティカードから作れる最も強い5枚の組み合わせです。ホールカードは2枚とも使っても、1枚だけでも、まったく使わなくてもかまいません。"
           }
         },
         {
           "t": "p",
           "v": {
-            "en": "You would need to construct a five-card poker hands using best available 5 cards out of the 2 hole cards and 5 community cards.",
-            "zh-Hant": "每位玩家手上的兩張牌與檯面上五張牌組合起來，牌力最強者獲勝。",
-            "ja": "2枚のホールカードと5枚のコミュニティカードの中から最も強い5枚を選び、5枚のポーカーハンドを作る必要があります。"
+            "en": "Example: You hold 7♠ 7♥, and the board is 7♦ 9♣ A♠ A♦ 2♥. Your best hand is a full house, sevens full of aces (7-7-7-A-A).\nIf the board were J-7-5-6-2 instead, your best hand would be three of a kind, sevens.",
+            "zh-Hant": "範例：你拿到 7♠ 7♥，公用牌是 7♦ 9♣ A♠ A♦ 2♥。你的最強組合是葫蘆，三條 7 帶一對 A（7-7-7-A-A）。\n如果公用牌換成 J-7-5-6-2，你的最強組合就是 7 三條。",
+            "ja": "例：手札が 7♠ 7♥ で、ボードが 7♦ 9♣ A♠ A♦ 2♥ の場合、最強のハンドはフルハウス、7のスリーカードとAのペア（7-7-7-A-A）です。\nボードが J-7-5-6-2 だった場合、最強のハンドは7のスリーカードになります。"
           }
         },
         {
           "t": "p",
           "v": {
-            "en": "If you have 7-7 and the community cards are 7-9-A-A-2 you have full house (7-7-7-A-A). If the community cards were J-7-5-6-2 you would only have trips.\nSometimes the best hand is made by the five community cards on their own. If there were 3-4-5-6-7 on the board and you had 9-9, your hole cards would not play as there is a straight of higher value already showing.\n\nThere are two ways a hand can end. One is when the players in a hand turn over their hole cards and the player with the best hand wins. This is known as a “showdown“. The other is that someone will bet enough that everyone else folds. This is how most hands end in No limit Hold'em and that's the magic of the game - you don't always need the best hand to win.",
-            "zh-Hant": "如果你手上有 7-7，而公用牌是 7-9-A-A-2，你的最強組合就是葫蘆 (7-7-7-A-A)。假設公用牌是 J-7-5-6-2，你的最強組合則是 7 三條。\n某些情況下，最強組合有可能都是由公用牌組成的。例如檯面有 3-4-5-6-7，而你手上拿著 9-9，這種情況下 9-9 並不會使用到，因為檯面已經有比 9 一對還大的順子了。\n\n此遊戲有兩個勝利的方式，一是玩家將底牌翻開，然後跟公用牌組合出比其他玩家還要強的牌。此開牌動作稱為“攤牌“。二是當玩家下注，而其他人都選擇蓋牌的情況，該下注的玩家也能獲得勝利。這是德州撲克有趣的地方 - 你不見得需要好牌才能贏",
-            "ja": "例えば、あなたの手札が7-7で、コミュニティカードが7-9-A-A-2の場合、フルハウス（7-7-7-A-A）になります。コミュニティカードがJ-7-5-6-2だった場合は、スリーカードにしかなりません。\nまた、5枚のコミュニティカードだけで最強のハンドが作られることもあります。ボードに3-4-5-6-7が並んでいて、あなたの手札が9-9だった場合、すでにそれより強いストレートが場に出ているため、あなたのホールカードは使われません。\n\nハンドが終わる方法は2つあります。1つは、プレイヤーが自分のホールカードを開き、最も強いハンドを持つプレイヤーが勝つ方法で、これを「ショーダウン」と呼びます。もう1つは、誰かが十分な額をベットし、他の全員がフォールドする方法です。ノーリミットホールデムではほとんどのハンドがこの形で終わり、それこそがこのゲームの魅力です——必ずしも最強のハンドを持っている必要はありません。"
+            "en": "Playing the board: Sometimes, the best five-card hand is made entirely from the community cards. For example, if the board is 3-4-5-6-7 and you hold 9-9, the straight on the board beats your pair of nines. Your best hand is the five-card straight.",
+            "zh-Hant": "只用公用牌（Playing the board）：有時候，最強的五張牌完全由公用牌組成。例如公用牌是 3-4-5-6-7，你拿著 9-9，公用牌上的順子比你的一對 9 大，所以你的最強組合就是這五張順子。",
+            "ja": "ボードをプレイする（Playing the board）：最強の5枚のハンドが、コミュニティカードだけで作られることもあります。例えばボードが 3-4-5-6-7 で手札が 9-9 の場合、ボードのストレートは9のワンペアより強いため、最強のハンドはその5枚のストレートになります。"
+          }
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "If no player can make a better five-card hand using their hole cards, everyone plays the board and the pot is split equally among the remaining players.",
+            "zh-Hant": "如果沒有任何玩家能用底牌組出更強的五張牌，所有人都以公用牌作為最終牌型，底池由剩下的玩家平分。",
+            "ja": "ホールカードを使ってより強い5枚のハンドを作れるプレイヤーがいない場合は、全員がボードをプレイすることになり、ポットは残っているプレイヤーで均等に分けられます。"
+          }
+        },
+        {
+          "t": "h3",
+          "v": {
+            "en": "How a Hand Ends",
+            "zh-Hant": "一手牌怎麼結束",
+            "ja": "ハンドの終わり方"
+          }
+        },
+        {
+          "t": "steps",
+          "v": [
+            {
+              "name": {
+                "en": "Showdown",
+                "zh-Hant": "攤牌",
+                "ja": "ショーダウン"
+              },
+              "body": [
+                {
+                  "en": "If two or more players remain after the final betting round, they reveal their cards. The player with the best five-card hand wins the pot. If multiple players have equally ranked hands, the pot is split among them.",
+                  "zh-Hant": "最後一輪下注結束後，如果還剩兩位以上的玩家，就要亮牌比大小。五張牌組合最強的玩家贏得底池；如果有多位玩家牌力相同，就平分底池。",
+                  "ja": "最後のベッティングラウンドの後に2人以上のプレイヤーが残っている場合、カードを公開します。最も強い5枚のハンドを持つプレイヤーがポットを獲得します。同じ強さのハンドのプレイヤーが複数いる場合は、ポットを分け合います。"
+                }
+              ]
+            },
+            {
+              "name": {
+                "en": "Everyone folds",
+                "zh-Hant": "其他人都蓋牌",
+                "ja": "全員フォールド"
+              },
+              "body": [
+                {
+                  "en": "If you bet or raise and all other players fold, you win the pot without showing your cards.",
+                  "zh-Hant": "如果你下注或加注後，其他玩家全部蓋牌，你不用亮牌就能贏得底池。",
+                  "ja": "あなたがベットまたはレイズして他のプレイヤー全員がフォールドした場合、カードを見せずにポットを獲得できます。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "v": {
+            "en": "You don't always need the best hand to win. Sometimes, the right bet is enough to take the pot. That's part of what makes No-Limit Texas Hold’em so exciting: strategy, timing, and reading your opponents can matter just as much as the cards you're dealt.",
+            "zh-Hant": "不一定要拿到最好的牌才能贏，有時候一個對的下注就足以拿下底池。這正是無限注德州撲克刺激的地方：策略、時機和解讀對手，跟你拿到的牌一樣重要。",
+            "ja": "勝つために必ずしも最強のハンドが必要なわけではありません。適切なベットひとつでポットを獲得できることもあります。それこそがノーリミット・テキサスホールデムの面白さです。戦略、タイミング、相手を読む力は、配られたカードと同じくらい重要です。"
           }
         },
         {

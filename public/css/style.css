@@ -2804,6 +2804,34 @@ a.feature-card .feature-card-body .btn { pointer-events: none; }
 @media (max-width: 900px) {
   .feature-split { grid-template-columns: 1fr; gap: 28px; }
 }
+
+/* How to Play / NLH (2026-10-20): rules text with the hand-ranking table
+   below it on the left; the right column is a reserved slot for the NLH
+   tutorial mini-game (where the OFC demo used to be), built later. */
+.htp-nlh .htp-nlh-ranking { margin-top: 40px; }
+.htp-nlh-demo-slot {
+  position: sticky;
+  top: 100px;
+  min-height: 560px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  border: 1px dashed rgba(212, 175, 55, 0.45);
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, 0.02);
+}
+.htp-nlh-demo-slot-label {
+  font-family: ui-monospace, 'SFMono-Regular', 'Courier New', monospace;
+  font-size: var(--fs-xs);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-text-faint);
+  text-align: center;
+}
+@media (max-width: 900px) {
+  .htp-nlh-demo-slot { position: static; min-height: 240px; }
+}
 /* v37: .container-wide now shares the site's 1160px cap (same width as
    the header and every other page) instead of 1520px. The media column
    is pulled up -74px to line up with the h2, so a long section title such

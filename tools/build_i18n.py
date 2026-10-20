@@ -207,15 +207,24 @@ def localize(src, page, lang):
     return src
 
 
+# Placeholder label for the reserved tutorial mini-game slot on How to Play.
+NLH_DEMO_SLOT_LABEL = {
+    "en": "Interactive tutorial coming soon",
+    "zh": "互動教學即將推出",
+    "ja": "インタラクティブチュートリアル近日公開",
+}
+
 NLH_RULES = re.compile(r"(<!-- nlh:rules -->)(.*?)(<!-- /nlh:rules -->)", re.S)
 
 
 def fill_nlh_rules(src, lang):
     """how-to-play.html: NLH rules (from data/game-rules.json, same blocks as
-    game-rules/nlh.html) as a two-column split -- rules text on the left, the
-    hand-ranking table on the right. The leading "How to Play" h2 is dropped
-    (the section's own h1 already names the game). Card image paths are
-    root-relative here; localize() adds ../ for zh/ja."""
+    game-rules/nlh.html) as a two-column split -- rules text with the
+    hand-ranking table below it on the left; on the right, a reserved slot
+    for the NLH tutorial mini-game (where the OFC demo used to sit; to be
+    built later). The leading h2 is dropped (the section's own h1 already
+    names the game). Card image paths are root-relative here; localize()
+    adds ../ for zh/ja."""
     if "<!-- nlh:rules -->" not in src:
         return src
     gr = build_game_rules.load_game_rules()
@@ -228,10 +237,15 @@ def fill_nlh_rules(src, lang):
     render = build_game_rules.render
     text = render.render_blocks(blocks, hl, gr, "assets/images/cards/")
     rank = render.render_blocks(ranking, hl, gr, "assets/images/cards/")
+    slot = NLH_DEMO_SLOT_LABEL[lang]
     html = ('\n      <div class="feature-split">\n'
-            '        <div class="feature-split-text gr-panel">%s</div>\n'
-            '        <div class="feature-split-media gr-panel htp-nlh-ranking">%s</div>\n'
-            '      </div>\n      ') % (text, rank)
+            '        <div class="feature-split-text gr-panel">%s\n'
+            '          <div class="htp-nlh-ranking">%s</div>\n'
+            '        </div>\n'
+            '        <!-- reserved: NLH tutorial mini-game (TODO) -->\n'
+            '        <div class="feature-split-media htp-nlh-demo-slot" aria-hidden="true">'
+            '<span class="htp-nlh-demo-slot-label">%s</span></div>\n'
+            '      </div>\n      ') % (text, rank, slot)
     return NLH_RULES.sub(lambda m: m.group(1) + html + m.group(3), src, count=1)
 
 
