@@ -23,7 +23,7 @@
 <link rel="alternate" hreflang="ja" href="https://www.pokerrrrapp.com/ja/">
 <link rel="alternate" hreflang="x-default" href="https://www.pokerrrrapp.com/">
 <!-- /i18n:alternates -->
-<link rel="stylesheet" href="../css/style.css?v=57">
+<link rel="stylesheet" href="../css/style.css?v=59">
 </head>
 <body>
 
@@ -301,6 +301,110 @@
     </div>
   </section>
 
+  <!-- GAME TYPES：參考 Dorcas demo 的「底片膠卷」遊戲種類跑馬燈（只列名稱，不放說明）。
+       icon 取自 App 大廳遊戲頁籤（素材/各遊戲小icon/tab_icon_*.png，金色開啟版，136x96）。
+       同一組 8 格重複兩次，CSS translateX(-50%) 做無縫循環；第二組 aria-hidden。
+       Short Deck 暫不放（2026-10-20 決定）。 -->
+  <section class="section game-types-section">
+    <div class="container">
+      <div class="section-head">
+        <h2 data-i18n="index.games.title">一個網絡，玩遍每一種牌桌。</h2>
+      </div>
+      <div class="filmstrip" role="region" aria-label="遊戲種類" data-i18n-aria-label="index.games.aria">
+        <div class="filmstrip-perf" aria-hidden="true"></div>
+        <div class="filmstrip-viewport">
+          <div class="filmstrip-track">
+          <ul class="filmstrip-set">
+          <li class="filmstrip-frame">
+            <span class="filmstrip-no">01</span>
+            <img src="../assets/images/games/holdem.png" alt="" width="136" height="96" loading="lazy" decoding="async">
+            <span class="filmstrip-name" data-i18n="index.games.name.holdem">德州撲克</span>
+          </li>
+          <li class="filmstrip-frame">
+            <span class="filmstrip-no">02</span>
+            <img src="../assets/images/games/omaha.png" alt="" width="136" height="96" loading="lazy" decoding="async">
+            <span class="filmstrip-name" data-i18n="index.games.name.omaha">奧馬哈</span>
+          </li>
+          <li class="filmstrip-frame">
+            <span class="filmstrip-no">03</span>
+            <img src="../assets/images/games/ofc.png" alt="" width="136" height="96" loading="lazy" decoding="async">
+            <span class="filmstrip-name" data-i18n="index.games.name.ofc">OFC</span>
+          </li>
+          <li class="filmstrip-frame">
+            <span class="filmstrip-no">04</span>
+            <img src="../assets/images/games/stud.png" alt="" width="136" height="96" loading="lazy" decoding="async">
+            <span class="filmstrip-name" data-i18n="index.games.name.stud">七張梭哈</span>
+          </li>
+          <li class="filmstrip-frame">
+            <span class="filmstrip-no">05</span>
+            <img src="../assets/images/games/blackjack.png" alt="" width="136" height="96" loading="lazy" decoding="async">
+            <span class="filmstrip-name" data-i18n="index.games.name.blackjack">21點</span>
+          </li>
+          <li class="filmstrip-frame">
+            <span class="filmstrip-no">06</span>
+            <img src="../assets/images/games/rummy.png" alt="" width="136" height="96" loading="lazy" decoding="async">
+            <span class="filmstrip-name" data-i18n="index.games.name.rummy">Rummy</span>
+          </li>
+          <li class="filmstrip-frame">
+            <span class="filmstrip-no">07</span>
+            <img src="../assets/images/games/sit-and-go.png" alt="" width="136" height="96" loading="lazy" decoding="async">
+            <span class="filmstrip-name" data-i18n="index.games.name.sitAndGo">Sit & Go</span>
+          </li>
+          <li class="filmstrip-frame">
+            <span class="filmstrip-no">08</span>
+            <img src="../assets/images/games/mtt.png" alt="" width="136" height="96" loading="lazy" decoding="async">
+            <span class="filmstrip-name" data-i18n="index.games.name.mtt">MTT</span>
+          </li>
+          </ul>
+          <ul class="filmstrip-set" aria-hidden="true">
+          <li class="filmstrip-frame">
+            <span class="filmstrip-no">01</span>
+            <img src="../assets/images/games/holdem.png" alt="" width="136" height="96" loading="lazy" decoding="async">
+            <span class="filmstrip-name" data-i18n="index.games.name.holdem">德州撲克</span>
+          </li>
+          <li class="filmstrip-frame">
+            <span class="filmstrip-no">02</span>
+            <img src="../assets/images/games/omaha.png" alt="" width="136" height="96" loading="lazy" decoding="async">
+            <span class="filmstrip-name" data-i18n="index.games.name.omaha">奧馬哈</span>
+          </li>
+          <li class="filmstrip-frame">
+            <span class="filmstrip-no">03</span>
+            <img src="../assets/images/games/ofc.png" alt="" width="136" height="96" loading="lazy" decoding="async">
+            <span class="filmstrip-name" data-i18n="index.games.name.ofc">OFC</span>
+          </li>
+          <li class="filmstrip-frame">
+            <span class="filmstrip-no">04</span>
+            <img src="../assets/images/games/stud.png" alt="" width="136" height="96" loading="lazy" decoding="async">
+            <span class="filmstrip-name" data-i18n="index.games.name.stud">七張梭哈</span>
+          </li>
+          <li class="filmstrip-frame">
+            <span class="filmstrip-no">05</span>
+            <img src="../assets/images/games/blackjack.png" alt="" width="136" height="96" loading="lazy" decoding="async">
+            <span class="filmstrip-name" data-i18n="index.games.name.blackjack">21點</span>
+          </li>
+          <li class="filmstrip-frame">
+            <span class="filmstrip-no">06</span>
+            <img src="../assets/images/games/rummy.png" alt="" width="136" height="96" loading="lazy" decoding="async">
+            <span class="filmstrip-name" data-i18n="index.games.name.rummy">Rummy</span>
+          </li>
+          <li class="filmstrip-frame">
+            <span class="filmstrip-no">07</span>
+            <img src="../assets/images/games/sit-and-go.png" alt="" width="136" height="96" loading="lazy" decoding="async">
+            <span class="filmstrip-name" data-i18n="index.games.name.sitAndGo">Sit & Go</span>
+          </li>
+          <li class="filmstrip-frame">
+            <span class="filmstrip-no">08</span>
+            <img src="../assets/images/games/mtt.png" alt="" width="136" height="96" loading="lazy" decoding="async">
+            <span class="filmstrip-name" data-i18n="index.games.name.mtt">MTT</span>
+          </li>
+          </ul>
+          </div>
+        </div>
+        <div class="filmstrip-perf" aria-hidden="true"></div>
+      </div>
+    </div>
+  </section>
+
   <!-- CTA -->
   <section class="section" style="padding-top:120px;">
     <div class="container">
@@ -376,7 +480,7 @@
   </div>
 </footer>
 
-<script src="../js/i18n.js?v=51"></script>
+<script src="../js/i18n.js?v=53"></script>
 <script src="../js/main.js?v=43"></script>
 </body>
 </html>
