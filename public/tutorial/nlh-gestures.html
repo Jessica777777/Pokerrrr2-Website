@@ -253,7 +253,7 @@ html.standalone .close{display:grid!important}
 
 <div class="wrap">
   <header>
-    <span class="eyebrow">Prototype v2.6 · NLH Gestures</span>
+    <span class="eyebrow">Prototype v2.7 · NLH Gestures</span>
     <h1>Pokerrrr2 手勢體驗區</h1>
     <p class="lede">網站互動區的原型，五個 NLH 手勢依序體驗：Peek、Check、Fold、Bet、Adjust Betting，每一步完成後自動進下一步。手機請按「開始體驗」進入全螢幕，電腦直接用滑鼠操作。</p>
   </header>
@@ -408,6 +408,38 @@ html.standalone .close{display:grid!important}
     {key:'bet',    title:'Bet',            desc:'Flip chip up to bet.',                        on:'chip',  zh:'Bet',    how:'把籌碼往上推'},
     {key:'adjust', title:'Adjust Betting', desc:'Slide the upper bar clockwise to adjust betting amount.', on:'chip', zh:'Adjust', how:'在籌碼上順時針轉'}
   ];
+  // ---------- player-facing messages (en / zh / ja) ----------
+  // Language: ?lang=zh|ja (set by How to Play), else the <html lang> of the embedding page, else English.
+  const LANG=(()=>{ let l=''; try{ l=new URLSearchParams(location.search).get('lang')||''; }catch(_){}
+    if(!l){ try{ l=(window.parent!==window && window.parent.document.documentElement.lang)||''; }catch(_){} }
+    l=l.toLowerCase(); return l.startsWith('zh')?'zh':l.startsWith('ja')?'ja':'en'; })();
+  const MSG={
+    en:{ how:{peek:'drag the cards up from the bottom',check:'double tap the cards',fold:'drag the cards past the dotted line, then let go',bet:'push the chip up',adjust:'turn the chip clockwise'},
+         name:{peek:'Peek',check:'Check',fold:'Fold',bet:'Bet',adjust:'Adjust Betting'},
+         tapFaster:'A little faster: tap twice in a row.', peekFromBottom:'Start the drag from the bottom of the cards.',
+         peekHigher:'Drag a bit higher to see the corner of your cards.', foldPast:'Drag past the dotted line at the top of the cards, then let go.',
+         thisStep:'For this step, {how}.', detected:'That was {name}. For this step, {how}.',
+         plusMinus:'+ and − also work. For this step, try sliding along the upper bar clockwise.', replay:'Play again' },
+    zh:{ how:{peek:'按住牌的下方往上拖',check:'在牌上快速點兩下',fold:'把牌往上拖過虛線再放開',bet:'把籌碼往上推',adjust:'在籌碼上順時針轉'},
+         name:{peek:'Peek（瞇牌）',check:'Check（過牌）',fold:'Fold（棄牌）',bet:'Bet（下注）',adjust:'Adjust Betting（調整下注）'},
+         tapFaster:'再快一點，連點兩下。', peekFromBottom:'要從牌的下方開始往上拖。',
+         peekHigher:'再往上拖一點，折過去才看得到點數。', foldPast:'要拖過牌上緣的虛線再放開。',
+         thisStep:'這一步請{how}。', detected:'偵測到 {name}。這一步請{how}。',
+         plusMinus:'也可以按 + / −。這一步請試試沿著上方拉條順時針滑。', replay:'再玩一次' },
+    ja:{ how:{peek:'カードの下側を押さえたまま上にドラッグ',check:'カードをすばやく2回タップ',fold:'カードを点線の上までドラッグして離す',bet:'チップを上に押し上げる',adjust:'チップを時計回りに回す'},
+         name:{peek:'ピーク',check:'チェック',fold:'フォールド',bet:'ベット',adjust:'ベット額の調整'},
+         tapFaster:'もう少し速く、2回続けてタップしてください。', peekFromBottom:'カードの下側からドラッグを始めてください。',
+         peekHigher:'もう少し上までドラッグすると、カードの数字が見えます。', foldPast:'カード上部の点線を越えるまでドラッグしてから離してください。',
+         thisStep:'このステップでは、{how}てください。', detected:'今のは{name}です。このステップでは、{how}てください。',
+         plusMinus:'＋ / − でも調整できます。このステップでは、上のバーを時計回りにスライドしてみてください。', replay:'もう一度' }
+  };
+  // Japanese "…てください" needs the te-form of each instruction
+  MSG.ja.howTe={peek:'カードの下側を押さえたまま上にドラッグし',check:'カードをすばやく2回タップし',fold:'カードを点線の上までドラッグして離し',bet:'チップを上に押し上げ',adjust:'チップを時計回りに回し'};
+  const M=MSG[LANG];
+  const fmt=(s,v)=>s.replace(/\{(\w+)\}/g,(_,k)=>v[k]);
+  const howFor=k=> LANG==='ja'? M.howTe[k] : M.how[k];
+  document.documentElement.lang=LANG==='zh'?'zh-Hant':LANG;
+
   const NAME={peek:'Peek',check:'Check',fold:'Fold',bet:'Bet',adjust:'Adjust Betting',tap:'單擊',drag:'拖曳'};
   const state={step:0, maxStep:0, done:STEPS.map(()=>false), finished:false, busy:false};
   const cfg={dbl:300, peek:16, bet:25, sound:true, vibe:true};
@@ -510,11 +542,11 @@ html.standalone .close{display:grid!important}
     if(hit){ success(type,pt); return; }
     const s=STEPS[state.step];
     let msg;
-    if(type==='tap' && k==='check') msg='再快一點，連點兩下。';
-    else if(type==='drag' && k==='peek') msg=detail.startsWith('從') ? '要從牌的下方開始往上拖。' : '再往上拖一點，折過去才看得到點數。';
-    else if(type==='drag' && k==='fold') msg='要拖過牌上緣的虛線再放開。';
-    else if(type==='drag' || type==='tap') msg='這一步請'+s.how+'。';
-    else msg='偵測到 '+NAME[type]+'。這一步請'+s.how+'。';
+    if(type==='tap' && k==='check') msg=M.tapFaster;
+    else if(type==='drag' && k==='peek') msg=detail.startsWith('從') ? M.peekFromBottom : M.peekHigher;
+    else if(type==='drag' && k==='fold') msg=M.foldPast;
+    else if(type==='drag' || type==='tap') msg=fmt(M.thisStep,{how:howFor(k)});
+    else msg=fmt(M.detected,{name:M.name[type]||type,how:howFor(k)});
     toast(msg);
   }
   function success(type,pt){
@@ -759,7 +791,7 @@ html.standalone .close{display:grid!important}
       if(stepKey()==='adjust' && p.ry>.36 && p.ry<.65 && (p.rx<.26||p.rx>.74)){
         const step=1/(AMOUNTS.length-1), amt=setChipF(chipF+(p.rx<.5?-step:step));
         log('tap',(p.rx<.5?'−':'+')+' 按鈕 · 金額 '+amt,false);
-        toast('也可以按 + / −。這一步請試試沿著上方拉條順時針滑。');
+        toast(M.plusMinus);
         return;
       }
       gesture('tap','點擊籌碼',pt);
@@ -774,6 +806,7 @@ html.standalone .close{display:grid!important}
   $('cfgVibe').addEventListener('change',e=>{cfg.vibe=e.target.checked;});
   if(!('vibrate' in navigator)){ const v=$('cfgVibe'); v.checked=false; v.disabled=true; cfg.vibe=false; }
 
+  $('replayBtn').textContent=M.replay;
   render();
 })();
 </script>
@@ -795,7 +828,7 @@ html.standalone .close{display:grid!important}
   document.documentElement.classList.add('standalone');
   function leave(){
     var back=document.referrer && document.referrer.indexOf(location.host)>-1;
-    if(back && history.length>1) history.back(); else location.href='../how-to-play';
+    if(back && history.length>1) history.back(); else { var l=''; try{ l=new URLSearchParams(location.search).get('lang')||''; }catch(_){} location.href=(l==='zh'||l==='ja')?'../'+l+'/how-to-play':'../how-to-play'; }
   }
   document.getElementById('closeBtn').addEventListener('click',function(e){ e.stopImmediatePropagation(); leave(); },true);
   document.addEventListener('keydown',function(e){ if(e.key==='Escape') leave(); });

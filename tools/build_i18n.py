@@ -257,7 +257,9 @@ def fill_nlh_rules(src, lang):
     rank = render.render_blocks(ranking, hl, gr, "assets/images/cards/")
     tx = NLH_TUTORIAL_TEXT[lang]
     # Page-relative: localize() does not rewrite tutorial/, so zh/ja need ../ here.
-    src_url = ("" if lang == "en" else "../") + "tutorial/nlh-gestures.html"
+    # ?lang= tells the tutorial which language to use for its hints and buttons.
+    src_url = ("tutorial/nlh-gestures.html" if lang == "en"
+               else "../tutorial/nlh-gestures.html?lang=%s" % lang)
     tutorial = (
         '        <!-- NLH gesture tutorial: iframe on desktop, full-screen page on phones -->\n'
         '        <div class="feature-split-media htp-nlh-tutorial">%s'
