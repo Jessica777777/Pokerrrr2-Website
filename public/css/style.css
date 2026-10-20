@@ -3684,3 +3684,14 @@ a.news-featured:hover { border-color: var(--color-gold); }
   .filmstrip-viewport { overflow-x: auto; }
   .filmstrip-set[aria-hidden="true"] { display: none; }
 }
+
+/* v63: hand-ranking table on phones -- keep each hand's five cards on one
+   line (they wrapped 4 + 1). Smaller cards and tighter cell padding make the
+   row fit a 390px screen; .gr-table-scroll still scrolls on anything narrower. */
+@media (max-width: 640px) {
+  .gr-rank-table th, .gr-rank-table td { padding: 10px 6px; }
+  .gr-rank-table td .gr-hand { flex-wrap: nowrap; gap: 4px; }
+  .gr-rank-table .gr-card { width: 28px; height: 40px; border-radius: 5px; }
+  .gr-rank-table .gr-card-rank { height: 13px; }
+  .gr-rank-table .gr-card-suit { height: 10px; }
+}

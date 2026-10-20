@@ -207,12 +207,30 @@ def localize(src, page, lang):
     return src
 
 
-# Placeholder label for the reserved tutorial mini-game slot on How to Play.
-NLH_DEMO_SLOT_LABEL = {
-    "en": "Interactive tutorial coming soon",
-    "zh": "互動教學即將推出",
-    "ja": "インタラクティブチュートリアル近日公開",
+# NLH gesture tutorial (public/tutorial/nlh-gestures.html) shown in the right
+# column of How to Play: an iframe on desktop, a button that opens the
+# tutorial full-screen on phones (an iframe there would fight page scrolling).
+NLH_TUTORIAL_TEXT = {
+    "en": {"cta": "Try the gestures", "frame": "Interactive NLH gesture tutorial"},
+    "zh": {"cta": "開始體驗", "frame": "NLH 手勢互動教學"},
+    "ja": {"cta": "体験する", "frame": "NLH ジェスチャー体験チュートリアル"},
 }
+
+# Scoped styles for the tutorial slot, kept in the generated block so
+# style.css (and its ?v= on every page) does not change.
+NLH_TUTORIAL_STYLE = (
+    '<style>'
+    '.htp-nlh-tutorial{position:sticky;top:100px;display:flex;flex-direction:column;align-items:center;gap:14px}'
+    '.htp-nlh-tutorial-frame{display:block;width:100%;max-width:380px;aspect-ratio:380/490;border:0;border-radius:28px;background:#062631;'
+    'box-shadow:0 0 0 1px rgba(212,175,55,.35),0 24px 48px -20px rgba(0,0,0,.7)}'
+    '.htp-nlh-tutorial-cta{display:none}'
+    # desktop: pull the frame up so its top lines up with the top of the h1 text
+    # (h1 = clamp(1.6rem,3vw,2.3rem), line-height 1.25, 28px below it -> 1.125em + 28px)
+    '@media (min-width:901px){.htp-nlh-tutorial{margin-top:calc(-1.125 * clamp(1.6rem,3vw,2.3rem) - 28px)}}'
+    '@media (max-width:900px){.htp-nlh-tutorial{position:static}.htp-nlh-tutorial-frame{display:none}'
+    '.htp-nlh-tutorial-cta{display:inline-flex}}'
+    '</style>'
+)
 
 NLH_RULES = re.compile(r"(<!-- nlh:rules -->)(.*?)(<!-- /nlh:rules -->)", re.S)
 
@@ -237,15 +255,24 @@ def fill_nlh_rules(src, lang):
     render = build_game_rules.render
     text = render.render_blocks(blocks, hl, gr, "assets/images/cards/")
     rank = render.render_blocks(ranking, hl, gr, "assets/images/cards/")
-    slot = NLH_DEMO_SLOT_LABEL[lang]
+    tx = NLH_TUTORIAL_TEXT[lang]
+    # Page-relative: localize() does not rewrite tutorial/, so zh/ja need ../ here.
+    # ?lang= tells the tutorial which language to use for its hints and buttons.
+    src_url = ("tutorial/nlh-gestures.html" if lang == "en"
+               else "../tutorial/nlh-gestures.html?lang=%s" % lang)
+    tutorial = (
+        '        <!-- NLH gesture tutorial: iframe on desktop, full-screen page on phones -->\n'
+        '        <div class="feature-split-media htp-nlh-tutorial">%s'
+        
+        '<iframe class="htp-nlh-tutorial-frame" src="%s" title="%s" loading="lazy"></iframe>'
+        '<a class="btn btn-primary htp-nlh-tutorial-cta" href="%s">%s</a></div>\n'
+    ) % (NLH_TUTORIAL_STYLE, src_url, tx["frame"], src_url, tx["cta"])
     html = ('\n      <div class="feature-split">\n'
             '        <div class="feature-split-text gr-panel">%s\n'
             '          <div class="htp-nlh-ranking">%s</div>\n'
             '        </div>\n'
-            '        <!-- reserved: NLH tutorial mini-game (TODO) -->\n'
-            '        <div class="feature-split-media htp-nlh-demo-slot" aria-hidden="true">'
-            '<span class="htp-nlh-demo-slot-label">%s</span></div>\n'
-            '      </div>\n      ') % (text, rank, slot)
+            '%s'
+            '      </div>\n      ') % (text, rank, tutorial)
     return NLH_RULES.sub(lambda m: m.group(1) + html + m.group(3), src, count=1)
 
 

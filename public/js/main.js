@@ -11,6 +11,12 @@ document.addEventListener('DOMContentLoaded', () => {
     links.querySelectorAll('a').forEach((link) => {
       link.addEventListener('click', () => links.classList.remove('open'));
     });
+    // Close the mobile menu when tapping anywhere outside it.
+    document.addEventListener('click', (e) => {
+      if (!links.classList.contains('open')) return;
+      if (links.contains(e.target) || toggle.contains(e.target)) return;
+      links.classList.remove('open');
+    });
   }
 
   // Highlight the current page in the nav.
