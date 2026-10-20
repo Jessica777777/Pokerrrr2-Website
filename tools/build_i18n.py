@@ -224,6 +224,9 @@ NLH_TUTORIAL_STYLE = (
     '.htp-nlh-tutorial-frame{display:block;width:100%;max-width:380px;aspect-ratio:380/490;border:0;border-radius:28px;background:#062631;'
     'box-shadow:0 0 0 1px rgba(212,175,55,.35),0 24px 48px -20px rgba(0,0,0,.7)}'
     '.htp-nlh-tutorial-cta{display:none}'
+    # desktop: pull the frame up so its top lines up with the top of the h1 text
+    # (h1 = clamp(1.6rem,3vw,2.3rem), line-height 1.25, 28px below it -> 1.125em + 28px)
+    '@media (min-width:901px){.htp-nlh-tutorial{margin-top:calc(-1.125 * clamp(1.6rem,3vw,2.3rem) - 28px)}}'
     '@media (max-width:900px){.htp-nlh-tutorial{position:static}.htp-nlh-tutorial-frame{display:none}'
     '.htp-nlh-tutorial-cta{display:inline-flex}}'
     '</style>'
