@@ -227,13 +227,32 @@ body{padding:0!important;background:var(--table-b)}
 main{display:block!important;height:100%}
 .phone,.phone.immersive{position:fixed!important;inset:0!important;width:auto!important;height:auto!important;border-radius:0!important;padding:0!important;box-shadow:none!important;background:var(--table-b)!important}
 .stage{border-radius:0!important;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);box-sizing:border-box}
+/* compact stage (the How to Play frame is ~380x490): size cards and chip by width so they keep
+   the same size as in the tall layout, and pull them up into the freed space */
+.s-head{top:calc(env(safe-area-inset-top,0px) + 5.5cqh)!important}
+.s-title{margin-bottom:1cqh!important}
+.cards{width:min(60cqw,56cqh)!important;top:56%!important}
+.chip{width:min(58cqw,44cqh)!important;top:61%!important}
+.nav{bottom:calc(env(safe-area-inset-bottom,0px) + 2.5cqh)!important}
 .close{display:none}
+.backlink{display:none}
+/* opened as its own page */
 html.standalone .close{display:grid!important}
+html.standalone .backlink{display:inline-flex;position:fixed;z-index:60;top:calc(env(safe-area-inset-top,0px) + 14px);left:max(16px,env(safe-area-inset-left,0px));
+  align-items:center;gap:6px;padding:8px 14px;border-radius:999px;background:rgba(3,14,18,.75);color:var(--fg);font:500 14px/1 var(--f-body);text-decoration:none;border:1px solid rgba(236,229,211,.25)}
+html.standalone .backlink:hover{border-color:var(--gold);color:var(--gold-hi)}
+@media (min-width:700px){
+  html.standalone body{background:radial-gradient(80% 70% at 50% 40%,#123c47,#061a20)}
+  html.standalone .phone{inset:auto!important;left:50%!important;top:50%!important;transform:translate(-50%,-50%);width:380px!important;height:min(740px,92vh)!important;
+    border-radius:28px!important;overflow:hidden;box-shadow:0 0 0 1px rgba(212,175,55,.35),0 24px 48px -20px rgba(0,0,0,.7)!important}
+  html.standalone .stage{border-radius:28px!important}
+}
 </style>
 </head>
 <body>
 
 
+<a class="backlink" id="backLink" href="../how-to-play">&#8592; How to Play</a>
 <div class="wrap">
   <header>
     <span class="eyebrow">Prototype v2.5 · NLH Gestures</span>
@@ -762,16 +781,18 @@ html.standalone .close{display:grid!important}
 </script>
 
 <script>
-// Opened as its own page (mobile): show the close button and go back to How to Play.
+// Opened as its own page: show a back link and the close button; both (and Esc) return to How to Play.
 (function(){
   var top=false; try{ top = window.self===window.top; }catch(e){}
   if(!top) return;
   document.documentElement.classList.add('standalone');
-  document.getElementById('closeBtn').addEventListener('click',function(e){
-    e.stopImmediatePropagation();
+  function leave(){
     var back=document.referrer && document.referrer.indexOf(location.host)>-1;
     if(back && history.length>1) history.back(); else location.href='../how-to-play';
-  },true);
+  }
+  document.getElementById('closeBtn').addEventListener('click',function(e){ e.stopImmediatePropagation(); leave(); },true);
+  document.getElementById('backLink').addEventListener('click',function(e){ e.preventDefault(); leave(); });
+  document.addEventListener('keydown',function(e){ if(e.key==='Escape') leave(); });
 })();
 </script>
 </body>

@@ -211,9 +211,9 @@ def localize(src, page, lang):
 # column of How to Play: an iframe on desktop, a button that opens the
 # tutorial full-screen on phones (an iframe there would fight page scrolling).
 NLH_TUTORIAL_TEXT = {
-    "en": {"title": "Try the in-app gestures", "cta": "Try the gestures", "frame": "Interactive NLH gesture tutorial"},
-    "zh": {"title": "體驗 App 內的手勢操作", "cta": "開始體驗", "frame": "NLH 手勢互動教學"},
-    "ja": {"title": "アプリのジェスチャーを体験", "cta": "体験する", "frame": "NLH ジェスチャー体験チュートリアル"},
+    "en": {"cta": "Try the gestures", "frame": "Interactive NLH gesture tutorial"},
+    "zh": {"cta": "開始體驗", "frame": "NLH 手勢互動教學"},
+    "ja": {"cta": "体験する", "frame": "NLH ジェスチャー体験チュートリアル"},
 }
 
 # Scoped styles for the tutorial slot, kept in the generated block so
@@ -221,8 +221,7 @@ NLH_TUTORIAL_TEXT = {
 NLH_TUTORIAL_STYLE = (
     '<style>'
     '.htp-nlh-tutorial{position:sticky;top:100px;display:flex;flex-direction:column;align-items:center;gap:14px}'
-    '.htp-nlh-tutorial-title{font-family:var(--font-label);font-size:var(--fs-xs);letter-spacing:.1em;text-transform:uppercase;color:var(--color-text-faint);margin:0;text-align:center}'
-    '.htp-nlh-tutorial-frame{display:block;width:100%;max-width:380px;aspect-ratio:9/17.5;border:0;border-radius:28px;background:#062631;'
+    '.htp-nlh-tutorial-frame{display:block;width:100%;max-width:380px;aspect-ratio:380/490;border:0;border-radius:28px;background:#062631;'
     'box-shadow:0 0 0 1px rgba(212,175,55,.35),0 24px 48px -20px rgba(0,0,0,.7)}'
     '.htp-nlh-tutorial-cta{display:none}'
     '@media (max-width:900px){.htp-nlh-tutorial{position:static}.htp-nlh-tutorial-frame{display:none}'
@@ -259,10 +258,10 @@ def fill_nlh_rules(src, lang):
     tutorial = (
         '        <!-- NLH gesture tutorial: iframe on desktop, full-screen page on phones -->\n'
         '        <div class="feature-split-media htp-nlh-tutorial">%s'
-        '<p class="htp-nlh-tutorial-title">%s</p>'
+        
         '<iframe class="htp-nlh-tutorial-frame" src="%s" title="%s" loading="lazy"></iframe>'
         '<a class="btn btn-primary htp-nlh-tutorial-cta" href="%s">%s</a></div>\n'
-    ) % (NLH_TUTORIAL_STYLE, tx["title"], src_url, tx["frame"], src_url, tx["cta"])
+    ) % (NLH_TUTORIAL_STYLE, src_url, tx["frame"], src_url, tx["cta"])
     html = ('\n      <div class="feature-split">\n'
             '        <div class="feature-split-text gr-panel">%s\n'
             '          <div class="htp-nlh-ranking">%s</div>\n'
