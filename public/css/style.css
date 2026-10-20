@@ -54,6 +54,18 @@
   unicode-range: U+2018-201F, U+2026;
   font-weight: 100 900;
 }
+/* Inter (variable, latin only, self-hosted; OFL) -- game-rules labels:
+   h3 section labels, step names, ranking caption (2026-10-20, user's pick).
+   Relative URL so it also works under the GitHub Pages /<repo>/ subpath. */
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/inter-latin.woff2') format('woff2');
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+}
+:root { --font-label: 'Inter', Arial, sans-serif; }
+
 html[lang="en"] { --font-body: 'P2 Latin Punct', 'Noto Sans TC', 'Poppins', sans-serif; }
 
 * { box-sizing: border-box; }
@@ -2822,7 +2834,7 @@ a.feature-card .feature-card-body .btn { pointer-events: none; }
   background: rgba(255, 255, 255, 0.02);
 }
 .htp-nlh-demo-slot-label {
-  font-family: ui-monospace, 'SFMono-Regular', 'Courier New', monospace;
+  font-family: var(--font-label);
   font-size: var(--fs-xs);
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -3065,7 +3077,7 @@ a.gr-tab { display: inline-block; text-decoration: none; }
 .gr-panel .gr-sec-head h2 { margin: 0; }
 
 .gr-panel h3 {
-  font-family: ui-monospace, 'SFMono-Regular', 'Courier New', monospace;
+  font-family: var(--font-label);
   font-size: var(--fs-xs);
   font-weight: 600;
   letter-spacing: 0.1em;
@@ -3099,8 +3111,10 @@ a.gr-tab { display: inline-block; text-decoration: none; }
   align-items: baseline;
 }
 .gr-step-name {
-  font-family: ui-monospace, 'SFMono-Regular', 'Courier New', monospace;
-  font-size: var(--fs-sm);
+  font-family: var(--font-label);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.7;
   color: var(--color-gold-light);
 }
 .gr-step-body { margin: 0; max-width: 32rem; }
@@ -3221,7 +3235,7 @@ a.gr-tab { display: inline-block; text-decoration: none; }
 
 /* shared poker-hand ranking table (NLH / PLO / 7 Card Stud) */
 .gr-rank-cap {
-  font-family: ui-monospace, 'SFMono-Regular', 'Courier New', monospace;
+  font-family: var(--font-label);
   font-size: var(--fs-sm);
   color: var(--color-text-faint);
   white-space: pre-line;
