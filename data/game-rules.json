@@ -414,6 +414,28 @@
       "titleImg": "assets/images/game-rules/title-stud.png"
     },
     {
+      "id": "ofc",
+      "group": {
+        "en": "Game Rules",
+        "zh-Hant": "遊戲規則",
+        "ja": "ゲームルール"
+      },
+      "tab": {
+        "en": "OFC",
+        "zh-Hant": "OFC 大菠蘿",
+        "ja": "OFC"
+      },
+      "title": {
+        "en": "OFC Pineapple Poker",
+        "zh-Hant": "OFC 大菠蘿撲克",
+        "ja": "OFC パイナップルポーカー"
+      },
+      "custom": "ofc",
+      "blocks": [],
+      "bg": "assets/images/game-rules/table-ofc.jpg",
+      "titleImg": "assets/images/game-rules/title-ofc.png"
+    },
+    {
       "id": "blackjack",
       "group": {
         "en": "Game Rules",

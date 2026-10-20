@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="color-scheme" content="dark">
 <title data-i18n="howToPlay.head.title">遊び方｜Pokerrrr 2：テキサスホールデムポーカー</title>
-<meta name="description" data-i18n-content="howToPlay.head.description" content="オープンフェイス中国ポーカー（OFC）の初心者ガイド：ルール、並べ方のロジック、スコアリング、そして他のゲームモードの紹介。">
+<meta name="description" data-i18n-content="howToPlay.head.description" content="ノーリミットホールデムの遊び方：ホールカード、フロップ、ターン、リバー、役の強さを解説。PLO、セブンカードスタッド、OFC、ブラックジャック、ラミー、ジンラミーのルールも紹介。">
 <meta property="og:image" content="https://www.pokerrrrapp.com/assets/images/p2-app-icon-512.png">
 <meta property="og:image:width" content="512">
 <meta property="og:image:height" content="512">
@@ -76,290 +76,28 @@
 </header>
 
 <main>
-  <!-- OFC CORE RULES
-       v9/v10 layout: a two-column "feature" split (referencing the
-       user-cited playwsop.com/strategies/ pattern — a full-width featured
-       block paired with an interactive tool). Left column is the rule
-       text, always shown in full (the v9 "Read More" toggle was dropped
-       per user feedback); right column is the existing #ofcDemo widget,
-       unchanged internally, just repositioned so reading the rules and
-       trying them out happen side by side instead of as two stacked,
-       visually disconnected blocks. .section-feature (the full-bleed
-       banner background) is now reused by the Scoring and Fantasyland
-       sections below too, not just this one. -->
-  <section class="section section-feature">
+  <!-- NLH CORE RULES (2026-10-20: replaces the OFC sections, which moved to
+       game-rules/ofc.html). Content between the nlh:rules markers is
+       generated per language by tools/build_i18n.py from data/game-rules.json
+       (the same NLH blocks as game-rules/nlh.html): rules text on the left,
+       hand-ranking table on the right. -->
+  <section class="section section-feature htp-nlh">
     <div class="container-wide">
-      <h1 data-i18n="howToPlay.ofc.title">OFC 作戦プロトコル</h1>
-
+      <h1 data-i18n="gameRules.nlh.h1">ノーリミットホールデムのルール</h1>
+      <!-- nlh:rules -->
       <div class="feature-split">
-        <div class="feature-split-text">
+        <div class="feature-split-text gr-panel"><p>テキサスホールデムでは、各プレイヤーに裏向きで2枚のカード（「ホールカード」と呼ばれる）が配られます。その後、チェック・ベット・フォールドを選べるベッティングラウンドが行われます。このラウンドは「プリフロップ」と呼ばれます。
+チェックは、ベットが行われていない場合に手札を保持したままアクションを次のプレイヤーに渡すことができます。ただし、チェックはテーブルに現在ベットがない場合にのみ可能です。
+プレイヤーがベットする場合、2つの選択肢があります：
+1. コール：直前にベットしたプレイヤーと同額をベットすること
+2. レイズ：他のプレイヤーがベットした金額よりも多く上乗せしてベットすること</p><p>プリフロップのベッティングが終わると、3枚のコミュニティカードが表向きにボードに配られます。この3枚は「フロップ」と呼ばれます。</p><p>フロップの後にもう一度ベッティングラウンドがあり、その後4枚目のコミュニティカードがボードに配られます。このカードは「ターン」と呼ばれます。</p><p>最後のベッティングラウンドが行われ、5枚目のコミュニティカードがボードに配られます。このカードは「リバー」と呼ばれます。</p><p>2枚のホールカードと5枚のコミュニティカードの中から最も強い5枚を選び、5枚のポーカーハンドを作る必要があります。</p><p>例えば、あなたの手札が7-7で、コミュニティカードが7-9-A-A-2の場合、フルハウス（7-7-7-A-A）になります。コミュニティカードがJ-7-5-6-2だった場合は、スリーカードにしかなりません。
+また、5枚のコミュニティカードだけで最強のハンドが作られることもあります。ボードに3-4-5-6-7が並んでいて、あなたの手札が9-9だった場合、すでにそれより強いストレートが場に出ているため、あなたのホールカードは使われません。
 
-          <div class="ofc-more" id="ofcMore">
-            <ol class="ofc-mini-steps">
-              <li>
-                <strong data-i18n="howToPlay.ofc.step1.title">① カードを受領 // 分割配備</strong>
-                <p data-i18n="howToPlay.ofc.step1.desc">最初のターンは5枚配られ、全て盤面に置きます。その後4回のターンでそれぞれ3枚配られ、2枚を使って1枚を捨てます。一度置いたカードは別の列に動かせないので、一手一手が重要です。</p>
-              </li>
-              <li>
-                <strong data-i18n="howToPlay.ofc.step2.title">② 列を編成 // 検査通過</strong>
-                <p data-i18n="howToPlay.ofc.step2.desc">バック ≥ ミドル ≥ フロントの強さの順を守る必要があります。順序を誤るとファウルとなり、3列すべての得点を失います。</p>
-              </li>
-              <li>
-                <strong data-i18n="howToPlay.ofc.step3.title">③ 対決実行 // 戦果を確定</strong>
-                <p data-i18n="howToPlay.ofc.step3.desc">3列すべてが確定したら、相手の対応する列と比較します。勝った列は得点となり、3列すべてに勝つと+3のスクープボーナスも獲得できます。</p>
-              </li>
-            </ol>
-          </div>
-        </div>
-
-        <div class="feature-split-media ofc-demo-media">
-          <!-- v29c: added .ofc-demo-media (negative margin-top, see CSS)
-               to pull the interactive demo up level with this section's
-               own h2, matching .fantasy-media/.sng-media/.scoring-table-media
-               above/below it -- same misalignment, same measured -74px fix.
-               Interactive "arrange your hand" mini demo: teaches the
-               back >= middle >= front rule hands-on. v21: rounds 1-4 are
-               free-placement (any legal row, capped only by that row's real
-               remaining slots) — confirming always advances, silently
-               correcting any card that ended up in the wrong row and
-               explaining why, instead of blocking with "try again". Round 5
-               still runs a real hand-strength foul check, with a bomb
-               animation on an actual foul. v22 follow-ups (see
-               how-to-play-page-task-context.md "v22"): (a) free placement
-               is now also capped per round — you still can't place more of
-               THIS round's dealt cards than the round actually allows (2 for
-               rounds 2-5), even if the target row has spare capacity, since
-               the rest must be discarded; a hint (#ofcDemoHint) explains why
-               a placement was rejected. (b) the feedback box moved up to sit
-               right after the board (previously all the way at the bottom,
-               past both button rows, easy to miss without scrolling). (c)
-               after confirming a non-final round, the Confirm button itself
-               relabels to "Next" (reusing howToPlay.interactive.next, no
-               static data-i18n on this button any more — see
-               js/how-to-play-demo.js) so advancing doesn't require a second
-               click on the separate arrow. (d) round copy (title/desc for
-               steps 1-5) now tracks the actual wording on the Notion
-               tutorial spec's per-round cards rather than an invented
-               paraphrase — round 3's previous claim about a "front row
-               max 3" reminder was fabricated (not in the source) and has
-               been replaced. Background photo: assets/images/ofc-table-bg.jpg,
-               rendered as a lighter, more visible ::before layer instead of
-               nearly-opaque overlay (v21's overlay made the photo
-               indistinguishable from plain black). See
-               js/how-to-play-demo.js and
-               how-to-play-page-task-context.md "v21"/"v22". -->
-          <div class="ofc-demo" id="ofcDemo">
-            <!-- v30: step badge and round title merged onto one line (was
-                 two separate rows: .ofc-demo-progress above .ofc-demo-head)
-                 per user feedback referencing a mobile OFC game's compact
-                 layout ("互動小工具還是太高，整體再縮小一點" + reference
-                 screenshots). .ofc-demo-head is gone; #ofcDemoDesc /
-                 #ofcDemoResult's shared wrapper now sits directly under this
-                 topbar instead of nested inside it. See css/style.css
-                 .ofc-demo-topbar and how-to-play-page-task-context.md "v30". -->
-            <div class="ofc-demo-topbar">
-              <div class="ofc-demo-topbar-title">
-                <span id="ofcDemoProgress">Step 1 of 6</span>
-                <h3 id="ofcDemoTitle">Read the rules? Now give it a try</h3>
-              </div>
-              <button type="button" class="ofc-demo-restart" id="ofcDemoRestart" data-i18n="howToPlay.interactive.restart">最初からやり直す</button>
-            </div>
-
-            <!-- v29e-followup3: desc and result share the same grid cell
-                 (see .ofc-demo-desc-wrap in css/style.css) so this wrapper's
-                 height is always the taller of the two, regardless of which
-                 one is showing -- no JS measurement needed. See
-                 renderResult() in js/how-to-play-demo.js. -->
-            <div class="ofc-demo-desc-wrap">
-              <p id="ofcDemoDesc">Work through a real example hand, round by round — click or drag to place cards, then hit "Confirm" to see whether you've fouled.</p>
-              <div class="ofc-demo-result" id="ofcDemoResult"></div>
-            </div>
-
-            <div class="ofc-demo-hand" id="ofcDemoHand" aria-label="Your hand"></div>
-            <div class="ofc-demo-hint" id="ofcDemoHint" hidden></div>
-
-            <div class="ofc-demo-board">
-              <div class="ofc-demo-row" data-row="front">
-                <div class="ofc-demo-row-label"><span data-i18n="howToPlay.interactive.rowFront">フロント</span><span class="ofc-demo-row-cap">0/3</span></div>
-                <div class="ofc-demo-row-slots" data-slots-for="front"></div>
-              </div>
-              <div class="ofc-demo-row" data-row="middle">
-                <div class="ofc-demo-row-label"><span data-i18n="howToPlay.interactive.rowMiddle">ミドル</span><span class="ofc-demo-row-cap">0/5</span></div>
-                <div class="ofc-demo-row-slots" data-slots-for="middle"></div>
-              </div>
-              <div class="ofc-demo-row" data-row="back">
-                <div class="ofc-demo-row-label"><span data-i18n="howToPlay.interactive.rowBack">バック</span><span class="ofc-demo-row-cap">0/5</span></div>
-                <div class="ofc-demo-row-slots" data-slots-for="back"></div>
-              </div>
-            </div>
-
-            <!-- v29e-followup5: the standalone #ofcDemoFeedback box that used
-                 to sit here (final round's pass/fail result) has been
-                 removed -- that result now slides in over #ofcDemoDesc,
-                 sharing the same overlay rounds 1-4 already use (see
-                 .ofc-demo-desc-wrap above and buildFinalResultHtml() in
-                 js/how-to-play-demo.js). One less block in the widget's
-                 vertical flow. -->
-
-            <!-- v30: the confirm/reset row and the prev/dots/next row used
-                 to be two separate full-width .ofc-demo-controls blocks,
-                 stacked one above the other -- a second row's worth of
-                 height even though neither needs the full width. Wrapping
-                 both in .ofc-demo-footer puts them on one line (confirm/
-                 reset left, nav right), matching the compact reference
-                 layout. See css/style.css .ofc-demo-footer. -->
-            <div class="ofc-demo-footer">
-              <!-- v22: no data-i18n on Confirm any more — after a lock (on a
-                   non-final round) js/how-to-play-demo.js relabels it to
-                   "Next" itself, and a static data-i18n would fight that by
-                   resetting the label back to "Confirm" on every language
-                   switch. Its text always starts as the confirm label via
-                   the first render() call on load. -->
-              <div class="ofc-demo-controls" id="ofcDemoStep5Controls" hidden>
-                <button type="button" class="btn btn-primary btn-sm" id="ofcDemoConfirm" disabled>Confirm Placement</button>
-                <button type="button" class="btn btn-outline btn-sm" id="ofcDemoReset" hidden data-i18n="howToPlay.interactive.reset">配置をやり直す</button>
-              </div>
-
-              <!-- v21: prev/next are now icon arrows (always enabled — free
-                   navigation between rounds), with a dot-progress indicator
-                   between them. The prev arrow is entirely absent (not just
-                   disabled) on step 0; step 0's arrow slot instead shows a
-                   plain text "start practice" CTA, left-aligned via
-                   .ofc-demo-nav.is-intro (see how-to-play-page-task-context.md
-                   "v21"). -->
-              <div class="ofc-demo-controls ofc-demo-nav" id="ofcDemoNavControls">
-                <button type="button" class="ofc-demo-arrow" id="ofcDemoPrev" data-i18n-aria-label="howToPlay.interactive.prev" aria-label="戻る">‹</button>
-                <div class="ofc-demo-dots" id="ofcDemoDots" aria-hidden="true"></div>
-                <button type="button" class="ofc-demo-arrow" id="ofcDemoNext" data-i18n-aria-label="howToPlay.interactive.next" aria-label="次へ">›</button>
-              </div>
-            </div>
-
-            <!-- v29e-followup4: was a plain "💥" emoji; replaced with the
-                 site's own foul-grenade artwork (an actual grenade stamped
-                 "FOULED") so the reveal matches the "小心別爆牌！" copy and
-                 the site's own visual language instead of a generic emoji.
-                 See .ofc-demo-boom / .ofc-demo-boom img in css/style.css —
-                 the animation is now split between the outer wrapper
-                 (opacity fade) and the img itself (scale/rotate), since an
-                 <img> can't also be the flex-centering container.
-                 v29e-followup5: added a radial flash + flying debris bits
-                 (both pure CSS) behind the grenade so the reveal reads as
-                 an actual explosion, not just an icon popping in — plus a
-                 short shake on #ofcDemo itself (.ofc-demo-shake, toggled
-                 by triggerBoom() in the JS). -->
-            <div class="ofc-demo-boom" id="ofcDemoBoom" aria-hidden="true">
-              <div class="ofc-demo-boom-flash"></div>
-              <div class="ofc-demo-boom-debris">
-                <span></span><span></span><span></span><span></span><span></span><span></span>
-              </div>
-              <img src="../assets/images/foul-grenade.png" alt="" />
-            </div>
-          </div>
-        </div>
+ハンドが終わる方法は2つあります。1つは、プレイヤーが自分のホールカードを開き、最も強いハンドを持つプレイヤーが勝つ方法で、これを「ショーダウン」と呼びます。もう1つは、誰かが十分な額をベットし、他の全員がフォールドする方法です。ノーリミットホールデムではほとんどのハンドがこの形で終わり、それこそがこのゲームの魅力です——必ずしも最強のハンドを持っている必要はありません。</p></div>
+        <div class="feature-split-media gr-panel htp-nlh-ranking"><div><p class="gr-rank-cap">ポーカーハンドの強さ:
+強い順から弱い順</p><div class="gr-table-scroll"><table class="gr-rank-table"><tbody><tr><th scope="row">ロイヤルフラッシュ</th><td><div class="gr-hand"><span class="gr-card"><img class="gr-card-rank" src="../assets/images/cards/A_b.png" alt="A"><img class="gr-card-suit" src="../assets/images/cards/spade.png" alt="♠"></span><span class="gr-card"><img class="gr-card-rank" src="../assets/images/cards/K_b.png" alt="K"><img class="gr-card-suit" src="../assets/images/cards/spade.png" alt="♠"></span><span class="gr-card"><img class="gr-card-rank" src="../assets/images/cards/Q_b.png" alt="Q"><img class="gr-card-suit" src="../assets/images/cards/spade.png" alt="♠"></span><span class="gr-card"><img class="gr-card-rank" src="../assets/images/cards/J_b.png" alt="J"><img class="gr-card-suit" src="../assets/images/cards/spade.png" alt="♠"></span><span class="gr-card"><img class="gr-card-rank" src="../assets/images/cards/10_b.png" alt="10"><img class="gr-card-suit" src="../assets/images/cards/spade.png" alt="♠"></span></div></td></tr><tr><th scope="row">ストレートフラッシュ</th><td><div class="gr-hand"><span class="gr-card"><img class="gr-card-rank" src="../assets/images/cards/K_b.png" alt="K"><img class="gr-card-suit" src="../assets/images/cards/spade.png" alt="♠"></span><span class="gr-card"><img class="gr-card-rank" src="../assets/images/cards/Q_b.png" alt="Q"><img class="gr-card-suit" src="../assets/images/cards/spade.png" alt="♠"></span><span class="gr-card"><img class="gr-card-rank" src="../assets/images/cards/J_b.png" alt="J"><img class="gr-card-suit" src="../assets/images/cards/spade.png" alt="♠"></span><span class="gr-card"><img class="gr-card-rank" src="../assets/images/cards/10_b.png" alt="10"><img class="gr-card-suit" src="../assets/images/cards/spade.png" alt="♠"></span><span class="gr-card"><img class="gr-card-rank" src="../assets/images/cards/9_b.png" alt="9"><img class="gr-card-suit" src="../assets/images/cards/spade.png" alt="♠"></span></div></td></tr><tr><th scope="row">フォーカード</th><td><div class="gr-hand"><span class="gr-card"><img class="gr-card-rank" src="../assets/images/cards/A_b.png" alt="A"><img class="gr-card-suit" src="../assets/images/cards/spade.png" alt="♠"></span><span class="gr-card is-red"><img class="gr-card-rank" src="../assets/images/cards/A_r.png" alt="A"><img class="gr-card-suit" src="../assets/images/cards/heart.png" alt="♥"></span><span class="gr-card is-red"><img class="gr-card-rank" src="../assets/images/cards/A_r.png" alt="A"><img class="gr-card-suit" src="../assets/images/cards/diamond.png" alt="♦"></span><span class="gr-card"><img class="gr-card-rank" src="../assets/images/cards/A_b.png" alt="A"><img class="gr-card-suit" src="../assets/images/cards/club.png" alt="♣"></span><span class="gr-card back"></span></div></td></tr><tr><th scope="row">フルハウス</th><td><div class="gr-hand"><span class="gr-card"><img class="gr-card-rank" src="../assets/images/cards/A_b.png" alt="A"><img class="gr-card-suit" src="../assets/images/cards/spade.png" alt="♠"></span><span class="gr-card is-red"><img class="gr-card-rank" src="../assets/images/cards/A_r.png" alt="A"><img class="gr-card-suit" src="../assets/images/cards/heart.png" alt="♥"></span><span class="gr-card is-red"><img class="gr-card-rank" src="../assets/images/cards/A_r.png" alt="A"><img class="gr-card-suit" src="../assets/images/cards/diamond.png" alt="♦"></span><span class="gr-card"><img class="gr-card-rank" src="../assets/images/cards/K_b.png" alt="K"><img class="gr-card-suit" src="../assets/images/cards/spade.png" alt="♠"></span><span class="gr-card is-red"><img class="gr-card-rank" src="../assets/images/cards/K_r.png" alt="K"><img class="gr-card-suit" src="../assets/images/cards/heart.png" alt="♥"></span></div></td></tr><tr><th scope="row">フラッシュ</th><td><div class="gr-hand"><span class="gr-card"><img class="gr-card-rank" src="../assets/images/cards/A_b.png" alt="A"><img class="gr-card-suit" src="../assets/images/cards/spade.png" alt="♠"></span><span class="gr-card"><img class="gr-card-rank" src="../assets/images/cards/K_b.png" alt="K"><img class="gr-card-suit" src="../assets/images/cards/spade.png" alt="♠"></span><span class="gr-card"><img class="gr-card-rank" src="../assets/images/cards/Q_b.png" alt="Q"><img class="gr-card-suit" src="../assets/images/cards/spade.png" alt="♠"></span><span class="gr-card"><img class="gr-card-rank" src="../assets/images/cards/J_b.png" alt="J"><img class="gr-card-suit" src="../assets/images/cards/spade.png" alt="♠"></span><span class="gr-card"><img class="gr-card-rank" src="../assets/images/cards/9_b.png" alt="9"><img class="gr-card-suit" src="../assets/images/cards/spade.png" alt="♠"></span></div></td></tr><tr><th scope="row">ストレート</th><td><div class="gr-hand"><span class="gr-card"><img class="gr-card-rank" src="../assets/images/cards/A_b.png" alt="A"><img class="gr-card-suit" src="../assets/images/cards/spade.png" alt="♠"></span><span class="gr-card"><img class="gr-card-rank" src="../assets/images/cards/K_b.png" alt="K"><img class="gr-card-suit" src="../assets/images/cards/spade.png" alt="♠"></span><span class="gr-card"><img class="gr-card-rank" src="../assets/images/cards/Q_b.png" alt="Q"><img class="gr-card-suit" src="../assets/images/cards/spade.png" alt="♠"></span><span class="gr-card"><img class="gr-card-rank" src="../assets/images/cards/J_b.png" alt="J"><img class="gr-card-suit" src="../assets/images/cards/spade.png" alt="♠"></span><span class="gr-card is-red"><img class="gr-card-rank" src="../assets/images/cards/10_r.png" alt="10"><img class="gr-card-suit" src="../assets/images/cards/heart.png" alt="♥"></span></div></td></tr><tr><th scope="row">スリーカード</th><td><div class="gr-hand"><span class="gr-card"><img class="gr-card-rank" src="../assets/images/cards/A_b.png" alt="A"><img class="gr-card-suit" src="../assets/images/cards/spade.png" alt="♠"></span><span class="gr-card is-red"><img class="gr-card-rank" src="../assets/images/cards/A_r.png" alt="A"><img class="gr-card-suit" src="../assets/images/cards/heart.png" alt="♥"></span><span class="gr-card"><img class="gr-card-rank" src="../assets/images/cards/A_b.png" alt="A"><img class="gr-card-suit" src="../assets/images/cards/club.png" alt="♣"></span><span class="gr-card back"></span><span class="gr-card back"></span></div></td></tr><tr><th scope="row">ツーペア</th><td><div class="gr-hand"><span class="gr-card"><img class="gr-card-rank" src="../assets/images/cards/A_b.png" alt="A"><img class="gr-card-suit" src="../assets/images/cards/spade.png" alt="♠"></span><span class="gr-card is-red"><img class="gr-card-rank" src="../assets/images/cards/A_r.png" alt="A"><img class="gr-card-suit" src="../assets/images/cards/heart.png" alt="♥"></span><span class="gr-card"><img class="gr-card-rank" src="../assets/images/cards/K_b.png" alt="K"><img class="gr-card-suit" src="../assets/images/cards/spade.png" alt="♠"></span><span class="gr-card is-red"><img class="gr-card-rank" src="../assets/images/cards/K_r.png" alt="K"><img class="gr-card-suit" src="../assets/images/cards/heart.png" alt="♥"></span><span class="gr-card back"></span></div></td></tr><tr><th scope="row">ワンペア</th><td><div class="gr-hand"><span class="gr-card"><img class="gr-card-rank" src="../assets/images/cards/A_b.png" alt="A"><img class="gr-card-suit" src="../assets/images/cards/spade.png" alt="♠"></span><span class="gr-card is-red"><img class="gr-card-rank" src="../assets/images/cards/A_r.png" alt="A"><img class="gr-card-suit" src="../assets/images/cards/heart.png" alt="♥"></span><span class="gr-card back"></span><span class="gr-card back"></span><span class="gr-card back"></span></div></td></tr><tr><th scope="row">ハイカード</th><td><div class="gr-hand"><span class="gr-card"><img class="gr-card-rank" src="../assets/images/cards/A_b.png" alt="A"><img class="gr-card-suit" src="../assets/images/cards/spade.png" alt="♠"></span><span class="gr-card back"></span><span class="gr-card back"></span><span class="gr-card back"></span><span class="gr-card back"></span></div></td></tr></tbody></table></div></div></div>
       </div>
-    </div>
-  </section>
-
-  <!-- SCORING -->
-  <section class="section section-feature">
-    <div class="container-wide">
-      <h2 data-i18n="howToPlay.scoring.title">戦果はどう集計される？</h2>
-
-      <div class="feature-split">
-        <div class="feature-split-text">
-          <p data-i18n="howToPlay.scoring.desc">各ハンドの終わりに、3列を相手と比較します。勝った列は得点、3列すべてに勝つと+3のスクープボーナス。ファウルになると3列すべての得点を失います。ミドル・バック列で強い役を作ると、追加のロイヤリティ（ボーナス点）も獲得できます。役が強いほどボーナスも大きくなります（詳細は下記の表を参照）。</p>
-          <p style="margin-top:20px;" data-i18n="howToPlay.scoring.topNote">フロント列も6のペア以上でロイヤリティが発生します：66なら+1、AAなら+9。222〜AAAのスリーカードならさらに高く、+10から+22まで加算されます。</p>
-        </div>
-
-        <div class="feature-split-media scoring-table-media">
-          <div class="table-scroll" style="overflow-x:auto;">
-            <table class="royalty-table">
-              <caption data-i18n="howToPlay.scoring.tableCaption">Royalty // 追加戦果</caption>
-              <thead>
-                <tr>
-                  <th scope="col" data-i18n="howToPlay.scoring.table.hand">役</th>
-                  <th scope="col" class="val" data-i18n="howToPlay.scoring.table.back">バック列</th>
-                  <th scope="col" class="val" data-i18n="howToPlay.scoring.table.middle">ミドル列</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr><th scope="row" data-i18n="howToPlay.scoring.table.trips">スリーカード</th><td class="val">+0</td><td class="val">+2</td></tr>
-                <tr><th scope="row" data-i18n="howToPlay.scoring.table.straight">ストレート</th><td class="val">+2</td><td class="val">+4</td></tr>
-                <tr><th scope="row" data-i18n="howToPlay.scoring.table.flush">フラッシュ</th><td class="val">+4</td><td class="val">+8</td></tr>
-                <tr><th scope="row" data-i18n="howToPlay.scoring.table.fullHouse">フルハウス</th><td class="val">+6</td><td class="val">+12</td></tr>
-                <tr><th scope="row" data-i18n="howToPlay.scoring.table.quads">フォーカード</th><td class="val">+10</td><td class="val">+20</td></tr>
-                <tr><th scope="row" data-i18n="howToPlay.scoring.table.straightFlush">ストレートフラッシュ</th><td class="val">+15</td><td class="val">+30</td></tr>
-                <tr><th scope="row" data-i18n="howToPlay.scoring.table.royalFlush">ロイヤルストレートフラッシュ</th><td class="val">+25</td><td class="val">+50</td></tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- FANTASY LAND -->
-  <section class="section section-feature">
-    <div class="container-wide">
-      <h2 data-i18n="howToPlay.fantasy.title">Fantasyland // 機密作戦</h2>
-
-      <div class="feature-split">
-        <div class="feature-split-text">
-          <p data-i18n="howToPlay.fantasy.p1">フロント列がクイーンのペア以上の合格ハンドを作る（ファウルしていないこと）と、次のハンドで「ファンタジーランド」に突入できます。</p>
-          <p data-i18n="howToPlay.fantasy.p2">初めて突入したときは最大17枚のカードが一度に配られ、1枚ずつではなく3列をまとめてセットできます。他のプレイヤー全員がハンドを終えるまで、あなたのカードは伏せられたままです。</p>
-          <p data-i18n="howToPlay.fantasy.p3">連続してファンタジーランドに突入する場合（リファンタジー）は14枚のみ配られます。ファンタジーランドに留まるには、バック列でフォーカード以上、またはフロント列でスリーカードを作る必要があります。</p>
-          <p data-i18n="howToPlay.fantasy.p4">誰かがファンタジーランドにいる間はディーラーの位置が固定され、全員がファンタジーランドを抜けるまで誰もテーブルを離れることはできません。</p>
-        </div>
-
-        <div class="feature-split-media fantasy-media">
-          <!-- v23: real art supplied — an actual in-app tutorial screenshot
-               (the QQ-pair-triggers-Fantasyland moment), cropped from the
-               user's 素材/舊screenshot/p7.jpg. Replaces the v11 placeholder.
-               v25: swapped again for the user's preferred art
-               (素材/e4fb81_d785ddfd0ae046b29c7553dec63b1dec~mv2.avif) — a
-               cleaner, on-brand "FANTASYLAND" wordmark graphic over the
-               triggering QQ+ hand, converted to JPG at the same filename.
-               v29: added .fantasy-media (negative margin-top, see CSS) to
-               pull the image up level with the section's own h2, matching
-               the .scoring-table-media treatment above. -->
-          <img class="feature-split-img feature-split-img--fantasy" src="../assets/images/fantasyland-tutorial.jpg" alt="Fantasyland チュートリアル画面：フロント列のQQペア以上が Fantasyland を発動" data-i18n-alt="howToPlay.fantasy.imgAlt">
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- OFC SNG (skill differentiator) -->
-  <!-- v23: was a plain single-column .section-alt block (v16 added
-       .sng-copy just to brighten its <p> color to match the other three
-       feature bands) — now converted to the same full-bleed
-       .section-feature + .feature-split layout as OFC/Scoring/Fantasyland
-       above, with a real screenshot on the right (cropped from the user's
-       素材/舊screenshot/Screenshot-3.png — the "same cards, different
-       results" hand). .sng-copy is no longer needed: .feature-split-text
-       already brightens its own <p> color. -->
-  <section class="section section-feature">
-    <div class="container-wide">
-      <h2 data-i18n="howToPlay.sng.title">OFC SNG // 同じ手札、真の実力</h2>
-
-      <div class="feature-split">
-        <div class="feature-split-text">
-          <p data-i18n="howToPlay.sng.p1">OFC SNG はちょうど3人でプレイし、全員が毎回まったく同じカードを配られ、配置は攤牌（ショーダウン）まで互いに伏せられます。運の要素がなくなることで、勝敗を分けるのは配置の判断力と技術だけです。</p>
-          <p data-i18n="howToPlay.sng.p2">全員が300チップからスタートします。ブラインドは10から始まり、1ハンドごとに上がります：10 → 20 → 40 → 60 → 90 → 120 → 200 → 300 → 900。</p>
-          <p data-i18n="howToPlay.sng.p3">チップがなくなると脱落し、ゲームは最大30ハンドまで続きます。</p>
-          <p data-i18n="howToPlay.sng.p4">終了時の順位に応じてOSRポイントが付与されます：上位3人はそれぞれ+5、-1、-3のOSRを獲得します。特殊なケースもあります——2人が同時に脱落した場合は各-2、30ハンド終了時に2人が生き残り決着がつかない場合は各+1、3人とも生き残っている場合は変動なしです。</p>
-        </div>
-
-        <div class="feature-split-media sng-media">
-          <!-- v29: re-cropped from the same source (assets/images/screenshot-ofc-sng.jpg)
-               to include the third (bottom) hand -- the old crop's fixed
-               420px display height cut it off, so only the top two
-               opponents' completed hands were visible. New crop also
-               brought closer to a 1:1 ratio so less of it gets clipped by
-               object-fit:cover. .sng-media added (negative margin-top) to
-               match .fantasy-media above. -->
-          <img class="feature-split-img feature-split-img--sng" src="../assets/images/sng-same-cards.jpg" alt="OFC SNG のプレイ画面：2人のプレイヤーが完全に同じ手札を配られ、結果は異なる" data-i18n-alt="howToPlay.sng.imgAlt">
-        </div>
-      </div>
+      <!-- /nlh:rules -->
     </div>
   </section>
 
@@ -368,15 +106,6 @@
     <div class="container">
       <h2 data-i18n="howToPlay.more.title">さらなる任務が待っている</h2>
       <div class="grid grid-3" style="margin-top:32px;">
-        <a href="game-rules/nlh" class="feature-card" data-i18n-aria-label="howToPlay.more.card.nlh.title" aria-label="ノーリミットホールデム">
-          <div class="feature-card-media">
-            <img class="feature-card-img is-wide" src="../assets/images/game-rules/table-nlh.jpg" data-i18n-alt="howToPlay.more.card.nlh.imgAlt" alt="ノーリミットホールデムのテーブルイメージ">
-            <h2 class="feature-card-logo-heading"><img class="feature-card-logo" src="../assets/images/game-rules/title-nlh.png" data-i18n-alt="howToPlay.more.card.nlh.title" alt="ノーリミットホールデム"></h2>
-          </div>
-          <div class="feature-card-body feature-card-body--cta">
-            <span class="btn btn-outline btn-sm" data-i18n="howToPlay.more.viewRules">作戦ルールを見る</span>
-          </div>
-        </a>
         <a href="game-rules/plo" class="feature-card" data-i18n-aria-label="howToPlay.more.card.plo.title" aria-label="PLO（オマハ）">
           <div class="feature-card-media">
             <img class="feature-card-img is-wide" src="../assets/images/game-rules/table-plo.jpg" data-i18n-alt="howToPlay.more.card.plo.imgAlt" alt="ポットリミットオマハ（PLO）のテーブルイメージ">
@@ -390,6 +119,15 @@
           <div class="feature-card-media">
             <img class="feature-card-img is-wide" src="../assets/images/game-rules/table-stud.jpg" data-i18n-alt="howToPlay.more.card.stud.imgAlt" alt="セブンカードスタッドのテーブルイメージ">
             <h2 class="feature-card-logo-heading"><img class="feature-card-logo feature-card-logo--stud" src="../assets/images/game-rules/title-stud.png" data-i18n-alt="howToPlay.more.card.stud.title" alt="7 Card Stud"></h2>
+          </div>
+          <div class="feature-card-body feature-card-body--cta">
+            <span class="btn btn-outline btn-sm" data-i18n="howToPlay.more.viewRules">作戦ルールを見る</span>
+          </div>
+        </a>
+        <a href="game-rules/ofc" class="feature-card" data-i18n-aria-label="howToPlay.more.card.ofc.title" aria-label="OFC パイナップルポーカー">
+          <div class="feature-card-media">
+            <img class="feature-card-img is-wide" src="../assets/images/game-rules/table-ofc.jpg" data-i18n-alt="howToPlay.more.card.ofc.imgAlt" alt="OFC パイナップルポーカーのテーブルイメージ">
+            <h2 class="feature-card-logo-heading"><img class="feature-card-logo" src="../assets/images/game-rules/title-ofc.png" data-i18n-alt="howToPlay.more.card.ofc.title" alt="OFC パイナップルポーカー"></h2>
           </div>
           <div class="feature-card-body feature-card-body--cta">
             <span class="btn btn-outline btn-sm" data-i18n="howToPlay.more.viewRules">作戦ルールを見る</span>
@@ -511,6 +249,5 @@
 
 <script src="../js/i18n.js?v=51"></script>
 <script src="../js/main.js?v=43"></script>
-<script src="../js/how-to-play-demo.js?v=33"></script>
 </body>
 </html>

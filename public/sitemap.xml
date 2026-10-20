@@ -192,6 +192,27 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.pokerrrrapp.com/game-rules/stud"/>
   </url>
   <url>
+    <loc>https://www.pokerrrrapp.com/game-rules/ofc</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.pokerrrrapp.com/game-rules/ofc"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://www.pokerrrrapp.com/zh/game-rules/ofc"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.pokerrrrapp.com/ja/game-rules/ofc"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.pokerrrrapp.com/game-rules/ofc"/>
+  </url>
+  <url>
+    <loc>https://www.pokerrrrapp.com/zh/game-rules/ofc</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.pokerrrrapp.com/game-rules/ofc"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://www.pokerrrrapp.com/zh/game-rules/ofc"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.pokerrrrapp.com/ja/game-rules/ofc"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.pokerrrrapp.com/game-rules/ofc"/>
+  </url>
+  <url>
+    <loc>https://www.pokerrrrapp.com/ja/game-rules/ofc</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.pokerrrrapp.com/game-rules/ofc"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://www.pokerrrrapp.com/zh/game-rules/ofc"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.pokerrrrapp.com/ja/game-rules/ofc"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.pokerrrrapp.com/game-rules/ofc"/>
+  </url>
+  <url>
     <loc>https://www.pokerrrrapp.com/game-rules/blackjack</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.pokerrrrapp.com/game-rules/blackjack"/>
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://www.pokerrrrapp.com/zh/game-rules/blackjack"/>
