@@ -30,7 +30,10 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # sources (data/, tools/templates/) stay at the repo root.
 SITE = os.path.join(ROOT, "public")
 
-GAMES = ["nlh", "plo", "stud", "blackjack", "rummy", "ginrummy"]
+# "ofc" (added 2026-10-20) has no rule blocks: its page body is the OFC
+# sections moved out of how-to-play.html, kept in
+# tools/templates/ofc-rules-body.html (see custom_body_html()).
+GAMES = ["nlh", "plo", "stud", "ofc", "blackjack", "rummy", "ginrummy"]
 LANGS = ["en", "zh", "ja"]
 HTML_LANG = {"en": "en", "zh": "zh-Hant", "ja": "ja"}
 DIR = {"en": "", "zh": "zh/", "ja": "ja/"}
@@ -193,9 +196,36 @@ def load_game_rules():
         return json.load(f)
 
 
-def build_game_pages(d, base_url):
-    """Writes the 18 <lang>/game-rules/<id>.html pages. Returns a list of
+# Games whose page body is hand-written HTML (with data-i18n keys) instead of
+# data/game-rules.json blocks: game id -> (body template, wrapper class, scripts).
+CUSTOM_BODIES = {
+    "ofc": ("tools/templates/ofc-rules-body.html", "page-how-to-play",
+            ['<script src="{{UP}}js/how-to-play-demo.js?v=34"></script>']),
+}
+
+
+def custom_body_html(game, lang, up_asset, d, translate, missing):
+    """For CUSTOM_BODIES games: returns (sections_html, body_attr, scripts)."""
+    src, body_cls, scripts = CUSTOM_BODIES[game["id"]]
+    if translate is None:
+        raise RuntimeError("custom game body needs build_i18n.translate")
+    body = open(os.path.join(ROOT, src), encoding="utf-8").read()
+    body = body.replace("{{UP}}", up_asset)
+    body = translate(body, d[lang], missing)
+    scripts = "".join("\n" + sc.replace("{{UP}}", up_asset) for sc in scripts)
+    # The class goes on a wrapper around these sections only, NOT on <body>:
+    # .page-how-to-play bumps the font scale, and on <body> it also enlarged
+    # this page's tabs / back link / hero banner / CTA compared with the
+    # other game pages (visible as a "zoom" when switching tabs).
+    body = '\n<div class="%s">\n%s</div>\n' % (body_cls, body)
+    return body, "", scripts
+
+
+def build_game_pages(d, base_url, translate=None, missing=None):
+    """Writes the <lang>/game-rules/<id>.html pages. Returns a list of
     (lang, gid, loc_path) tuples for sitemap use."""
+    if missing is None:
+        missing = set()
     gr = load_game_rules()
     games = gr["games"]
     template = open(os.path.join(ROOT, "tools/templates/game-rule.html"), encoding="utf-8").read()
@@ -214,6 +244,10 @@ def build_game_pages(d, base_url):
             lang_menu = lang_menu_html(
                 lambda l, gid=gid: UP_ASSET[lang] + DIR[l] + "game-rules/" + gid + ".html", lang)
             panel_html = render.render_blocks(game["blocks"], HTML_LANG[lang], gr, up_asset + "assets/images/cards/")
+            extra_sections, body_attr, extra_scripts = "", "", ""
+            if game.get("custom"):
+                extra_sections, body_attr, extra_scripts = custom_body_html(
+                    game, lang, up_asset, d, translate, missing)
             values = dict(common)
             values.update({
                 "HTML_LANG": HTML_LANG[lang],
@@ -233,6 +267,9 @@ def build_game_pages(d, base_url):
                 "TABS_HTML": tabs_html(games, gid, lang),
                 "HERO_BANNER_HTML": hero_banner_html(game, lang, up_asset, t(d, lang, "gameRules.%s.h1" % gid)),
                 "PANEL_HTML": panel_html,
+                "BODY_ATTR": body_attr,
+                "EXTRA_SECTIONS_HTML": extra_sections,
+                "EXTRA_SCRIPTS": extra_scripts,
             })
             out = fill(template, values)
             dest = os.path.join(SITE, DIR[lang], "game-rules", gid + ".html")
@@ -295,8 +332,8 @@ def sitemap_entries(base_url):
     return entries
 
 
-def build(d, base_url):
-    pages = build_game_pages(d, base_url)
+def build(d, base_url, translate=None, missing=None):
+    pages = build_game_pages(d, base_url, translate, missing)
     overviews = build_overview_pages(d, base_url)
     for lang, gid, path in pages:
         print("wrote", path)
