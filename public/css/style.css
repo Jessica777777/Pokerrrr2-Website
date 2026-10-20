@@ -3608,11 +3608,10 @@ a.news-featured:hover { border-color: var(--color-gold); }
   list-style: none;
 }
 .filmstrip-frame {
-  position: relative;
   flex: 0 0 auto;
   width: 172px;
   min-height: 120px;
-  padding: 30px 14px 18px;
+  padding: 22px 14px;
   border-right: 1px dashed var(--color-border);
   background: var(--color-surface);
   display: flex;
@@ -3620,15 +3619,6 @@ a.news-featured:hover { border-color: var(--color-gold); }
   align-items: center;
   justify-content: center;
   gap: 12px;
-}
-.filmstrip-no {
-  position: absolute;
-  top: 8px;
-  left: 10px;
-  font-family: ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace;
-  font-size: 10px;
-  letter-spacing: 0.1em;
-  color: var(--color-text-faint);
 }
 .filmstrip-frame img {
   width: auto;
