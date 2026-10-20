@@ -3570,3 +3570,86 @@ a.news-featured:hover { border-color: var(--color-gold); }
   .cta-banner .store-badge svg { width: 20px; height: 20px; }
   .cta-banner .store-badge .badge-text span { font-size: 0.9rem; }
 }
+
+/* --- Game types filmstrip (home, below collectibles) ---
+   Based on Dorcas' demo "filmstrip": a film-reel strip of game names that
+   scrolls on a loop. The 9 frames are rendered twice and the track moves by
+   -50%, so the loop is seamless. Pauses on hover/focus; static (and
+   scrollable) for prefers-reduced-motion. --- */
+.game-types-section .section-head { margin-bottom: 32px; }
+.filmstrip {
+  border: 1px solid var(--color-border);
+  background: #050505;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+}
+.filmstrip-perf {
+  height: 14px;
+  background-image: radial-gradient(circle, var(--color-bg) 2.6px, transparent 3px);
+  background-size: 26px 14px;
+  background-position: 13px center;
+}
+.filmstrip-viewport { overflow: hidden; }
+.filmstrip-track {
+  display: flex;
+  width: max-content;
+  animation: filmstrip-scroll 32s linear infinite;
+}
+.filmstrip:hover .filmstrip-track,
+.filmstrip:focus-within .filmstrip-track { animation-play-state: paused; }
+@keyframes filmstrip-scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.filmstrip-set {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.filmstrip-frame {
+  position: relative;
+  flex: 0 0 auto;
+  width: 172px;
+  min-height: 112px;
+  padding: 30px 14px 18px;
+  border-right: 1px dashed var(--color-border);
+  background: var(--color-surface);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+.filmstrip-no {
+  position: absolute;
+  top: 8px;
+  left: 10px;
+  font-family: ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace;
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  color: var(--color-text-faint);
+}
+.filmstrip-frame img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+.filmstrip-name {
+  font-family: var(--font-heading);
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-gold-light);
+  text-align: center;
+}
+.filmstrip-frame--text .filmstrip-name { font-size: var(--fs-sm); }
+@media (max-width: 600px) {
+  .filmstrip-frame { width: 132px; min-height: 100px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .filmstrip-track { animation: none; }
+  .filmstrip-viewport { overflow-x: auto; }
+  .filmstrip-set[aria-hidden="true"] { display: none; }
+}
