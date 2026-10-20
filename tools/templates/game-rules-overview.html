@@ -13,12 +13,12 @@
   var game = qs.get("game");
   var lang = qs.get("lang");
   var DIR = { en: "", zh: "zh/", ja: "ja/" };
-  var GAMES = ["nlh", "plo", "stud", "blackjack", "rummy", "ginrummy"];
+  var GAMES = ["nlh", "plo", "stud", "ofc", "blackjack", "rummy", "ginrummy"];
   var LANGS = ["en", "zh", "ja"];
   var here = "{{STATIC_LANG}}";
   if (GAMES.indexOf(game) !== -1) {
     var targetLang = LANGS.indexOf(lang) !== -1 ? lang : here;
-    location.replace("{{UP}}" + DIR[targetLang] + "game-rules/" + game + ".html");
+    location.replace("{{UP}}" + DIR[targetLang] + (game === "nlh" ? "how-to-play.html" : "game-rules/" + game + ".html"));
   } else if (LANGS.indexOf(lang) !== -1 && lang !== here) {
     location.replace("{{UP}}" + DIR[lang] + "game-rules.html");
   }
@@ -43,7 +43,7 @@
 <link rel="alternate" hreflang="ja" href="{{HREFLANG_JA}}">
 <link rel="alternate" hreflang="x-default" href="{{HREFLANG_EN}}">
 <!-- /i18n:alternates -->
-<link rel="stylesheet" href="{{UP}}css/style.css?v=60">
+<link rel="stylesheet" href="{{UP}}css/style.css?v=62">
 </head>
 <body>
 

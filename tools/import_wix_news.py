@@ -91,11 +91,10 @@ def inline(node, slug, notes):
 
 
 LAST_TO_SLUG = {s.lower(): s for s in SLUGS}
-# Posts that were not migrated but have a fitting page on the new site
-# (OFC rules will get their own page later -- update these then).
+# Posts that were not migrated but have a fitting page on the new site.
 ALIASES = {
-    "fundamental-strategy-for-open-face-chinese-ofc-poker": "game-rules.html",
-    "how-to-play-open-face-chinese-poker-ofc-complete-rules-scoring-guide": "game-rules.html",
+    "fundamental-strategy-for-open-face-chinese-ofc-poker": "game-rules/ofc.html",
+    "how-to-play-open-face-chinese-poker-ofc-complete-rules-scoring-guide": "game-rules/ofc.html",
     "pokerrrr-welcomes-short-deck-hold-em": "news/short-deck-poker.html",
 }
 
