@@ -3611,7 +3611,7 @@ a.news-featured:hover { border-color: var(--color-gold); }
   position: relative;
   flex: 0 0 auto;
   width: 172px;
-  min-height: 112px;
+  min-height: 120px;
   padding: 30px 14px 18px;
   border-right: 1px dashed var(--color-border);
   background: var(--color-surface);
@@ -3631,8 +3631,8 @@ a.news-featured:hover { border-color: var(--color-gold); }
   color: var(--color-text-faint);
 }
 .filmstrip-frame img {
-  width: 40px;
-  height: 40px;
+  width: auto;
+  height: 44px;
   object-fit: contain;
 }
 .filmstrip-name {
@@ -3644,7 +3644,6 @@ a.news-featured:hover { border-color: var(--color-gold); }
   color: var(--color-gold-light);
   text-align: center;
 }
-.filmstrip-frame--text .filmstrip-name { font-size: var(--fs-sm); }
 @media (max-width: 600px) {
   .filmstrip-frame { width: 132px; min-height: 100px; }
 }
