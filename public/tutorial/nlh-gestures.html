@@ -253,7 +253,7 @@ html.standalone .close{display:grid!important}
 
 <div class="wrap">
   <header>
-    <span class="eyebrow">Prototype v2.7 · NLH Gestures</span>
+    <span class="eyebrow">Prototype v2.8 · NLH Gestures</span>
     <h1>Pokerrrr2 手勢體驗區</h1>
     <p class="lede">網站互動區的原型，五個 NLH 手勢依序體驗：Peek、Check、Fold、Bet、Adjust Betting，每一步完成後自動進下一步。手機請按「開始體驗」進入全螢幕，電腦直接用滑鼠操作。</p>
   </header>
@@ -317,8 +317,8 @@ html.standalone .close{display:grid!important}
         </svg>
 
         <div class="finish" id="finish" hidden>
-          <h2>Great Work!</h2>
-          <p>You're an official poker agent! Take your skills to the next level.</p>
+          <h2 id="finTitle">Great Work!</h2>
+          <p id="finText">You're an official poker agent! Take your skills to the next level.</p>
           <button class="btn" id="replayBtn" type="button">再玩一次</button>
         </div>
 
@@ -434,6 +434,14 @@ html.standalone .close{display:grid!important}
          plusMinus:'＋ / − でも調整できます。このステップでは、上のバーを時計回りにスライドしてみてください。', replay:'もう一度' }
   };
   // Japanese "…てください" needs the te-form of each instruction
+  // step titles / instructions (English keeps the app's own wording)
+  MSG.zh.steps={peek:['瞇牌','從牌的下方往上拖，偷看手牌。'],check:['過牌','在牌上點兩下。'],fold:['棄牌','把牌往上甩出去，就是棄牌。'],
+    bet:['下注','把籌碼往上推出去，就是下注。'],adjust:['調整下注','沿著上方拉條順時針滑動，調整下注金額。']};
+  MSG.zh.finish=['太棒了！','你已經是正式的撲克特務了！快去牌桌上大顯身手吧。'];
+  MSG.ja.steps={peek:['ピーク','カードを下から上にドラッグして、手札をのぞき見します。'],check:['チェック','カードをダブルタップします。'],
+    fold:['フォールド','カードを上にはじいてフォールドします。'],bet:['ベット','チップを上にはじいてベットします。'],
+    adjust:['ベット額の調整','上のバーを時計回りにスライドして、ベット額を調整します。']};
+  MSG.ja.finish=['お見事！','これであなたも一人前のポーカーエージェント。さっそくテーブルで腕を試しましょう。'];
   MSG.ja.howTe={peek:'カードの下側を押さえたまま上にドラッグし',check:'カードをすばやく2回タップし',fold:'カードを点線の上までドラッグして離し',bet:'チップを上に押し上げ',adjust:'チップを時計回りに回し'};
   const M=MSG[LANG];
   const fmt=(s,v)=>s.replace(/\{(\w+)\}/g,(_,k)=>v[k]);
@@ -460,7 +468,8 @@ html.standalone .close{display:grid!important}
   function render(){
     const s=STEPS[state.step];
     state.busy=false;
-    $('sTitle').textContent=s.title; $('sDesc').textContent=s.desc;
+    const st=(M.steps&&M.steps[s.key])||[s.title,s.desc];
+    $('sTitle').textContent=st[0]; $('sDesc').textContent=st[1];
     [...dotsEl.children].forEach((d,i)=>{const cur=i===state.step&&!state.finished; d.className='dot'+(cur?' on':'')+(!cur&&(i<=state.maxStep||state.finished||state.done[i])?' done':'');});   // every step reached once stays gold
     [...$('legend').children].forEach((d,i)=>{d.className=(i===state.step&&!state.finished?'on ':'')+(state.done[i]?'done':'');});
     prevBtn.disabled = state.step===0 && !state.finished;
@@ -807,6 +816,7 @@ html.standalone .close{display:grid!important}
   if(!('vibrate' in navigator)){ const v=$('cfgVibe'); v.checked=false; v.disabled=true; cfg.vibe=false; }
 
   $('replayBtn').textContent=M.replay;
+  if(M.finish){ $('finTitle').textContent=M.finish[0]; $('finText').textContent=M.finish[1]; }
   render();
 })();
 </script>
