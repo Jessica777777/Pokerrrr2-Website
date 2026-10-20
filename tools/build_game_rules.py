@@ -197,7 +197,7 @@ def load_game_rules():
 
 
 # Games whose page body is hand-written HTML (with data-i18n keys) instead of
-# data/game-rules.json blocks: game id -> (body template, body class, scripts).
+# data/game-rules.json blocks: game id -> (body template, wrapper class, scripts).
 CUSTOM_BODIES = {
     "ofc": ("tools/templates/ofc-rules-body.html", "page-how-to-play",
             ['<script src="{{UP}}js/how-to-play-demo.js?v=34"></script>']),
@@ -213,7 +213,12 @@ def custom_body_html(game, lang, up_asset, d, translate, missing):
     body = body.replace("{{UP}}", up_asset)
     body = translate(body, d[lang], missing)
     scripts = "".join("\n" + sc.replace("{{UP}}", up_asset) for sc in scripts)
-    return "\n" + body, ' class="%s"' % body_cls, scripts
+    # The class goes on a wrapper around these sections only, NOT on <body>:
+    # .page-how-to-play bumps the font scale, and on <body> it also enlarged
+    # this page's tabs / back link / hero banner / CTA compared with the
+    # other game pages (visible as a "zoom" when switching tabs).
+    body = '\n<div class="%s">\n%s</div>\n' % (body_cls, body)
+    return body, "", scripts
 
 
 def build_game_pages(d, base_url, translate=None, missing=None):
