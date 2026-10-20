@@ -34,6 +34,11 @@ SITE = os.path.join(ROOT, "public")
 # sections moved out of how-to-play.html, kept in
 # tools/templates/ofc-rules-body.html (see custom_body_html()).
 GAMES = ["nlh", "plo", "stud", "ofc", "blackjack", "rummy", "ginrummy"]
+# NLH has no game-rules/ page of its own (2026-10-20): How to Play is the NLH
+# rules page, so the NLH tab / overview card link there instead, and
+# /game-rules/nlh 301s to /how-to-play (see build_news.write_redirects()).
+HTP_GAME = "nlh"
+PAGE_GAMES = [g for g in GAMES if g != HTP_GAME]
 LANGS = ["en", "zh", "ja"]
 HTML_LANG = {"en": "en", "zh": "zh-Hant", "ja": "ja"}
 DIR = {"en": "", "zh": "zh/", "ja": "ja/"}
@@ -122,7 +127,7 @@ def tabs_html(games, current_id, lang):
     out = []
     for g in games:
         selected = g["id"] == current_id
-        href = g["id"] + ".html"
+        href = UP_PAGE + "how-to-play.html" if g["id"] == HTP_GAME else g["id"] + ".html"
         out.append(
             '<a href="%s" class="gr-tab" role="tab" data-game="%s" aria-selected="%s"%s>%s</a>' % (
                 esc_attr(href), g["id"], "true" if selected else "false",
@@ -140,7 +145,7 @@ def feature_card_html(gid, lang, up_asset, d):
     # game-rules/ sits beside this overview page in the same lang folder --
     # bare relative path, no prefix (same reasoning as how-to-play.html's
     # own 6 card links, rewritten the same way in build_i18n.py).
-    href = "game-rules/" + gid + ".html"
+    href = "how-to-play.html" if gid == HTP_GAME else "game-rules/" + gid + ".html"
     return """        <a href="%s" class="feature-card" aria-label="%s">
           <div class="feature-card-media">
             <img class="feature-card-img is-wide" src="%sassets/images/game-rules/table-%s.jpg" alt="%s">
@@ -232,6 +237,8 @@ def build_game_pages(d, base_url, translate=None, missing=None):
     written = []
     for game in games:
         gid = game["id"]
+        if gid == HTP_GAME:
+            continue
         for lang in LANGS:
             up_asset = UP_ASSET[lang]
             common = common_values(lang, up_asset, d)
@@ -324,7 +331,7 @@ def sitemap_entries(base_url):
     """(loc, {lang: alt_url}) pairs for all 18 game pages + 3 overviews, for
     write_sitemap() in build_i18n.py to fold into sitemap.xml."""
     entries = []
-    for gid in GAMES:
+    for gid in PAGE_GAMES:
         for lang in LANGS:
             entries.append((game_url(gid, lang, base_url), {l: game_url(gid, l, base_url) for l in LANGS}))
     for lang in LANGS:

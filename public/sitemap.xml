@@ -129,27 +129,6 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.pokerrrrapp.com/store"/>
   </url>
   <url>
-    <loc>https://www.pokerrrrapp.com/game-rules/nlh</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.pokerrrrapp.com/game-rules/nlh"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://www.pokerrrrapp.com/zh/game-rules/nlh"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://www.pokerrrrapp.com/ja/game-rules/nlh"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.pokerrrrapp.com/game-rules/nlh"/>
-  </url>
-  <url>
-    <loc>https://www.pokerrrrapp.com/zh/game-rules/nlh</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.pokerrrrapp.com/game-rules/nlh"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://www.pokerrrrapp.com/zh/game-rules/nlh"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://www.pokerrrrapp.com/ja/game-rules/nlh"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.pokerrrrapp.com/game-rules/nlh"/>
-  </url>
-  <url>
-    <loc>https://www.pokerrrrapp.com/ja/game-rules/nlh</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.pokerrrrapp.com/game-rules/nlh"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://www.pokerrrrapp.com/zh/game-rules/nlh"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://www.pokerrrrapp.com/ja/game-rules/nlh"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.pokerrrrapp.com/game-rules/nlh"/>
-  </url>
-  <url>
     <loc>https://www.pokerrrrapp.com/game-rules/plo</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.pokerrrrapp.com/game-rules/plo"/>
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://www.pokerrrrapp.com/zh/game-rules/plo"/>

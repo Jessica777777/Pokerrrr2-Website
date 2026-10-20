@@ -218,8 +218,8 @@ NLH_RULES = re.compile(r"(<!-- nlh:rules -->)(.*?)(<!-- /nlh:rules -->)", re.S)
 
 
 def fill_nlh_rules(src, lang):
-    """how-to-play.html: NLH rules (from data/game-rules.json, same blocks as
-    game-rules/nlh.html) as a two-column split -- rules text with the
+    """how-to-play.html: NLH rules (from data/game-rules.json; How to Play is
+    the only NLH rules page) as a two-column split -- rules text with the
     hand-ranking table below it on the left; on the right, a reserved slot
     for the NLH tutorial mini-game (where the OFC demo used to sit; to be
     built later). The leading h2 is dropped (the section's own h1 already

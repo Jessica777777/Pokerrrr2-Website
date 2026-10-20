@@ -13,12 +13,12 @@
   var game = qs.get("game");
   var lang = qs.get("lang");
   var DIR = { en: "", zh: "zh/", ja: "ja/" };
-  var GAMES = ["nlh", "plo", "stud", "blackjack", "rummy", "ginrummy"];
+  var GAMES = ["nlh", "plo", "stud", "ofc", "blackjack", "rummy", "ginrummy"];
   var LANGS = ["en", "zh", "ja"];
   var here = "zh";
   if (GAMES.indexOf(game) !== -1) {
     var targetLang = LANGS.indexOf(lang) !== -1 ? lang : here;
-    location.replace("../" + DIR[targetLang] + "game-rules/" + game + ".html");
+    location.replace("../" + DIR[targetLang] + (game === "nlh" ? "how-to-play.html" : "game-rules/" + game + ".html"));
   } else if (LANGS.indexOf(lang) !== -1 && lang !== here) {
     location.replace("../" + DIR[lang] + "game-rules.html");
   }
@@ -94,7 +94,7 @@
   <section class="section" style="padding-top:0;">
     <div class="container">
       <div class="grid grid-3">
-                <a href="game-rules/nlh" class="feature-card" aria-label="無限注德州撲克">
+                <a href="how-to-play" class="feature-card" aria-label="無限注德州撲克">
           <div class="feature-card-media">
             <img class="feature-card-img is-wide" src="../assets/images/game-rules/table-nlh.jpg" alt="無限注德州撲克牌桌氛圍圖">
             <h2 class="feature-card-logo-heading"><img class="feature-card-logo" src="../assets/images/game-rules/title-nlh.png" alt="無限注德州撲克"></h2>

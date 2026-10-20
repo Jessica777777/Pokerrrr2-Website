@@ -258,6 +258,10 @@ def write_redirects(posts):
             lines.append("%s /news/%s 301" % (m.group(1), p["slug"]))
     # targets are the final extension-less URLs, so there is no second hop
     lines.append("/news/page/* /news 301")
+    # NLH has no game-rules/ page any more: How to Play is the NLH rules page
+    for pre in ("", "/zh", "/ja"):
+        for ext in ("", ".html"):
+            lines.append("%s/game-rules/nlh%s %s/how-to-play 301" % (pre, ext, pre))
     open(os.path.join(SITE, "_redirects"), "w", encoding="utf-8", newline="\n").write("\n".join(lines) + "\n")
 
 
